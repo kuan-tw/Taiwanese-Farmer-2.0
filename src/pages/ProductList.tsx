@@ -23,11 +23,11 @@ interface TranslationData {
 }
 
 const marketCategories: MarketCategory[] = [
-  { type: 'Veg', name: '蔬菜市場', url: '/api/proxy/CropMarketType/?CropMarketType=Veg' },
-  { type: 'Fruit', name: '水果市場', url: '/api/proxy/CropMarketType/?CropMarketType=Fruit' },
-  { type: 'Flower', name: '花卉市場', url: '/api/proxy/CropMarketType/?CropMarketType=Flower' },
-  { type: 'ComVegFruit', name: '綜合蔬果市場', url: '/api/proxy/CropMarketType/?CropMarketType=ComVegFruit' },
-  { type: 'ComFlower', name: '綜合花卉市場', url: '/api/proxy/CropMarketType/?CropMarketType=ComFlower' },
+  { type: 'Veg', name: '蔬菜市場', url: 'https://data.moa.gov.tw/api/v1/CropMarketType/?CropMarketType=Veg' },
+  { type: 'Fruit', name: '水果市場', url: 'https://data.moa.gov.tw/api/v1/CropMarketType/?CropMarketType=Fruit' },
+  { type: 'Flower', name: '花卉市場', url: 'https://data.moa.gov.tw/api/v1/CropMarketType/?CropMarketType=Flower' },
+  { type: 'ComVegFruit', name: '綜合蔬果市場', url: 'https://data.moa.gov.tw/api/v1/CropMarketType/?CropMarketType=ComVegFruit' },
+  { type: 'ComFlower', name: '綜合花卉市場', url: 'https://data.moa.gov.tw/api/v1/CropMarketType/?CropMarketType=ComFlower' },
 ];
 
 export function ProductList() {
@@ -124,7 +124,7 @@ export function ProductList() {
           return convertToTaiwanDate(date);
         });
 
-        let url = `/api/proxy/AgriProductsTransType/?Start_time=${dates[0]}&End_time=${dates[dates.length - 1]}`;
+        let url = `https://data.moa.gov.tw/api/v1/AgriProductsTransType/?Start_time=${dates[0]}&End_time=${dates[dates.length - 1]}`;
         if (selectedMarket) {
           url += `&MarketCode=${selectedMarket}`;
         }

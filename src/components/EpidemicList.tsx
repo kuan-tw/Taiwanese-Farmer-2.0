@@ -21,7 +21,7 @@ export const EpidemicList: React.FC = () => {
         setLoading(true);
         const currentYear = new Date().getFullYear();
         const response = await fetch(
-          `/api/proxy/PlantEpidemicType/?Year=${currentYear}`
+          `https://data.moa.gov.tw/api/v1/PlantEpidemicType/?Year=${currentYear}`
         );
         const data = await response.json();
         

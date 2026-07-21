@@ -83,7 +83,7 @@ export function ProductDetailPage() {
   useEffect(() => {
     const fetchEnglishName = async () => {
       try {
-        const response = await fetch('/api/proxy/CropType/');
+        const response = await fetch('https://data.moa.gov.tw/api/v1/CropType/');
         const data = await response.json();
         if (data.Data && cropCode) {
           const cropInfo = Object.values(data.Data).find((crop: any) => crop.CropCode === cropCode);
@@ -107,7 +107,7 @@ export function ProductDetailPage() {
     try {
       const baseProductName = productName.split('-')[0];
       const response = await fetch(
-        `/api/proxy/PestDiseaseDiagnosisServiceType/?ProductName=${encodeURIComponent(baseProductName)}`
+        `https://data.moa.gov.tw/api/v1/PestDiseaseDiagnosisServiceType/?ProductName=${encodeURIComponent(baseProductName)}`
       );
       const data = await response.json();
       if (data.Data) {
@@ -131,7 +131,7 @@ export function ProductDetailPage() {
       const recentStartStr = convertToTaiwanDate(recentStart);
       
       const allMarketsResponse = await fetch(
-        `/api/proxy/AgriProductsTransType/?Start_time=${recentStartStr}&End_time=${end}&CropCode=${cropCode}`
+        `https://data.moa.gov.tw/api/v1/AgriProductsTransType/?Start_time=${recentStartStr}&End_time=${end}&CropCode=${cropCode}`
       );
       const allMarketsData = await allMarketsResponse.json();
       
@@ -153,7 +153,7 @@ export function ProductDetailPage() {
 
       if (targetMarketCode) {
         // Fetch history specific to the market
-        const historyUrl = `/api/proxy/AgriProductsTransType/?Start_time=${start}&End_time=${end}&CropCode=${cropCode}&MarketCode=${encodeURIComponent(targetMarketCode)}`;
+        const historyUrl = `https://data.moa.gov.tw/api/v1/AgriProductsTransType/?Start_time=${start}&End_time=${end}&CropCode=${cropCode}&MarketCode=${encodeURIComponent(targetMarketCode)}`;
         const historyResponse = await fetch(historyUrl);
         const historyData = await historyResponse.json();
         
@@ -207,7 +207,7 @@ export function ProductDetailPage() {
       const end = convertToTaiwanDate(new Date(endDate));
 
       const response = await fetch(
-        `/api/proxy/AgriProductsTransType/?Start_time=${start}&End_time=${end}&CropCode=${newCropCode}`
+        `https://data.moa.gov.tw/api/v1/AgriProductsTransType/?Start_time=${start}&End_time=${end}&CropCode=${newCropCode}`
       );
       const data = await response.json();
 

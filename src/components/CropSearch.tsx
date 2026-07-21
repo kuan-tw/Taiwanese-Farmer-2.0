@@ -36,11 +36,11 @@ export const CropSearch: React.FC<CropSearchProps> = ({ onSelect }) => {
 
         setIsLoading(true);
         // Fetch Chinese crop data
-        const response = await fetch('/api/proxy/AgriProductsTransType/');
+        const response = await fetch('https://data.moa.gov.tw/api/v1/AgriProductsTransType/');
         const data = await response.json();
 
         // Fetch English crop data
-        const englishResponse = await fetch('/api/proxy/CropType/');
+        const englishResponse = await fetch('https://data.moa.gov.tw/api/v1/CropType/');
         const englishData = await englishResponse.json();
 
         // Create a map of English names
