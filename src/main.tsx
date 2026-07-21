@@ -1,0 +1,21 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App.tsx';
+import './index.css';
+
+// Suppress environmental fetch polyfill errors (e.g. from devtools or iframe hosts)
+window.addEventListener('error', (e) => {
+  if (e.message.includes('Cannot set property fetch') && e.message.includes('getter')) {
+    e.preventDefault(); // Stop it from appearing as an Uncaught error
+    console.warn('Suppressed environment fetch polyfill error:', e.message);
+  }
+});
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
+);

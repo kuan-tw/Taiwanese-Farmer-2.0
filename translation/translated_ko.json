@@ -1,0 +1,3908 @@
+{
+  "RS": "OK",
+  "Data": {
+    "0": {
+      "CropCode": "11",
+      "CropName": "코코넛"
+    },
+    "1": {
+      "CropCode": "119",
+      "CropName": "코코넛-수입"
+    },
+    "2": {
+      "CropCode": "12",
+      "CropName": "코코넛-껍질 벗기기"
+    },
+    "3": {
+      "CropCode": "129",
+      "CropName": "코코넛-껍질 벗기기 수입"
+    },
+    "4": {
+      "CropCode": "22",
+      "CropName": "대추"
+    },
+    "5": {
+      "CropCode": "229",
+      "CropName": "대추-수입"
+    },
+    "6": {
+      "CropCode": "30",
+      "CropName": "파파야-기타"
+    },
+    "7": {
+      "CropCode": "31",
+      "CropName": "파파야"
+    },
+    "8": {
+      "CropCode": "32",
+      "CropName": "파파야-파인애플 파파야"
+    },
+    "9": {
+      "CropCode": "41",
+      "CropName": "매실"
+    },
+    "10": {
+      "CropCode": "42",
+      "CropName": "자두"
+    },
+    "11": {
+      "CropCode": "43",
+      "CropName": "뽕"
+    },
+    "12": {
+      "CropCode": "45",
+      "CropName": "딸기"
+    },
+    "13": {
+      "CropCode": "459",
+      "CropName": "딸기-수입"
+    },
+    "14": {
+      "CropCode": "46",
+      "CropName": "블루베리"
+    },
+    "15": {
+      "CropCode": "469",
+      "CropName": "블루베리-수입"
+    },
+    "16": {
+      "CropCode": "50",
+      "CropName": "패션프루트-기타"
+    },
+    "17": {
+      "CropCode": "51",
+      "CropName": "패션프루트-개량종"
+    },
+    "18": {
+      "CropCode": "61",
+      "CropName": "사탕수수-껍질 포함"
+    },
+    "19": {
+      "CropCode": "62",
+      "CropName": "사탕수수-껍질 벗기기"
+    },
+    "20": {
+      "CropCode": "70",
+      "CropName": "방울토마토-기타"
+    },
+    "21": {
+      "CropCode": "71",
+      "CropName": "방울토마토-일반"
+    },
+    "22": {
+      "CropCode": "72",
+      "CropName": "방울토마토-성녀"
+    },
+    "23": {
+      "CropCode": "73",
+      "CropName": "방울토마토-아가씨"
+    },
+    "24": {
+      "CropCode": "74",
+      "CropName": "방울토마토-옥녀"
+    },
+    "25": {
+      "CropCode": "811",
+      "CropName": "용과-백육"
+    },
+    "26": {
+      "CropCode": "812",
+      "CropName": "용과-적육"
+    },
+    "27": {
+      "CropCode": "813",
+      "CropName": "용과-양색용과"
+    },
+    "28": {
+      "CropCode": "819",
+      "CropName": "용과-수입"
+    },
+    "29": {
+      "CropCode": "82",
+      "CropName": "용과-적육"
+    },
+    "30": {
+      "CropCode": "829",
+      "CropName": "대추-수입"
+    },
+    "31": {
+      "CropCode": "83",
+      "CropName": "치커리-설련서"
+    },
+    "32": {
+      "CropCode": "839",
+      "CropName": "체리-수입"
+    },
+    "33": {
+      "CropCode": "84",
+      "CropName": "석류"
+    },
+    "34": {
+      "CropCode": "849",
+      "CropName": "석류-수입"
+    },
+    "35": {
+      "CropCode": "85",
+      "CropName": "두리안"
+    },
+    "36": {
+      "CropCode": "859",
+      "CropName": "두리안-수입"
+    },
+    "37": {
+      "CropCode": "86",
+      "CropName": "망고스틴"
+    },
+    "38": {
+      "CropCode": "869",
+      "CropName": "망고스틴-수입"
+    },
+    "39": {
+      "CropCode": "87",
+      "CropName": " 람부탄"
+    },
+    "40": {
+      "CropCode": "879",
+      "CropName": "람부탄-수입"
+    },
+    "41": {
+      "CropCode": "88",
+      "CropName": "나무포도"
+    },
+    "42": {
+      "CropCode": "91",
+      "CropName": "기타"
+    },
+    "43": {
+      "CropCode": "919",
+      "CropName": "기타-수입"
+    },
+    "44": {
+      "CropCode": "A0",
+      "CropName": "바나나-기타"
+    },
+    "45": {
+      "CropCode": "A1",
+      "CropName": "바나나"
+    },
+    "46": {
+      "CropCode": "A2",
+      "CropName": "바나나-바나나홍바나나"
+    },
+    "47": {
+      "CropCode": "A3",
+      "CropName": "바나나-단바나나"
+    },
+    "48": {
+      "CropCode": "A4",
+      "CropName": "바나나-월단"
+    },
+    "49": {
+      "CropCode": "B0",
+      "CropName": "파인애플-기타"
+    },
+    "50": {
+      "CropCode": "B1",
+      "CropName": "파인애플-카이잉"
+    },
+    "51": {
+      "CropCode": "B2",
+      "CropName": "파인애플-금관파인애플"
+    },
+    "52": {
+      "CropCode": "B3",
+      "CropName": "파인애플-향수파인애플"
+    },
+    "53": {
+      "CropCode": "B4",
+      "CropName": "파인애플-파인애플꽃"
+    },
+    "54": {
+      "CropCode": "B5",
+      "CropName": "파인애플-사과파인애플"
+    },
+    "55": {
+      "CropCode": "B6",
+      "CropName": "파인애플-달콤한"
+    },
+    "56": {
+      "CropCode": "B7",
+      "CropName": "파인애플-우유파인애플"
+    },
+    "57": {
+      "CropCode": "B8",
+      "CropName": "파인애플-수박파인애플"
+    },
+    "58": {
+      "CropCode": "B9",
+      "CropName": "파인애플-수입"
+    },
+    "59": {
+      "CropCode": "C0",
+      "CropName": "감귤-기타"
+    },
+    "60": {
+      "CropCode": "C1",
+      "CropName": "펑감"
+    },
+    "61": {
+      "CropCode": "C2",
+      "CropName": "모구감"
+    },
+    "62": {
+      "CropCode": "C3",
+      "CropName": "호두감"
+    },
+    "63": {
+      "CropCode": "C4",
+      "CropName": "붉은감-미녀감"
+    },
+    "64": {
+      "CropCode": "C5",
+      "CropName": "온주감"
+    },
+    "65": {
+      "CropCode": "C6",
+      "CropName": "불리먼감"
+    },
+    "66": {
+      "CropCode": "C7",
+      "CropName": "염양감"
+    },
+    "67": {
+      "CropCode": "C8",
+      "CropName": "진주감"
+    },
+    "68": {
+      "CropCode": "C9",
+      "CropName": "감귤-수입"
+    },
+    "69": {
+      "CropCode": "D1",
+      "CropName": "통감"
+    },
+    "70": {
+      "CropCode": "D2",
+      "CropName": "해리감"
+    },
+    "71": {
+      "CropCode": "E0",
+      "CropName": "달콤한 오렌지-기타"
+    },
+    "72": {
+      "CropCode": "E1",
+      "CropName": "달콤한 오렌지-리오렌지"
+    },
+    "73": {
+      "CropCode": "E2",
+      "CropName": "달콤한 오렌지-완론서아"
+    },
+    "74": {
+      "CropCode": "E3",
+      "CropName": "달콤한 오렌지-붉은 과육 오렌지"
+    },
+    "75": {
+      "CropCode": "E9",
+      "CropName": "달콤한 오렌지-수입"
+    },
+    "76": {
+      "CropCode": "F0",
+      "CropName": "혼합 감귤-기타"
+    },
+    "77": {
+      "CropCode": "F1",
+      "CropName": "혼합 감귤-레몬"
+    },
+    "78": {
+      "CropCode": "F2",
+      "CropName": "혼합 감귤-금자몽"
+    },
+    "79": {
+      "CropCode": "F4",
+      "CropName": "혼합 감귤-귤"
+    },
+    "80": {
+      "CropCode": "F5",
+      "CropName": "혼합 감귤-씨 없는 레몬"
+    },
+    "81": {
+      "CropCode": "F6",
+      "CropName": "혼합 감귤-황금 레몬"
+    },
+    "82": {
+      "CropCode": "F9",
+      "CropName": "혼합 감귤-수입"
+    },
+    "83": {
+      "CropCode": "FA0",
+      "CropName": "기타 꽃류"
+    },
+    "84": {
+      "CropCode": "FA000",
+      "CropName": "카네이션-중대형 혼합"
+    },
+    "85": {
+      "CropCode": "FA001",
+      "CropName": "카네이션-혼합색"
+    },
+    "86": {
+      "CropCode": "FA1",
+      "CropName": "노란 오크라"
+    },
+    "87": {
+      "CropCode": "FA100",
+      "CropName": "카네이션-붉은"
+    },
+    "88": {
+      "CropCode": "FA101",
+      "CropName": "카네이션-연한 붉은"
+    },
+    "89": {
+      "CropCode": "FA102",
+      "CropName": "카네이션-진한 붉은"
+    },
+    "90": {
+      "CropCode": "FA103",
+      "CropName": "카네이션-주황 붉은"
+    },
+    "91": {
+      "CropCode": "FA104",
+      "CropName": "카네이션-벚꽃 붉은"
+    },
+    "92": {
+      "CropCode": "FA120",
+      "CropName": "카네이션-붉은 깃털"
+    },
+    "93": {
+      "CropCode": "FA2",
+      "CropName": "반꽃"
+    },
+    "94": {
+      "CropCode": "FA200",
+      "CropName": "카네이션-주황"
+    },
+    "95": {
+      "CropCode": "FA220",
+      "CropName": "카네이션-주황 깃털"
+    },
+    "96": {
+      "CropCode": "FA300",
+      "CropName": "카네이션-노란"
+    },
+    "97": {
+      "CropCode": "FA301",
+      "CropName": "카네이션-진한 노란"
+    },
+    "98": {
+      "CropCode": "FA302",
+      "CropName": "카네이션-연한 노란"
+    },
+    "99": {
+      "CropCode": "FA303",
+      "CropName": "카네이션-오렌지 노랑"
+    },
+    "100": {
+      "CropCode": "FA304",
+      "CropName": "카네이션-이색 금홍"
+    },
+    "101": {
+      "CropCode": "FA320",
+      "CropName": "카네이션-노란 깃털"
+    },
+    "102": {
+      "CropCode": "FA4",
+      "CropName": "정화"
+    },
+    "103": {
+      "CropCode": "FA400",
+      "CropName": "카네이션-분홍"
+    },
+    "104": {
+      "CropCode": "FA401",
+      "CropName": "카네이션-짙은 분홍"
+    },
+    "105": {
+      "CropCode": "FA402",
+      "CropName": "카네이션-연한 분홍"
+    },
+    "106": {
+      "CropCode": "FA403",
+      "CropName": "카네이션-얇은 분홍"
+    },
+    "107": {
+      "CropCode": "FA420",
+      "CropName": "카네이션-분홍 깃털"
+    },
+    "108": {
+      "CropCode": "FA500",
+      "CropName": "카네이션-초록"
+    },
+    "109": {
+      "CropCode": "FA501",
+      "CropName": "카네이션-사과 초록"
+    },
+    "110": {
+      "CropCode": "FA600",
+      "CropName": "카네이션-흰색"
+    },
+    "111": {
+      "CropCode": "FA601",
+      "CropName": "카네이션-깨끗한 흰색"
+    },
+    "112": {
+      "CropCode": "FA602",
+      "CropName": "카네이션-우유 흰색"
+    },
+    "113": {
+      "CropCode": "FA603",
+      "CropName": "카네이션-흰색 줄무늬 빨강"
+    },
+    "114": {
+      "CropCode": "FA604",
+      "CropName": "카네이션-노란 줄무늬 보라"
+    },
+    "115": {
+      "CropCode": "FA605",
+      "CropName": "카네이션-흰색 줄무늬 보라"
+    },
+    "116": {
+      "CropCode": "FA606",
+      "CropName": "카네이션-노란 줄무늬 빨강"
+    },
+    "117": {
+      "CropCode": "FA607",
+      "CropName": "카네이션-분홍 줄무늬 빨강"
+    },
+    "118": {
+      "CropCode": "FA608",
+      "CropName": "카네이션-분홍 줄무늬 흰색"
+    },
+    "119": {
+      "CropCode": "FA609",
+      "CropName": "카네이션-분홍 줄무늬 보라"
+    },
+    "120": {
+      "CropCode": "FA700",
+      "CropName": "카네이션-보라"
+    },
+    "121": {
+      "CropCode": "FA701",
+      "CropName": "카네이션-보라 줄무늬 흰색"
+    },
+    "122": {
+      "CropCode": "FA800",
+      "CropName": "카네이션-다발(혼합색)"
+    },
+    "123": {
+      "CropCode": "FA810",
+      "CropName": "카네이션-다발 빨강"
+    },
+    "124": {
+      "CropCode": "FA811",
+      "CropName": "카네이션-다발 체리 핑크"
+    },
+    "125": {
+      "CropCode": "FA812",
+      "CropName": "카네이션-페르시안 복숭아 핑크"
+    },
+    "126": {
+      "CropCode": "FA813",
+      "CropName": "카네이션-볼레로"
+    },
+    "127": {
+      "CropCode": "FA814",
+      "CropName": "카네이션-만족"
+    },
+    "128": {
+      "CropCode": "FA815",
+      "CropName": "카네이션-가벼운 키스"
+    },
+    "129": {
+      "CropCode": "FA820",
+      "CropName": "카네이션-다발 오렌지"
+    },
+    "130": {
+      "CropCode": "FA830",
+      "CropName": "카네이션-다발 노란색"
+    },
+    "131": {
+      "CropCode": "FA840",
+      "CropName": "카네이션-다발 분홍색"
+    },
+    "132": {
+      "CropCode": "FA841",
+      "CropName": "카네이션-다발 연분홍색"
+    },
+    "133": {
+      "CropCode": "FA842",
+      "CropName": "카네이션-백조 분홍색"
+    },
+    "134": {
+      "CropCode": "FA843",
+      "CropName": "카네이션-라떼"
+    },
+    "135": {
+      "CropCode": "FA844",
+      "CropName": "카네이션-니나"
+    },
+    "136": {
+      "CropCode": "FA845",
+      "CropName": "카네이션-멜리사"
+    },
+    "137": {
+      "CropCode": "FA851",
+      "CropName": "카네이션-사과 초록"
+    },
+    "138": {
+      "CropCode": "FA860",
+      "CropName": "카네이션-다발 흰색"
+    },
+    "139": {
+      "CropCode": "FA861",
+      "CropName": "카네이션-흰색 철시노"
+    },
+    "140": {
+      "CropCode": "FA862",
+      "CropName": "카네이션-흰색 크리스탈"
+    },
+    "141": {
+      "CropCode": "FA870",
+      "CropName": "카네이션-다발 보라색"
+    },
+    "142": {
+      "CropCode": "FA871",
+      "CropName": "카네이션-요정 보라색"
+    },
+    "143": {
+      "CropCode": "FA872",
+      "CropName": "카네이션-스포트"
+    },
+    "144": {
+      "CropCode": "FA881",
+      "CropName": "카네이션-다발 빨간색과 흰색"
+    },
+    "145": {
+      "CropCode": "FA882",
+      "CropName": "카네이션-다발 빨간색과 분홍색"
+    },
+    "146": {
+      "CropCode": "FA883",
+      "CropName": "카네이션-다발 오렌지와 빨간색"
+    },
+    "147": {
+      "CropCode": "FA884",
+      "CropName": "카네이션-다발 노란색과 빨간색"
+    },
+    "148": {
+      "CropCode": "FA885",
+      "CropName": "카네이션-다발 노란색과 보라색"
+    },
+    "149": {
+      "CropCode": "FA886",
+      "CropName": "카네이션-다발 흰색과 빨간색"
+    },
+    "150": {
+      "CropCode": "FA887",
+      "CropName": "카네이션-다발 흰색과 보라색"
+    },
+    "151": {
+      "CropCode": "FA9",
+      "CropName": "백과-수입"
+    },
+    "152": {
+      "CropCode": "FA900",
+      "CropName": "작은 사랑-(혼합색)"
+    },
+    "153": {
+      "CropCode": "FA910",
+      "CropName": "작은 사랑-빨간색"
+    },
+    "154": {
+      "CropCode": "FA920",
+      "CropName": "작은 사랑-주황색"
+    },
+    "155": {
+      "CropCode": "FA930",
+      "CropName": "작은 사랑-노란색"
+    },
+    "156": {
+      "CropCode": "FA940",
+      "CropName": "작은 사랑-분홍색"
+    },
+    "157": {
+      "CropCode": "FA960",
+      "CropName": "작은 사랑-흰색"
+    },
+    "158": {
+      "CropCode": "FA970",
+      "CropName": "작은 사랑-보라색"
+    },
+    "159": {
+      "CropCode": "FA980",
+      "CropName": "아름다운 제비꽃"
+    },
+    "160": {
+      "CropCode": "FA981",
+      "CropName": "수국-빨간색"
+    },
+    "161": {
+      "CropCode": "FA984",
+      "CropName": "수국-분홍색"
+    },
+    "162": {
+      "CropCode": "FA985",
+      "CropName": "수국-녹색 제비꽃"
+    },
+    "163": {
+      "CropCode": "FA986",
+      "CropName": "수국-흰색"
+    },
+    "164": {
+      "CropCode": "FA987",
+      "CropName": "수국-보라색"
+    },
+    "165": {
+      "CropCode": "FA988",
+      "CropName": "수국-두 가지 색"
+    },
+    "166": {
+      "CropCode": "FA989",
+      "CropName": "수국-자주색과 흰색"
+    },
+    "167": {
+      "CropCode": "FA990",
+      "CropName": "수국-보라색과 흰색"
+    },
+    "168": {
+      "CropCode": "FB0",
+      "CropName": "브로콜리-기타"
+    },
+    "169": {
+      "CropCode": "FB000",
+      "CropName": "홍학꽃"
+    },
+    "170": {
+      "CropCode": "FB001",
+      "CropName": "홍학꽃-혼합색"
+    },
+    "171": {
+      "CropCode": "FB1",
+      "CropName": "브로콜리-청경채"
+    },
+    "172": {
+      "CropCode": "FB100",
+      "CropName": "홍학꽃-빨간색"
+    },
+    "173": {
+      "CropCode": "FB101",
+      "CropName": "홍학꽃-빨간 심장"
+    },
+    "174": {
+      "CropCode": "FB102",
+      "CropName": "플라밍고-빨강노랑심"
+    },
+    "175": {
+      "CropCode": "FB103",
+      "CropName": "플라밍고-빨강청심"
+    },
+    "176": {
+      "CropCode": "FB104",
+      "CropName": "플라밍고-작은귀"
+    },
+    "177": {
+      "CropCode": "FB105",
+      "CropName": "플라밍고-빨강초록가장자리"
+    },
+    "178": {
+      "CropCode": "FB106",
+      "CropName": "플라밍고-큐피드"
+    },
+    "179": {
+      "CropCode": "FB107",
+      "CropName": "플라밍고-앨리스"
+    },
+    "180": {
+      "CropCode": "FB108",
+      "CropName": "플라밍고-트리니다드"
+    },
+    "181": {
+      "CropCode": "FB109",
+      "CropName": "플라밍고-친구"
+    },
+    "182": {
+      "CropCode": "FB11",
+      "CropName": "브로콜리-청줄기"
+    },
+    "183": {
+      "CropCode": "FB110",
+      "CropName": "플라밍고-주피터"
+    },
+    "184": {
+      "CropCode": "FB111",
+      "CropName": "플라밍고-달빛"
+    },
+    "185": {
+      "CropCode": "FB112",
+      "CropName": "플라밍고-첫번째빨강"
+    },
+    "186": {
+      "CropCode": "FB113",
+      "CropName": "플라밍고-빨강종"
+    },
+    "187": {
+      "CropCode": "FB114",
+      "CropName": "플라밍고-빨강별"
+    },
+    "188": {
+      "CropCode": "FB115",
+      "CropName": "플라밍고-비너스"
+    },
+    "189": {
+      "CropCode": "FB12",
+      "CropName": "브로콜리-청줄기"
+    },
+    "190": {
+      "CropCode": "FB2",
+      "CropName": "브로콜리-백줄기"
+    },
+    "191": {
+      "CropCode": "FB200",
+      "CropName": "플라밍고-주황색"
+    },
+    "192": {
+      "CropCode": "FB201",
+      "CropName": "플라밍고-오렌지초록가장자리"
+    },
+    "193": {
+      "CropCode": "FB21",
+      "CropName": "브로콜리-백줄기"
+    },
+    "194": {
+      "CropCode": "FB22",
+      "CropName": "브로콜리-백줄기"
+    },
+    "195": {
+      "CropCode": "FB301",
+      "CropName": "플라밍고-금룡"
+    },
+    "196": {
+      "CropCode": "FB302",
+      "CropName": "플라밍고-노란마리"
+    },
+    "197": {
+      "CropCode": "FB400",
+      "CropName": "플라밍고-분홍색"
+    },
+    "198": {
+      "CropCode": "FB401",
+      "CropName": "플라밍고-여름분홍"
+    },
+    "199": {
+      "CropCode": "FB402",
+      "CropName": "플라밍고-연분홍"
+    },
+    "200": {
+      "CropCode": "FB403",
+      "CropName": "플라밍고-산호분홍"
+    },
+    "201": {
+      "CropCode": "FB404",
+      "CropName": "플라밍고-분홍신부"
+    },
+    "202": {
+      "CropCode": "FB405",
+      "CropName": "플라밍고-연두색가장자리"
+    },
+    "203": {
+      "CropCode": "FB406",
+      "CropName": "플라밍고-분홍공주"
+    },
+    "204": {
+      "CropCode": "FB407",
+      "CropName": "플라밍고-꿈"
+    },
+    "205": {
+      "CropCode": "FB408",
+      "CropName": "플라밍고-분홍아가씨"
+    },
+    "206": {
+      "CropCode": "FB409",
+      "CropName": "플라밍고-스프라이트분홍"
+    },
+    "207": {
+      "CropCode": "FB410",
+      "CropName": "플라밍고-여왕"
+    },
+    "208": {
+      "CropCode": "FB411",
+      "CropName": "플라밍고-왕비"
+    },
+    "209": {
+      "CropCode": "FB412",
+      "CropName": "플라밍고-대통령"
+    },
+    "210": {
+      "CropCode": "FB413",
+      "CropName": "플라밍고-여신"
+    },
+    "211": {
+      "CropCode": "FB415",
+      "CropName": "플라밍고-로사"
+    },
+    "212": {
+      "CropCode": "FB416",
+      "CropName": "플라밍고-꽃요정"
+    },
+    "213": {
+      "CropCode": "FB417",
+      "CropName": "플라밍고-무지개"
+    },
+    "214": {
+      "CropCode": "FB418",
+      "CropName": "플라밍고-패션분홍"
+    },
+    "215": {
+      "CropCode": "FB419",
+      "CropName": "플라밍고-태극"
+    },
+    "216": {
+      "CropCode": "FB420",
+      "CropName": "플라밍고-작은크랜베리"
+    },
+    "217": {
+      "CropCode": "FB421",
+      "CropName": "플라밍고-사나타"
+    },
+    "218": {
+      "CropCode": "FB422",
+      "CropName": "플라밍고-연인"
+    },
+    "219": {
+      "CropCode": "FB423",
+      "CropName": "플라밍고-꿀아가씨"
+    },
+    "220": {
+      "CropCode": "FB424",
+      "CropName": "플라밍고-기적"
+    },
+    "221": {
+      "CropCode": "FB425",
+      "CropName": "플라밍고-행운"
+    },
+    "222": {
+      "CropCode": "FB426",
+      "CropName": "플라밍고-분홍레이스"
+    },
+    "223": {
+      "CropCode": "FB500",
+      "CropName": "플라밍고-청록"
+    },
+    "224": {
+      "CropCode": "FB501",
+      "CropName": "홍학꽃-사과녹"
+    },
+    "225": {
+      "CropCode": "FB502",
+      "CropName": "홍학꽃-녹홍심"
+    },
+    "226": {
+      "CropCode": "FB503",
+      "CropName": "홍학꽃-녹소녀"
+    },
+    "227": {
+      "CropCode": "FB504",
+      "CropName": "홍학꽃-레몽나"
+    },
+    "228": {
+      "CropCode": "FB505",
+      "CropName": "홍학꽃-샴페인"
+    },
+    "229": {
+      "CropCode": "FB506",
+      "CropName": "홍학꽃-녹보석"
+    },
+    "230": {
+      "CropCode": "FB507",
+      "CropName": "홍학꽃-녹정령"
+    },
+    "231": {
+      "CropCode": "FB508",
+      "CropName": "홍학꽃-청룡"
+    },
+    "232": {
+      "CropCode": "FB509",
+      "CropName": "홍학꽃-숲"
+    },
+    "233": {
+      "CropCode": "FB600",
+      "CropName": "홍학꽃-흰색"
+    },
+    "234": {
+      "CropCode": "FB601",
+      "CropName": "홍학꽃-흰청심"
+    },
+    "235": {
+      "CropCode": "FB602",
+      "CropName": "홍학꽃-흰황심"
+    },
+    "236": {
+      "CropCode": "FB603",
+      "CropName": "홍학꽃-흰홍심"
+    },
+    "237": {
+      "CropCode": "FB604",
+      "CropName": "홍학꽃-흰녹변"
+    },
+    "238": {
+      "CropCode": "FB605",
+      "CropName": "홍학꽃-카니발"
+    },
+    "239": {
+      "CropCode": "FB606",
+      "CropName": "홍학꽃-심바"
+    },
+    "240": {
+      "CropCode": "FB607",
+      "CropName": "홍학꽃-달의여신"
+    },
+    "241": {
+      "CropCode": "FB608",
+      "CropName": "홍학꽃-연애"
+    },
+    "242": {
+      "CropCode": "FB700",
+      "CropName": "홍학꽃-보라색"
+    },
+    "243": {
+      "CropCode": "FB701",
+      "CropName": "홍학꽃-초음속"
+    },
+    "244": {
+      "CropCode": "FB702",
+      "CropName": "홍학꽃-카이사르"
+    },
+    "245": {
+      "CropCode": "FB800",
+      "CropName": "홍학꽃-커피적"
+    },
+    "246": {
+      "CropCode": "FB801",
+      "CropName": "홍학꽃-커피줄무늬"
+    },
+    "247": {
+      "CropCode": "FB802",
+      "CropName": "홍학꽃-대지"
+    },
+    "248": {
+      "CropCode": "FB803",
+      "CropName": "홍학꽃-초콜릿"
+    },
+    "249": {
+      "CropCode": "FB804",
+      "CropName": "홍삼꽃-검은 미인"
+    },
+    "250": {
+      "CropCode": "FB805",
+      "CropName": "홍삼꽃-검은 진주"
+    },
+    "251": {
+      "CropCode": "FB9",
+      "CropName": "콜리플라워-수입"
+    },
+    "252": {
+      "CropCode": "FC000",
+      "CropName": "대국"
+    },
+    "253": {
+      "CropCode": "FC001",
+      "CropName": "대국-혼합색"
+    },
+    "254": {
+      "CropCode": "FC1",
+      "CropName": "오이-검은 가시"
+    },
+    "255": {
+      "CropCode": "FC100",
+      "CropName": "대국-빨간"
+    },
+    "256": {
+      "CropCode": "FC101",
+      "CropName": "대국-양염"
+    },
+    "257": {
+      "CropCode": "FC102",
+      "CropName": "대국-영국 빨간"
+    },
+    "258": {
+      "CropCode": "FC103",
+      "CropName": "대국-독일 빨간"
+    },
+    "259": {
+      "CropCode": "FC104",
+      "CropName": "대국-빨간 초봉"
+    },
+    "260": {
+      "CropCode": "FC105",
+      "CropName": "대국-홍콩 빨간"
+    },
+    "261": {
+      "CropCode": "FC106",
+      "CropName": "대국-신력 빨간"
+    },
+    "262": {
+      "CropCode": "FC107",
+      "CropName": "대국-붉은 봉황"
+    },
+    "263": {
+      "CropCode": "FC108",
+      "CropName": "대국-붉은 귀비"
+    },
+    "264": {
+      "CropCode": "FC109",
+      "CropName": "대국-카레 빨간"
+    },
+    "265": {
+      "CropCode": "FC110",
+      "CropName": "대국-선복숭아 빛"
+    },
+    "266": {
+      "CropCode": "FC111",
+      "CropName": "대국-연지춘"
+    },
+    "267": {
+      "CropCode": "FC112",
+      "CropName": "대국-단단한 가지 빨간"
+    },
+    "268": {
+      "CropCode": "FC113",
+      "CropName": "대국-복숭아 타로"
+    },
+    "269": {
+      "CropCode": "FC115",
+      "CropName": "대국-신분홍"
+    },
+    "270": {
+      "CropCode": "FC116",
+      "CropName": "대국-꽃 궁전"
+    },
+    "271": {
+      "CropCode": "FC117",
+      "CropName": "대국-붉은 수선화"
+    },
+    "272": {
+      "CropCode": "FC118",
+      "CropName": "대국-붉은 장미"
+    },
+    "273": {
+      "CropCode": "FC130",
+      "CropName": "대국-면선국 빨간"
+    },
+    "274": {
+      "CropCode": "FC2",
+      "CropName": "오이-개량종"
+    },
+    "275": {
+      "CropCode": "FC200",
+      "CropName": "대국-금"
+    },
+    "276": {
+      "CropCode": "FC201",
+      "CropName": "대국-금초봉"
+    },
+    "277": {
+      "CropCode": "FC202",
+      "CropName": "대국-정예금"
+    },
+    "278": {
+      "CropCode": "FC204",
+      "CropName": "대국-묘심"
+    },
+    "279": {
+      "CropCode": "FC205",
+      "CropName": "대국-금사"
+    },
+    "280": {
+      "CropCode": "FC206",
+      "CropName": "대국-금상"
+    },
+    "281": {
+      "CropCode": "FC207",
+      "CropName": "대국-로사노오렌지"
+    },
+    "282": {
+      "CropCode": "FC208",
+      "CropName": "대국-연화오렌지"
+    },
+    "283": {
+      "CropCode": "FC300",
+      "CropName": "대국-황"
+    },
+    "284": {
+      "CropCode": "FC301",
+      "CropName": "대국-황수봉"
+    },
+    "285": {
+      "CropCode": "FC302",
+      "CropName": "대국-세계일"
+    },
+    "286": {
+      "CropCode": "FC303",
+      "CropName": "대국-겨울왕"
+    },
+    "287": {
+      "CropCode": "FC304",
+      "CropName": "대국-신왕비"
+    },
+    "288": {
+      "CropCode": "FC305",
+      "CropName": "대국-기러기왕비"
+    },
+    "289": {
+      "CropCode": "FC306",
+      "CropName": "대국-일본황"
+    },
+    "290": {
+      "CropCode": "FC307",
+      "CropName": "대국-목화황"
+    },
+    "291": {
+      "CropCode": "FC308",
+      "CropName": "대국-신종황"
+    },
+    "292": {
+      "CropCode": "FC309",
+      "CropName": "대국-황동아"
+    },
+    "293": {
+      "CropCode": "FC310",
+      "CropName": "대국-신동아"
+    },
+    "294": {
+      "CropCode": "FC311",
+      "CropName": "대국-황월우"
+    },
+    "295": {
+      "CropCode": "FC312",
+      "CropName": "대국-尖葉황"
+    },
+    "296": {
+      "CropCode": "FC313",
+      "CropName": "대국-왜소황"
+    },
+    "297": {
+      "CropCode": "FC314",
+      "CropName": "대국-황딱지국"
+    },
+    "298": {
+      "CropCode": "FC315",
+      "CropName": "대국-청심황"
+    },
+    "299": {
+      "CropCode": "FC316",
+      "CropName": "대국-황정경"
+    },
+    "300": {
+      "CropCode": "FC317",
+      "CropName": "대국-대두황"
+    },
+    "301": {
+      "CropCode": "FC318",
+      "CropName": "대국-황동양"
+    },
+    "302": {
+      "CropCode": "FC319",
+      "CropName": "대국-금사황"
+    },
+    "303": {
+      "CropCode": "FC320",
+      "CropName": "대국-사마크림황"
+    },
+    "304": {
+      "CropCode": "FC330",
+      "CropName": "대국-황면선국"
+    },
+    "305": {
+      "CropCode": "FC345",
+      "CropName": "대국-황스불리"
+    },
+    "306": {
+      "CropCode": "FC350",
+      "CropName": "대국-황핑퐁"
+    },
+    "307": {
+      "CropCode": "FC380",
+      "CropName": "대국-황바원"
+    },
+    "308": {
+      "CropCode": "FC400",
+      "CropName": "대국-분"
+    },
+    "309": {
+      "CropCode": "FC401",
+      "CropName": "대국-앵홍"
+    },
+    "310": {
+      "CropCode": "FC402",
+      "CropName": "대국-정예분"
+    },
+    "311": {
+      "CropCode": "FC403",
+      "CropName": "대국-서명분"
+    },
+    "312": {
+      "CropCode": "FC404",
+      "CropName": "대국-분초봉"
+    },
+    "313": {
+      "CropCode": "FC405",
+      "CropName": "대국-천대영"
+    },
+    "314": {
+      "CropCode": "FC406",
+      "CropName": "대국-평두분"
+    },
+    "315": {
+      "CropCode": "FC407",
+      "CropName": "대국-경지분"
+    },
+    "316": {
+      "CropCode": "FC408",
+      "CropName": "대국-분핑퐁"
+    },
+    "317": {
+      "CropCode": "FC409",
+      "CropName": "대국-분관왕"
+    },
+    "318": {
+      "CropCode": "FC410",
+      "CropName": "대국-로사노분"
+    },
+    "319": {
+      "CropCode": "FC411",
+      "CropName": "대국-로사노분녹"
+    },
+    "320": {
+      "CropCode": "FC480",
+      "CropName": "대국-분바원"
+    },
+    "321": {
+      "CropCode": "FC500",
+      "CropName": "대국-녹"
+    },
+    "322": {
+      "CropCode": "FC501",
+      "CropName": "대국-녹사국"
+    },
+    "323": {
+      "CropCode": "FC502",
+      "CropName": "대국-안나심녹"
+    },
+    "324": {
+      "CropCode": "FC508",
+      "CropName": "대국-녹핑퐁"
+    },
+    "325": {
+      "CropCode": "FC509",
+      "CropName": "대국-기농녹핑퐁"
+    },
+    "326": {
+      "CropCode": "FC600",
+      "CropName": "대국-백"
+    },
+    "327": {
+      "CropCode": "FC601",
+      "CropName": "대국-일본백"
+    },
+    "328": {
+      "CropCode": "FC602",
+      "CropName": "대국-백대장"
+    },
+    "329": {
+      "CropCode": "FC603",
+      "CropName": "대국-백옥"
+    },
+    "330": {
+      "CropCode": "FC604",
+      "CropName": "대국-백령"
+    },
+    "331": {
+      "CropCode": "FC605",
+      "CropName": "대국-백봉"
+    },
+    "332": {
+      "CropCode": "FC606",
+      "CropName": "대국-정예백"
+    },
+    "333": {
+      "CropCode": "FC607",
+      "CropName": "대국-대두백"
+    },
+    "334": {
+      "CropCode": "FC608",
+      "CropName": "대국-백핑퐁"
+    },
+    "335": {
+      "CropCode": "FC609",
+      "CropName": "대국-백동양"
+    },
+    "336": {
+      "CropCode": "FC610",
+      "CropName": "대국-딩자국"
+    },
+    "337": {
+      "CropCode": "FC611",
+      "CropName": "대국-백수봉"
+    },
+    "338": {
+      "CropCode": "FC612",
+      "CropName": "대국-백설산"
+    },
+    "339": {
+      "CropCode": "FC613",
+      "CropName": "대국-백천성"
+    },
+    "340": {
+      "CropCode": "FC614",
+      "CropName": "대국-운수"
+    },
+    "341": {
+      "CropCode": "FC615",
+      "CropName": "대국-국왕"
+    },
+    "342": {
+      "CropCode": "FC616",
+      "CropName": "대국-백모란"
+    },
+    "343": {
+      "CropCode": "FC617",
+      "CropName": "대국-메시"
+    },
+    "344": {
+      "CropCode": "FC618",
+      "CropName": "대국-라이드니크"
+    },
+    "345": {
+      "CropCode": "FC630",
+      "CropName": "대국-백면선국"
+    },
+    "346": {
+      "CropCode": "FC645",
+      "CropName": "대국-백스불레"
+    },
+    "347": {
+      "CropCode": "FC680",
+      "CropName": "대국-백팔원"
+    },
+    "348": {
+      "CropCode": "FC800",
+      "CropName": "대국-염색대국"
+    },
+    "349": {
+      "CropCode": "FC801",
+      "CropName": "염색된 대국-왕"
+    },
+    "350": {
+      "CropCode": "FC802",
+      "CropName": "염색된 대국-바디카"
+    },
+    "351": {
+      "CropCode": "FC803",
+      "CropName": "염색된 대국-모란"
+    },
+    "352": {
+      "CropCode": "FC804",
+      "CropName": "염색된 대국-백천성"
+    },
+    "353": {
+      "CropCode": "FC805",
+      "CropName": "염색된 대국-백동양"
+    },
+    "354": {
+      "CropCode": "FC806",
+      "CropName": "염색된 대국-사마"
+    },
+    "355": {
+      "CropCode": "FC807",
+      "CropName": "염색된 대국-메시"
+    },
+    "356": {
+      "CropCode": "FD0",
+      "CropName": "꽃호박-기타"
+    },
+    "357": {
+      "CropCode": "FD000",
+      "CropName": "소국"
+    },
+    "358": {
+      "CropCode": "FD001",
+      "CropName": "소국-혼합색"
+    },
+    "359": {
+      "CropCode": "FD1",
+      "CropName": "꽃호박"
+    },
+    "360": {
+      "CropCode": "FD100",
+      "CropName": "소국-빨강"
+    },
+    "361": {
+      "CropCode": "FD101",
+      "CropName": "소국-붉은 봉황"
+    },
+    "362": {
+      "CropCode": "FD102",
+      "CropName": "소국-붉은 꽃딸기"
+    },
+    "363": {
+      "CropCode": "FD103",
+      "CropName": "소국-속이 빈 빨강"
+    },
+    "364": {
+      "CropCode": "FD104",
+      "CropName": "소국-붉은 동전"
+    },
+    "365": {
+      "CropCode": "FD105",
+      "CropName": "소국-붉은 초아"
+    },
+    "366": {
+      "CropCode": "FD106",
+      "CropName": "소국-붉은 불꽃"
+    },
+    "367": {
+      "CropCode": "FD107",
+      "CropName": "소국-대신 빨강"
+    },
+    "368": {
+      "CropCode": "FD109",
+      "CropName": "소국-양염 소홍"
+    },
+    "369": {
+      "CropCode": "FD110",
+      "CropName": "소국-커피 소홍"
+    },
+    "370": {
+      "CropCode": "FD111",
+      "CropName": "소국-카레 소홍"
+    },
+    "371": {
+      "CropCode": "FD112",
+      "CropName": "소국-붉은 윈난국"
+    },
+    "372": {
+      "CropCode": "FD113",
+      "CropName": "소국-일본 소홍"
+    },
+    "373": {
+      "CropCode": "FD114",
+      "CropName": "소국-복숭아 타로"
+    },
+    "374": {
+      "CropCode": "FD115",
+      "CropName": "작은 국화-붉은 초봉"
+    },
+    "375": {
+      "CropCode": "FD116",
+      "CropName": "작은 국화-린거 붉은"
+    },
+    "376": {
+      "CropCode": "FD117",
+      "CropName": "작은 국화-붉은 해"
+    },
+    "377": {
+      "CropCode": "FD118",
+      "CropName": "작은 국화-할레 붉은"
+    },
+    "378": {
+      "CropCode": "FD119",
+      "CropName": "작은 국화-용봉 작은 붉은"
+    },
+    "379": {
+      "CropCode": "FD120",
+      "CropName": "작은 국화-붉은 천성"
+    },
+    "380": {
+      "CropCode": "FD121",
+      "CropName": "작은 국화-붉은 미인"
+    },
+    "381": {
+      "CropCode": "FD122",
+      "CropName": "작은 국화-숟가락 붉은"
+    },
+    "382": {
+      "CropCode": "FD123",
+      "CropName": "작은 국화-다이아몬드 붉은"
+    },
+    "383": {
+      "CropCode": "FD124",
+      "CropName": "작은 국화-용봉 보라"
+    },
+    "384": {
+      "CropCode": "FD125",
+      "CropName": "작은 국화-조금 더 큰 붉은"
+    },
+    "385": {
+      "CropCode": "FD126",
+      "CropName": "작은 국화-백화 작은 붉은"
+    },
+    "386": {
+      "CropCode": "FD127",
+      "CropName": "작은 국화-두 가지 색 붉은"
+    },
+    "387": {
+      "CropCode": "FD128",
+      "CropName": "작은 국화-호랑이 붉은"
+    },
+    "388": {
+      "CropCode": "FD129",
+      "CropName": "작은 국화-작은 복숭아 붉은"
+    },
+    "389": {
+      "CropCode": "FD130",
+      "CropName": "작은 국화-이슬 작은 붉은"
+    },
+    "390": {
+      "CropCode": "FD131",
+      "CropName": "작은 국화-작은 붉은 여인"
+    },
+    "391": {
+      "CropCode": "FD132",
+      "CropName": "작은 국화-진주 붉은"
+    },
+    "392": {
+      "CropCode": "FD133",
+      "CropName": "작은 국화-일본 벨벳 붉은"
+    },
+    "393": {
+      "CropCode": "FD134",
+      "CropName": "작은 국화-붉은 如意"
+    },
+    "394": {
+      "CropCode": "FD135",
+      "CropName": "작은 국화-붉은 장미"
+    },
+    "395": {
+      "CropCode": "FD136",
+      "CropName": "작은 국화-프랑스 작은 붉은"
+    },
+    "396": {
+      "CropCode": "FD137",
+      "CropName": "작은 국화-작은 호랑이 붉은"
+    },
+    "397": {
+      "CropCode": "FD138",
+      "CropName": "작은 국화-카라린"
+    },
+    "398": {
+      "CropCode": "FD139",
+      "CropName": "작은 국화-알라모스 노란"
+    },
+    "399": {
+      "CropCode": "FD145",
+      "CropName": "작은 국화-붉은 스부레"
+    },
+    "400": {
+      "CropCode": "FD150",
+      "CropName": "작은 국화-붉은 바람개비"
+    },
+    "401": {
+      "CropCode": "FD200",
+      "CropName": "작은 국화-금"
+    },
+    "402": {
+      "CropCode": "FD201",
+      "CropName": "작은 국화-금 커피"
+    },
+    "403": {
+      "CropCode": "FD202",
+      "CropName": "작은 국화-연한 작은 금"
+    },
+    "404": {
+      "CropCode": "FD203",
+      "CropName": "작은 국화-작은 금 국화"
+    },
+    "405": {
+      "CropCode": "FD204",
+      "CropName": "작은 국화-작은 금 붉은"
+    },
+    "406": {
+      "CropCode": "FD205",
+      "CropName": "작은 국화-금 초봉"
+    },
+    "407": {
+      "CropCode": "FD206",
+      "CropName": "작은 국화-두 색 금 붉은"
+    },
+    "408": {
+      "CropCode": "FD207",
+      "CropName": "작은 국화-두 색 금 노란"
+    },
+    "409": {
+      "CropCode": "FD208",
+      "CropName": "작은 국화-금 공작"
+    },
+    "410": {
+      "CropCode": "FD209",
+      "CropName": "작은 국화-귤"
+    },
+    "411": {
+      "CropCode": "FD210",
+      "CropName": "작은 국화-길상 금"
+    },
+    "412": {
+      "CropCode": "FD211",
+      "CropName": "작은 국화-독일 바람개비"
+    },
+    "413": {
+      "CropCode": "FD212",
+      "CropName": "작은 국화-탐보라"
+    },
+    "414": {
+      "CropCode": "FD232",
+      "CropName": "작은 국화-진주 금"
+    },
+    "415": {
+      "CropCode": "FD235",
+      "CropName": "작은 국화-링크 작은 금"
+    },
+    "416": {
+      "CropCode": "FD245",
+      "CropName": "작은 국화-금 스부레"
+    },
+    "417": {
+      "CropCode": "FD250",
+      "CropName": "작은 국화-금 바람개비"
+    },
+    "418": {
+      "CropCode": "FD300",
+      "CropName": "작은 국화-노란"
+    },
+    "419": {
+      "CropCode": "FD301",
+      "CropName": "작은 국화-황금 달"
+    },
+    "420": {
+      "CropCode": "FD302",
+      "CropName": "작은 국화-황동 돈"
+    },
+    "421": {
+      "CropCode": "FD303",
+      "CropName": "작은 국화-속이 빈 노란"
+    },
+    "422": {
+      "CropCode": "FD304",
+      "CropName": "작은 국화-크리스마스 공"
+    },
+    "423": {
+      "CropCode": "FD305",
+      "CropName": "작은 국화-노란 초아"
+    },
+    "424": {
+      "CropCode": "FD306",
+      "CropName": "작은 국화-다꽃 수탉"
+    },
+    "425": {
+      "CropCode": "FD307",
+      "CropName": "작은 국화-노란 탁구공"
+    },
+    "426": {
+      "CropCode": "FD308",
+      "CropName": "작은 국화-노란 T자 국화"
+    },
+    "427": {
+      "CropCode": "FD309",
+      "CropName": "작은 국화-일본 노란"
+    },
+    "428": {
+      "CropCode": "FD310",
+      "CropName": "작은 국화-청심 노란"
+    },
+    "429": {
+      "CropCode": "FD311",
+      "CropName": "작은 국화-파파야 노란"
+    },
+    "430": {
+      "CropCode": "FD312",
+      "CropName": "작은 국화-검은 심 작은 노란"
+    },
+    "431": {
+      "CropCode": "FD313",
+      "CropName": "작은 국화-숟가락 노란"
+    },
+    "432": {
+      "CropCode": "FD314",
+      "CropName": "작은 국화-단추 국화 노란"
+    },
+    "433": {
+      "CropCode": "FD315",
+      "CropName": "작은 국화-노란 다이아몬드"
+    },
+    "434": {
+      "CropCode": "FD316",
+      "CropName": "작은 국화-겨울달 작은 노란"
+    },
+    "435": {
+      "CropCode": "FD317",
+      "CropName": "작은 국화-춤추는 노란"
+    },
+    "436": {
+      "CropCode": "FD318",
+      "CropName": "작은 국화-작은 광휘"
+    },
+    "437": {
+      "CropCode": "FD319",
+      "CropName": "작은 국화-파파야 노란(중복꽃)"
+    },
+    "438": {
+      "CropCode": "FD320",
+      "CropName": "작은 국화-네덜란드 노란"
+    },
+    "439": {
+      "CropCode": "FD321",
+      "CropName": "작은 국화-길상 노란"
+    },
+    "440": {
+      "CropCode": "FD322",
+      "CropName": "작은 국화-금실 노란"
+    },
+    "441": {
+      "CropCode": "FD323",
+      "CropName": "작은 국화-한 점 노란"
+    },
+    "442": {
+      "CropCode": "FD324",
+      "CropName": "작은 국화-프랑스 작은 국화 노란"
+    },
+    "443": {
+      "CropCode": "FD325",
+      "CropName": "작은 국화-노란 마가렛"
+    },
+    "444": {
+      "CropCode": "FD326",
+      "CropName": "작은 국화-모나리자 태양 노란"
+    },
+    "445": {
+      "CropCode": "FD330",
+      "CropName": "작은 국화-노란 면선 작은 국화"
+    },
+    "446": {
+      "CropCode": "FD345",
+      "CropName": "작은 국화-노란 스프리"
+    },
+    "447": {
+      "CropCode": "FD350",
+      "CropName": "작은 국화-노란 바람개비"
+    },
+    "448": {
+      "CropCode": "FD400",
+      "CropName": "작은 국화-분홍"
+    },
+    "449": {
+      "CropCode": "FD401",
+      "CropName": "작은 국화-가을 햇살"
+    },
+    "450": {
+      "CropCode": "FD402",
+      "CropName": "작은 국화-대신 분"
+    },
+    "451": {
+      "CropCode": "FD403",
+      "CropName": "작은 국화-속이 빈 분"
+    },
+    "452": {
+      "CropCode": "FD404",
+      "CropName": "작은 국화-꽃의 세계"
+    },
+    "453": {
+      "CropCode": "FD405",
+      "CropName": "작은 국화-차가운 아침"
+    },
+    "454": {
+      "CropCode": "FD406",
+      "CropName": "작은 국화-아라이 분"
+    },
+    "455": {
+      "CropCode": "FD407",
+      "CropName": "작은 국화-분 핑퐁"
+    },
+    "456": {
+      "CropCode": "FD408",
+      "CropName": "작은 국화-옥도 분"
+    },
+    "457": {
+      "CropCode": "FD409",
+      "CropName": "작은 국화-뜨거운 햇살 분"
+    },
+    "458": {
+      "CropCode": "FD410",
+      "CropName": "작은 국화-림 형 분"
+    },
+    "459": {
+      "CropCode": "FD411",
+      "CropName": "작은 국화-숟가락 분"
+    },
+    "460": {
+      "CropCode": "FD412",
+      "CropName": "작은 국화-분 운남 국화"
+    },
+    "461": {
+      "CropCode": "FD413",
+      "CropName": "작은 국화-분 초봉"
+    },
+    "462": {
+      "CropCode": "FD414",
+      "CropName": "작은 국화-대륙 분"
+    },
+    "463": {
+      "CropCode": "FD415",
+      "CropName": "작은 국화-할레 분"
+    },
+    "464": {
+      "CropCode": "FD416",
+      "CropName": "작은 국화-진주 분"
+    },
+    "465": {
+      "CropCode": "FD417",
+      "CropName": "작은 국화-분 열"
+    },
+    "466": {
+      "CropCode": "FD418",
+      "CropName": "작은 국화-분 불꽃"
+    },
+    "467": {
+      "CropCode": "FD419",
+      "CropName": "작은 국화-일월 작은 분"
+    },
+    "468": {
+      "CropCode": "FD420",
+      "CropName": "작은 국화-네덜란드 분"
+    },
+    "469": {
+      "CropCode": "FD421",
+      "CropName": "작은 국화-물 맑은"
+    },
+    "470": {
+      "CropCode": "FD422",
+      "CropName": "작은 국화-길상 작은 분"
+    },
+    "471": {
+      "CropCode": "FD423",
+      "CropName": "작은 국화-분 일기"
+    },
+    "472": {
+      "CropCode": "FD424",
+      "CropName": "작은 국화-작은 복숭아 붉은"
+    },
+    "473": {
+      "CropCode": "FD425",
+      "CropName": "작은 국화-마가렛 분"
+    },
+    "474": {
+      "CropCode": "FD426",
+      "CropName": "작은 국화-샴페인 할레"
+    },
+    "475": {
+      "CropCode": "FD427",
+      "CropName": "작은 국화-분홍 미인"
+    },
+    "476": {
+      "CropCode": "FD428",
+      "CropName": "작은 국화-달력 작은 분홍"
+    },
+    "477": {
+      "CropCode": "FD429",
+      "CropName": "작은 국화-복숭아 가지"
+    },
+    "478": {
+      "CropCode": "FD430",
+      "CropName": "작은 국화-면선 국화 분"
+    },
+    "479": {
+      "CropCode": "FD431",
+      "CropName": "작은 국화-복숭아 붉은 운남 국화"
+    },
+    "480": {
+      "CropCode": "FD432",
+      "CropName": "작은 국화-채운"
+    },
+    "481": {
+      "CropCode": "FD433",
+      "CropName": "작은 국화-핀란드 작은 분홍"
+    },
+    "482": {
+      "CropCode": "FD434",
+      "CropName": "작은 국화-영국 풍차"
+    },
+    "483": {
+      "CropCode": "FD435",
+      "CropName": "작은 국화-링크 작은 분홍"
+    },
+    "484": {
+      "CropCode": "FD436",
+      "CropName": "작은 국화-새로운 가을 태양"
+    },
+    "485": {
+      "CropCode": "FD437",
+      "CropName": "운남 국화-두 가지 색 분"
+    },
+    "486": {
+      "CropCode": "FD438",
+      "CropName": "작은 국화-남항 분"
+    },
+    "487": {
+      "CropCode": "FD445",
+      "CropName": "작은 국화-분 스불레"
+    },
+    "488": {
+      "CropCode": "FD446",
+      "CropName": "작은 국화-분 관음"
+    },
+    "489": {
+      "CropCode": "FD450",
+      "CropName": "작은 국화-분 풍차"
+    },
+    "490": {
+      "CropCode": "FD451",
+      "CropName": "작은 국화-춤 풍차"
+    },
+    "491": {
+      "CropCode": "FD452",
+      "CropName": "작은 국화-신다 분"
+    },
+    "492": {
+      "CropCode": "FD453",
+      "CropName": "작은 국화-막대 사탕-분"
+    },
+    "493": {
+      "CropCode": "FD455",
+      "CropName": "작은 국화-아름다운 작은 분홍"
+    },
+    "494": {
+      "CropCode": "FD456",
+      "CropName": "작은 국화-카롤 분"
+    },
+    "495": {
+      "CropCode": "FD457",
+      "CropName": "작은 국화-서비아 분"
+    },
+    "496": {
+      "CropCode": "FD500",
+      "CropName": "작은 국화-녹색"
+    },
+    "497": {
+      "CropCode": "FD501",
+      "CropName": "작은 국화-옥처럼"
+    },
+    "498": {
+      "CropCode": "FD502",
+      "CropName": "작은 국화-녹색 실 국화"
+    },
+    "499": {
+      "CropCode": "FD503",
+      "CropName": "작은 국화-단추 국화 녹"
+    },
+    "500": {
+      "CropCode": "FD504",
+      "CropName": "작은 국화-베레모"
+    },
+    "501": {
+      "CropCode": "FD505",
+      "CropName": "작은 국화-복재"
+    },
+    "502": {
+      "CropCode": "FD509",
+      "CropName": "작은 국화-기농 녹 핑퐁"
+    },
+    "503": {
+      "CropCode": "FD600",
+      "CropName": "작은 국화-흰색"
+    },
+    "504": {
+      "CropCode": "FD601",
+      "CropName": "작은 국화-딩자 국화 흰색"
+    },
+    "505": {
+      "CropCode": "FD602",
+      "CropName": "작은 국화-흰색 동전"
+    },
+    "506": {
+      "CropCode": "FD603",
+      "CropName": "작은 국화-속이 빈 흰색(짧은 꽃잎)"
+    },
+    "507": {
+      "CropCode": "FD604",
+      "CropName": "작은 국화-속이 빈 흰색(긴 꽃잎)"
+    },
+    "508": {
+      "CropCode": "FD605",
+      "CropName": "작은 국화-흰색 초조"
+    },
+    "509": {
+      "CropCode": "FD607",
+      "CropName": "작은 국화-흰색 핑퐁"
+    },
+    "510": {
+      "CropCode": "FD608",
+      "CropName": "작은 국화-작은 가을 흰색"
+    },
+    "511": {
+      "CropCode": "FD609",
+      "CropName": "작은 국화-닭눈 작은 흰색"
+    },
+    "512": {
+      "CropCode": "FD610",
+      "CropName": "작은 국화-청심 작은 흰색"
+    },
+    "513": {
+      "CropCode": "FD611",
+      "CropName": "작은 국화-신딩자 흰색"
+    },
+    "514": {
+      "CropCode": "FD612",
+      "CropName": "작은 국화-흰색 운남 국화"
+    },
+    "515": {
+      "CropCode": "FD613",
+      "CropName": "작은 국화-단추 국화 흰색"
+    },
+    "516": {
+      "CropCode": "FD614",
+      "CropName": "작은 국화-프랑스 작은 국화 흰색"
+    },
+    "517": {
+      "CropCode": "FD615",
+      "CropName": "작은 국화-옥"
+    },
+    "518": {
+      "CropCode": "FD616",
+      "CropName": "작은 국화-춤추는 흰색"
+    },
+    "519": {
+      "CropCode": "FD617",
+      "CropName": "작은 국화-흰색 관음"
+    },
+    "520": {
+      "CropCode": "FD618",
+      "CropName": "작은 국화-흰색 다이아몬드"
+    },
+    "521": {
+      "CropCode": "FD619",
+      "CropName": "작은 국화-작은 눈송이 흰색"
+    },
+    "522": {
+      "CropCode": "FD620",
+      "CropName": "작은 국화-네덜란드 작은 흰색"
+    },
+    "523": {
+      "CropCode": "FD621",
+      "CropName": "작은 국화-천량"
+    },
+    "524": {
+      "CropCode": "FD622",
+      "CropName": "작은 국화-길조 백"
+    },
+    "525": {
+      "CropCode": "FD623",
+      "CropName": "작은 국화-상사 소백"
+    },
+    "526": {
+      "CropCode": "FD625",
+      "CropName": "작은 국화-백 마가렛"
+    },
+    "527": {
+      "CropCode": "FD630",
+      "CropName": "작은 국화-백 면선 작은 국화"
+    },
+    "528": {
+      "CropCode": "FD632",
+      "CropName": "작은 국화-진주 백"
+    },
+    "529": {
+      "CropCode": "FD633",
+      "CropName": "작은 국화-핀란드 소백"
+    },
+    "530": {
+      "CropCode": "FD635",
+      "CropName": "작은 국화-링크 소백"
+    },
+    "531": {
+      "CropCode": "FD645",
+      "CropName": "작은 국화-백 스부레"
+    },
+    "532": {
+      "CropCode": "FD646",
+      "CropName": "작은 국화-방백"
+    },
+    "533": {
+      "CropCode": "FD657",
+      "CropName": "작은 국화-서비아 백"
+    },
+    "534": {
+      "CropCode": "FD700",
+      "CropName": "작은 국화-자주"
+    },
+    "535": {
+      "CropCode": "FD712",
+      "CropName": "작은 국화-자주 윈난 국화"
+    },
+    "536": {
+      "CropCode": "FD752",
+      "CropName": "작은 국화-신다 자홍"
+    },
+    "537": {
+      "CropCode": "FD800",
+      "CropName": "작은 국화-염색 작은 국화"
+    },
+    "538": {
+      "CropCode": "FD801",
+      "CropName": "염색 작은 국화-핀란드"
+    },
+    "539": {
+      "CropCode": "FD802",
+      "CropName": "염색 작은 국화-백 다이아몬드"
+    },
+    "540": {
+      "CropCode": "FD9",
+      "CropName": "꽃 오이-수입"
+    },
+    "541": {
+      "CropCode": "FD900",
+      "CropName": "작은 국화-미니 청국화"
+    },
+    "542": {
+      "CropCode": "FE0",
+      "CropName": "동과-기타"
+    },
+    "543": {
+      "CropCode": "FE000",
+      "CropName": "아프리카 국화"
+    },
+    "544": {
+      "CropCode": "FE001",
+      "CropName": "아프리카 국화-혼합색"
+    },
+    "545": {
+      "CropCode": "FE1",
+      "CropName": "동과-백피"
+    },
+    "546": {
+      "CropCode": "FE100",
+      "CropName": "아프리카 국화-적"
+    },
+    "547": {
+      "CropCode": "FE101",
+      "CropName": "아프리카 국화-쌍색 적"
+    },
+    "548": {
+      "CropCode": "FE102",
+      "CropName": "아프리카 국화-달리치"
+    },
+    "549": {
+      "CropCode": "FE103",
+      "CropName": "아프리카 데이지-홍수정"
+    },
+    "550": {
+      "CropCode": "FE104",
+      "CropName": "아프리카 데이지-레노"
+    },
+    "551": {
+      "CropCode": "FE105",
+      "CropName": "아프리카 데이지-시로"
+    },
+    "552": {
+      "CropCode": "FE106",
+      "CropName": "아프리카 데이지-로레토"
+    },
+    "553": {
+      "CropCode": "FE107",
+      "CropName": "아프리카 데이지-화려"
+    },
+    "554": {
+      "CropCode": "FE108",
+      "CropName": "아프리카 데이지-홍파리"
+    },
+    "555": {
+      "CropCode": "FE109",
+      "CropName": "아프리카 데이지-하비"
+    },
+    "556": {
+      "CropCode": "FE110",
+      "CropName": "아프리카 데이지-카부"
+    },
+    "557": {
+      "CropCode": "FE111",
+      "CropName": "아프리카 데이지-상하이홍"
+    },
+    "558": {
+      "CropCode": "FE112",
+      "CropName": "아프리카 데이지-천래"
+    },
+    "559": {
+      "CropCode": "FE113",
+      "CropName": "아프리카 데이지-라이싱턴"
+    },
+    "560": {
+      "CropCode": "FE2",
+      "CropName": "동과-청피"
+    },
+    "561": {
+      "CropCode": "FE200",
+      "CropName": "아프리카 데이지-오렌지"
+    },
+    "562": {
+      "CropCode": "FE201",
+      "CropName": "아프리카 데이지-태양신"
+    },
+    "563": {
+      "CropCode": "FE202",
+      "CropName": "아프리카 데이지-사구"
+    },
+    "564": {
+      "CropCode": "FE203",
+      "CropName": "아프리카 데이지-오린"
+    },
+    "565": {
+      "CropCode": "FE204",
+      "CropName": "아프리카 데이지-메로시스"
+    },
+    "566": {
+      "CropCode": "FE205",
+      "CropName": "아프리카 데이지-할리곰"
+    },
+    "567": {
+      "CropCode": "FE3",
+      "CropName": "동과-모과"
+    },
+    "568": {
+      "CropCode": "FE300",
+      "CropName": "아프리카 데이지-황"
+    },
+    "569": {
+      "CropCode": "FE301",
+      "CropName": "아프리카 데이지-열파"
+    },
+    "570": {
+      "CropCode": "FE302",
+      "CropName": "아프리카 데이지-금작"
+    },
+    "571": {
+      "CropCode": "FE400",
+      "CropName": "아프리카 데이지-분"
+    },
+    "572": {
+      "CropCode": "FE401",
+      "CropName": "아프리카 데이지-이스마라"
+    },
+    "573": {
+      "CropCode": "FE402",
+      "CropName": "아프리카 데이지-마루시아"
+    },
+    "574": {
+      "CropCode": "FE403",
+      "CropName": "아프리카 데이지-도니카"
+    },
+    "575": {
+      "CropCode": "FE404",
+      "CropName": "아프리카 데이지-무니라"
+    },
+    "576": {
+      "CropCode": "FE405",
+      "CropName": "아프리카 데이지-로살린"
+    },
+    "577": {
+      "CropCode": "FE406",
+      "CropName": "아프리카 데이지-핑크 여왕"
+    },
+    "578": {
+      "CropCode": "FE407",
+      "CropName": "아프리카 데이지-불꽃"
+    },
+    "579": {
+      "CropCode": "FE408",
+      "CropName": "아프리카 데이지-핑크 여신"
+    },
+    "580": {
+      "CropCode": "FE409",
+      "CropName": "아프리카 데이지-핑크 매력"
+    },
+    "581": {
+      "CropCode": "FE410",
+      "CropName": "아프리카 데이지-나이팅게일"
+    },
+    "582": {
+      "CropCode": "FE411",
+      "CropName": "아프리카 데이지-리도"
+    },
+    "583": {
+      "CropCode": "FE412",
+      "CropName": "아프리카 데이지-나폴레옹"
+    },
+    "584": {
+      "CropCode": "FE413",
+      "CropName": "아프리카 데이지-비어"
+    },
+    "585": {
+      "CropCode": "FE415",
+      "CropName": "아프리카 데이지-핑크 아름다움"
+    },
+    "586": {
+      "CropCode": "FE416",
+      "CropName": "아프리카 데이지-열정적인 핑크"
+    },
+    "587": {
+      "CropCode": "FE600",
+      "CropName": "아프리카 데이지-흰색"
+    },
+    "588": {
+      "CropCode": "FE601",
+      "CropName": "아프리카 데이지-눈처럼 하얀"
+    },
+    "589": {
+      "CropCode": "FE602",
+      "CropName": "아프리카 데이지-마리아"
+    },
+    "590": {
+      "CropCode": "FE603",
+      "CropName": "아프리카 데이지-비앙카"
+    },
+    "591": {
+      "CropCode": "FE604",
+      "CropName": "아프리카 데이지-백곰"
+    },
+    "592": {
+      "CropCode": "FE605",
+      "CropName": "아프리카 데이지-빙산"
+    },
+    "593": {
+      "CropCode": "FE606",
+      "CropName": "아프리카 데이지-주사위"
+    },
+    "594": {
+      "CropCode": "FE700",
+      "CropName": "아프리카 데이지-보라"
+    },
+    "595": {
+      "CropCode": "FE701",
+      "CropName": "아프리카 데이지-보라 왕자"
+    },
+    "596": {
+      "CropCode": "FE702",
+      "CropName": "아프리카 데이지-루블"
+    },
+    "597": {
+      "CropCode": "FE703",
+      "CropName": "아프리카 데이지-파라오"
+    },
+    "598": {
+      "CropCode": "FE704",
+      "CropName": "아프리카 데이지-여왕"
+    },
+    "599": {
+      "CropCode": "FE801",
+      "CropName": "아프리카 데이지-보보"
+    },
+    "600": {
+      "CropCode": "FE9",
+      "CropName": "동과-수입"
+    },
+    "601": {
+      "CropCode": "FE900",
+      "CropName": "아프리카 데이지-미니 혼합색"
+    },
+    "602": {
+      "CropCode": "FE910",
+      "CropName": "아프리카 데이지-미니 빨강"
+    },
+    "603": {
+      "CropCode": "FE920",
+      "CropName": "아프리카 데이지-미니 오렌지"
+    },
+    "604": {
+      "CropCode": "FE930",
+      "CropName": "아프리카 데이지-미니 노랑"
+    },
+    "605": {
+      "CropCode": "FE940",
+      "CropName": "아프리카 데이지-미니 분홍"
+    },
+    "606": {
+      "CropCode": "FE960",
+      "CropName": "아프리카 데이지-미니 흰색"
+    },
+    "607": {
+      "CropCode": "FE970",
+      "CropName": "아프리카 데이지-미니 보라"
+    },
+    "608": {
+      "CropCode": "FF0",
+      "CropName": "오이-기타"
+    },
+    "609": {
+      "CropCode": "FF1",
+      "CropName": "오이"
+    },
+    "610": {
+      "CropCode": "FF2",
+      "CropName": "오이-각오이"
+    },
+    "611": {
+      "CropCode": "FF3",
+      "CropName": "오이-흰오이"
+    },
+    "612": {
+      "CropCode": "FF4",
+      "CropName": "오이-긴오이"
+    },
+    "613": {
+      "CropCode": "FF9",
+      "CropName": "오이-수입"
+    },
+    "614": {
+      "CropCode": "FG0",
+      "CropName": "쓴오이-기타"
+    },
+    "615": {
+      "CropCode": "FG000",
+      "CropName": "검은색 칼라"
+    },
+    "616": {
+      "CropCode": "FG001",
+      "CropName": "검은색 칼라-혼합색"
+    },
+    "617": {
+      "CropCode": "FG1",
+      "CropName": "쓴오이-흰 쌀"
+    },
+    "618": {
+      "CropCode": "FG100",
+      "CropName": "검은색 칼라-빨강"
+    },
+    "619": {
+      "CropCode": "FG101",
+      "CropName": "검은색 칼라-4호"
+    },
+    "620": {
+      "CropCode": "FG102",
+      "CropName": "검은색 칼라-13호"
+    },
+    "621": {
+      "CropCode": "FG103",
+      "CropName": "검은색 칼라-42호"
+    },
+    "622": {
+      "CropCode": "FG104",
+      "CropName": "검은색 칼라-223호"
+    },
+    "623": {
+      "CropCode": "FG105",
+      "CropName": "검은색 칼라-235호"
+    },
+    "624": {
+      "CropCode": "FG106",
+      "CropName": "검란-마들리"
+    },
+    "625": {
+      "CropCode": "FG107",
+      "CropName": "검란-흑골"
+    },
+    "626": {
+      "CropCode": "FG108",
+      "CropName": "검란-벚꽃홍"
+    },
+    "627": {
+      "CropCode": "FG109",
+      "CropName": "검란-연지홍"
+    },
+    "628": {
+      "CropCode": "FG110",
+      "CropName": "검란-장미홍"
+    },
+    "629": {
+      "CropCode": "FG111",
+      "CropName": "검란-43호"
+    },
+    "630": {
+      "CropCode": "FG112",
+      "CropName": "검란-신벚꽃홍"
+    },
+    "631": {
+      "CropCode": "FG113",
+      "CropName": "검란-신종홍"
+    },
+    "632": {
+      "CropCode": "FG114",
+      "CropName": "검란-신223호"
+    },
+    "633": {
+      "CropCode": "FG115",
+      "CropName": "검란-243호"
+    },
+    "634": {
+      "CropCode": "FG116",
+      "CropName": "검란-쌍색금홍"
+    },
+    "635": {
+      "CropCode": "FG118",
+      "CropName": "검란-278호"
+    },
+    "636": {
+      "CropCode": "FG119",
+      "CropName": "검란-279호"
+    },
+    "637": {
+      "CropCode": "FG120",
+      "CropName": "검란-흑골홍"
+    },
+    "638": {
+      "CropCode": "FG121",
+      "CropName": "검란-265호"
+    },
+    "639": {
+      "CropCode": "FG122",
+      "CropName": "검란-캉웨이"
+    },
+    "640": {
+      "CropCode": "FG123",
+      "CropName": "검란-염자홍"
+    },
+    "641": {
+      "CropCode": "FG2",
+      "CropName": "苦瓜-청대미"
+    },
+    "642": {
+      "CropCode": "FG200",
+      "CropName": "검란-오렌지"
+    },
+    "643": {
+      "CropCode": "FG201",
+      "CropName": "검란-오렌지핑크"
+    },
+    "644": {
+      "CropCode": "FG3",
+      "CropName": "苦瓜-산苦瓜"
+    },
+    "645": {
+      "CropCode": "FG300",
+      "CropName": "검란-노랑"
+    },
+    "646": {
+      "CropCode": "FG301",
+      "CropName": "검란-짙은노랑"
+    },
+    "647": {
+      "CropCode": "FG302",
+      "CropName": "검란-연노랑"
+    },
+    "648": {
+      "CropCode": "FG303",
+      "CropName": "검란-노랑홍심"
+    },
+    "649": {
+      "CropCode": "FG4",
+      "CropName": "여주-청록"
+    },
+    "650": {
+      "CropCode": "FG400",
+      "CropName": "검은색-분홍"
+    },
+    "651": {
+      "CropCode": "FG401",
+      "CropName": "검은색-신분홍"
+    },
+    "652": {
+      "CropCode": "FG402",
+      "CropName": "검은색-사胖"
+    },
+    "653": {
+      "CropCode": "FG403",
+      "CropName": "검은색-말분"
+    },
+    "654": {
+      "CropCode": "FG404",
+      "CropName": "검은색-복숭아분"
+    },
+    "655": {
+      "CropCode": "FG405",
+      "CropName": "검은색-얇은분"
+    },
+    "656": {
+      "CropCode": "FG406",
+      "CropName": "검은색-청껍질분"
+    },
+    "657": {
+      "CropCode": "FG407",
+      "CropName": "검은색-핑크하트"
+    },
+    "658": {
+      "CropCode": "FG408",
+      "CropName": "검은색-512호"
+    },
+    "659": {
+      "CropCode": "FG409",
+      "CropName": "검은색-513호"
+    },
+    "660": {
+      "CropCode": "FG410",
+      "CropName": "검은색-515호"
+    },
+    "661": {
+      "CropCode": "FG411",
+      "CropName": "검은색-핑크여인"
+    },
+    "662": {
+      "CropCode": "FG412",
+      "CropName": "검은색-분거인"
+    },
+    "663": {
+      "CropCode": "FG413",
+      "CropName": "검은색-신사胖"
+    },
+    "664": {
+      "CropCode": "FG414",
+      "CropName": "검은색-미국분"
+    },
+    "665": {
+      "CropCode": "FG415",
+      "CropName": "검은색-여름장미"
+    },
+    "666": {
+      "CropCode": "FG416",
+      "CropName": "검은색-4436호"
+    },
+    "667": {
+      "CropCode": "FG417",
+      "CropName": "검은색-법도"
+    },
+    "668": {
+      "CropCode": "FG418",
+      "CropName": "검은색-437호"
+    },
+    "669": {
+      "CropCode": "FG419",
+      "CropName": "검은색-빅토리아"
+    },
+    "670": {
+      "CropCode": "FG501",
+      "CropName": "검은색-610호"
+    },
+    "671": {
+      "CropCode": "FG600",
+      "CropName": "검은색-흰색"
+    },
+    "672": {
+      "CropCode": "FG601",
+      "CropName": "검은색-대흰"
+    },
+    "673": {
+      "CropCode": "FG602",
+      "CropName": "검은색-암스테르담"
+    },
+    "674": {
+      "CropCode": "FG603",
+      "CropName": "검란-백홍심"
+    },
+    "675": {
+      "CropCode": "FG700",
+      "CropName": "검란-자"
+    },
+    "676": {
+      "CropCode": "FG701",
+      "CropName": "검란-짙은 자"
+    },
+    "677": {
+      "CropCode": "FG702",
+      "CropName": "검란-연한 자"
+    },
+    "678": {
+      "CropCode": "FG703",
+      "CropName": "검란-짙은 벨벳 자"
+    },
+    "679": {
+      "CropCode": "FG704",
+      "CropName": "검란-검은 자"
+    },
+    "680": {
+      "CropCode": "FG705",
+      "CropName": "검란-자파"
+    },
+    "681": {
+      "CropCode": "FG706",
+      "CropName": "검란-자백심"
+    },
+    "682": {
+      "CropCode": "FG9",
+      "CropName": "쓴멜론-수입"
+    },
+    "683": {
+      "CropCode": "FH0",
+      "CropName": "편부-기타"
+    },
+    "684": {
+      "CropCode": "FH000",
+      "CropName": "기타 꽃"
+    },
+    "685": {
+      "CropCode": "FH002",
+      "CropName": "경매 꽃"
+    },
+    "686": {
+      "CropCode": "FH003",
+      "CropName": "부드러운 실"
+    },
+    "687": {
+      "CropCode": "FH004",
+      "CropName": "팔괘풀(황하)"
+    },
+    "688": {
+      "CropCode": "FH005",
+      "CropName": "금망태꽃"
+    },
+    "689": {
+      "CropCode": "FH006",
+      "CropName": "황제화"
+    },
+    "690": {
+      "CropCode": "FH007",
+      "CropName": "송충이풀"
+    },
+    "691": {
+      "CropCode": "FH008",
+      "CropName": "양감초"
+    },
+    "692": {
+      "CropCode": "FH009",
+      "CropName": "만수국"
+    },
+    "693": {
+      "CropCode": "FH048",
+      "CropName": "연교"
+    },
+    "694": {
+      "CropCode": "FH050",
+      "CropName": "수선화-혼합색"
+    },
+    "695": {
+      "CropCode": "FH051",
+      "CropName": "수선화-빨강"
+    },
+    "696": {
+      "CropCode": "FH052",
+      "CropName": "수선화-주황"
+    },
+    "697": {
+      "CropCode": "FH053",
+      "CropName": "수선화-노랑"
+    },
+    "698": {
+      "CropCode": "FH054",
+      "CropName": "수선화-분홍"
+    },
+    "699": {
+      "CropCode": "FH055",
+      "CropName": "수선화-녹"
+    },
+    "700": {
+      "CropCode": "FH056",
+      "CropName": "수선화-흰"
+    },
+    "701": {
+      "CropCode": "FH057",
+      "CropName": "수선화-보라"
+    },
+    "702": {
+      "CropCode": "FH061",
+      "CropName": "수선화-자홍"
+    },
+    "703": {
+      "CropCode": "FH062",
+      "CropName": "수선화-양색"
+    },
+    "704": {
+      "CropCode": "FH063",
+      "CropName": "수선화-흰띠홍"
+    },
+    "705": {
+      "CropCode": "FH071",
+      "CropName": "석산-붉은꽃"
+    },
+    "706": {
+      "CropCode": "FH072",
+      "CropName": "석산-노란꽃"
+    },
+    "707": {
+      "CropCode": "FH073",
+      "CropName": "석산-노란꽃"
+    },
+    "708": {
+      "CropCode": "FH074",
+      "CropName": "석산-분홍꽃"
+    },
+    "709": {
+      "CropCode": "FH080",
+      "CropName": "흰여름꽃"
+    },
+    "710": {
+      "CropCode": "FH090",
+      "CropName": "바늘꽃"
+    },
+    "711": {
+      "CropCode": "FH1",
+      "CropName": "편백-긴형"
+    },
+    "712": {
+      "CropCode": "FH101",
+      "CropName": "천국의새"
+    },
+    "713": {
+      "CropCode": "FH111",
+      "CropName": "작은천국의새-붉은"
+    },
+    "714": {
+      "CropCode": "FH112",
+      "CropName": "작은천국의새-주황띠붉은"
+    },
+    "715": {
+      "CropCode": "FH113",
+      "CropName": "작은천국의새-노란"
+    },
+    "716": {
+      "CropCode": "FH114",
+      "CropName": "작은천국의새-분홍"
+    },
+    "717": {
+      "CropCode": "FH120",
+      "CropName": "깃털꽃"
+    },
+    "718": {
+      "CropCode": "FH121",
+      "CropName": "붉은금새"
+    },
+    "719": {
+      "CropCode": "FH123",
+      "CropName": "황금새"
+    },
+    "720": {
+      "CropCode": "FH124",
+      "CropName": "비취새"
+    },
+    "721": {
+      "CropCode": "FH125",
+      "CropName": "청옥꽃"
+    },
+    "722": {
+      "CropCode": "FH127",
+      "CropName": "학바나나-검은미인"
+    },
+    "723": {
+      "CropCode": "FH128",
+      "CropName": "십일일바나나"
+    },
+    "724": {
+      "CropCode": "FH129",
+      "CropName": "금봉수"
+    },
+    "725": {
+      "CropCode": "FH130",
+      "CropName": "문주란"
+    },
+    "726": {
+      "CropCode": "FH131",
+      "CropName": "학초"
+    },
+    "727": {
+      "CropCode": "FH132",
+      "CropName": "소학蕉"
+    },
+    "728": {
+      "CropCode": "FH133",
+      "CropName": "학蕉홍미인"
+    },
+    "729": {
+      "CropCode": "FH134",
+      "CropName": "홍양수"
+    },
+    "730": {
+      "CropCode": "FH135",
+      "CropName": "수초"
+    },
+    "731": {
+      "CropCode": "FH136",
+      "CropName": "백련蕉"
+    },
+    "732": {
+      "CropCode": "FH137",
+      "CropName": "관음련"
+    },
+    "733": {
+      "CropCode": "FH138",
+      "CropName": "미인蕉"
+    },
+    "734": {
+      "CropCode": "FH139",
+      "CropName": "석장미"
+    },
+    "735": {
+      "CropCode": "FH140",
+      "CropName": "생강꽃"
+    },
+    "736": {
+      "CropCode": "FH145",
+      "CropName": "금잔화"
+    },
+    "737": {
+      "CropCode": "FH152",
+      "CropName": "야생생강꽃-오렌지"
+    },
+    "738": {
+      "CropCode": "FH156",
+      "CropName": "야생생강꽃-흰색"
+    },
+    "739": {
+      "CropCode": "FH158",
+      "CropName": "홍생강꽃"
+    },
+    "740": {
+      "CropCode": "FH159",
+      "CropName": "구형생강꽃"
+    },
+    "741": {
+      "CropCode": "FH164",
+      "CropName": "횃불꽃"
+    },
+    "742": {
+      "CropCode": "FH170",
+      "CropName": "여우꼬리백합"
+    },
+    "743": {
+      "CropCode": "FH180",
+      "CropName": "궁등백합"
+    },
+    "744": {
+      "CropCode": "FH185",
+      "CropName": "가란(화염백합)"
+    },
+    "745": {
+      "CropCode": "FH190",
+      "CropName": "울음백합"
+    },
+    "746": {
+      "CropCode": "FH195",
+      "CropName": "옥란꽃"
+    },
+    "747": {
+      "CropCode": "FH2",
+      "CropName": "편부-원형"
+    },
+    "748": {
+      "CropCode": "FH201",
+      "CropName": "고양이버들-직지"
+    },
+    "749": {
+      "CropCode": "FH202",
+      "CropName": "진주버들-직지"
+    },
+    "750": {
+      "CropCode": "FH203",
+      "CropName": "고양이버들-갈라짐"
+    },
+    "751": {
+      "CropCode": "FH204",
+      "CropName": "진주버들-갈라짐"
+    },
+    "752": {
+      "CropCode": "FH210",
+      "CropName": "저녁안개풀"
+    },
+    "753": {
+      "CropCode": "FH215",
+      "CropName": "단국화"
+    },
+    "754": {
+      "CropCode": "FH220",
+      "CropName": "깃털콩"
+    },
+    "755": {
+      "CropCode": "FH225",
+      "CropName": "제왕화"
+    },
+    "756": {
+      "CropCode": "FH230",
+      "CropName": "밤향기"
+    },
+    "757": {
+      "CropCode": "FH231",
+      "CropName": "밤향기-단瓣"
+    },
+    "758": {
+      "CropCode": "FH232",
+      "CropName": "밤향기-중瓣"
+    },
+    "759": {
+      "CropCode": "FH240",
+      "CropName": "맥관국화"
+    },
+    "760": {
+      "CropCode": "FH245",
+      "CropName": "첫눈풀"
+    },
+    "761": {
+      "CropCode": "FH251",
+      "CropName": "수선"
+    },
+    "762": {
+      "CropCode": "FH256",
+      "CropName": "백수선"
+    },
+    "763": {
+      "CropCode": "FH260",
+      "CropName": "단정(파상화)"
+    },
+    "764": {
+      "CropCode": "FH270",
+      "CropName": "천일홍"
+    },
+    "765": {
+      "CropCode": "FH280",
+      "CropName": "고대희"
+    },
+    "766": {
+      "CropCode": "FH293",
+      "CropName": "해바라기-단瓣"
+    },
+    "767": {
+      "CropCode": "FH294",
+      "CropName": "해바라기-중瓣"
+    },
+    "768": {
+      "CropCode": "FH295",
+      "CropName": "해바라기-금빛태양"
+    },
+    "769": {
+      "CropCode": "FH296",
+      "CropName": "해바라기-금보"
+    },
+    "770": {
+      "CropCode": "FH297",
+      "CropName": "해바라기-다관칠호"
+    },
+    "771": {
+      "CropCode": "FH298",
+      "CropName": "해바라기-태양신"
+    },
+    "772": {
+      "CropCode": "FH3",
+      "CropName": "편부-꽃부"
+    },
+    "773": {
+      "CropCode": "FH301",
+      "CropName": "페르시아국화"
+    },
+    "774": {
+      "CropCode": "FH302",
+      "CropName": "제비꽃"
+    },
+    "775": {
+      "CropCode": "FH303",
+      "CropName": "유리국화"
+    },
+    "776": {
+      "CropCode": "FH304",
+      "CropName": "비늘꽃"
+    },
+    "777": {
+      "CropCode": "FH305",
+      "CropName": "백우선"
+    },
+    "778": {
+      "CropCode": "FH306",
+      "CropName": "백일초"
+    },
+    "779": {
+      "CropCode": "FH307",
+      "CropName": "오이꽃"
+    },
+    "780": {
+      "CropCode": "FH308",
+      "CropName": "백란국화"
+    },
+    "781": {
+      "CropCode": "FH309",
+      "CropName": "모란꽃"
+    },
+    "782": {
+      "CropCode": "FH310",
+      "CropName": "대리화-혼합색"
+    },
+    "783": {
+      "CropCode": "FH311",
+      "CropName": "대리화-빨간색"
+    },
+    "784": {
+      "CropCode": "FH312",
+      "CropName": "대리화-주황색"
+    },
+    "785": {
+      "CropCode": "FH313",
+      "CropName": "대리화-노란색"
+    },
+    "786": {
+      "CropCode": "FH314",
+      "CropName": "대리화-분홍색"
+    },
+    "787": {
+      "CropCode": "FH316",
+      "CropName": "대리화-흰색"
+    },
+    "788": {
+      "CropCode": "FH317",
+      "CropName": "대리화-보라색"
+    },
+    "789": {
+      "CropCode": "FH318",
+      "CropName": "대리화-양색"
+    },
+    "790": {
+      "CropCode": "FH320",
+      "CropName": "엉겅퀴(붉은꽃)"
+    },
+    "791": {
+      "CropCode": "FH330",
+      "CropName": "수탉꽃"
+    },
+    "792": {
+      "CropCode": "FH331",
+      "CropName": "수탉꽃-연한 빨강"
+    },
+    "793": {
+      "CropCode": "FH332",
+      "CropName": "수탉꽃-어두운 빨강"
+    },
+    "794": {
+      "CropCode": "FH333",
+      "CropName": "수탉꽃-노랑"
+    },
+    "795": {
+      "CropCode": "FH334",
+      "CropName": "수탉꽃-초록"
+    },
+    "796": {
+      "CropCode": "FH335",
+      "CropName": "총형 수탉꽃"
+    },
+    "797": {
+      "CropCode": "FH336",
+      "CropName": "내리 수탉꽃"
+    },
+    "798": {
+      "CropCode": "FH337",
+      "CropName": "수탉꽃-자주"
+    },
+    "799": {
+      "CropCode": "FH338",
+      "CropName": "닭의장풀-황록"
+    },
+    "800": {
+      "CropCode": "FH339",
+      "CropName": "닭의장풀-분홍"
+    },
+    "801": {
+      "CropCode": "FH340",
+      "CropName": "불꽃닭의장풀"
+    },
+    "802": {
+      "CropCode": "FH341",
+      "CropName": "불꽃닭의장풀-빨강"
+    },
+    "803": {
+      "CropCode": "FH342",
+      "CropName": "불꽃닭의장풀-주황"
+    },
+    "804": {
+      "CropCode": "FH343",
+      "CropName": "불꽃닭의장풀-노랑"
+    },
+    "805": {
+      "CropCode": "FH344",
+      "CropName": "불꽃닭의장풀-분홍"
+    },
+    "806": {
+      "CropCode": "FH350",
+      "CropName": "꿈의풀"
+    },
+    "807": {
+      "CropCode": "FH355",
+      "CropName": "파인애플꽃"
+    },
+    "808": {
+      "CropCode": "FH356",
+      "CropName": "관과파인애플꽃"
+    },
+    "809": {
+      "CropCode": "FH357",
+      "CropName": "관화파인애플꽃"
+    },
+    "810": {
+      "CropCode": "FH358",
+      "CropName": "산호파인애플"
+    },
+    "811": {
+      "CropCode": "FH360",
+      "CropName": "금어초-혼합색"
+    },
+    "812": {
+      "CropCode": "FH361",
+      "CropName": "금어초-빨간색"
+    },
+    "813": {
+      "CropCode": "FH363",
+      "CropName": "금어초-노란색"
+    },
+    "814": {
+      "CropCode": "FH364",
+      "CropName": "금어초-분홍색"
+    },
+    "815": {
+      "CropCode": "FH366",
+      "CropName": "금어초-흰색"
+    },
+    "816": {
+      "CropCode": "FH368",
+      "CropName": "금어초-두 가지 색"
+    },
+    "817": {
+      "CropCode": "FH370",
+      "CropName": "천조초"
+    },
+    "818": {
+      "CropCode": "FH375",
+      "CropName": "대비얀초"
+    },
+    "819": {
+      "CropCode": "FH376",
+      "CropName": "소비얀초"
+    },
+    "820": {
+      "CropCode": "FH380",
+      "CropName": "봉우리풀"
+    },
+    "821": {
+      "CropCode": "FH381",
+      "CropName": "기린풀"
+    },
+    "822": {
+      "CropCode": "FH390",
+      "CropName": "포모리풀"
+    },
+    "823": {
+      "CropCode": "FH395",
+      "CropName": "호미꽃"
+    },
+    "824": {
+      "CropCode": "FH4",
+      "CropName": "비단풀-배풀"
+    },
+    "825": {
+      "CropCode": "FH410",
+      "CropName": "앨리스-혼합색"
+    },
+    "826": {
+      "CropCode": "FH413",
+      "CropName": "앨리스-노란색"
+    },
+    "827": {
+      "CropCode": "FH416",
+      "CropName": "앨리스-흰색"
+    },
+    "828": {
+      "CropCode": "FH417",
+      "CropName": "앨리스-연한 파란색"
+    },
+    "829": {
+      "CropCode": "FH418",
+      "CropName": "앨리스-짙은 파란색"
+    },
+    "830": {
+      "CropCode": "FH420",
+      "CropName": "고독한 꽃"
+    },
+    "831": {
+      "CropCode": "FH421",
+      "CropName": "달리아 고독한 꽃"
+    },
+    "832": {
+      "CropCode": "FH434",
+      "CropName": "울금-분홍"
+    },
+    "833": {
+      "CropCode": "FH440",
+      "CropName": "작은 청란-혼합색"
+    },
+    "834": {
+      "CropCode": "FH441",
+      "CropName": "작은 청란-빨간색"
+    },
+    "835": {
+      "CropCode": "FH442",
+      "CropName": "작은 청란-주황색"
+    },
+    "836": {
+      "CropCode": "FH443",
+      "CropName": "작은 청란-노란색"
+    },
+    "837": {
+      "CropCode": "FH444",
+      "CropName": "작은 청란-분홍색"
+    },
+    "838": {
+      "CropCode": "FH446",
+      "CropName": "작은 청란-흰색"
+    },
+    "839": {
+      "CropCode": "FH447",
+      "CropName": "작은 청란-보라색"
+    },
+    "840": {
+      "CropCode": "FH450",
+      "CropName": "제비꽃-단일 꽃잎"
+    },
+    "841": {
+      "CropCode": "FH451",
+      "CropName": "제비꽃-중복 꽃잎"
+    },
+    "842": {
+      "CropCode": "FH452",
+      "CropName": "제비꽃-중복 꽃잎 복숭아색"
+    },
+    "843": {
+      "CropCode": "FH454",
+      "CropName": "제비꽃-중복 꽃잎 분홍"
+    },
+    "844": {
+      "CropCode": "FH456",
+      "CropName": "제비꽃-중복 꽃잎 흰색"
+    },
+    "845": {
+      "CropCode": "FH457",
+      "CropName": "제비꽃-중복 꽃잎 연보라"
+    },
+    "846": {
+      "CropCode": "FH458",
+      "CropName": "제비꽃-중복 꽃잎 짙은 보라"
+    },
+    "847": {
+      "CropCode": "FH460",
+      "CropName": "수국"
+    },
+    "848": {
+      "CropCode": "FH461",
+      "CropName": "수국-빨강"
+    },
+    "849": {
+      "CropCode": "FH464",
+      "CropName": "수국-핑크"
+    },
+    "850": {
+      "CropCode": "FH465",
+      "CropName": "수국-녹색"
+    },
+    "851": {
+      "CropCode": "FH466",
+      "CropName": "수국-흰색"
+    },
+    "852": {
+      "CropCode": "FH467",
+      "CropName": "수국-파란색"
+    },
+    "853": {
+      "CropCode": "FH468",
+      "CropName": "수국-물빛"
+    },
+    "854": {
+      "CropCode": "FH470",
+      "CropName": "선단화"
+    },
+    "855": {
+      "CropCode": "FH480",
+      "CropName": "용담"
+    },
+    "856": {
+      "CropCode": "FH485",
+      "CropName": "풍령화"
+    },
+    "857": {
+      "CropCode": "FH490",
+      "CropName": "백두옹"
+    },
+    "858": {
+      "CropCode": "FH495",
+      "CropName": "육련화"
+    },
+    "859": {
+      "CropCode": "FH496",
+      "CropName": "육련화-흰색"
+    },
+    "860": {
+      "CropCode": "FH497",
+      "CropName": "육련화-빨간색"
+    },
+    "861": {
+      "CropCode": "FH498",
+      "CropName": "육련화-노란색"
+    },
+    "862": {
+      "CropCode": "FH499",
+      "CropName": "육련화-핑크"
+    },
+    "863": {
+      "CropCode": "FH500",
+      "CropName": "풍신자"
+    },
+    "864": {
+      "CropCode": "FH510",
+      "CropName": "나비육련-혼합색"
+    },
+    "865": {
+      "CropCode": "FH511",
+      "CropName": "나비육련-빨간색"
+    },
+    "866": {
+      "CropCode": "FH512",
+      "CropName": "나비육련-주황색"
+    },
+    "867": {
+      "CropCode": "FH513",
+      "CropName": "나비육련-노란색"
+    },
+    "868": {
+      "CropCode": "FH514",
+      "CropName": "나비육련-핑크"
+    },
+    "869": {
+      "CropCode": "FH516",
+      "CropName": "나비육련-흰색"
+    },
+    "870": {
+      "CropCode": "FH521",
+      "CropName": "향기-노란색"
+    },
+    "871": {
+      "CropCode": "FH522",
+      "CropName": "향기-흰색"
+    },
+    "872": {
+      "CropCode": "FH580",
+      "CropName": "꽃창포"
+    },
+    "873": {
+      "CropCode": "FH600",
+      "CropName": "납매"
+    },
+    "874": {
+      "CropCode": "FH610"
+    },
+    "899": {
+      "CropName": "금자란"
+    },
+    "900": {
+      "CropCode": "FH690",
+      "CropName": "화구화"
+    },
+    "901": {
+      "CropCode": "FH700",
+      "CropName": "한딩자(왕관)"
+    },
+    "902": {
+      "CropCode": "FH710",
+      "CropName": "심산벚꽃"
+    },
+    "903": {
+      "CropCode": "FH717",
+      "CropName": "심산벚꽃-자주안개"
+    },
+    "904": {
+      "CropCode": "FH720",
+      "CropName": "조개꽃"
+    },
+    "905": {
+      "CropCode": "FH730",
+      "CropName": "흑종초"
+    },
+    "906": {
+      "CropCode": "FH740",
+      "CropName": "금취화"
+    },
+    "907": {
+      "CropCode": "FH750",
+      "CropName": "백자련(사랑꽃)"
+    },
+    "908": {
+      "CropCode": "FH756",
+      "CropName": "백자련대백"
+    },
+    "909": {
+      "CropCode": "FH757",
+      "CropName": "백자련대자"
+    },
+    "910": {
+      "CropCode": "FH760",
+      "CropName": "화촉백합"
+    },
+    "911": {
+      "CropCode": "FH770",
+      "CropName": "아프리카튤립"
+    },
+    "912": {
+      "CropCode": "FH780",
+      "CropName": "옥수수백합"
+    },
+    "913": {
+      "CropCode": "FH790",
+      "CropName": "블루스타꽃"
+    },
+    "914": {
+      "CropCode": "FH794",
+      "CropName": "블루스타꽃-분홍"
+    },
+    "915": {
+      "CropCode": "FH795",
+      "CropName": "블루스타꽃-파랑"
+    },
+    "916": {
+      "CropCode": "FH796",
+      "CropName": "블루스타꽃-흰색"
+    },
+    "917": {
+      "CropCode": "FH800",
+      "CropName": "장미-크리스마스"
+    },
+    "918": {
+      "CropCode": "FH890",
+      "CropName": "캥거루꽃"
+    },
+    "919": {
+      "CropCode": "FH900",
+      "CropName": "자주교花"
+    },
+    "920": {
+      "CropCode": "FI0",
+      "CropName": "가지-기타"
+    },
+    "921": {
+      "CropCode": "FI1",
+      "CropName": "가지-연지가지"
+    },
+    "922": {
+      "CropCode": "FI2",
+      "CropName": "가지-마비가지"
+    },
+    "923": {
+      "CropCode": "FI3",
+      "CropName": "가지-일본종"
+    },
+    "924": {
+      "CropCode": "FJ0",
+      "CropName": "토마토-기타"
+    },
+    "925": {
+      "CropCode": "FJ1",
+      "CropName": "토마토-검은 감"
+    },
+    "926": {
+      "CropCode": "FJ2",
+      "CropName": "토마토-분홍 감"
+    },
+    "927": {
+      "CropCode": "FJ3",
+      "CropName": "토마토-소 토마토"
+    },
+    "928": {
+      "CropCode": "FK0",
+      "CropName": "피망-기타"
+    },
+    "929": {
+      "CropCode": "FK000",
+      "CropName": "해바라기"
+    },
+    "930": {
+      "CropCode": "FK001",
+      "CropName": "해바라기-단일"
+    },
+    "931": {
+      "CropCode": "FK002",
+      "CropName": "해바라기-쌍"
+    },
+    "932": {
+      "CropCode": "FK003",
+      "CropName": "해바라기-셋"
+    },
+    "933": {
+      "CropCode": "FK004",
+      "CropName": "해바라기-넷"
+    },
+    "934": {
+      "CropCode": "FK005",
+      "CropName": "해바라기-다섯"
+    },
+    "935": {
+      "CropCode": "FK009",
+      "CropName": "해바라기-여러"
+    },
+    "936": {
+      "CropCode": "FK040",
+      "CropName": "해바라기-분홍"
+    },
+    "937": {
+      "CropCode": "FK041",
+      "CropName": "해바라기-분홍 단일"
+    },
+    "938": {
+      "CropCode": "FK042",
+      "CropName": "해바라기-분홍 쌍"
+    },
+    "939": {
+      "CropCode": "FK043",
+      "CropName": "해바라기-분홍 셋"
+    },
+    "940": {
+      "CropCode": "FK044",
+      "CropName": "해바라기-분홍 넷"
+    },
+    "941": {
+      "CropCode": "FK045",
+      "CropName": "해바라기-분홍 다섯"
+    },
+    "942": {
+      "CropCode": "FK049",
+      "CropName": "해바라기-분홍 여러"
+    },
+    "943": {
+      "CropCode": "FK110",
+      "CropName": "해바라기-로라 빨강"
+    },
+    "944": {
+      "CropCode": "FK111",
+      "CropName": "해바라기-로라 빨강 단일"
+    },
+    "945": {
+      "CropCode": "FK112",
+      "CropName": "해바라기-로라 빨강 쌍"
+    },
+    "946": {
+      "CropCode": "FK113",
+      "CropName": "해바라기-로라 빨강 셋"
+    },
+    "947": {
+      "CropCode": "FK114",
+      "CropName": "해바라기-로라 빨강 넷"
+    },
+    "948": {
+      "CropCode": "FK115",
+      "CropName": "해바라기-로라 빨강 다섯"
+    },
+    "949": {
+      "CropCode": "FK119",
+      "CropName": "해바라기-로라홍다발"
+    },
+    "950": {
+      "CropCode": "FK210",
+      "CropName": "해바라기-올림픽홍"
+    },
+    "951": {
+      "CropCode": "FK211",
+      "CropName": "해바라기-올림픽홍단다발"
+    },
+    "952": {
+      "CropCode": "FK212",
+      "CropName": "해바라기-올림픽홍쌍다발"
+    },
+    "953": {
+      "CropCode": "FK213",
+      "CropName": "해바라기-올림픽홍세다발"
+    },
+    "954": {
+      "CropCode": "FK214",
+      "CropName": "해바라기-올림픽홍사다발"
+    },
+    "955": {
+      "CropCode": "FK215",
+      "CropName": "해바라기-올림픽홍오다발"
+    },
+    "956": {
+      "CropCode": "FK219",
+      "CropName": "해바라기-올림픽홍다발"
+    },
+    "957": {
+      "CropCode": "FK3",
+      "CropName": "단고추-신향"
+    },
+    "958": {
+      "CropCode": "FK310",
+      "CropName": "해바라기-홍"
+    },
+    "959": {
+      "CropCode": "FK311",
+      "CropName": "해바라기-홍단다발"
+    },
+    "960": {
+      "CropCode": "FK312",
+      "CropName": "해바라기-홍쌍다발"
+    },
+    "961": {
+      "CropCode": "FK313",
+      "CropName": "해바라기-홍세다발"
+    },
+    "962": {
+      "CropCode": "FK314",
+      "CropName": "해바라기-홍사다발"
+    },
+    "963": {
+      "CropCode": "FK315",
+      "CropName": "해바라기-홍오다발"
+    },
+    "964": {
+      "CropCode": "FK319",
+      "CropName": "해바라기-홍다발"
+    },
+    "965": {
+      "CropCode": "FK340",
+      "CropName": "해바라기-마리핑크"
+    },
+    "966": {
+      "CropCode": "FK341",
+      "CropName": "해바라기-마리핑크단다발"
+    },
+    "967": {
+      "CropCode": "FK342",
+      "CropName": "해바라기-마리핑크쌍다발"
+    },
+    "968": {
+      "CropCode": "FK343",
+      "CropName": "해바라기-마리핑크세다발"
+    },
+    "969": {
+      "CropCode": "FK344",
+      "CropName": "해바라기-마리핑크사다발"
+    },
+    "970": {
+      "CropCode": "FK345",
+      "CropName": "해바라기-마리핑크오다발"
+    },
+    "971": {
+      "CropCode": "FK349",
+      "CropName": "해바라기-마리핑크다발"
+    },
+    "972": {
+      "CropCode": "FK4",
+      "CropName": "단고추-다채로운종"
+    },
+    "973": {
+      "CropCode": "FK410",
+      "CropName": "해바라기-아카포크홍"
+    },
+    "974": {
+      "CropCode": "FK411",
+      "CropName": "해바라기-아카포크레드단꽃"
+    },
+    "975": {
+      "CropCode": "FK412",
+      "CropName": "해바라기-아카포크레드쌍꽃"
+    },
+    "976": {
+      "CropCode": "FK413",
+      "CropName": "해바라기-아카포크레드세꽃"
+    },
+    "977": {
+      "CropCode": "FK414",
+      "CropName": "해바라기-아카포크레드네꽃"
+    },
+    "978": {
+      "CropCode": "FK415",
+      "CropName": "해바라기-아카포크레드다섯꽃"
+    },
+    "979": {
+      "CropCode": "FK419",
+      "CropName": "해바라기-아카포크레드여러꽃"
+    },
+    "980": {
+      "CropCode": "FK420",
+      "CropName": "해바라기-아티아"
+    },
+    "981": {
+      "CropCode": "FK421",
+      "CropName": "해바라기-아티아단꽃"
+    },
+    "982": {
+      "CropCode": "FK422",
+      "CropName": "해바라기-아티아쌍꽃"
+    },
+    "983": {
+      "CropCode": "FK423",
+      "CropName": "해바라기-아티아세꽃"
+    },
+    "984": {
+      "CropCode": "FK429",
+      "CropName": "해바라기-아티아여러꽃"
+    },
+    "985": {
+      "CropCode": "FK430",
+      "CropName": "해바라기-마리의별"
+    },
+    "986": {
+      "CropCode": "FK431",
+      "CropName": "해바라기-마리의별단꽃"
+    },
+    "987": {
+      "CropCode": "FK432",
+      "CropName": "해바라기-마리의별쌍꽃"
+    },
+    "988": {
+      "CropCode": "FK433",
+      "CropName": "해바라기-마리의별세꽃"
+    },
+    "989": {
+      "CropCode": "FK439",
+      "CropName": "해바라기-마리의별여러꽃"
+    },
+    "990": {
+      "CropCode": "FK440",
+      "CropName": "로디나"
+    },
+    "991": {
+      "CropCode": "FK441",
+      "CropName": "로디나-단꽃"
+    },
+    "992": {
+      "CropCode": "FK442",
+      "CropName": "로디나-쌍꽃"
+    },
+    "993": {
+      "CropCode": "FK443",
+      "CropName": "로디나-세꽃"
+    },
+    "994": {
+      "CropCode": "FK449",
+      "CropName": "로디나-여러꽃"
+    },
+    "995": {
+      "CropCode": "FK450",
+      "CropName": "코팔라"
+    },
+    "996": {
+      "CropCode": "FK451",
+      "CropName": "코팔라-단꽃"
+    },
+    "997": {
+      "CropCode": "FK452",
+      "CropName": "코팔라-쌍꽃"
+    },
+    "998": {
+      "CropCode": "FK453",
+      "CropName": "코팔라-세꽃"
+    },
+    "999": {
+      "CropCode": "FK459",
+      "CropName": "코발라-다도"
+    }
+  },
+  "Next": true
+}

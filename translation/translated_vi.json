@@ -1,0 +1,3908 @@
+{
+  "RS": "OK",
+  "Data": {
+    "0": {
+      "CropCode": "11",
+      "CropName": "Dừa"
+    },
+    "1": {
+      "CropCode": "119",
+      "CropName": "Dừa - Nhập khẩu"
+    },
+    "2": {
+      "CropCode": "12",
+      "CropName": "Dừa - Bóc vỏ"
+    },
+    "3": {
+      "CropCode": "129",
+      "CropName": "Dừa - Bóc vỏ nhập khẩu"
+    },
+    "4": {
+      "CropCode": "22",
+      "CropName": "Táo"
+    },
+    "5": {
+      "CropCode": "229",
+      "CropName": "Táo - Nhập khẩu"
+    },
+    "6": {
+      "CropCode": "30",
+      "CropName": "Na - Khác"
+    },
+    "7": {
+      "CropCode": "31",
+      "CropName": "Na"
+    },
+    "8": {
+      "CropCode": "32",
+      "CropName": "Na - Na thơm"
+    },
+    "9": {
+      "CropCode": "41",
+      "CropName": "Mơ"
+    },
+    "10": {
+      "CropCode": "42",
+      "CropName": "Quả nhãn"
+    },
+    "11": {
+      "CropCode": "43",
+      "CropName": "Dâu tằm"
+    },
+    "12": {
+      "CropCode": "45",
+      "CropName": "Dâu"
+    },
+    "13": {
+      "CropCode": "459",
+      "CropName": "Dâu - Nhập khẩu"
+    },
+    "14": {
+      "CropCode": "46",
+      "CropName": "Việt quất"
+    },
+    "15": {
+      "CropCode": "469",
+      "CropName": "Việt quất - Nhập khẩu"
+    },
+    "16": {
+      "CropCode": "50",
+      "CropName": "Chanh dây - Khác"
+    },
+    "17": {
+      "CropCode": "51",
+      "CropName": "Chanh dây - Giống cải tiến"
+    },
+    "18": {
+      "CropCode": "61",
+      "CropName": "Mía - Còn vỏ"
+    },
+    "19": {
+      "CropCode": "62",
+      "CropName": "Mía - Bóc vỏ"
+    },
+    "20": {
+      "CropCode": "70",
+      "CropName": "Cà chua bi - Khác"
+    },
+    "21": {
+      "CropCode": "71",
+      "CropName": "Cà chua bi - Thông thường"
+    },
+    "22": {
+      "CropCode": "72",
+      "CropName": "Cà chua bi - Cà chua nữ"
+    },
+    "23": {
+      "CropCode": "73",
+      "CropName": "Cà chua bi - Cà chua xinh"
+    },
+    "24": {
+      "CropCode": "74",
+      "CropName": "Cà chua bi - Ngọc nữ"
+    },
+    "25": {
+      "CropCode": "811",
+      "CropName": "Thanh long - Thịt trắng"
+    },
+    "26": {
+      "CropCode": "812",
+      "CropName": "Thanh long - Thịt đỏ"
+    },
+    "27": {
+      "CropCode": "813",
+      "CropName": "Thanh long - Thanh long hai màu"
+    },
+    "28": {
+      "CropCode": "819",
+      "CropName": "Thanh long - Nhập khẩu"
+    },
+    "29": {
+      "CropCode": "82",
+      "CropName": "Thanh long - Thịt đỏ"
+    },
+    "30": {
+      "CropCode": "829",
+      "CropName": "Hồng táo - Nhập khẩu"
+    },
+    "31": {
+      "CropCode": "83",
+      "CropName": "Củ sắn - Khoai tuyết"
+    },
+    "32": {
+      "CropCode": "839",
+      "CropName": "Anh đào - Nhập khẩu"
+    },
+    "33": {
+      "CropCode": "84",
+      "CropName": "Lựu"
+    },
+    "34": {
+      "CropCode": "849",
+      "CropName": "Lựu - Nhập khẩu"
+    },
+    "35": {
+      "CropCode": "85",
+      "CropName": "Sầu riêng"
+    },
+    "36": {
+      "CropCode": "859",
+      "CropName": "Sầu riêng - Nhập khẩu"
+    },
+    "37": {
+      "CropCode": "86",
+      "CropName": "Măng cụt"
+    },
+    "38": {
+      "CropCode": "869",
+      "CropName": "Măng cụt - Nhập khẩu"
+    },
+    "39": {
+      "CropCode": "87",
+      "CropName": "Chôm chôm"
+    },
+    "40": {
+      "CropCode": "879",
+      "CropName": "Chôm chôm - Nhập khẩu"
+    },
+    "41": {
+      "CropCode": "88",
+      "CropName": "Nho"
+    },
+    "42": {
+      "CropCode": "91",
+      "CropName": "Khác"
+    },
+    "43": {
+      "CropCode": "919",
+      "CropName": "Khác - Nhập khẩu"
+    },
+    "44": {
+      "CropCode": "A0",
+      "CropName": "Chuối - Khác"
+    },
+    "45": {
+      "CropCode": "A1",
+      "CropName": "Chuối"
+    },
+    "46": {
+      "CropCode": "A2",
+      "CropName": "Chuối - Chuối đỏ"
+    },
+    "47": {
+      "CropCode": "A3",
+      "CropName": "Chuối - Chuối dăm"
+    },
+    "48": {
+      "CropCode": "A4",
+      "CropName": "Chuối - Chuối Việt"
+    },
+    "49": {
+      "CropCode": "B0",
+      "CropName": "Dứa - Khác"
+    },
+    "50": {
+      "CropCode": "B1",
+      "CropName": "Dứa - Khai Anh"
+    },
+    "51": {
+      "CropCode": "B2",
+      "CropName": "Dứa - Kim Tỏa Dứa"
+    },
+    "52": {
+      "CropCode": "B3",
+      "CropName": "Dứa - Dứa Nước"
+    },
+    "53": {
+      "CropCode": "B4",
+      "CropName": "Dứa - Hoa Dứa"
+    },
+    "54": {
+      "CropCode": "B5",
+      "CropName": "Dứa - Dứa Táo"
+    },
+    "55": {
+      "CropCode": "B6",
+      "CropName": "Dứa - Ngọt Ngào"
+    },
+    "56": {
+      "CropCode": "B7",
+      "CropName": "Dứa - Dứa Sữa"
+    },
+    "57": {
+      "CropCode": "B8",
+      "CropName": "Dứa - Dứa Dưa Hấu"
+    },
+    "58": {
+      "CropCode": "B9",
+      "CropName": "Dứa - Nhập Khẩu"
+    },
+    "59": {
+      "CropCode": "C0",
+      "CropName": "Cam - Khác"
+    },
+    "60": {
+      "CropCode": "C1",
+      "CropName": "Cam Bưởi"
+    },
+    "61": {
+      "CropCode": "C2",
+      "CropName": "Cam Mão"
+    },
+    "62": {
+      "CropCode": "C3",
+      "CropName": "Cam Hổ Đầu"
+    },
+    "63": {
+      "CropCode": "C4",
+      "CropName": "Cam Đỏ - Cam Mỹ Nữ"
+    },
+    "64": {
+      "CropCode": "C5",
+      "CropName": "Cam Ôn Châu"
+    },
+    "65": {
+      "CropCode": "C6",
+      "CropName": "Cam Phật Lý Môn"
+    },
+    "66": {
+      "CropCode": "C7",
+      "CropName": "Cam Nắng"
+    },
+    "67": {
+      "CropCode": "C8",
+      "CropName": "Cam Ngọc Trai"
+    },
+    "68": {
+      "CropCode": "C9",
+      "CropName": "Cam - Nhập Khẩu"
+    },
+    "69": {
+      "CropCode": "D1",
+      "CropName": "Cam Thùng"
+    },
+    "70": {
+      "CropCode": "D2",
+      "CropName": "Cam Hải Lê"
+    },
+    "71": {
+      "CropCode": "E0",
+      "CropName": "Cam Ngọt - Khác"
+    },
+    "72": {
+      "CropCode": "E1",
+      "CropName": "Cam Ngọt - Cam Vàng"
+    },
+    "73": {
+      "CropCode": "E2",
+      "CropName": "Cam Ngọt - Cam Tây Ban Nha"
+    },
+    "74": {
+      "CropCode": "E3",
+      "CropName": "Cam quýt - Cam thịt đỏ"
+    },
+    "75": {
+      "CropCode": "E9",
+      "CropName": "Cam quýt - Nhập khẩu"
+    },
+    "76": {
+      "CropCode": "F0",
+      "CropName": "Quýt - Khác"
+    },
+    "77": {
+      "CropCode": "F1",
+      "CropName": "Quýt - Chanh"
+    },
+    "78": {
+      "CropCode": "F2",
+      "CropName": "Quýt - Quả táo vàng"
+    },
+    "79": {
+      "CropCode": "F4",
+      "CropName": "Quýt - Cam"
+    },
+    "80": {
+      "CropCode": "F5",
+      "CropName": "Quýt - Chanh không hạt"
+    },
+    "81": {
+      "CropCode": "F6",
+      "CropName": "Quýt - Chanh vàng"
+    },
+    "82": {
+      "CropCode": "F9",
+      "CropName": "Quýt - Nhập khẩu"
+    },
+    "83": {
+      "CropCode": "FA0",
+      "CropName": "Hoa khác"
+    },
+    "84": {
+      "CropCode": "FA000",
+      "CropName": "Cẩm chướng - Hoa lớn trung bình"
+    },
+    "85": {
+      "CropCode": "FA001",
+      "CropName": "Cẩm chướng - Màu hỗn hợp"
+    },
+    "86": {
+      "CropCode": "FA1",
+      "CropName": "Bông cải vàng"
+    },
+    "87": {
+      "CropCode": "FA100",
+      "CropName": "Cẩm chướng - Đỏ"
+    },
+    "88": {
+      "CropCode": "FA101",
+      "CropName": "Cẩm chướng - Đỏ nhạt"
+    },
+    "89": {
+      "CropCode": "FA102",
+      "CropName": "Cẩm chướng - Đỏ đậm"
+    },
+    "90": {
+      "CropCode": "FA103",
+      "CropName": "Cẩm chướng - Đỏ cam"
+    },
+    "91": {
+      "CropCode": "FA104",
+      "CropName": "Cẩm chướng - Hồng anh đào"
+    },
+    "92": {
+      "CropCode": "FA120",
+      "CropName": "Cẩm chướng - Lông đỏ"
+    },
+    "93": {
+      "CropCode": "FA2",
+      "CropName": "Hoa phấn"
+    },
+    "94": {
+      "CropCode": "FA200",
+      "CropName": "Cẩm chướng - Cam"
+    },
+    "95": {
+      "CropCode": "FA220",
+      "CropName": "Cẩm chướng - Lông cam"
+    },
+    "96": {
+      "CropCode": "FA300",
+      "CropName": "Cẩm chướng - Vàng"
+    },
+    "97": {
+      "CropCode": "FA301",
+      "CropName": "Cẩm chướng - Vàng đậm"
+    },
+    "98": {
+      "CropCode": "FA302",
+      "CropName": "Cẩm chướng - Vàng nhạt"
+    },
+    "99": {
+      "CropCode": "FA303",
+      "CropName": "Cẩm chướng - Cam vàng"
+    },
+    "100": {
+      "CropCode": "FA304",
+      "CropName": "Cẩm chướng - Đôi màu vàng đỏ"
+    },
+    "101": {
+      "CropCode": "FA320",
+      "CropName": "Cẩm chướng - Vàng lông"
+    },
+    "102": {
+      "CropCode": "FA4",
+      "CropName": "Hoa nhài"
+    },
+    "103": {
+      "CropCode": "FA400",
+      "CropName": "Cẩm chướng - Hồng"
+    },
+    "104": {
+      "CropCode": "FA401",
+      "CropName": "Cẩm chướng - Hồng đậm"
+    },
+    "105": {
+      "CropCode": "FA402",
+      "CropName": "Cẩm chướng - Hồng nhạt"
+    },
+    "106": {
+      "CropCode": "FA403",
+      "CropName": "Cẩm chướng - Hồng mỏng"
+    },
+    "107": {
+      "CropCode": "FA420",
+      "CropName": "Cẩm chướng - Lông hồng"
+    },
+    "108": {
+      "CropCode": "FA500",
+      "CropName": "Cẩm chướng - Xanh"
+    },
+    "109": {
+      "CropCode": "FA501",
+      "CropName": "Cẩm chướng - Xanh táo"
+    },
+    "110": {
+      "CropCode": "FA600",
+      "CropName": "Cẩm chướng - Trắng"
+    },
+    "111": {
+      "CropCode": "FA601",
+      "CropName": "Cẩm chướng - Trắng tinh"
+    },
+    "112": {
+      "CropCode": "FA602",
+      "CropName": "Cẩm chướng - Trắng sữa"
+    },
+    "113": {
+      "CropCode": "FA603",
+      "CropName": "Cẩm chướng - Trắng viền đỏ"
+    },
+    "114": {
+      "CropCode": "FA604",
+      "CropName": "Cẩm chướng - Vàng viền tím"
+    },
+    "115": {
+      "CropCode": "FA605",
+      "CropName": "Cẩm chướng - Trắng viền tím"
+    },
+    "116": {
+      "CropCode": "FA606",
+      "CropName": "Cẩm chướng - Vàng viền đỏ"
+    },
+    "117": {
+      "CropCode": "FA607",
+      "CropName": "Cẩm chướng - Hồng viền đỏ"
+    },
+    "118": {
+      "CropCode": "FA608",
+      "CropName": "Cẩm chướng - Hồng viền trắng"
+    },
+    "119": {
+      "CropCode": "FA609",
+      "CropName": "Cẩm chướng - Hồng viền tím"
+    },
+    "120": {
+      "CropCode": "FA700",
+      "CropName": "Cẩm chướng - Tím"
+    },
+    "121": {
+      "CropCode": "FA701",
+      "CropName": "Cẩm chướng - Tím viền trắng"
+    },
+    "122": {
+      "CropCode": "FA800",
+      "CropName": "Cẩm chướng - Nhiều bông (Hỗn hợp màu)"
+    },
+    "123": {
+      "CropCode": "FA810",
+      "CropName": "Cẩm chướng - Nhiều bông đỏ"
+    },
+    "124": {
+      "CropCode": "FA811",
+      "CropName": "Cẩm chướng - Đỏ anh đào nhiều hoa"
+    },
+    "125": {
+      "CropCode": "FA812",
+      "CropName": "Cẩm chướng - Đỏ đào Ba Tư"
+    },
+    "126": {
+      "CropCode": "FA813",
+      "CropName": "Cẩm chướng - Bolelo"
+    },
+    "127": {
+      "CropCode": "FA814",
+      "CropName": "Cẩm chướng - Hài lòng"
+    },
+    "128": {
+      "CropCode": "FA815",
+      "CropName": "Cẩm chướng - Nụ hôn nhẹ"
+    },
+    "129": {
+      "CropCode": "FA820",
+      "CropName": "Cẩm chướng - Cam nhiều hoa"
+    },
+    "130": {
+      "CropCode": "FA830",
+      "CropName": "Cẩm chướng - Vàng nhiều hoa"
+    },
+    "131": {
+      "CropCode": "FA840",
+      "CropName": "Cẩm chướng - Hồng nhiều hoa"
+    },
+    "132": {
+      "CropCode": "FA841",
+      "CropName": "Cẩm chướng - Hồng nhạt nhiều hoa"
+    },
+    "133": {
+      "CropCode": "FA842",
+      "CropName": "Cẩm chướng - Hồng thiên nga"
+    },
+    "134": {
+      "CropCode": "FA843",
+      "CropName": "Cẩm chướng - Latte"
+    },
+    "135": {
+      "CropCode": "FA844",
+      "CropName": "Cẩm chướng - Nina"
+    },
+    "136": {
+      "CropCode": "FA845",
+      "CropName": "Cẩm chướng - Melissa"
+    },
+    "137": {
+      "CropCode": "FA851",
+      "CropName": "Cẩm chướng - Xanh táo"
+    },
+    "138": {
+      "CropCode": "FA860",
+      "CropName": "Cẩm chướng - Trắng nhiều hoa"
+    },
+    "139": {
+      "CropCode": "FA861",
+      "CropName": "Cẩm chướng - Trắng Thời Nô"
+    },
+    "140": {
+      "CropCode": "FA862",
+      "CropName": "Cẩm chướng - Trắng pha lê"
+    },
+    "141": {
+      "CropCode": "FA870",
+      "CropName": "Cẩm chướng - Tím nhiều hoa"
+    },
+    "142": {
+      "CropCode": "FA871",
+      "CropName": "Cẩm chướng - Tím tiên nữ"
+    },
+    "143": {
+      "CropCode": "FA872",
+      "CropName": "Cẩm chướng - Spot"
+    },
+    "144": {
+      "CropCode": "FA881",
+      "CropName": "Cẩm chướng - Đỏ nhiều hoa viền trắng"
+    },
+    "145": {
+      "CropCode": "FA882",
+      "CropName": "Cẩm chướng - Đỏ nhiều hoa viền hồng"
+    },
+    "146": {
+      "CropCode": "FA883",
+      "CropName": "Cẩm chướng - Cam nhiều hoa viền đỏ"
+    },
+    "147": {
+      "CropCode": "FA884",
+      "CropName": "Cẩm chướng - Vàng nhiều hoa viền đỏ"
+    },
+    "148": {
+      "CropCode": "FA885",
+      "CropName": "Cẩm chướng - Vàng nhiều hoa viền tím"
+    },
+    "149": {
+      "CropCode": "FA886",
+      "CropName": "Cẩm chướng - Đa bông trắng viền đỏ"
+    },
+    "150": {
+      "CropCode": "FA887",
+      "CropName": "Cẩm chướng - Đa bông trắng viền tím"
+    },
+    "151": {
+      "CropCode": "FA9",
+      "CropName": "Quả hỗn hợp - Nhập khẩu"
+    },
+    "152": {
+      "CropCode": "FA900",
+      "CropName": "Cô bé nhỏ - (Màu hỗn hợp)"
+    },
+    "153": {
+      "CropCode": "FA910",
+      "CropName": "Cô bé nhỏ - Đỏ"
+    },
+    "154": {
+      "CropCode": "FA920",
+      "CropName": "Cô bé nhỏ - Cam"
+    },
+    "155": {
+      "CropCode": "FA930",
+      "CropName": "Cô bé nhỏ - Vàng"
+    },
+    "156": {
+      "CropCode": "FA940",
+      "CropName": "Cô bé nhỏ - Hồng"
+    },
+    "157": {
+      "CropCode": "FA960",
+      "CropName": "Cô bé nhỏ - Trắng"
+    },
+    "158": {
+      "CropCode": "FA970",
+      "CropName": "Cô bé nhỏ - Tím"
+    },
+    "159": {
+      "CropCode": "FA980",
+      "CropName": "Người đẹp"
+    },
+    "160": {
+      "CropCode": "FA981",
+      "CropName": "Cẩm tú cầu - Đỏ"
+    },
+    "161": {
+      "CropCode": "FA984",
+      "CropName": "Cẩm tú cầu - Hồng"
+    },
+    "162": {
+      "CropCode": "FA985",
+      "CropName": "Cẩm tú cầu - Xanh đá"
+    },
+    "163": {
+      "CropCode": "FA986",
+      "CropName": "Cẩm tú cầu - Trắng"
+    },
+    "164": {
+      "CropCode": "FA987",
+      "CropName": "Cẩm tú cầu - Tím"
+    },
+    "165": {
+      "CropCode": "FA988",
+      "CropName": "Cẩm tú cầu - Đa màu"
+    },
+    "166": {
+      "CropCode": "FA989",
+      "CropName": "Cẩm tú cầu - Tím đỏ"
+    },
+    "167": {
+      "CropCode": "FA990",
+      "CropName": "Cẩm tú cầu - Tím trắng"
+    },
+    "168": {
+      "CropCode": "FB0",
+      "CropName": "Bông cải - Khác"
+    },
+    "169": {
+      "CropCode": "FB000",
+      "CropName": "Hoa hồng"
+    },
+    "170": {
+      "CropCode": "FB001",
+      "CropName": "Hoa hồng - Màu hỗn hợp"
+    },
+    "171": {
+      "CropCode": "FB1",
+      "CropName": "Bông cải - Cọng xanh"
+    },
+    "172": {
+      "CropCode": "FB100",
+      "CropName": "Hoa hồng - Đỏ"
+    },
+    "173": {
+      "CropCode": "FB101",
+      "CropName": "Hoa hồng - Đỏ tâm"
+    },
+    "174": {
+      "CropCode": "FB102",
+      "CropName": "Hoa hồng - Đỏ vàng tâm"
+    },
+    "175": {
+      "CropCode": "FB103",
+      "CropName": "Hoa hồng - Đỏ xanh tâm"
+    },
+    "176": {
+      "CropCode": "FB104",
+      "CropName": "Hoa hồng - Tai nhỏ"
+    },
+    "177": {
+      "CropCode": "FB105",
+      "CropName": "Hoa hồng - Đỏ xanh viền"
+    },
+    "178": {
+      "CropCode": "FB106",
+      "CropName": "Hoa hồng - Cupid"
+    },
+    "179": {
+      "CropCode": "FB107",
+      "CropName": "Hoa hồng - Alice"
+    },
+    "180": {
+      "CropCode": "FB108",
+      "CropName": "Hoa hồng - Trinidad"
+    },
+    "181": {
+      "CropCode": "FB109",
+      "CropName": "Hoa hồng - Bạn bè"
+    },
+    "182": {
+      "CropCode": "FB11",
+      "CropName": "Bông cải - Cọng xanh"
+    },
+    "183": {
+      "CropCode": "FB110",
+      "CropName": "Hoa hồng - Jupiter"
+    },
+    "184": {
+      "CropCode": "FB111",
+      "CropName": "Hoa hồng - Ánh trăng"
+    },
+    "185": {
+      "CropCode": "FB112",
+      "CropName": "Hoa hồng - Đỏ đầu tiên"
+    },
+    "186": {
+      "CropCode": "FB113",
+      "CropName": "Hoa hồng - Đỏ chuông"
+    },
+    "187": {
+      "CropCode": "FB114",
+      "CropName": "Hoa hồng - Đỏ sao"
+    },
+    "188": {
+      "CropCode": "FB115",
+      "CropName": "Hoa hồng - Venus"
+    },
+    "189": {
+      "CropCode": "FB12",
+      "CropName": "Bông cải - Cọng xanh"
+    },
+    "190": {
+      "CropCode": "FB2",
+      "CropName": "Bông cải - Cọng trắng"
+    },
+    "191": {
+      "CropCode": "FB200",
+      "CropName": "Hoa hồng - Cam"
+    },
+    "192": {
+      "CropCode": "FB201",
+      "CropName": "Hoa hồng - Viền xanh cam"
+    },
+    "193": {
+      "CropCode": "FB21",
+      "CropName": "Bông cải - Cọng trắng"
+    },
+    "194": {
+      "CropCode": "FB22",
+      "CropName": "Bông cải - Cọng trắng"
+    },
+    "195": {
+      "CropCode": "FB301",
+      "CropName": "Hoa hồng - Rồng vàng"
+    },
+    "196": {
+      "CropCode": "FB302",
+      "CropName": "Hoa hồng - Mary vàng"
+    },
+    "197": {
+      "CropCode": "FB400",
+      "CropName": "Hoa hồng - Hồng"
+    },
+    "198": {
+      "CropCode": "FB401",
+      "CropName": "Hoa hồng - Hồng hè"
+    },
+    "199": {
+      "CropCode": "FB402",
+      "CropName": "Hoa hồng - Hồng nhạt"
+    },
+    "200": {
+      "CropCode": "FB403",
+      "CropName": "Hoa hồng - Hồng san hô"
+    },
+    "201": {
+      "CropCode": "FB404",
+      "CropName": "Hoa hồng - Cô dâu hồng"
+    },
+    "202": {
+      "CropCode": "FB405",
+      "CropName": "Hoa hồng - Xanh nhạt hồng"
+    },
+    "203": {
+      "CropCode": "FB406",
+      "CropName": "Hoa hồng - Công chúa hồng"
+    },
+    "204": {
+      "CropCode": "FB407",
+      "CropName": "Hoa hồng - Giấc mơ"
+    },
+    "205": {
+      "CropCode": "FB408",
+      "CropName": "Hoa hồng - Người đẹp hồng"
+    },
+    "206": {
+      "CropCode": "FB409",
+      "CropName": "Hoa hồng - Hồng tuyết"
+    },
+    "207": {
+      "CropCode": "FB410",
+      "CropName": "Hoa hồng - Nữ hoàng"
+    },
+    "208": {
+      "CropCode": "FB411",
+      "CropName": "Hoa hồng - Hoàng hậu"
+    },
+    "209": {
+      "CropCode": "FB412",
+      "CropName": "Hoa hồng - Tổng thống"
+    },
+    "210": {
+      "CropCode": "FB413",
+      "CropName": "Hoa hồng - Nữ thần"
+    },
+    "211": {
+      "CropCode": "FB415",
+      "CropName": "Hoa hồng - Rosa"
+    },
+    "212": {
+      "CropCode": "FB416",
+      "CropName": "Hoa hồng - Tiên hoa"
+    },
+    "213": {
+      "CropCode": "FB417",
+      "CropName": "Hoa hồng - Cầu vồng"
+    },
+    "214": {
+      "CropCode": "FB418",
+      "CropName": "Hoa hồng - Hương thơm hồng"
+    },
+    "215": {
+      "CropCode": "FB419",
+      "CropName": "Hoa hồng - Thái cực"
+    },
+    "216": {
+      "CropCode": "FB420",
+      "CropName": "Hoa hồng - Nam việt quất"
+    },
+    "217": {
+      "CropCode": "FB421",
+      "CropName": "Hoa hồng - Sanata"
+    },
+    "218": {
+      "CropCode": "FB422",
+      "CropName": "Hoa hồng - Người yêu"
+    },
+    "219": {
+      "CropCode": "FB423",
+      "CropName": "Hoa hồng - Người đẹp mật ong"
+    },
+    "220": {
+      "CropCode": "FB424",
+      "CropName": "Hoa hồng - Kỳ tích"
+    },
+    "221": {
+      "CropCode": "FB425",
+      "CropName": "Hoa hồng - May mắn"
+    },
+    "222": {
+      "CropCode": "FB426",
+      "CropName": "Hoa hồng - Ren hồng"
+    },
+    "223": {
+      "CropCode": "FB500",
+      "CropName": "Hoa hồng - Xanh ngọc"
+    },
+    "224": {
+      "CropCode": "FB501",
+      "CropName": "Hoa hồng - Xanh táo"
+    },
+    "225": {
+      "CropCode": "FB502",
+      "CropName": "Hoa hồng - Đỏ xanh"
+    },
+    "226": {
+      "CropCode": "FB503",
+      "CropName": "Hoa hồng - Cô gái xanh"
+    },
+    "227": {
+      "CropCode": "FB504",
+      "CropName": "Hoa hồng - Lê Mộng Na"
+    },
+    "228": {
+      "CropCode": "FB505",
+      "CropName": "Hoa hồng - Sâm banh"
+    },
+    "229": {
+      "CropCode": "FB506",
+      "CropName": "Hoa hồng - Ngọc lục bảo"
+    },
+    "230": {
+      "CropCode": "FB507",
+      "CropName": "Hoa hồng - Tiên xanh"
+    },
+    "231": {
+      "CropCode": "FB508",
+      "CropName": "Hoa hồng - Thanh long"
+    },
+    "232": {
+      "CropCode": "FB509",
+      "CropName": "Hoa hồng - Rừng"
+    },
+    "233": {
+      "CropCode": "FB600",
+      "CropName": "Hoa hồng - Trắng"
+    },
+    "234": {
+      "CropCode": "FB601",
+      "CropName": "Hoa hồng - Trắng xanh"
+    },
+    "235": {
+      "CropCode": "FB602",
+      "CropName": "Hoa hồng - Trắng vàng"
+    },
+    "236": {
+      "CropCode": "FB603",
+      "CropName": "Hoa hồng - Trắng đỏ"
+    },
+    "237": {
+      "CropCode": "FB604",
+      "CropName": "Hoa hồng - Trắng viền xanh"
+    },
+    "238": {
+      "CropCode": "FB605",
+      "CropName": "Hoa hồng - Lễ hội"
+    },
+    "239": {
+      "CropCode": "FB606",
+      "CropName": "Hoa hồng - Simba"
+    },
+    "240": {
+      "CropCode": "FB607",
+      "CropName": "Hoa hồng - Nữ thần mặt trăng"
+    },
+    "241": {
+      "CropCode": "FB608",
+      "CropName": "Hoa hồng - Tình yêu"
+    },
+    "242": {
+      "CropCode": "FB700",
+      "CropName": "Hoa hồng - Tím"
+    },
+    "243": {
+      "CropCode": "FB701",
+      "CropName": "Hoa hồng - Siêu âm"
+    },
+    "244": {
+      "CropCode": "FB702",
+      "CropName": "Hoa hồng - Caesar"
+    },
+    "245": {
+      "CropCode": "FB800",
+      "CropName": "Hoa hồng - Đỏ cà phê"
+    },
+    "246": {
+      "CropCode": "FB801",
+      "CropName": "Hoa hồng - Kẻ sọc cà phê"
+    },
+    "247": {
+      "CropCode": "FB802",
+      "CropName": "Hoa hồng - Đất"
+    },
+    "248": {
+      "CropCode": "FB803",
+      "CropName": "Hoa hồng - Sô cô la"
+    },
+    "249": {
+      "CropCode": "FB804",
+      "CropName": "Hoa hồng đen"
+    },
+    "250": {
+      "CropCode": "FB805",
+      "CropName": "Hoa hồng ngọc đen"
+    },
+    "251": {
+      "CropCode": "FB9",
+      "CropName": "Bông cải xanh- Nhập khẩu"
+    },
+    "252": {
+      "CropCode": "FC000",
+      "CropName": "Cúc đại đóa"
+    },
+    "253": {
+      "CropCode": "FC001",
+      "CropName": "Cúc đại đóa- Màu hỗn hợp"
+    },
+    "254": {
+      "CropCode": "FC1",
+      "CropName": "Dưa leo- Gai đen"
+    },
+    "255": {
+      "CropCode": "FC100",
+      "CropName": "Cúc đại đóa- Đỏ"
+    },
+    "256": {
+      "CropCode": "FC101",
+      "CropName": "Cúc đại đóa- Ánh nắng"
+    },
+    "257": {
+      "CropCode": "FC102",
+      "CropName": "Cúc đại đóa- Đỏ Anh"
+    },
+    "258": {
+      "CropCode": "FC103",
+      "CropName": "Cúc đại đóa- Đỏ Đức"
+    },
+    "259": {
+      "CropCode": "FC104",
+      "CropName": "Cúc đại đóa- Đỏ Phượng"
+    },
+    "260": {
+      "CropCode": "FC105",
+      "CropName": "Cúc đại đóa- Đỏ Hồng Kông"
+    },
+    "261": {
+      "CropCode": "FC106",
+      "CropName": "Cúc đại đóa- Đỏ Tân Lực"
+    },
+    "262": {
+      "CropCode": "FC107",
+      "CropName": "Cúc đại đóa- Đỏ Phượng"
+    },
+    "263": {
+      "CropCode": "FC108",
+      "CropName": "Cúc đại đóa- Đỏ Quý Phi"
+    },
+    "264": {
+      "CropCode": "FC109",
+      "CropName": "Cúc đại đóa- Đỏ Cari"
+    },
+    "265": {
+      "CropCode": "FC110",
+      "CropName": "Cúc đại đóa- Ánh đào"
+    },
+    "266": {
+      "CropCode": "FC111",
+      "CropName": "Cúc đại đóa- Xuân của Yến"
+    },
+    "267": {
+      "CropCode": "FC112",
+      "CropName": "Cúc đại đóa- Đỏ Cứng"
+    },
+    "268": {
+      "CropCode": "FC113",
+      "CropName": "Cúc đại đóa- Đào Thái"
+    },
+    "269": {
+      "CropCode": "FC115",
+      "CropName": "Cúc đại đóa- Hồng mới"
+    },
+    "270": {
+      "CropCode": "FC116",
+      "CropName": "Cúc đại đóa- Hoa Ngự Đình"
+    },
+    "271": {
+      "CropCode": "FC117",
+      "CropName": "Cúc đại đóa- Đỏ Xiu Phượng"
+    },
+    "272": {
+      "CropCode": "FC118",
+      "CropName": "Cúc đại đóa- Đỏ Hồng"
+    },
+    "273": {
+      "CropCode": "FC130",
+      "CropName": "Cúc đại đóa- Đỏ Mì"
+    },
+    "274": {
+      "CropCode": "FC2",
+      "CropName": "Dưa leo - giống cải tiến"
+    },
+    "275": {
+      "CropCode": "FC200",
+      "CropName": "Cúc đại đóa - vàng"
+    },
+    "276": {
+      "CropCode": "FC201",
+      "CropName": "Cúc đại đóa - vàng sơ khai"
+    },
+    "277": {
+      "CropCode": "FC202",
+      "CropName": "Cúc đại đóa - vàng tinh anh"
+    },
+    "278": {
+      "CropCode": "FC204",
+      "CropName": "Cúc đại đóa - tâm huyết"
+    },
+    "279": {
+      "CropCode": "FC205",
+      "CropName": "Cúc đại đóa - vàng sa"
+    },
+    "280": {
+      "CropCode": "FC206",
+      "CropName": "Cúc đại đóa - vàng thanh"
+    },
+    "281": {
+      "CropCode": "FC207",
+      "CropName": "Cúc đại đóa - cam Rosano"
+    },
+    "282": {
+      "CropCode": "FC208",
+      "CropName": "Cúc đại đóa - cam pháo"
+    },
+    "283": {
+      "CropCode": "FC300",
+      "CropName": "Cúc đại đóa - vàng"
+    },
+    "284": {
+      "CropCode": "FC301",
+      "CropName": "Cúc đại đóa - vàng Xuân Phượng"
+    },
+    "285": {
+      "CropCode": "FC302",
+      "CropName": "Cúc đại đóa - thế giới một"
+    },
+    "286": {
+      "CropCode": "FC303",
+      "CropName": "Cúc đại đóa - vua mùa đông"
+    },
+    "287": {
+      "CropCode": "FC304",
+      "CropName": "Cúc đại đóa - công chúa mới"
+    },
+    "288": {
+      "CropCode": "FC305",
+      "CropName": "Cúc đại đóa - phi tần ngỗng"
+    },
+    "289": {
+      "CropCode": "FC306",
+      "CropName": "Cúc đại đóa - vàng Nhật Bản"
+    },
+    "290": {
+      "CropCode": "FC307",
+      "CropName": "Cúc đại đóa - vàng đu đủ"
+    },
+    "291": {
+      "CropCode": "FC308",
+      "CropName": "Cúc đại đóa - vàng giống mới"
+    },
+    "292": {
+      "CropCode": "FC309",
+      "CropName": "Cúc đại đóa - vàng Đông Á"
+    },
+    "293": {
+      "CropCode": "FC310",
+      "CropName": "Cúc đại đóa - Đông Á mới"
+    },
+    "294": {
+      "CropCode": "FC311",
+      "CropName": "Cúc đại đóa - bạn vàng tháng"
+    },
+    "295": {
+      "CropCode": "FC312",
+      "CropName": "Cúc đại đóa - vàng lá nhọn"
+    },
+    "296": {
+      "CropCode": "FC313",
+      "CropName": "Cúc đại đóa - vàng thấp"
+    },
+    "297": {
+      "CropCode": "FC314",
+      "CropName": "Cúc đại đóa - vàng hình chữ T"
+    },
+    "298": {
+      "CropCode": "FC315",
+      "CropName": "Cúc đại đóa - vàng tâm xanh"
+    },
+    "299": {
+      "CropCode": "FC316",
+      "CropName": "Cúc đại đóa - Hoàng tinh cạnh"
+    },
+    "300": {
+      "CropCode": "FC317",
+      "CropName": "Cúc đại đóa - Đại đầu hoàng"
+    },
+    "301": {
+      "CropCode": "FC318",
+      "CropName": "Cúc đại đóa - Hoàng Đông Dương"
+    },
+    "302": {
+      "CropCode": "FC319",
+      "CropName": "Cúc đại đóa - Kim Sa hoàng"
+    },
+    "303": {
+      "CropCode": "FC320",
+      "CropName": "Cúc đại đóa - Sa Ma kem hoàng"
+    },
+    "304": {
+      "CropCode": "FC330",
+      "CropName": "Cúc đại đóa - Hoàng mì sợi"
+    },
+    "305": {
+      "CropCode": "FC345",
+      "CropName": "Cúc đại đóa - Hoàng Si không"
+    },
+    "306": {
+      "CropCode": "FC350",
+      "CropName": "Cúc đại đóa - Hoàng bóng bàn"
+    },
+    "307": {
+      "CropCode": "FC380",
+      "CropName": "Cúc đại đóa - Hoàng Bát Nguyên"
+    },
+    "308": {
+      "CropCode": "FC400",
+      "CropName": "Cúc đại đóa - Hồng"
+    },
+    "309": {
+      "CropCode": "FC401",
+      "CropName": "Cúc đại đóa - X杏 đỏ"
+    },
+    "310": {
+      "CropCode": "FC402",
+      "CropName": "Cúc đại đóa - Tinh anh hồng"
+    },
+    "311": {
+      "CropCode": "FC403",
+      "CropName": "Cúc đại đóa - Ký hồng"
+    },
+    "312": {
+      "CropCode": "FC404",
+      "CropName": "Cúc đại đóa - Hồng Sơ Phượng"
+    },
+    "313": {
+      "CropCode": "FC405",
+      "CropName": "Cúc đại đóa - Thiên Đài Anh"
+    },
+    "314": {
+      "CropCode": "FC406",
+      "CropName": "Cúc đại đóa - Bình đầu hồng"
+    },
+    "315": {
+      "CropCode": "FC407",
+      "CropName": "Cúc đại đóa - Cứng cành hồng"
+    },
+    "316": {
+      "CropCode": "FC408",
+      "CropName": "Cúc đại đóa - Hồng bóng bàn"
+    },
+    "317": {
+      "CropCode": "FC409",
+      "CropName": "Cúc đại đóa - Hồng vương miện"
+    },
+    "318": {
+      "CropCode": "FC410",
+      "CropName": "Cúc đại đóa - Hồng Rosano"
+    },
+    "319": {
+      "CropCode": "FC411",
+      "CropName": "Cúc đại đóa - Hồng Rosano xanh"
+    },
+    "320": {
+      "CropCode": "FC480",
+      "CropName": "Cúc đại đóa - Hồng Bát Nguyên"
+    },
+    "321": {
+      "CropCode": "FC500",
+      "CropName": "Cúc đại đóa - Xanh"
+    },
+    "322": {
+      "CropCode": "FC501",
+      "CropName": "Cúc đại đóa - Xanh sợi"
+    },
+    "323": {
+      "CropCode": "FC502",
+      "CropName": "Cúc đại đóa - Anna xanh đậm"
+    },
+    "324": {
+      "CropCode": "FC508",
+      "CropName": "Cúc đại - Bóng xanh"
+    },
+    "325": {
+      "CropCode": "FC509",
+      "CropName": "Cúc đại - Xanh đậm kỳ lạ"
+    },
+    "326": {
+      "CropCode": "FC600",
+      "CropName": "Cúc đại - Trắng"
+    },
+    "327": {
+      "CropCode": "FC601",
+      "CropName": "Cúc đại - Trắng Nhật Bản"
+    },
+    "328": {
+      "CropCode": "FC602",
+      "CropName": "Cúc đại - Đại tướng trắng"
+    },
+    "329": {
+      "CropCode": "FC603",
+      "CropName": "Cúc đại - Ngọc trắng"
+    },
+    "330": {
+      "CropCode": "FC604",
+      "CropName": "Cúc đại - Trắng cổ"
+    },
+    "331": {
+      "CropCode": "FC605",
+      "CropName": "Cúc đại - Phượng trắng"
+    },
+    "332": {
+      "CropCode": "FC606",
+      "CropName": "Cúc đại - Trắng tinh anh"
+    },
+    "333": {
+      "CropCode": "FC607",
+      "CropName": "Cúc đại - Trắng đầu lớn"
+    },
+    "334": {
+      "CropCode": "FC608",
+      "CropName": "Cúc đại - Bóng trắng"
+    },
+    "335": {
+      "CropCode": "FC609",
+      "CropName": "Cúc đại - Đông Dương trắng"
+    },
+    "336": {
+      "CropCode": "FC610",
+      "CropName": "Cúc đại - Cúc chữ T"
+    },
+    "337": {
+      "CropCode": "FC611",
+      "CropName": "Cúc đại - Phượng trắng xinh đẹp"
+    },
+    "338": {
+      "CropCode": "FC612",
+      "CropName": "Cúc đại - Núi tuyết trắng"
+    },
+    "339": {
+      "CropCode": "FC613",
+      "CropName": "Cúc đại - Sao trắng"
+    },
+    "340": {
+      "CropCode": "FC614",
+      "CropName": "Cúc đại - Mây nước"
+    },
+    "341": {
+      "CropCode": "FC615",
+      "CropName": "Cúc đại - Vua"
+    },
+    "342": {
+      "CropCode": "FC616",
+      "CropName": "Cúc đại - Bạch mẫu đơn"
+    },
+    "343": {
+      "CropCode": "FC617",
+      "CropName": "Cúc đại - Messi"
+    },
+    "344": {
+      "CropCode": "FC618",
+      "CropName": "Cúc đại - Laidenik"
+    },
+    "345": {
+      "CropCode": "FC630",
+      "CropName": "Cúc đại - Cúc mì trắng"
+    },
+    "346": {
+      "CropCode": "FC645",
+      "CropName": "Cúc đại - Trắng Sburlet"
+    },
+    "347": {
+      "CropCode": "FC680",
+      "CropName": "Cúc đại - Bạch Bát Nguyên"
+    },
+    "348": {
+      "CropCode": "FC800",
+      "CropName": "Cúc đại - Cúc nhuộm màu"
+    },
+    "349": {
+      "CropCode": "FC801",
+      "CropName": "Cúc họa mi - Vương quốc"
+    },
+    "350": {
+      "CropCode": "FC802",
+      "CropName": "Cúc họa mi - Badika"
+    },
+    "351": {
+      "CropCode": "FC803",
+      "CropName": "Cúc họa mi - Mẫu đơn"
+    },
+    "352": {
+      "CropCode": "FC804",
+      "CropName": "Cúc họa mi - Bạch thiên tinh"
+    },
+    "353": {
+      "CropCode": "FC805",
+      "CropName": "Cúc họa mi - Bạch Đông Dương"
+    },
+    "354": {
+      "CropCode": "FC806",
+      "CropName": "Cúc họa mi - Sa ma"
+    },
+    "355": {
+      "CropCode": "FC807",
+      "CropName": "Cúc họa mi - Macy"
+    },
+    "356": {
+      "CropCode": "FD0",
+      "CropName": "Hoa bầu - Khác"
+    },
+    "357": {
+      "CropCode": "FD000",
+      "CropName": "Cúc nhỏ"
+    },
+    "358": {
+      "CropCode": "FD001",
+      "CropName": "Cúc nhỏ - Màu hỗn hợp"
+    },
+    "359": {
+      "CropCode": "FD1",
+      "CropName": "Hoa bầu"
+    },
+    "360": {
+      "CropCode": "FD100",
+      "CropName": "Cúc nhỏ - Đỏ"
+    },
+    "361": {
+      "CropCode": "FD101",
+      "CropName": "Cúc nhỏ - Đỏ Phượng"
+    },
+    "362": {
+      "CropCode": "FD102",
+      "CropName": "Cúc nhỏ - Đỏ Hoa Nương"
+    },
+    "363": {
+      "CropCode": "FD103",
+      "CropName": "Cúc nhỏ - Đỏ Rỗng"
+    },
+    "364": {
+      "CropCode": "FD104",
+      "CropName": "Cúc nhỏ - Đỏ Đồng tiền"
+    },
+    "365": {
+      "CropCode": "FD105",
+      "CropName": "Cúc nhỏ - Đỏ Sáng"
+    },
+    "366": {
+      "CropCode": "FD106",
+      "CropName": "Cúc nhỏ - Đỏ Lửa"
+    },
+    "367": {
+      "CropCode": "FD107",
+      "CropName": "Cúc nhỏ - Đỏ Đại Tân"
+    },
+    "368": {
+      "CropCode": "FD109",
+      "CropName": "Cúc nhỏ - Đỏ Nhỏ Ánh Dương"
+    },
+    "369": {
+      "CropCode": "FD110",
+      "CropName": "Cúc nhỏ - Đỏ Nhỏ Cà phê"
+    },
+    "370": {
+      "CropCode": "FD111",
+      "CropName": "Cúc nhỏ - Đỏ Nhỏ Cà ri"
+    },
+    "371": {
+      "CropCode": "FD112",
+      "CropName": "Cúc nhỏ - Đỏ Yunnan"
+    },
+    "372": {
+      "CropCode": "FD113",
+      "CropName": "Cúc nhỏ - Đỏ Nhật Bản"
+    },
+    "373": {
+      "CropCode": "FD114",
+      "CropName": "Cúc nhỏ - Đào Thái Lang"
+    },
+    "374": {
+      "CropCode": "FD115",
+      "CropName": "Cúc nhỏ - Hồng Sơ Phượng"
+    },
+    "375": {
+      "CropCode": "FD116",
+      "CropName": "Cúc nhỏ - Lâm Ca Hồng"
+    },
+    "376": {
+      "CropCode": "FD117",
+      "CropName": "Cúc nhỏ - Hồng Nhật"
+    },
+    "377": {
+      "CropCode": "FD118",
+      "CropName": "Cúc nhỏ - Hạ Lê Hồng"
+    },
+    "378": {
+      "CropCode": "FD119",
+      "CropName": "Cúc nhỏ - Long Phượng Tiểu Hồng"
+    },
+    "379": {
+      "CropCode": "FD120",
+      "CropName": "Cúc nhỏ - Hồng Thiên Tinh"
+    },
+    "380": {
+      "CropCode": "FD121",
+      "CropName": "Cúc nhỏ - Hồng Mỹ Nhân"
+    },
+    "381": {
+      "CropCode": "FD122",
+      "CropName": "Cúc nhỏ - Thìa Hồng"
+    },
+    "382": {
+      "CropCode": "FD123",
+      "CropName": "Cúc nhỏ - Kim Cương Hồng"
+    },
+    "383": {
+      "CropCode": "FD124",
+      "CropName": "Cúc nhỏ - Long Phượng Tím"
+    },
+    "384": {
+      "CropCode": "FD125",
+      "CropName": "Cúc nhỏ - Đại Nhất Điểm Hồng"
+    },
+    "385": {
+      "CropCode": "FD126",
+      "CropName": "Cúc nhỏ - Bách Hoa Tiểu Hồng"
+    },
+    "386": {
+      "CropCode": "FD127",
+      "CropName": "Cúc nhỏ - Song Sắc Hồng"
+    },
+    "387": {
+      "CropCode": "FD128",
+      "CropName": "Cúc nhỏ - Lão Hổ Hồng"
+    },
+    "388": {
+      "CropCode": "FD129",
+      "CropName": "Cúc nhỏ - Tiểu Đào Hồng"
+    },
+    "389": {
+      "CropCode": "FD130",
+      "CropName": "Cúc nhỏ - Sương Mù Tiểu Hồng"
+    },
+    "390": {
+      "CropCode": "FD131",
+      "CropName": "Cúc nhỏ - Tiểu Hồng Nương"
+    },
+    "391": {
+      "CropCode": "FD132",
+      "CropName": "Cúc nhỏ - Châu Ngọc Hồng"
+    },
+    "392": {
+      "CropCode": "FD133",
+      "CropName": "Cúc nhỏ - Nhật Bản Nhung Hồng"
+    },
+    "393": {
+      "CropCode": "FD134",
+      "CropName": "Cúc nhỏ - Hồng Như Ý"
+    },
+    "394": {
+      "CropCode": "FD135",
+      "CropName": "Cúc nhỏ - Hồng Hồng"
+    },
+    "395": {
+      "CropCode": "FD136",
+      "CropName": "Cúc nhỏ - Pháp Quốc Tiểu Hồng"
+    },
+    "396": {
+      "CropCode": "FD137",
+      "CropName": "Cúc nhỏ - Tiểu Lão Hổ Hồng"
+    },
+    "397": {
+      "CropCode": "FD138",
+      "CropName": "Cúc nhỏ - Caroline"
+    },
+    "398": {
+      "CropCode": "FD139",
+      "CropName": "Cúc nhỏ - Alamos Vàng"
+    },
+    "399": {
+      "CropCode": "FD145"
+    },
+    "424": {
+      "CropName": "Cúc nhỏ - Đa hoa hiện phong"
+    },
+    "425": {
+      "CropCode": "FD307",
+      "CropName": "Cúc nhỏ - Vàng pingpong"
+    },
+    "426": {
+      "CropCode": "FD308",
+      "CropName": "Cúc nhỏ - Vàng chữ T"
+    },
+    "427": {
+      "CropCode": "FD309",
+      "CropName": "Cúc nhỏ - Vàng Nhật Bản"
+    },
+    "428": {
+      "CropCode": "FD310",
+      "CropName": "Cúc nhỏ - Xanh tâm vàng"
+    },
+    "429": {
+      "CropCode": "FD311",
+      "CropName": "Cúc nhỏ - Vàng đu đủ"
+    },
+    "430": {
+      "CropCode": "FD312",
+      "CropName": "Cúc nhỏ - Vàng tâm đen"
+    },
+    "431": {
+      "CropCode": "FD313",
+      "CropName": "Cúc nhỏ - Vàng thìa"
+    },
+    "432": {
+      "CropCode": "FD314",
+      "CropName": "Cúc nhỏ - Vàng nút"
+    },
+    "433": {
+      "CropCode": "FD315",
+      "CropName": "Cúc nhỏ - Vàng kim cương"
+    },
+    "434": {
+      "CropCode": "FD316",
+      "CropName": "Cúc nhỏ - Vàng nhỏ tháng đông"
+    },
+    "435": {
+      "CropCode": "FD317",
+      "CropName": "Cúc nhỏ - Vàng nhảy múa"
+    },
+    "436": {
+      "CropCode": "FD318",
+      "CropName": "Cúc nhỏ - Ánh sáng nhỏ"
+    },
+    "437": {
+      "CropCode": "FD319",
+      "CropName": "Cúc nhỏ - Vàng đu đủ (cánh kép)"
+    },
+    "438": {
+      "CropCode": "FD320",
+      "CropName": "Cúc nhỏ - Vàng Hà Lan"
+    },
+    "439": {
+      "CropCode": "FD321",
+      "CropName": "Cúc nhỏ - Vàng may mắn"
+    },
+    "440": {
+      "CropCode": "FD322",
+      "CropName": "Cúc nhỏ - Vàng chỉ vàng"
+    },
+    "441": {
+      "CropCode": "FD323",
+      "CropName": "Cúc nhỏ - Vàng một điểm"
+    },
+    "442": {
+      "CropCode": "FD324",
+      "CropName": "Cúc nhỏ - Vàng cúc Pháp"
+    },
+    "443": {
+      "CropCode": "FD325",
+      "CropName": "Cúc nhỏ - Vàng Marguerite"
+    },
+    "444": {
+      "CropCode": "FD326",
+      "CropName": "Cúc nhỏ - Vàng ánh nắng Mona Lisa"
+    },
+    "445": {
+      "CropCode": "FD330",
+      "CropName": "Cúc nhỏ - Cúc nhỏ vàng mì"
+    },
+    "446": {
+      "CropCode": "FD345",
+      "CropName": "Cúc nhỏ - Vàng Sublette"
+    },
+    "447": {
+      "CropCode": "FD350",
+      "CropName": "Cúc nhỏ - Vàng cối xay gió"
+    },
+    "448": {
+      "CropCode": "FD400",
+      "CropName": "Cúc nhỏ - Hồng"
+    },
+    "449": {
+      "CropCode": "FD401",
+      "CropName": "Cúc họa mi - Thu Dương"
+    },
+    "450": {
+      "CropCode": "FD402",
+      "CropName": "Cúc họa mi - Đại Tân Phấn"
+    },
+    "451": {
+      "CropCode": "FD403",
+      "CropName": "Cúc họa mi - Không Tâm Phấn"
+    },
+    "452": {
+      "CropCode": "FD404",
+      "CropName": "Cúc họa mi - Thế Giới Hoa Hoa"
+    },
+    "453": {
+      "CropCode": "FD405",
+      "CropName": "Cúc họa mi - Sáng Lạnh Đầu Mùa"
+    },
+    "454": {
+      "CropCode": "FD406",
+      "CropName": "Cúc họa mi - A Lai Phấn"
+    },
+    "455": {
+      "CropCode": "FD407",
+      "CropName": "Cúc họa mi - Phấn Bóng Bàn"
+    },
+    "456": {
+      "CropCode": "FD408",
+      "CropName": "Cúc họa mi - Thanh Đào Phấn"
+    },
+    "457": {
+      "CropCode": "FD409",
+      "CropName": "Cúc họa mi - Nắng Lửa Phấn"
+    },
+    "458": {
+      "CropCode": "FD410",
+      "CropName": "Cúc họa mi - Lâm Ca Phấn"
+    },
+    "459": {
+      "CropCode": "FD411",
+      "CropName": "Cúc họa mi - Thìa Phấn"
+    },
+    "460": {
+      "CropCode": "FD412",
+      "CropName": "Cúc họa mi - Phấn Vân Nam Cúc"
+    },
+    "461": {
+      "CropCode": "FD413",
+      "CropName": "Cúc họa mi - Phấn Sáng Phượng"
+    },
+    "462": {
+      "CropCode": "FD414",
+      "CropName": "Cúc họa mi - Đại Lục Phấn"
+    },
+    "463": {
+      "CropCode": "FD415",
+      "CropName": "Cúc họa mi - Hỏa Lệ Phấn"
+    },
+    "464": {
+      "CropCode": "FD416",
+      "CropName": "Cúc họa mi - Ngọc Trai Phấn"
+    },
+    "465": {
+      "CropCode": "FD417",
+      "CropName": "Cúc họa mi - Phấn Nắng"
+    },
+    "466": {
+      "CropCode": "FD418",
+      "CropName": "Cúc họa mi - Phấn Lửa"
+    },
+    "467": {
+      "CropCode": "FD419",
+      "CropName": "Cúc họa mi - Nhật Nguyệt Tiểu Phấn"
+    },
+    "468": {
+      "CropCode": "FD420",
+      "CropName": "Cúc họa mi - Hà Lan Phấn"
+    },
+    "469": {
+      "CropCode": "FD421",
+      "CropName": "Cúc họa mi - Thủy Linh Lung"
+    },
+    "470": {
+      "CropCode": "FD422",
+      "CropName": "Cúc họa mi - Cát Tường Tiểu Phấn"
+    },
+    "471": {
+      "CropCode": "FD423",
+      "CropName": "Cúc họa mi - Phấn Nhật Ký"
+    },
+    "472": {
+      "CropCode": "FD424",
+      "CropName": "Cúc họa mi - Tiểu Đào Hồng"
+    },
+    "473": {
+      "CropCode": "FD425",
+      "CropName": "Cúc họa mi - Margarita Phấn"
+    },
+    "474": {
+      "CropCode": "FD426",
+      "CropName": "Cúc nhỏ - Champagne Harle"
+    },
+    "475": {
+      "CropCode": "FD427",
+      "CropName": "Cúc nhỏ - Người đẹp hồng"
+    },
+    "476": {
+      "CropCode": "FD428",
+      "CropName": "Cúc nhỏ - Lịch nhỏ hồng"
+    },
+    "477": {
+      "CropCode": "FD429",
+      "CropName": "Cúc nhỏ - Cành đào"
+    },
+    "478": {
+      "CropCode": "FD430",
+      "CropName": "Cúc nhỏ - Bột mì"
+    },
+    "479": {
+      "CropCode": "FD431",
+      "CropName": "Cúc nhỏ - Cúc hồng Yunnan"
+    },
+    "480": {
+      "CropCode": "FD432",
+      "CropName": "Cúc nhỏ - Mây màu"
+    },
+    "481": {
+      "CropCode": "FD433",
+      "CropName": "Cúc nhỏ - Hồng nhỏ Phần Lan"
+    },
+    "482": {
+      "CropCode": "FD434",
+      "CropName": "Cúc nhỏ - Cối xay gió Anh"
+    },
+    "483": {
+      "CropCode": "FD435",
+      "CropName": "Cúc nhỏ - Hồng nhỏ Link"
+    },
+    "484": {
+      "CropCode": "FD436",
+      "CropName": "Cúc nhỏ - Mùa thu mới"
+    },
+    "485": {
+      "CropCode": "FD437",
+      "CropName": "Cúc Yunnan - Hồng hai màu"
+    },
+    "486": {
+      "CropCode": "FD438",
+      "CropName": "Cúc nhỏ - Bột Nạm Cảng"
+    },
+    "487": {
+      "CropCode": "FD445",
+      "CropName": "Cúc nhỏ - Hồng Susubri"
+    },
+    "488": {
+      "CropCode": "FD446",
+      "CropName": "Cúc nhỏ - Hồng Quan Âm"
+    },
+    "489": {
+      "CropCode": "FD450",
+      "CropName": "Cúc nhỏ - Hồng Cối xay gió"
+    },
+    "490": {
+      "CropCode": "FD451",
+      "CropName": "Cúc nhỏ - Nhảy cối xay gió"
+    },
+    "491": {
+      "CropCode": "FD452",
+      "CropName": "Cúc nhỏ - Hồng Cinda"
+    },
+    "492": {
+      "CropCode": "FD453",
+      "CropName": "Cúc nhỏ - Kẹo que - Hồng"
+    },
+    "493": {
+      "CropCode": "FD455",
+      "CropName": "Cúc nhỏ - Hồng đẹp"
+    },
+    "494": {
+      "CropCode": "FD456",
+      "CropName": "Cúc nhỏ - Hồng Carlo"
+    },
+    "495": {
+      "CropCode": "FD457",
+      "CropName": "Cúc nhỏ - Hồng Sivia"
+    },
+    "496": {
+      "CropCode": "FD500",
+      "CropName": "Cúc nhỏ - Xanh"
+    },
+    "497": {
+      "CropCode": "FD501",
+      "CropName": "Cúc nhỏ - Như ngọc"
+    },
+    "498": {
+      "CropCode": "FD502",
+      "CropName": "Cúc nhỏ - Cúc xanh sợi"
+    },
+    "499": {
+      "CropCode": "FD503",
+      "CropName": "Cúc nhỏ - Cúc nút xanh"
+    },
+    "500": {
+      "CropCode": "FD504",
+      "CropName": "Cúc nhỏ - Cúc mũ beret"
+    },
+    "501": {
+      "CropCode": "FD505",
+      "CropName": "Cúc nhỏ - Phúc Tài"
+    },
+    "502": {
+      "CropCode": "FD509",
+      "CropName": "Cúc nhỏ - Cúc xanh đậm"
+    },
+    "503": {
+      "CropCode": "FD600",
+      "CropName": "Cúc nhỏ - Trắng"
+    },
+    "504": {
+      "CropCode": "FD601",
+      "CropName": "Cúc nhỏ - Cúc chữ T trắng"
+    },
+    "505": {
+      "CropCode": "FD602",
+      "CropName": "Cúc nhỏ - Đồng tiền trắng"
+    },
+    "506": {
+      "CropCode": "FD603",
+      "CropName": "Cúc nhỏ - Trắng rỗng (cánh ngắn)"
+    },
+    "507": {
+      "CropCode": "FD604",
+      "CropName": "Cúc nhỏ - Trắng rỗng (cánh dài)"
+    },
+    "508": {
+      "CropCode": "FD605",
+      "CropName": "Cúc nhỏ - Trắng buổi sáng"
+    },
+    "509": {
+      "CropCode": "FD607",
+      "CropName": "Cúc nhỏ - Trắng bóng"
+    },
+    "510": {
+      "CropCode": "FD608",
+      "CropName": "Cúc nhỏ - Trắng thu nhỏ"
+    },
+    "511": {
+      "CropCode": "FD609",
+      "CropName": "Cúc nhỏ - Trắng mắt gà"
+    },
+    "512": {
+      "CropCode": "FD610",
+      "CropName": "Cúc nhỏ - Trắng tâm xanh"
+    },
+    "513": {
+      "CropCode": "FD611",
+      "CropName": "Cúc nhỏ - Trắng mới chữ T"
+    },
+    "514": {
+      "CropCode": "FD612",
+      "CropName": "Cúc nhỏ - Cúc trắng Yunnan"
+    },
+    "515": {
+      "CropCode": "FD613",
+      "CropName": "Cúc nhỏ - Cúc nút trắng"
+    },
+    "516": {
+      "CropCode": "FD614",
+      "CropName": "Cúc nhỏ - Cúc Pháp trắng"
+    },
+    "517": {
+      "CropCode": "FD615",
+      "CropName": "Cúc nhỏ - Ngọc bích"
+    },
+    "518": {
+      "CropCode": "FD616",
+      "CropName": "Cúc nhỏ - Trắng nhảy múa"
+    },
+    "519": {
+      "CropCode": "FD617",
+      "CropName": "Cúc nhỏ - Trắng Quan Âm"
+    },
+    "520": {
+      "CropCode": "FD618",
+      "CropName": "Cúc nhỏ - Kim cương trắng"
+    },
+    "521": {
+      "CropCode": "FD619",
+      "CropName": "Cúc nhỏ - Trắng viên tuyết nhỏ"
+    },
+    "522": {
+      "CropCode": "FD620",
+      "CropName": "Cúc nhỏ - Trắng Hà Lan"
+    },
+    "523": {
+      "CropCode": "FD621",
+      "CropName": "Cúc nhỏ - Sông Lương"
+    },
+    "524": {
+      "CropCode": "FD622",
+      "CropName": "Cúc nhỏ - Trắng may mắn"
+    },
+    "525": {
+      "CropCode": "FD623",
+      "CropName": "Cúc nhỏ - Trắng tình yêu"
+    },
+    "526": {
+      "CropCode": "FD625",
+      "CropName": "Cúc nhỏ - Trắng Margarita"
+    },
+    "527": {
+      "CropCode": "FD630",
+      "CropName": "Cúc nhỏ - Trắng mì"
+    },
+    "528": {
+      "CropCode": "FD632",
+      "CropName": "Cúc nhỏ - Trắng ngọc trai"
+    },
+    "529": {
+      "CropCode": "FD633",
+      "CropName": "Cúc nhỏ - Trắng Phần Lan"
+    },
+    "530": {
+      "CropCode": "FD635",
+      "CropName": "Cúc nhỏ - Trắng Link"
+    },
+    "531": {
+      "CropCode": "FD645",
+      "CropName": "Cúc nhỏ - Trắng không có tên"
+    },
+    "532": {
+      "CropCode": "FD646",
+      "CropName": "Cúc nhỏ - Trắng Bang"
+    },
+    "533": {
+      "CropCode": "FD657",
+      "CropName": "Cúc nhỏ - Trắng Sevilla"
+    },
+    "534": {
+      "CropCode": "FD700",
+      "CropName": "Cúc nhỏ - Tím"
+    },
+    "535": {
+      "CropCode": "FD712",
+      "CropName": "Cúc nhỏ - Tím Yunnan"
+    },
+    "536": {
+      "CropCode": "FD752",
+      "CropName": "Cúc nhỏ - Tím đỏ Sinda"
+    },
+    "537": {
+      "CropCode": "FD800",
+      "CropName": "Cúc nhỏ - Cúc nhuộm"
+    },
+    "538": {
+      "CropCode": "FD801",
+      "CropName": "Cúc nhuộm - Phần Lan"
+    },
+    "539": {
+      "CropCode": "FD802",
+      "CropName": "Cúc nhuộm - Kim cương trắng"
+    },
+    "540": {
+      "CropCode": "FD9",
+      "CropName": "Dưa hoa - Nhập khẩu"
+    },
+    "541": {
+      "CropCode": "FD900",
+      "CropName": "Cúc nhỏ - Cúc mini"
+    },
+    "542": {
+      "CropCode": "FE0",
+      "CropName": "Bí đao - Khác"
+    },
+    "543": {
+      "CropCode": "FE000",
+      "CropName": "Cúc châu Phi"
+    },
+    "544": {
+      "CropCode": "FE001",
+      "CropName": "Cúc châu Phi - Màu hỗn hợp"
+    },
+    "545": {
+      "CropCode": "FE1",
+      "CropName": "Bí đao - Vỏ trắng"
+    },
+    "546": {
+      "CropCode": "FE100",
+      "CropName": "Cúc châu Phi - Đỏ"
+    },
+    "547": {
+      "CropCode": "FE101",
+      "CropName": "Cúc châu Phi - Đỏ hai màu"
+    },
+    "548": {
+      "CropCode": "FE102",
+      "CropName": "Cúc châu Phi - Dalich"
+    },
+    "549": {
+      "CropCode": "FE103",
+      "CropName": "Cúc châu Phi - Đỏ pha lê"
+    },
+    "550": {
+      "CropCode": "FE104",
+      "CropName": "Cúc châu Phi - Reno"
+    },
+    "551": {
+      "CropCode": "FE105",
+      "CropName": "Cúc châu Phi - Hilo"
+    },
+    "552": {
+      "CropCode": "FE106",
+      "CropName": "Cúc châu Phi - Loreto"
+    },
+    "553": {
+      "CropCode": "FE107",
+      "CropName": "Cúc châu Phi - Lộng lẫy"
+    },
+    "554": {
+      "CropCode": "FE108",
+      "CropName": "Cúc châu Phi - Đỏ Paris"
+    },
+    "555": {
+      "CropCode": "FE109",
+      "CropName": "Cúc châu Phi - Habib"
+    },
+    "556": {
+      "CropCode": "FE110",
+      "CropName": "Cúc châu Phi - Cabo"
+    },
+    "557": {
+      "CropCode": "FE111",
+      "CropName": "Cúc châu Phi - Đỏ Thượng Hải"
+    },
+    "558": {
+      "CropCode": "FE112",
+      "CropName": "Cúc châu Phi - Thiên Lại"
+    },
+    "559": {
+      "CropCode": "FE113",
+      "CropName": "Cúc châu Phi - Lexington"
+    },
+    "560": {
+      "CropCode": "FE2",
+      "CropName": "Bí đao - Vỏ xanh"
+    },
+    "561": {
+      "CropCode": "FE200",
+      "CropName": "Cúc châu Phi - Cam"
+    },
+    "562": {
+      "CropCode": "FE201",
+      "CropName": "Cúc châu Phi - Thần mặt trời"
+    },
+    "563": {
+      "CropCode": "FE202",
+      "CropName": "Cúc châu Phi - Cồn cát"
+    },
+    "564": {
+      "CropCode": "FE203",
+      "CropName": "Cúc châu Phi - Olin"
+    },
+    "565": {
+      "CropCode": "FE204",
+      "CropName": "Cúc châu Phi - Melrose"
+    },
+    "566": {
+      "CropCode": "FE205",
+      "CropName": "Cúc châu Phi - Gấu Harry"
+    },
+    "567": {
+      "CropCode": "FE3",
+      "CropName": "Bí đao - Bí lông"
+    },
+    "568": {
+      "CropCode": "FE300",
+      "CropName": "Cúc châu Phi - Vàng"
+    },
+    "569": {
+      "CropCode": "FE301",
+      "CropName": "Cúc châu Phi - Sóng nhiệt"
+    },
+    "570": {
+      "CropCode": "FE302",
+      "CropName": "Cúc châu Phi - Vương miện vàng"
+    },
+    "571": {
+      "CropCode": "FE400",
+      "CropName": "Cúc châu Phi - Hồng"
+    },
+    "572": {
+      "CropCode": "FE401",
+      "CropName": "Cúc châu Phi - Ismala"
+    },
+    "573": {
+      "CropCode": "FE402",
+      "CropName": "Cúc châu Phi - Malucia"
+    },
+    "574": {
+      "CropCode": "FE403",
+      "CropName": "Cúc châu Phi - Donika"
+    },
+    "575": {
+      "CropCode": "FE404",
+      "CropName": "Cúc châu Phi - Munira"
+    },
+    "576": {
+      "CropCode": "FE405",
+      "CropName": "Cúc châu Phi - Rosalyn"
+    },
+    "577": {
+      "CropCode": "FE406",
+      "CropName": "Cúc châu Phi - Phấn Giai Nhân"
+    },
+    "578": {
+      "CropCode": "FE407",
+      "CropName": "Cúc châu Phi - Lửa"
+    },
+    "579": {
+      "CropCode": "FE408",
+      "CropName": "Cúc châu Phi - Phấn Hồng Giai Nhân"
+    },
+    "580": {
+      "CropCode": "FE409",
+      "CropName": "Cúc châu Phi - Quyến Rũ Hồng"
+    },
+    "581": {
+      "CropCode": "FE410",
+      "CropName": "Cúc châu Phi - Nightingale"
+    },
+    "582": {
+      "CropCode": "FE411",
+      "CropName": "Cúc châu Phi - Lido"
+    },
+    "583": {
+      "CropCode": "FE412",
+      "CropName": "Cúc châu Phi - Napoleon"
+    },
+    "584": {
+      "CropCode": "FE413",
+      "CropName": "Cúc châu Phi - Bay"
+    },
+    "585": {
+      "CropCode": "FE415",
+      "CropName": "Cúc châu Phi - Đẹp Hồng"
+    },
+    "586": {
+      "CropCode": "FE416",
+      "CropName": "Cúc châu Phi - Nhiệt Tình Hồng"
+    },
+    "587": {
+      "CropCode": "FE600",
+      "CropName": "Cúc châu Phi - Trắng"
+    },
+    "588": {
+      "CropCode": "FE601",
+      "CropName": "Cúc châu Phi - Tuyết Trắng"
+    },
+    "589": {
+      "CropCode": "FE602",
+      "CropName": "Cúc châu Phi - Maria"
+    },
+    "590": {
+      "CropCode": "FE603",
+      "CropName": "Cúc châu Phi - Bianca"
+    },
+    "591": {
+      "CropCode": "FE604",
+      "CropName": "Cúc châu Phi - Gấu Trắng"
+    },
+    "592": {
+      "CropCode": "FE605",
+      "CropName": "Cúc châu Phi - Băng"
+    },
+    "593": {
+      "CropCode": "FE606",
+      "CropName": "Cúc châu Phi - Xúc Xắc"
+    },
+    "594": {
+      "CropCode": "FE700",
+      "CropName": "Cúc châu Phi - Tím"
+    },
+    "595": {
+      "CropCode": "FE701",
+      "CropName": "Cúc châu Phi - Hoàng Tử Tím"
+    },
+    "596": {
+      "CropCode": "FE702",
+      "CropName": "Cúc châu Phi - Rub"
+    },
+    "597": {
+      "CropCode": "FE703",
+      "CropName": "Cúc châu Phi - Pharaoh"
+    },
+    "598": {
+      "CropCode": "FE704",
+      "CropName": "Cúc châu Phi - Nữ Hoàng"
+    },
+    "599": {
+      "CropCode": "FE801",
+      "CropName": "Cúc phi châu - Bobo"
+    },
+    "600": {
+      "CropCode": "FE9",
+      "CropName": "Bí đao - Nhập khẩu"
+    },
+    "601": {
+      "CropCode": "FE900",
+      "CropName": "Cúc phi châu - Mini hỗn hợp"
+    },
+    "602": {
+      "CropCode": "FE910",
+      "CropName": "Cúc phi châu - Mini đỏ"
+    },
+    "603": {
+      "CropCode": "FE920",
+      "CropName": "Cúc phi châu - Mini cam"
+    },
+    "604": {
+      "CropCode": "FE930",
+      "CropName": "Cúc phi châu - Mini vàng"
+    },
+    "605": {
+      "CropCode": "FE940",
+      "CropName": "Cúc phi châu - Mini hồng"
+    },
+    "606": {
+      "CropCode": "FE960",
+      "CropName": "Cúc phi châu - Mini trắng"
+    },
+    "607": {
+      "CropCode": "FE970",
+      "CropName": "Cúc phi châu - Mini tím"
+    },
+    "608": {
+      "CropCode": "FF0",
+      "CropName": "Mướp - Khác"
+    },
+    "609": {
+      "CropCode": "FF1",
+      "CropName": "Mướp"
+    },
+    "610": {
+      "CropCode": "FF2",
+      "CropName": "Mướp - Mướp góc"
+    },
+    "611": {
+      "CropCode": "FF3",
+      "CropName": "Mướp - Mướp trắng"
+    },
+    "612": {
+      "CropCode": "FF4",
+      "CropName": "Mướp - Mướp dài"
+    },
+    "613": {
+      "CropCode": "FF9",
+      "CropName": "Mướp - Nhập khẩu"
+    },
+    "614": {
+      "CropCode": "FG0",
+      "CropName": "Khổ qua - Khác"
+    },
+    "615": {
+      "CropCode": "FG000",
+      "CropName": "Kiếm lan"
+    },
+    "616": {
+      "CropCode": "FG001",
+      "CropName": "Kiếm lan - Màu hỗn hợp"
+    },
+    "617": {
+      "CropCode": "FG1",
+      "CropName": "Khổ qua - Gạo trắng"
+    },
+    "618": {
+      "CropCode": "FG100",
+      "CropName": "Kiếm lan - Đỏ"
+    },
+    "619": {
+      "CropCode": "FG101",
+      "CropName": "Kiếm lan - Số 4"
+    },
+    "620": {
+      "CropCode": "FG102",
+      "CropName": "Kiếm lan - Số 13"
+    },
+    "621": {
+      "CropCode": "FG103",
+      "CropName": "Kiếm lan - Số 42"
+    },
+    "622": {
+      "CropCode": "FG104",
+      "CropName": "Kiếm lan - Số 223"
+    },
+    "623": {
+      "CropCode": "FG105",
+      "CropName": "Kiếm lan - Số 235"
+    },
+    "624": {
+      "CropCode": "FG106",
+      "CropName": "Kiếm lan - Mã Đắc Lợi"
+    },
+    "625": {
+      "CropCode": "FG107",
+      "CropName": "Kiếm lan - Hắc Cốt"
+    },
+    "626": {
+      "CropCode": "FG108",
+      "CropName": "Kiếm lan - Anh Hồng"
+    },
+    "627": {
+      "CropCode": "FG109",
+      "CropName": "Kiếm lan - Yến Chi Hồng"
+    },
+    "628": {
+      "CropCode": "FG110",
+      "CropName": "Kiếm lan - Hồng Hồng"
+    },
+    "629": {
+      "CropCode": "FG111",
+      "CropName": "Kiếm lan - 43号"
+    },
+    "630": {
+      "CropCode": "FG112",
+      "CropName": "Kiếm lan - Tân Anh Hồng"
+    },
+    "631": {
+      "CropCode": "FG113",
+      "CropName": "Kiếm lan - Tân Chủng Hồng"
+    },
+    "632": {
+      "CropCode": "FG114",
+      "CropName": "Kiếm lan - Tân 223号"
+    },
+    "633": {
+      "CropCode": "FG115",
+      "CropName": "Kiếm lan - 243号"
+    },
+    "634": {
+      "CropCode": "FG116",
+      "CropName": "Kiếm lan - Song Sắc Kim Hồng"
+    },
+    "635": {
+      "CropCode": "FG118",
+      "CropName": "Kiếm lan - 278号"
+    },
+    "636": {
+      "CropCode": "FG119",
+      "CropName": "Kiếm lan - 279号"
+    },
+    "637": {
+      "CropCode": "FG120",
+      "CropName": "Kiếm lan - Hắc Cốt Hồng"
+    },
+    "638": {
+      "CropCode": "FG121",
+      "CropName": "Kiếm lan - 265号"
+    },
+    "639": {
+      "CropCode": "FG122",
+      "CropName": "Kiếm lan - Kháng Vi"
+    },
+    "640": {
+      "CropCode": "FG123",
+      "CropName": "Kiếm lan - Diễm Tím Hồng"
+    },
+    "641": {
+      "CropCode": "FG2",
+      "CropName": "Khổ Qua - Thanh Đại Mễ"
+    },
+    "642": {
+      "CropCode": "FG200",
+      "CropName": "Kiếm lan - Cam"
+    },
+    "643": {
+      "CropCode": "FG201",
+      "CropName": "Kiếm lan - Cam Phấn"
+    },
+    "644": {
+      "CropCode": "FG3",
+      "CropName": "Khổ Qua - Sơn Khổ Qua"
+    },
+    "645": {
+      "CropCode": "FG300",
+      "CropName": "Kiếm lan - Vàng"
+    },
+    "646": {
+      "CropCode": "FG301",
+      "CropName": "Kiếm lan - Sâu Vàng"
+    },
+    "647": {
+      "CropCode": "FG302",
+      "CropName": "Kiếm lan - Nhạt Vàng"
+    },
+    "648": {
+      "CropCode": "FG303",
+      "CropName": "Kiếm lan - Vàng Hồng Tâm"
+    },
+    "649": {
+      "CropCode": "FG4",
+      "CropName": "Khổ qua - Xanh lá"
+    },
+    "650": {
+      "CropCode": "FG400",
+      "CropName": "Kiếm lan - Hồng"
+    },
+    "651": {
+      "CropCode": "FG401",
+      "CropName": "Kiếm lan - Hồng mới"
+    },
+    "652": {
+      "CropCode": "FG402",
+      "CropName": "Kiếm lan - Si béo"
+    },
+    "653": {
+      "CropCode": "FG403",
+      "CropName": "Kiếm lan - Mã hồng"
+    },
+    "654": {
+      "CropCode": "FG404",
+      "CropName": "Kiếm lan - Đào hồng"
+    },
+    "655": {
+      "CropCode": "FG405",
+      "CropName": "Kiếm lan - Mỏng hồng"
+    },
+    "656": {
+      "CropCode": "FG406",
+      "CropName": "Kiếm lan - Xanh vỏ hồng"
+    },
+    "657": {
+      "CropCode": "FG407",
+      "CropName": "Kiếm lan - Hồng trái tim"
+    },
+    "658": {
+      "CropCode": "FG408",
+      "CropName": "Kiếm lan - Số 512"
+    },
+    "659": {
+      "CropCode": "FG409",
+      "CropName": "Kiếm lan - Số 513"
+    },
+    "660": {
+      "CropCode": "FG410",
+      "CropName": "Kiếm lan - Số 515"
+    },
+    "661": {
+      "CropCode": "FG411",
+      "CropName": "Kiếm lan - Người đẹp hồng"
+    },
+    "662": {
+      "CropCode": "FG412",
+      "CropName": "Kiếm lan - Khổng lồ hồng"
+    },
+    "663": {
+      "CropCode": "FG413",
+      "CropName": "Kiếm lan - Si béo mới"
+    },
+    "664": {
+      "CropCode": "FG414",
+      "CropName": "Kiếm lan - Hồng Mỹ"
+    },
+    "665": {
+      "CropCode": "FG415",
+      "CropName": "Kiếm lan - Hoa hồng mùa hè"
+    },
+    "666": {
+      "CropCode": "FG416",
+      "CropName": "Kiếm lan - Số 4436"
+    },
+    "667": {
+      "CropCode": "FG417",
+      "CropName": "Kiếm lan - Pháp đô"
+    },
+    "668": {
+      "CropCode": "FG418",
+      "CropName": "Kiếm lan - Số 437"
+    },
+    "669": {
+      "CropCode": "FG419",
+      "CropName": "Kiếm lan - Victoria"
+    },
+    "670": {
+      "CropCode": "FG501",
+      "CropName": "Kiếm lan - Số 610"
+    },
+    "671": {
+      "CropCode": "FG600",
+      "CropName": "Kiếm lan - Trắng"
+    },
+    "672": {
+      "CropCode": "FG601",
+      "CropName": "Kiếm lan - Trắng lớn"
+    },
+    "673": {
+      "CropCode": "FG602",
+      "CropName": "Kiếm lan - Amsterdam"
+    },
+    "674": {
+      "CropCode": "FG603",
+      "CropName": "Kiếm lan - Trắng đỏ tâm"
+    },
+    "675": {
+      "CropCode": "FG700",
+      "CropName": "Kiếm lan - Tím"
+    },
+    "676": {
+      "CropCode": "FG701",
+      "CropName": "Kiếm lan - Tím đậm"
+    },
+    "677": {
+      "CropCode": "FG702",
+      "CropName": "Kiếm lan - Tím nhạt"
+    },
+    "678": {
+      "CropCode": "FG703",
+      "CropName": "Kiếm lan - Tím nhung đậm"
+    },
+    "679": {
+      "CropCode": "FG704",
+      "CropName": "Kiếm lan - Tím đen"
+    },
+    "680": {
+      "CropCode": "FG705",
+      "CropName": "Kiếm lan - Tím xanh"
+    },
+    "681": {
+      "CropCode": "FG706",
+      "CropName": "Kiếm lan - Tím trắng tâm"
+    },
+    "682": {
+      "CropCode": "FG9",
+      "CropName": "Khổ qua - Nhập khẩu"
+    },
+    "683": {
+      "CropCode": "FH0",
+      "CropName": "Bèo tây - Khác"
+    },
+    "684": {
+      "CropCode": "FH000",
+      "CropName": "Các loại hoa khác"
+    },
+    "685": {
+      "CropCode": "FH002",
+      "CropName": "Hoa đấu giá"
+    },
+    "686": {
+      "CropCode": "FH003",
+      "CropName": "Mềm mại"
+    },
+    "687": {
+      "CropCode": "FH004",
+      "CropName": "Cỏ bát quái (Hoàng Hà)"
+    },
+    "688": {
+      "CropCode": "FH005",
+      "CropName": "Hoa búa vàng"
+    },
+    "689": {
+      "CropCode": "FH006",
+      "CropName": "Hoa nhài vàng"
+    },
+    "690": {
+      "CropCode": "FH007",
+      "CropName": "Nấm thông"
+    },
+    "691": {
+      "CropCode": "FH008",
+      "CropName": "Cúc La Mã"
+    },
+    "692": {
+      "CropCode": "FH009",
+      "CropName": "Cúc vạn thọ"
+    },
+    "693": {
+      "CropCode": "FH048",
+      "CropName": "Liên kiều"
+    },
+    "694": {
+      "CropCode": "FH050",
+      "CropName": "Narcissus - Đa sắc"
+    },
+    "695": {
+      "CropCode": "FH051",
+      "CropName": "Narcissus - Đỏ"
+    },
+    "696": {
+      "CropCode": "FH052",
+      "CropName": "Narcissus - Cam"
+    },
+    "697": {
+      "CropCode": "FH053",
+      "CropName": "Narcissus - Vàng"
+    },
+    "698": {
+      "CropCode": "FH054",
+      "CropName": "Narcissus - Hồng"
+    },
+    "699": {
+      "CropCode": "FH055",
+      "CropName": "Hoa huệ nước - Xanh"
+    },
+    "700": {
+      "CropCode": "FH056",
+      "CropName": "Hoa huệ nước - Trắng"
+    },
+    "701": {
+      "CropCode": "FH057",
+      "CropName": "Hoa huệ nước - Tím"
+    },
+    "702": {
+      "CropCode": "FH061",
+      "CropName": "Hoa huệ nước - Tím đỏ"
+    },
+    "703": {
+      "CropCode": "FH062",
+      "CropName": "Hoa huệ nước - Hai màu"
+    },
+    "704": {
+      "CropCode": "FH063",
+      "CropName": "Hoa huệ nước - Trắng viền đỏ"
+    },
+    "705": {
+      "CropCode": "FH071",
+      "CropName": "Hoa đá - Đỏ"
+    },
+    "706": {
+      "CropCode": "FH072",
+      "CropName": "Hoa đá - Vàng"
+    },
+    "707": {
+      "CropCode": "FH073",
+      "CropName": "Hoa đá - Vàng"
+    },
+    "708": {
+      "CropCode": "FH074",
+      "CropName": "Hoa đá - Hồng"
+    },
+    "709": {
+      "CropCode": "FH080",
+      "CropName": "Cỏ lan"
+    },
+    "710": {
+      "CropCode": "FH090",
+      "CropName": "Hoa đệm"
+    },
+    "711": {
+      "CropCode": "FH1",
+      "CropName": "Cây bàng - Dài"
+    },
+    "712": {
+      "CropCode": "FH101",
+      "CropName": "Chim thiên đường"
+    },
+    "713": {
+      "CropCode": "FH111",
+      "CropName": "Chim thiên đường nhỏ - Đỏ"
+    },
+    "714": {
+      "CropCode": "FH112",
+      "CropName": "Chim thiên đường nhỏ - Cam viền đỏ"
+    },
+    "715": {
+      "CropCode": "FH113",
+      "CropName": "Chim thiên đường nhỏ - Vàng"
+    },
+    "716": {
+      "CropCode": "FH114",
+      "CropName": "Chim thiên đường nhỏ - Hồng"
+    },
+    "717": {
+      "CropCode": "FH120",
+      "CropName": "Hoa lông"
+    },
+    "718": {
+      "CropCode": "FH121",
+      "CropName": "Chim vàng đỏ"
+    },
+    "719": {
+      "CropCode": "FH123",
+      "CropName": "Chim vàng"
+    },
+    "720": {
+      "CropCode": "FH124",
+      "CropName": "Chim ngọc"
+    },
+    "721": {
+      "CropCode": "FH125",
+      "CropName": "Hoa ngọc trai"
+    },
+    "722": {
+      "CropCode": "FH127",
+      "CropName": "Chuối hạc - Người đẹp đen"
+    },
+    "723": {
+      "CropCode": "FH128",
+      "CropName": "Chuối mười ngày"
+    },
+    "724": {
+      "CropCode": "FH129",
+      "CropName": "Chuối mỏ hạc"
+    },
+    "725": {
+      "CropCode": "FH130",
+      "CropName": "Lan văn châu"
+    },
+    "726": {
+      "CropCode": "FH131",
+      "CropName": "Khổng tước"
+    },
+    "727": {
+      "CropCode": "FH132",
+      "CropName": "Chuối nhỏ"
+    },
+    "728": {
+      "CropCode": "FH133",
+      "CropName": "Chuối hạc mỹ nhân đỏ"
+    },
+    "729": {
+      "CropCode": "FH134",
+      "CropName": "Chuối đỏ"
+    },
+    "730": {
+      "CropCode": "FH135",
+      "CropName": "Khổng tước"
+    },
+    "731": {
+      "CropCode": "FH136",
+      "CropName": "Chuối hoa trắng"
+    },
+    "732": {
+      "CropCode": "FH137",
+      "CropName": "Liên hoa Quan Âm"
+    },
+    "733": {
+      "CropCode": "FH138",
+      "CropName": "Chuối mỹ nhân"
+    },
+    "734": {
+      "CropCode": "FH139",
+      "CropName": "Hồng ngọc"
+    },
+    "735": {
+      "CropCode": "FH140",
+      "CropName": "Hoa gừng"
+    },
+    "736": {
+      "CropCode": "FH145",
+      "CropName": "Hoa cúc vàng"
+    },
+    "737": {
+      "CropCode": "FH152",
+      "CropName": "Hoa gừng dại - Cam"
+    },
+    "738": {
+      "CropCode": "FH156",
+      "CropName": "Hoa gừng dại - Trắng"
+    },
+    "739": {
+      "CropCode": "FH158",
+      "CropName": "Hoa gừng đỏ"
+    },
+    "740": {
+      "CropCode": "FH159",
+      "CropName": "Hoa gừng cầu"
+    },
+    "741": {
+      "CropCode": "FH164",
+      "CropName": "Hoa đuốc"
+    },
+    "742": {
+      "CropCode": "FH170",
+      "CropName": "Lily đuôi cáo"
+    },
+    "743": {
+      "CropCode": "FH180",
+      "CropName": "Lily đèn cung đình"
+    },
+    "744": {
+      "CropCode": "FH185",
+      "CropName": "Lan hỏa (Lily lửa)"
+    },
+    "745": {
+      "CropCode": "FH190",
+      "CropName": "Lily kêu"
+    },
+    "746": {
+      "CropCode": "FH195",
+      "CropName": "Hoa ngọc lan"
+    },
+    "747": {
+      "CropCode": "FH2",
+      "CropName": "Bèo tây - Hình tròn"
+    },
+    "748": {
+      "CropCode": "FH201",
+      "CropName": "Liễu mèo - Thẳng"
+    },
+    "749": {
+      "CropCode": "FH202",
+      "CropName": "Liễu ngọc - Thẳng"
+    },
+    "750": {
+      "CropCode": "FH203",
+      "CropName": "Liễu mèo - Chẻ"
+    },
+    "751": {
+      "CropCode": "FH204",
+      "CropName": "Liễu ngọc - Chẻ"
+    },
+    "752": {
+      "CropCode": "FH210",
+      "CropName": "Cỏ chiều sương"
+    },
+    "753": {
+      "CropCode": "FH215",
+      "CropName": "Cúc đoạn"
+    },
+    "754": {
+      "CropCode": "FH220",
+      "CropName": "Đậu quạt"
+    },
+    "755": {
+      "CropCode": "FH225",
+      "CropName": "Hoa đế vương"
+    },
+    "756": {
+      "CropCode": "FH230",
+      "CropName": "Hoa nhài đêm"
+    },
+    "757": {
+      "CropCode": "FH231",
+      "CropName": "Hoa nhài đêm - Đơn cánh"
+    },
+    "758": {
+      "CropCode": "FH232",
+      "CropName": "Hoa nhài đêm - Đôi cánh"
+    },
+    "759": {
+      "CropCode": "FH240",
+      "CropName": "Cúc mạch"
+    },
+    "760": {
+      "CropCode": "FH245",
+      "CropName": "Cỏ tuyết đầu mùa"
+    },
+    "761": {
+      "CropCode": "FH251",
+      "CropName": "Tuyến hoa"
+    },
+    "762": {
+      "CropCode": "FH256",
+      "CropName": "Tuyến hoa trắng"
+    },
+    "763": {
+      "CropCode": "FH260",
+      "CropName": "Đỉnh đỏ (Hành hoa)"
+    },
+    "764": {
+      "CropCode": "FH270",
+      "CropName": "Hoa ngàn ngày"
+    },
+    "765": {
+      "CropCode": "FH280",
+      "CropName": "Cổ đại hiếm"
+    },
+    "766": {
+      "CropCode": "FH293",
+      "CropName": "Hoa hướng dương - Đơn cánh"
+    },
+    "767": {
+      "CropCode": "FH294",
+      "CropName": "Hoa hướng dương - Đôi cánh"
+    },
+    "768": {
+      "CropCode": "FH295",
+      "CropName": "Hoa hướng dương - Ánh sáng vàng"
+    },
+    "769": {
+      "CropCode": "FH296",
+      "CropName": "Hoa hướng dương - Kim cương"
+    },
+    "770": {
+      "CropCode": "FH297",
+      "CropName": "Hoa hướng dương - Đạt quán số bảy"
+    },
+    "771": {
+      "CropCode": "FH298",
+      "CropName": "Hoa hướng dương - Thần mặt trời"
+    },
+    "772": {
+      "CropCode": "FH3",
+      "CropName": "Bèo tây - Hoa bèo"
+    },
+    "773": {
+      "CropCode": "FH301",
+      "CropName": "Cúc Ba Tư"
+    },
+    "774": {
+      "CropCode": "FH302",
+      "CropName": "Cúc dại"
+    },
+    "775": {
+      "CropCode": "FH303",
+      "CropName": "Cúc thủy tinh"
+    },
+    "776": {
+      "CropCode": "FH304",
+      "CropName": "Cúc vảy"
+    },
+    "777": {
+      "CropCode": "FH305",
+      "CropName": "Cúc bạch hữu thiền"
+    },
+    "778": {
+      "CropCode": "FH306",
+      "CropName": "Cỏ trắng"
+    },
+    "779": {
+      "CropCode": "FH307",
+      "CropName": "Cúc lá dưa"
+    },
+    "780": {
+      "CropCode": "FH308",
+      "CropName": "Cúc trắng xanh"
+    },
+    "781": {
+      "CropCode": "FH309",
+      "CropName": "Hoa mẫu đơn"
+    },
+    "782": {
+      "CropCode": "FH310",
+      "CropName": "Hoa đại lý - Hỗn hợp"
+    },
+    "783": {
+      "CropCode": "FH311",
+      "CropName": "Hoa đại lý - Màu đỏ"
+    },
+    "784": {
+      "CropCode": "FH312",
+      "CropName": "Hoa đại lý - Màu cam"
+    },
+    "785": {
+      "CropCode": "FH313",
+      "CropName": "Hoa đại lý - Màu vàng"
+    },
+    "786": {
+      "CropCode": "FH314",
+      "CropName": "Hoa đại lý - Màu hồng"
+    },
+    "787": {
+      "CropCode": "FH316",
+      "CropName": "Hoa đại lý - Màu trắng"
+    },
+    "788": {
+      "CropCode": "FH317",
+      "CropName": "Hoa đại lý - Màu tím"
+    },
+    "789": {
+      "CropCode": "FH318",
+      "CropName": "Hoa đại lý - Màu đôi"
+    },
+    "790": {
+      "CropCode": "FH320",
+      "CropName": "Hoa nhụy (hoa đỏ)"
+    },
+    "791": {
+      "CropCode": "FH330",
+      "CropName": "Hoa cockscomb"
+    },
+    "792": {
+      "CropCode": "FH331",
+      "CropName": "Hoa cockscomb - Đỏ nhạt"
+    },
+    "793": {
+      "CropCode": "FH332",
+      "CropName": "Hoa cockscomb - Đỏ sẫm"
+    },
+    "794": {
+      "CropCode": "FH333",
+      "CropName": "Hoa cockscomb - Vàng"
+    },
+    "795": {
+      "CropCode": "FH334",
+      "CropName": "Hoa cockscomb - Xanh"
+    },
+    "796": {
+      "CropCode": "FH335",
+      "CropName": "Hoa cockscomb kiểu súng"
+    },
+    "797": {
+      "CropCode": "FH336",
+      "CropName": "Cockscomb rủ"
+    },
+    "798": {
+      "CropCode": "FH337",
+      "CropName": "Hoa cockscomb - Tím đỏ"
+    },
+    "799": {
+      "CropCode": "FH338",
+      "CropName": "Hoa mào gà - Vàng xanh"
+    },
+    "800": {
+      "CropCode": "FH339",
+      "CropName": "Hoa mào gà - Hồng"
+    },
+    "801": {
+      "CropCode": "FH340",
+      "CropName": "Hoa mào gà lửa"
+    },
+    "802": {
+      "CropCode": "FH341",
+      "CropName": "Hoa mào gà lửa - Đỏ"
+    },
+    "803": {
+      "CropCode": "FH342",
+      "CropName": "Hoa mào gà lửa - Cam"
+    },
+    "804": {
+      "CropCode": "FH343",
+      "CropName": "Hoa mào gà lửa - Vàng"
+    },
+    "805": {
+      "CropCode": "FH344",
+      "CropName": "Hoa mào gà lửa - Hồng"
+    },
+    "806": {
+      "CropCode": "FH350",
+      "CropName": "Cỏ mộng"
+    },
+    "807": {
+      "CropCode": "FH355",
+      "CropName": "Hoa dứa"
+    },
+    "808": {
+      "CropCode": "FH356",
+      "CropName": "Hoa dứa quan"
+    },
+    "809": {
+      "CropCode": "FH357",
+      "CropName": "Hoa dứa quan hoa"
+    },
+    "810": {
+      "CropCode": "FH358",
+      "CropName": "Dứa san hô"
+    },
+    "811": {
+      "CropCode": "FH360",
+      "CropName": "Cỏ cá vàng - Đa sắc"
+    },
+    "812": {
+      "CropCode": "FH361",
+      "CropName": "Cỏ cá vàng - Đỏ"
+    },
+    "813": {
+      "CropCode": "FH363",
+      "CropName": "Cỏ cá vàng - Vàng"
+    },
+    "814": {
+      "CropCode": "FH364",
+      "CropName": "Cỏ cá vàng - Hồng"
+    },
+    "815": {
+      "CropCode": "FH366",
+      "CropName": "Cỏ cá vàng - Trắng"
+    },
+    "816": {
+      "CropCode": "FH368",
+      "CropName": "Cỏ cá vàng - Hai màu"
+    },
+    "817": {
+      "CropCode": "FH370",
+      "CropName": "Cỏ nghìn chim"
+    },
+    "818": {
+      "CropCode": "FH375",
+      "CropName": "Cỏ bay lớn"
+    },
+    "819": {
+      "CropCode": "FH376",
+      "CropName": "Cỏ bay nhỏ"
+    },
+    "820": {
+      "CropCode": "FH380",
+      "CropName": "Cỏ đuôi phượng"
+    },
+    "821": {
+      "CropCode": "FH381",
+      "CropName": "Cỏ kỳ lân"
+    },
+    "822": {
+      "CropCode": "FH390",
+      "CropName": "Cỏ泡盛"
+    },
+    "823": {
+      "CropCode": "FH395",
+      "CropName": "Hoa hổ đuôi"
+    },
+    "824": {
+      "CropCode": "FH4",
+      "CropName": "Bẹt bắp - Lê bắp"
+    },
+    "825": {
+      "CropCode": "FH410",
+      "CropName": "Alice - Hỗn hợp"
+    },
+    "826": {
+      "CropCode": "FH413",
+      "CropName": "Alice - Vàng"
+    },
+    "827": {
+      "CropCode": "FH416",
+      "CropName": "Alice - Trắng"
+    },
+    "828": {
+      "CropCode": "FH417",
+      "CropName": "Alice - Xanh nhạt"
+    },
+    "829": {
+      "CropCode": "FH418",
+      "CropName": "Alice - Xanh đậm"
+    },
+    "830": {
+      "CropCode": "FH420",
+      "CropName": "Hoa đơn"
+    },
+    "831": {
+      "CropCode": "FH421",
+      "CropName": "Hoa đơn Tây"
+    },
+    "832": {
+      "CropCode": "FH434",
+      "CropName": "Uất kim hương - Hồng"
+    },
+    "833": {
+      "CropCode": "FH440",
+      "CropName": "Lan nhỏ - Hỗn hợp"
+    },
+    "834": {
+      "CropCode": "FH441",
+      "CropName": "Lan nhỏ - Đỏ"
+    },
+    "835": {
+      "CropCode": "FH442",
+      "CropName": "Lan nhỏ - Cam"
+    },
+    "836": {
+      "CropCode": "FH443",
+      "CropName": "Lan nhỏ - Vàng"
+    },
+    "837": {
+      "CropCode": "FH444",
+      "CropName": "Lan nhỏ - Hồng"
+    },
+    "838": {
+      "CropCode": "FH446",
+      "CropName": "Lan nhỏ - Trắng"
+    },
+    "839": {
+      "CropCode": "FH447",
+      "CropName": "Lan nhỏ - Tím"
+    },
+    "840": {
+      "CropCode": "FH450",
+      "CropName": "Hoa violet - Đơn"
+    },
+    "841": {
+      "CropCode": "FH451",
+      "CropName": "Hoa violet - Đôi"
+    },
+    "842": {
+      "CropCode": "FH452",
+      "CropName": "Hoa violet - Đôi hồng"
+    },
+    "843": {
+      "CropCode": "FH454",
+      "CropName": "Hoa violet - Đôi hồng nhạt"
+    },
+    "844": {
+      "CropCode": "FH456",
+      "CropName": "Hoa violet - Đôi trắng"
+    },
+    "845": {
+      "CropCode": "FH457",
+      "CropName": "Hoa violet - Đôi tím nhạt"
+    },
+    "846": {
+      "CropCode": "FH458",
+      "CropName": "Hoa violet - Đôi tím đậm"
+    },
+    "847": {
+      "CropCode": "FH460",
+      "CropName": "Hoa cẩm tú cầu"
+    },
+    "848": {
+      "CropCode": "FH461",
+      "CropName": "Hoa cẩm tú cầu - Đỏ"
+    },
+    "849": {
+      "CropCode": "FH464",
+      "CropName": "Cẩm tú cầu - Hồng"
+    },
+    "850": {
+      "CropCode": "FH465",
+      "CropName": "Cẩm tú cầu - Xanh"
+    },
+    "851": {
+      "CropCode": "FH466",
+      "CropName": "Cẩm tú cầu - Trắng"
+    },
+    "852": {
+      "CropCode": "FH467",
+      "CropName": "Cẩm tú cầu - Xanh dương"
+    },
+    "853": {
+      "CropCode": "FH468",
+      "CropName": "Cẩm tú cầu - Xanh nước"
+    },
+    "854": {
+      "CropCode": "FH470",
+      "CropName": "Hoa tiên"
+    },
+    "855": {
+      "CropCode": "FH480",
+      "CropName": "Cây long đởm"
+    },
+    "856": {
+      "CropCode": "FH485",
+      "CropName": "Hoa chuông"
+    },
+    "857": {
+      "CropCode": "FH490",
+      "CropName": "Bạch đầu ông"
+    },
+    "858": {
+      "CropCode": "FH495",
+      "CropName": "Hoa sen đất"
+    },
+    "859": {
+      "CropCode": "FH496",
+      "CropName": "Hoa sen đất - Trắng"
+    },
+    "860": {
+      "CropCode": "FH497",
+      "CropName": "Hoa sen đất - Đỏ"
+    },
+    "861": {
+      "CropCode": "FH498",
+      "CropName": "Hoa sen đất - Vàng"
+    },
+    "862": {
+      "CropCode": "FH499",
+      "CropName": "Hoa sen đất - Hồng"
+    },
+    "863": {
+      "CropCode": "FH500",
+      "CropName": "Hoa huệ"
+    },
+    "864": {
+      "CropCode": "FH510",
+      "CropName": "Hoa sen đất bướm - Hỗn hợp"
+    },
+    "865": {
+      "CropCode": "FH511",
+      "CropName": "Hoa sen đất bướm - Đỏ"
+    },
+    "866": {
+      "CropCode": "FH512",
+      "CropName": "Hoa sen đất bướm - Cam"
+    },
+    "867": {
+      "CropCode": "FH513",
+      "CropName": "Hoa sen đất bướm - Vàng"
+    },
+    "868": {
+      "CropCode": "FH514",
+      "CropName": "Hoa sen đất bướm - Hồng"
+    },
+    "869": {
+      "CropCode": "FH516",
+      "CropName": "Hoa sen đất bướm - Trắng"
+    },
+    "870": {
+      "CropCode": "FH521",
+      "CropName": "Hương ngọc lan - Vàng"
+    },
+    "871": {
+      "CropCode": "FH522",
+      "CropName": "Hương ngọc lan - Trắng"
+    },
+    "872": {
+      "CropCode": "FH580",
+      "CropName": "Hoa diên vĩ"
+    },
+    "873": {
+      "CropCode": "FH600",
+      "CropName": "Hoa mai"
+    },
+    "874": {
+      "CropCode": "FH610",
+      "CropName": "Hoa tulip-Đa sắc"
+    },
+    "875": {
+      "CropCode": "FH611",
+      "CropName": "Hoa tulip-Màu đỏ"
+    },
+    "876": {
+      "CropCode": "FH612",
+      "CropName": "Hoa tulip-Màu cam"
+    },
+    "877": {
+      "CropCode": "FH613",
+      "CropName": "Hoa tulip-Màu vàng"
+    },
+    "878": {
+      "CropCode": "FH614",
+      "CropName": "Hoa tulip-Màu hồng"
+    },
+    "879": {
+      "CropCode": "FH616",
+      "CropName": "Hoa tulip-Màu trắng"
+    },
+    "880": {
+      "CropCode": "FH617",
+      "CropName": "Hoa tulip-Màu tím"
+    },
+    "881": {
+      "CropCode": "FH618",
+      "CropName": "Hoa tulip-Hai màu"
+    },
+    "882": {
+      "CropCode": "FH620",
+      "CropName": "Hoa thủy tiên"
+    },
+    "883": {
+      "CropCode": "FH626",
+      "CropName": "Hoa lan trắng"
+    },
+    "884": {
+      "CropCode": "FH630",
+      "CropName": "Hoa khoai môn-Đa sắc"
+    },
+    "885": {
+      "CropCode": "FH631",
+      "CropName": "Hoa khoai môn-Màu đỏ"
+    },
+    "886": {
+      "CropCode": "FH632",
+      "CropName": "Hoa khoai môn-Màu cam"
+    },
+    "887": {
+      "CropCode": "FH633",
+      "CropName": "Hoa khoai môn-Màu vàng"
+    },
+    "888": {
+      "CropCode": "FH634",
+      "CropName": "Hoa khoai môn-Màu hồng"
+    },
+    "889": {
+      "CropCode": "FH635",
+      "CropName": "Hoa khoai môn-Màu xanh"
+    },
+    "890": {
+      "CropCode": "FH636",
+      "CropName": "Hoa khoai môn-Màu trắng"
+    },
+    "891": {
+      "CropCode": "FH637",
+      "CropName": "Hoa khoai môn-Màu tím"
+    },
+    "892": {
+      "CropCode": "FH638",
+      "CropName": "Hoa khoai môn-Màu trắng sữa"
+    },
+    "893": {
+      "CropCode": "FH640",
+      "CropName": "Hoa súng"
+    },
+    "894": {
+      "CropCode": "FH650",
+      "CropName": "Hoa sen"
+    },
+    "895": {
+      "CropCode": "FH660",
+      "CropName": "Nhung"
+    },
+    "896": {
+      "CropCode": "FH661",
+      "CropName": "Ngôi sao Bethlehem"
+    },
+    "897": {
+      "CropCode": "FH670",
+      "CropName": "Hoa nhài"
+    },
+    "898": {
+      "CropCode": "FH673",
+      "CropName": "Hoa bìm bìm tam giác"
+    },
+    "899": {
+      "CropCode": "FH680",
+      "CropName": "Lan quân tử"
+    },
+    "900": {
+      "CropCode": "FH690",
+      "CropName": "Hoa cầu lửa"
+    },
+    "901": {
+      "CropCode": "FH700",
+      "CropName": "Cây lạnh (Vương miện)"
+    },
+    "902": {
+      "CropCode": "FH710",
+      "CropName": "Anh đào núi sâu"
+    },
+    "903": {
+      "CropCode": "FH717",
+      "CropName": "Anh đào núi sâu - Tím sương"
+    },
+    "904": {
+      "CropCode": "FH720",
+      "CropName": "Hoa vỏ sò"
+    },
+    "905": {
+      "CropCode": "FH730",
+      "CropName": "Cỏ hạt đen"
+    },
+    "906": {
+      "CropCode": "FH740",
+      "CropName": "Hoa kim ngọc"
+    },
+    "907": {
+      "CropCode": "FH750",
+      "CropName": "Liên tử (Hoa tình yêu)"
+    },
+    "908": {
+      "CropCode": "FH756",
+      "CropName": "Liên tử đại bạch"
+    },
+    "909": {
+      "CropCode": "FH757",
+      "CropName": "Liên tử đại tím"
+    },
+    "910": {
+      "CropCode": "FH760",
+      "CropName": "Lily ngọn đuốc"
+    },
+    "911": {
+      "CropCode": "FH770",
+      "CropName": "Tulip châu Phi"
+    },
+    "912": {
+      "CropCode": "FH780",
+      "CropName": "Lily ngô"
+    },
+    "913": {
+      "CropCode": "FH790",
+      "CropName": "Hoa sao xanh"
+    },
+    "914": {
+      "CropCode": "FH794",
+      "CropName": "Hoa sao xanh - Màu hồng"
+    },
+    "915": {
+      "CropCode": "FH795",
+      "CropName": "Hoa sao xanh - Màu xanh"
+    },
+    "916": {
+      "CropCode": "FH796",
+      "CropName": "Hoa sao xanh - Màu trắng"
+    },
+    "917": {
+      "CropCode": "FH800",
+      "CropName": "Hoa hồng - Giáng sinh"
+    },
+    "918": {
+      "CropCode": "FH890",
+      "CropName": "Hoa kangaroo"
+    },
+    "919": {
+      "CropCode": "FH900",
+      "CropName": "Hoa tím kiều"
+    },
+    "920": {
+      "CropCode": "FI0",
+      "CropName": "Cà tím - Khác"
+    },
+    "921": {
+      "CropCode": "FI1",
+      "CropName": "Cà tím - Cà tím son"
+    },
+    "922": {
+      "CropCode": "FI2",
+      "CropName": "Cà tím - Cà tím lông"
+    },
+    "923": {
+      "CropCode": "FI3",
+      "CropName": "Cà tím - Giống Nhật"
+    },
+    "924": {
+      "CropCode": "FJ0",
+      "CropName": "Cà chua - Khác"
+    },
+    "925": {
+      "CropCode": "FJ1",
+      "CropName": "Cà chua - Cà chua đen"
+    },
+    "926": {
+      "CropCode": "FJ2",
+      "CropName": "Cà chua - Cà chua hồng"
+    },
+    "927": {
+      "CropCode": "FJ3",
+      "CropName": "Cà chua - Cà chua bò"
+    },
+    "928": {
+      "CropCode": "FK0",
+      "CropName": "Ớt ngọt - Khác"
+    },
+    "929": {
+      "CropCode": "FK000",
+      "CropName": "Hoa hướng dương"
+    },
+    "930": {
+      "CropCode": "FK001",
+      "CropName": "Hoa hướng dương - Đơn"
+    },
+    "931": {
+      "CropCode": "FK002",
+      "CropName": "Hoa hướng dương - Đôi"
+    },
+    "932": {
+      "CropCode": "FK003",
+      "CropName": "Hoa hướng dương - Ba"
+    },
+    "933": {
+      "CropCode": "FK004",
+      "CropName": "Hoa hướng dương - Bốn"
+    },
+    "934": {
+      "CropCode": "FK005",
+      "CropName": "Hoa hướng dương - Năm"
+    },
+    "935": {
+      "CropCode": "FK009",
+      "CropName": "Hoa hướng dương - Nhiều"
+    },
+    "936": {
+      "CropCode": "FK040",
+      "CropName": "Hoa hướng dương - Hồng"
+    },
+    "937": {
+      "CropCode": "FK041",
+      "CropName": "Hoa hướng dương - Hồng đơn"
+    },
+    "938": {
+      "CropCode": "FK042",
+      "CropName": "Hoa hướng dương - Hồng đôi"
+    },
+    "939": {
+      "CropCode": "FK043",
+      "CropName": "Hoa hướng dương - Hồng ba"
+    },
+    "940": {
+      "CropCode": "FK044",
+      "CropName": "Hoa hướng dương - Hồng bốn"
+    },
+    "941": {
+      "CropCode": "FK045",
+      "CropName": "Hoa hướng dương - Hồng năm"
+    },
+    "942": {
+      "CropCode": "FK049",
+      "CropName": "Hoa hướng dương - Hồng nhiều"
+    },
+    "943": {
+      "CropCode": "FK110",
+      "CropName": "Hoa hướng dương - Laura đỏ"
+    },
+    "944": {
+      "CropCode": "FK111",
+      "CropName": "Hoa hướng dương - Laura đỏ đơn"
+    },
+    "945": {
+      "CropCode": "FK112",
+      "CropName": "Hoa hướng dương - Laura đỏ đôi"
+    },
+    "946": {
+      "CropCode": "FK113",
+      "CropName": "Hoa hướng dương - Laura đỏ ba"
+    },
+    "947": {
+      "CropCode": "FK114",
+      "CropName": "Hoa hướng dương - Laura đỏ bốn"
+    },
+    "948": {
+      "CropCode": "FK115",
+      "CropName": "Hoa hướng dương - Laura đỏ năm"
+    },
+    "949": {
+      "CropCode": "FK119",
+      "CropName": "Hướng dương-Laura đỏ nhiều bông"
+    },
+    "950": {
+      "CropCode": "FK210",
+      "CropName": "Hướng dương-Olympic đỏ"
+    },
+    "951": {
+      "CropCode": "FK211",
+      "CropName": "Hướng dương-Olympic đỏ đơn bông"
+    },
+    "952": {
+      "CropCode": "FK212",
+      "CropName": "Hướng dương-Olympic đỏ đôi bông"
+    },
+    "953": {
+      "CropCode": "FK213",
+      "CropName": "Hướng dương-Olympic đỏ ba bông"
+    },
+    "954": {
+      "CropCode": "FK214",
+      "CropName": "Hướng dương-Olympic đỏ bốn bông"
+    },
+    "955": {
+      "CropCode": "FK215",
+      "CropName": "Hướng dương-Olympic đỏ năm bông"
+    },
+    "956": {
+      "CropCode": "FK219",
+      "CropName": "Hướng dương-Olympic đỏ nhiều bông"
+    },
+    "957": {
+      "CropCode": "FK3",
+      "CropName": "Ớt ngọt-Mới"
+    },
+    "958": {
+      "CropCode": "FK310",
+      "CropName": "Hướng dương-Đỏ"
+    },
+    "959": {
+      "CropCode": "FK311",
+      "CropName": "Hướng dương-Đỏ đơn bông"
+    },
+    "960": {
+      "CropCode": "FK312",
+      "CropName": "Hướng dương-Đỏ đôi bông"
+    },
+    "961": {
+      "CropCode": "FK313",
+      "CropName": "Hướng dương-Đỏ ba bông"
+    },
+    "962": {
+      "CropCode": "FK314",
+      "CropName": "Hướng dương-Đỏ bốn bông"
+    },
+    "963": {
+      "CropCode": "FK315",
+      "CropName": "Hướng dương-Đỏ năm bông"
+    },
+    "964": {
+      "CropCode": "FK319",
+      "CropName": "Hướng dương-Đỏ nhiều bông"
+    },
+    "965": {
+      "CropCode": "FK340",
+      "CropName": "Hướng dương-Mary hồng"
+    },
+    "966": {
+      "CropCode": "FK341",
+      "CropName": "Hướng dương-Mary hồng đơn bông"
+    },
+    "967": {
+      "CropCode": "FK342",
+      "CropName": "Hướng dương-Mary hồng đôi bông"
+    },
+    "968": {
+      "CropCode": "FK343",
+      "CropName": "Hướng dương-Mary hồng ba bông"
+    },
+    "969": {
+      "CropCode": "FK344",
+      "CropName": "Hướng dương-Mary hồng bốn bông"
+    },
+    "970": {
+      "CropCode": "FK345",
+      "CropName": "Hướng dương-Mary hồng năm bông"
+    },
+    "971": {
+      "CropCode": "FK349",
+      "CropName": "Hướng dương-Mary hồng nhiều bông"
+    },
+    "972": {
+      "CropCode": "FK4",
+      "CropName": "Ớt ngọt-Nhiều màu"
+    },
+    "973": {
+      "CropCode": "FK410",
+      "CropName": "Hướng dương-Acapulco đỏ"
+    },
+    "974": {
+      "CropCode": "FK411",
+      "CropName": "Hướng dương - Akapok đỏ đơn"
+    },
+    "975": {
+      "CropCode": "FK412",
+      "CropName": "Hướng dương - Akapok đỏ đôi"
+    },
+    "976": {
+      "CropCode": "FK413",
+      "CropName": "Hướng dương - Akapok đỏ ba"
+    },
+    "977": {
+      "CropCode": "FK414",
+      "CropName": "Hướng dương - Akapok đỏ bốn"
+    },
+    "978": {
+      "CropCode": "FK415",
+      "CropName": "Hướng dương - Akapok đỏ năm"
+    },
+    "979": {
+      "CropCode": "FK419",
+      "CropName": "Hướng dương - Akapok đỏ nhiều"
+    },
+    "980": {
+      "CropCode": "FK420",
+      "CropName": "Hướng dương - Atia"
+    },
+    "981": {
+      "CropCode": "FK421",
+      "CropName": "Hướng dương - Atia đơn"
+    },
+    "982": {
+      "CropCode": "FK422",
+      "CropName": "Hướng dương - Atia đôi"
+    },
+    "983": {
+      "CropCode": "FK423",
+      "CropName": "Hướng dương - Atia ba"
+    },
+    "984": {
+      "CropCode": "FK429",
+      "CropName": "Hướng dương - Atia nhiều"
+    },
+    "985": {
+      "CropCode": "FK430",
+      "CropName": "Hướng dương - Mary Star"
+    },
+    "986": {
+      "CropCode": "FK431",
+      "CropName": "Hướng dương - Mary Star đơn"
+    },
+    "987": {
+      "CropCode": "FK432",
+      "CropName": "Hướng dương - Mary Star đôi"
+    },
+    "988": {
+      "CropCode": "FK433",
+      "CropName": "Hướng dương - Mary Star ba"
+    },
+    "989": {
+      "CropCode": "FK439",
+      "CropName": "Hướng dương - Mary Star nhiều"
+    },
+    "990": {
+      "CropCode": "FK440",
+      "CropName": "Rodina"
+    },
+    "991": {
+      "CropCode": "FK441",
+      "CropName": "Rodina - đơn"
+    },
+    "992": {
+      "CropCode": "FK442",
+      "CropName": "Rodina - đôi"
+    },
+    "993": {
+      "CropCode": "FK443",
+      "CropName": "Rodina - ba"
+    },
+    "994": {
+      "CropCode": "FK449",
+      "CropName": "Rodina - nhiều"
+    },
+    "995": {
+      "CropCode": "FK450",
+      "CropName": "Kobla"
+    },
+    "996": {
+      "CropCode": "FK451",
+      "CropName": "Kobla - đơn"
+    },
+    "997": {
+      "CropCode": "FK452",
+      "CropName": "Kobla - đôi"
+    },
+    "998": {
+      "CropCode": "FK453",
+      "CropName": "Kobla - ba"
+    },
+    "999": {
+      "CropCode": "FK459",
+      "CropName": "Ke Bạc La - Đa Đoá"
+    }
+  },
+  "Next": true
+}

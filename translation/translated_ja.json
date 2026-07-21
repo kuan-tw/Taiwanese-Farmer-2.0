@@ -1,0 +1,3810 @@
+{
+  "RS": "OK",
+  "Data": {
+    "0": {
+      "CropCode": "11",
+      "CropName": "ココナッツ"
+    },
+    "1": {
+      "CropCode": "119",
+      "CropName": "ココナッツ-輸入"
+    },
+    "2": {
+      "CropCode": "12",
+      "CropName": "ココナッツ-殻剥き"
+    },
+    "3": {
+      "CropCode": "129",
+      "CropName": "ココナッツ-殻剥き輸入"
+    },
+    "4": {
+      "CropCode": "22",
+      "CropName": "ナツメ"
+    },
+    "5": {
+      "CropCode": "229",
+      "CropName": "ナツメ-輸入"
+    },
+    "6": {
+      "CropCode": "30",
+      "CropName": "シャカ-その他"
+    },
+    "7": {
+      "CropCode": "31",
+      "CropName": "シャカ"
+    },
+    "8": {
+      "CropCode": "32",
+      "CropName": "シャカ-パイナップルシャカ"
+    },
+    "9": {
+      "CropCode": "41",
+      "CropName": "ウメ"
+    },
+    "10": {
+      "CropCode": "42",
+      "CropName": "ヤンメイ"
+    },
+    "11": {
+      "CropCode": "43",
+      "CropName": "マルベリー"
+    },
+    "12": {
+      "CropCode": "45",
+      "CropName": "イチゴ"
+    },
+    "13": {
+      "CropCode": "459",
+      "CropName": "イチゴ-輸入"
+    },
+    "14": {
+      "CropCode": "46",
+      "CropName": "ブルーベリー"
+    },
+    "15": {
+      "CropCode": "469",
+      "CropName": "ブルーベリー-輸入"
+    },
+    "16": {
+      "CropCode": "50",
+      "CropName": "パッションフルーツ-その他"
+    },
+    "17": {
+      "CropCode": "51",
+      "CropName": "パッションフルーツ-改良種"
+    },
+    "18": {
+      "CropCode": "61",
+      "CropName": "サトウキビ-皮付き"
+    },
+    "19": {
+      "CropCode": "62",
+      "CropName": "サトウキビ-皮剥き"
+    },
+    "20": {
+      "CropCode": "70",
+      "CropName": "ミニトマト-その他"
+    },
+    "21": {
+      "CropCode": "71",
+      "CropName": "ミニトマト-一般"
+    },
+    "22": {
+      "CropCode": "72",
+      "CropName": "ミニトマト-聖女"
+    },
+    "23": {
+      "CropCode": "73",
+      "CropName": "ミニトマト-可愛い女"
+    },
+    "24": {
+      "CropCode": "74",
+      "CropName": "ミニトマト-玉女"
+    },
+    "25": {
+      "CropCode": "811",
+      "CropName": "ドラゴンフルーツ-白肉"
+    },
+    "26": {
+      "CropCode": "812",
+      "CropName": "ドラゴンフルーツ-赤肉"
+    },
+    "27": {
+      "CropCode": "813",
+      "CropName": "ドラゴンフルーツ-二色ドラゴンフルーツ"
+    },
+    "28": {
+      "CropCode": "819",
+      "CropName": "ドラゴンフルーツ-輸入"
+    },
+    "29": {
+      "CropCode": "82",
+      "CropName": "ピタヤ-赤肉"
+    },
+    "30": {
+      "CropCode": "829",
+      "CropName": "蜜棗-輸入"
+    },
+    "31": {
+      "CropCode": "83",
+      "CropName": "菊芋-雪蓮芋"
+    },
+    "32": {
+      "CropCode": "839",
+      "CropName": "さくらんぼ-輸入"
+    },
+    "33": {
+      "CropCode": "84",
+      "CropName": "ざくろ"
+    },
+    "34": {
+      "CropCode": "849",
+      "CropName": "ざくろ-輸入"
+    },
+    "35": {
+      "CropCode": "85",
+      "CropName": "ドリアン"
+    },
+    "36": {
+      "CropCode": "859",
+      "CropName": "ドリアン-輸入"
+    },
+    "37": {
+      "CropCode": "86",
+      "CropName": "マンゴスチン"
+    },
+    "38": {
+      "CropCode": "869",
+      "CropName": "マンゴスチン-輸入"
+    },
+    "39": {
+      "CropCode": "87",
+      "CropName": "ランブータン"
+    },
+    "40": {
+      "CropCode": "879",
+      "CropName": "ランブータン-輸入"
+    },
+    "41": {
+      "CropCode": "88",
+      "CropName": "ツリーブドウ"
+    },
+    "42": {
+      "CropCode": "91",
+      "CropName": "その他"
+    },
+    "43": {
+      "CropCode": "919",
+      "CropName": "その他-輸入"
+    },
+    "44": {
+      "CropCode": "A0",
+      "CropName": "バナナ-その他"
+    },
+    "45": {
+      "CropCode": "A1",
+      "CropName": "バナナ"
+    },
+    "46": {
+      "CropCode": "A2",
+      "CropName": "バナナ-バナナ赤バナナ"
+    },
+    "47": {
+      "CropCode": "A3",
+      "CropName": "バナナ-旦蕉"
+    },
+    "48": {
+      "CropCode": "A4",
+      "CropName": "バナナ-越旦"
+    },
+    "49": {
+      "CropCode": "B0",
+      "CropName": "パイナップル-その他"
+    },
+    "50": {
+      "CropCode": "B1",
+      "CropName": "パイナップル-開英"
+    },
+    "51": {
+      "CropCode": "B2",
+      "CropName": "パイナップル-金鑽パイナップル"
+    },
+    "52": {
+      "CropCode": "B3",
+      "CropName": "パイナップル-香水パイナップル"
+    },
+    "53": {
+      "CropCode": "B4",
+      "CropName": "パイナップル-パイナップルの花"
+    },
+    "54": {
+      "CropCode": "B5",
+      "CropName": "パイナップル-リンゴパイナップル"
+    },
+    "55": {
+      "CropCode": "B6",
+      "CropName": "パイナップル-甘い"
+    },
+    "56": {
+      "CropCode": "B7",
+      "CropName": "パイナップル-ミルクパイナップル"
+    },
+    "57": {
+      "CropCode": "B8",
+      "CropName": "パイナップル-スイカパイナップル"
+    },
+    "58": {
+      "CropCode": "B9",
+      "CropName": "パイナップル-輸入"
+    },
+    "59": {
+      "CropCode": "C0",
+      "CropName": "柑橘-その他"
+    },
+    "60": {
+      "CropCode": "C1",
+      "CropName": "ポンカン"
+    },
+    "61": {
+      "CropCode": "C2",
+      "CropName": "マオグカン"
+    },
+    "62": {
+      "CropCode": "C3",
+      "CropName": "トラトウカン"
+    },
+    "63": {
+      "CropCode": "C4",
+      "CropName": "紅柑-美女柑"
+    },
+    "64": {
+      "CropCode": "C5",
+      "CropName": "温州柑"
+    },
+    "65": {
+      "CropCode": "C6",
+      "CropName": "フリモン柑"
+    },
+    "66": {
+      "CropCode": "C7",
+      "CropName": "エンヨウ柑"
+    },
+    "67": {
+      "CropCode": "C8",
+      "CropName": "珍珠柑"
+    },
+    "68": {
+      "CropCode": "C9",
+      "CropName": "柑橘-輸入"
+    },
+    "69": {
+      "CropCode": "D1",
+      "CropName": "桶柑"
+    },
+    "70": {
+      "CropCode": "D2",
+      "CropName": "海梨柑"
+    },
+    "71": {
+      "CropCode": "E0",
+      "CropName": "甘いオレンジ-その他"
+    },
+    "72": {
+      "CropCode": "E1",
+      "CropName": "甘いオレンジ-柳オレンジ"
+    },
+    "73": {
+      "CropCode": "E2",
+      "CropName": "甘いオレンジ-晩崙西亞"
+    },
+    "74": {
+      "CropCode": "E3",
+      "CropName": "スイートオレンジ-赤肉オレンジ"
+    },
+    "75": {
+      "CropCode": "E9",
+      "CropName": "スイートオレンジ-輸入"
+    },
+    "76": {
+      "CropCode": "F0",
+      "CropName": "雑柑-その他"
+    },
+    "77": {
+      "CropCode": "F1",
+      "CropName": "雑柑-レモン"
+    },
+    "78": {
+      "CropCode": "F2",
+      "CropName": "雑柑-キンカン"
+    },
+    "79": {
+      "CropCode": "F4",
+      "CropName": "雑柑-みかん"
+    },
+    "80": {
+      "CropCode": "F5",
+      "CropName": "雑柑-種なしレモン"
+    },
+    "81": {
+      "CropCode": "F6",
+      "CropName": "雑柑-ゴールデンレモン"
+    },
+    "82": {
+      "CropCode": "F9",
+      "CropName": "雑柑-輸入"
+    },
+    "83": {
+      "CropCode": "FA0",
+      "CropName": "その他の花類"
+    },
+    "84": {
+      "CropCode": "FA000",
+      "CropName": "カーネーション-中大輪混合"
+    },
+    "85": {
+      "CropCode": "FA001",
+      "CropName": "カーネーション-混合色"
+    },
+    "86": {
+      "CropCode": "FA1",
+      "CropName": "オクラ"
+    },
+    "87": {
+      "CropCode": "FA100",
+      "CropName": "カーネーション-赤"
+    },
+    "88": {
+      "CropCode": "FA101",
+      "CropName": "カーネーション-クリムゾン"
+    },
+    "89": {
+      "CropCode": "FA102",
+      "CropName": "カーネーション-深紅"
+    },
+    "90": {
+      "CropCode": "FA103",
+      "CropName": "カーネーション-オレンジ赤"
+    },
+    "91": {
+      "CropCode": "FA104",
+      "CropName": "カーネーション-桜赤"
+    },
+    "92": {
+      "CropCode": "FA120",
+      "CropName": "カーネーション-赤羽毛"
+    },
+    "93": {
+      "CropCode": "FA2",
+      "CropName": "フランス花"
+    },
+    "94": {
+      "CropCode": "FA200",
+      "CropName": "カーネーション-オレンジ"
+    },
+    "95": {
+      "CropCode": "FA220",
+      "CropName": "カーネーション-オレンジ羽毛"
+    },
+    "96": {
+      "CropCode": "FA300",
+      "CropName": "カーネーション-黄"
+    },
+    "97": {
+      "CropCode": "FA301",
+      "CropName": "カーネーション-深黄"
+    },
+    "98": {
+      "CropCode": "FA302",
+      "CropName": "カーネーション-浅黄"
+    },
+    "99": {
+      "CropCode": "FA303",
+      "CropName": "カーネーション-オレンジイエロー"
+    },
+    "100": {
+      "CropCode": "FA304",
+      "CropName": "カーネーション-ツートンゴールドレッド"
+    },
+    "101": {
+      "CropCode": "FA320",
+      "CropName": "カーネーション-イエローフェザー"
+    },
+    "102": {
+      "CropCode": "FA4",
+      "CropName": "ジャスミン"
+    },
+    "103": {
+      "CropCode": "FA400",
+      "CropName": "カーネーション-ピンク"
+    },
+    "104": {
+      "CropCode": "FA401",
+      "CropName": "カーネーション-ディープピンク"
+    },
+    "105": {
+      "CropCode": "FA402",
+      "CropName": "カーネーション-ライトピンク"
+    },
+    "106": {
+      "CropCode": "FA403",
+      "CropName": "カーネーション-ソフトピンク"
+    },
+    "107": {
+      "CropCode": "FA420",
+      "CropName": "カーネーション-ピンクフェザー"
+    },
+    "108": {
+      "CropCode": "FA500",
+      "CropName": "カーネーション-グリーン"
+    },
+    "109": {
+      "CropCode": "FA501",
+      "CropName": "カーネーション-アップルグリーン"
+    },
+    "110": {
+      "CropCode": "FA600",
+      "CropName": "カーネーション-ホワイト"
+    },
+    "111": {
+      "CropCode": "FA601",
+      "CropName": "カーネーション-クリアホワイト"
+    },
+    "112": {
+      "CropCode": "FA602",
+      "CropName": "カーネーション-ミルクホワイト"
+    },
+    "113": {
+      "CropCode": "FA603",
+      "CropName": "カーネーション-ホワイトストライプレッド"
+    },
+    "114": {
+      "CropCode": "FA604",
+      "CropName": "カーネーション-イエローストライプパープル"
+    },
+    "115": {
+      "CropCode": "FA605",
+      "CropName": "カーネーション-ホワイトストライプパープル"
+    },
+    "116": {
+      "CropCode": "FA606",
+      "CropName": "カーネーション-イエローストライプレッド"
+    },
+    "117": {
+      "CropCode": "FA607",
+      "CropName": "カーネーション-ピンクストライプレッド"
+    },
+    "118": {
+      "CropCode": "FA608",
+      "CropName": "カーネーション-ピンクストライプホワイト"
+    },
+    "119": {
+      "CropCode": "FA609",
+      "CropName": "カーネーション-ピンクストライプパープル"
+    },
+    "120": {
+      "CropCode": "FA700",
+      "CropName": "カーネーション-パープル"
+    },
+    "121": {
+      "CropCode": "FA701",
+      "CropName": "カーネーション-パープルストライプホワイト"
+    },
+    "122": {
+      "CropCode": "FA800",
+      "CropName": "カーネーション-多花（ミックスカラー）"
+    },
+    "123": {
+      "CropCode": "FA810",
+      "CropName": "カーネーション-多花レッド"
+    },
+    "124": {
+      "CropCode": "FA811",
+      "CropName": "カーネーション-多花の桜紅"
+    },
+    "125": {
+      "CropCode": "FA812",
+      "CropName": "カーネーション-ペルシャ桃紅"
+    },
+    "126": {
+      "CropCode": "FA813",
+      "CropName": "カーネーション-ボレロ"
+    },
+    "127": {
+      "CropCode": "FA814",
+      "CropName": "カーネーション-満足"
+    },
+    "128": {
+      "CropCode": "FA815",
+      "CropName": "カーネーション-軽いキス"
+    },
+    "129": {
+      "CropCode": "FA820",
+      "CropName": "カーネーション-多花のオレンジ"
+    },
+    "130": {
+      "CropCode": "FA830",
+      "CropName": "カーネーション-多花の黄色"
+    },
+    "131": {
+      "CropCode": "FA840",
+      "CropName": "カーネーション-多花のピンク"
+    },
+    "132": {
+      "CropCode": "FA841",
+      "CropName": "カーネーション-多花の淡いピンク"
+    },
+    "133": {
+      "CropCode": "FA842",
+      "CropName": "カーネーション-白鳥のピンク"
+    },
+    "134": {
+      "CropCode": "FA843",
+      "CropName": "カーネーション-ラテ"
+    },
+    "135": {
+      "CropCode": "FA844",
+      "CropName": "カーネーション-ニーナ"
+    },
+    "136": {
+      "CropCode": "FA845",
+      "CropName": "カーネーション-メリッサ"
+    },
+    "137": {
+      "CropCode": "FA851",
+      "CropName": "カーネーション-アップルグリーン"
+    },
+    "138": {
+      "CropCode": "FA860",
+      "CropName": "カーネーション-多花の白"
+    },
+    "139": {
+      "CropCode": "FA861",
+      "CropName": "カーネーション-白鉄シノ"
+    },
+    "140": {
+      "CropCode": "FA862",
+      "CropName": "カーネーション-白水晶"
+    },
+    "141": {
+      "CropCode": "FA870",
+      "CropName": "カーネーション-多花の紫"
+    },
+    "142": {
+      "CropCode": "FA871",
+      "CropName": "カーネーション-フェアリー紫"
+    },
+    "143": {
+      "CropCode": "FA872",
+      "CropName": "カーネーション-スポット"
+    },
+    "144": {
+      "CropCode": "FA881",
+      "CropName": "カーネーション-多花の赤に白"
+    },
+    "145": {
+      "CropCode": "FA882",
+      "CropName": "カーネーション-多花の赤にピンク"
+    },
+    "146": {
+      "CropCode": "FA883",
+      "CropName": "カーネーション-多花のオレンジに赤"
+    },
+    "147": {
+      "CropCode": "FA884",
+      "CropName": "カーネーション-多花の黄色に赤"
+    },
+    "148": {
+      "CropCode": "FA885",
+      "CropName": "カーネーション-多花の黄色に紫"
+    },
+    "149": {
+      "CropCode": "FA886",
+      "CropName": "カーネーション-多花白帯赤"
+    },
+    "150": {
+      "CropCode": "FA887",
+      "CropName": "カーネーション-多花白帯紫"
+    },
+    "151": {
+      "CropCode": "FA9",
+      "CropName": "百果-輸入"
+    },
+    "152": {
+      "CropCode": "FA900",
+      "CropName": "小かわいい-(混色)"
+    },
+    "153": {
+      "CropCode": "FA910",
+      "CropName": "小かわいい-赤"
+    },
+    "154": {
+      "CropCode": "FA920",
+      "CropName": "小かわいい-オレンジ"
+    },
+    "155": {
+      "CropCode": "FA930",
+      "CropName": "小かわいい-黄"
+    },
+    "156": {
+      "CropCode": "FA940",
+      "CropName": "小かわいい-ピンク"
+    },
+    "157": {
+      "CropCode": "FA960",
+      "CropName": "小かわいい-白"
+    },
+    "158": {
+      "CropCode": "FA970",
+      "CropName": "小かわいい-紫"
+    },
+    "159": {
+      "CropCode": "FA980",
+      "CropName": "美女撫子"
+    },
+    "160": {
+      "CropCode": "FA981",
+      "CropName": "アジサイ-赤"
+    },
+    "161": {
+      "CropCode": "FA984",
+      "CropName": "アジサイ-ピンク"
+    },
+    "162": {
+      "CropCode": "FA985",
+      "CropName": "アジサイ-緑石竹"
+    },
+    "163": {
+      "CropCode": "FA986",
+      "CropName": "アジサイ-白"
+    },
+    "164": {
+      "CropCode": "FA987",
+      "CropName": "アジサイ-紫"
+    },
+    "165": {
+      "CropCode": "FA988",
+      "CropName": "アジサイ-二色"
+    },
+    "166": {
+      "CropCode": "FA989",
+      "CropName": "アジサイ-紫紅"
+    },
+    "167": {
+      "CropCode": "FA990",
+      "CropName": "アジサイ-紫白"
+    },
+    "168": {
+      "CropCode": "FB0",
+      "CropName": "カリフラワー-その他"
+    },
+    "169": {
+      "CropCode": "FB000",
+      "CropName": "ハイビスカス"
+    },
+    "170": {
+      "CropCode": "FB001",
+      "CropName": "ハイビスカス-混色"
+    },
+    "171": {
+      "CropCode": "FB1",
+      "CropName": "カリフラワー-青茎"
+    },
+    "172": {
+      "CropCode": "FB100",
+      "CropName": "ハイビスカス-赤"
+    },
+    "173": {
+      "CropCode": "FB101",
+      "CropName": "ハイビスカス-赤い心"
+    },
+    "174": {
+      "CropCode": "FB102"
+    },
+    "199": {
+      "CropName": "フラミンゴ-ローズピンク"
+    },
+    "200": {
+      "CropCode": "FB403",
+      "CropName": "フラミンゴ-コーラルピンク"
+    },
+    "201": {
+      "CropCode": "FB404",
+      "CropName": "フラミンゴ-ピンクブライド"
+    },
+    "202": {
+      "CropCode": "FB405",
+      "CropName": "フラミンゴ-ピンクグリーンエッジ"
+    },
+    "203": {
+      "CropCode": "FB406",
+      "CropName": "フラミンゴ-ピンクプリンセス"
+    },
+    "204": {
+      "CropCode": "FB407",
+      "CropName": "フラミンゴ-ドリーム"
+    },
+    "205": {
+      "CropCode": "FB408",
+      "CropName": "フラミンゴ-ピンクビューティ"
+    },
+    "206": {
+      "CropCode": "FB409",
+      "CropName": "フラミンゴ-スプライトピンク"
+    },
+    "207": {
+      "CropCode": "FB410",
+      "CropName": "フラミンゴ-クイーン"
+    },
+    "208": {
+      "CropCode": "FB411",
+      "CropName": "フラミンゴ-プリンセス"
+    },
+    "209": {
+      "CropCode": "FB412",
+      "CropName": "フラミンゴ-プレジデント"
+    },
+    "210": {
+      "CropCode": "FB413",
+      "CropName": "フラミンゴ-女神"
+    },
+    "211": {
+      "CropCode": "FB415",
+      "CropName": "フラミンゴ-ロサ"
+    },
+    "212": {
+      "CropCode": "FB416",
+      "CropName": "フラミンゴ-フラワーフェアリー"
+    },
+    "213": {
+      "CropCode": "FB417",
+      "CropName": "フラミンゴ-レインボー"
+    },
+    "214": {
+      "CropCode": "FB418",
+      "CropName": "フラミンゴ-パッションピンク"
+    },
+    "215": {
+      "CropCode": "FB419",
+      "CropName": "フラミンゴ-太極"
+    },
+    "216": {
+      "CropCode": "FB420",
+      "CropName": "フラミンゴ-クランベリー"
+    },
+    "217": {
+      "CropCode": "FB421",
+      "CropName": "フラミンゴ-サナタ"
+    },
+    "218": {
+      "CropCode": "FB422",
+      "CropName": "フラミンゴ-恋人"
+    },
+    "219": {
+      "CropCode": "FB423",
+      "CropName": "フラミンゴ-ハニー"
+    },
+    "220": {
+      "CropCode": "FB424",
+      "CropName": "フラミンゴ-ミラクル"
+    },
+    "221": {
+      "CropCode": "FB425",
+      "CropName": "フラミンゴ-吉祥"
+    },
+    "222": {
+      "CropCode": "FB426",
+      "CropName": "フラミンゴ-ピンクレース"
+    },
+    "223": {
+      "CropCode": "FB500",
+      "CropName": "フラミンゴ-エメラルドグリーン"
+    },
+    "224": {
+      "CropCode": "FB501",
+      "CropName": "フラミンゴ-アップルグリーン"
+    },
+    "225": {
+      "CropCode": "FB502",
+      "CropName": "フラミンゴ-グリーンレッドハート"
+    },
+    "226": {
+      "CropCode": "FB503",
+      "CropName": "フラミンゴ-グリーンガール"
+    },
+    "227": {
+      "CropCode": "FB504",
+      "CropName": "フラミンゴ-レイモナ"
+    },
+    "228": {
+      "CropCode": "FB505",
+      "CropName": "フラミンゴ-シャンパン"
+    },
+    "229": {
+      "CropCode": "FB506",
+      "CropName": "フラミンゴ-グリーンエメラルド"
+    },
+    "230": {
+      "CropCode": "FB507",
+      "CropName": "フラミンゴ-グリーンエルフ"
+    },
+    "231": {
+      "CropCode": "FB508",
+      "CropName": "フラミンゴ-青龍"
+    },
+    "232": {
+      "CropCode": "FB509",
+      "CropName": "フラミンゴ-森林"
+    },
+    "233": {
+      "CropCode": "FB600",
+      "CropName": "フラミンゴ-白"
+    },
+    "234": {
+      "CropCode": "FB601",
+      "CropName": "フラミンゴ-白青ハート"
+    },
+    "235": {
+      "CropCode": "FB602",
+      "CropName": "フラミンゴ-白黄ハート"
+    },
+    "236": {
+      "CropCode": "FB603",
+      "CropName": "フラミンゴ-白赤ハート"
+    },
+    "237": {
+      "CropCode": "FB604",
+      "CropName": "フラミンゴ-白緑縁"
+    },
+    "238": {
+      "CropCode": "FB605",
+      "CropName": "フラミンゴ-カーニバル"
+    },
+    "239": {
+      "CropCode": "FB606",
+      "CropName": "フラミンゴ-シンバ"
+    },
+    "240": {
+      "CropCode": "FB607",
+      "CropName": "フラミンゴ-月の女神"
+    },
+    "241": {
+      "CropCode": "FB608",
+      "CropName": "フラミンゴ-恋愛"
+    },
+    "242": {
+      "CropCode": "FB700",
+      "CropName": "フラミンゴ-紫"
+    },
+    "243": {
+      "CropCode": "FB701",
+      "CropName": "フラミンゴ-超音速"
+    },
+    "244": {
+      "CropCode": "FB702",
+      "CropName": "フラミンゴ-カエサル"
+    },
+    "245": {
+      "CropCode": "FB800",
+      "CropName": "フラミンゴ-コーヒーレッド"
+    },
+    "246": {
+      "CropCode": "FB801",
+      "CropName": "フラミンゴ-コーヒーストライプ"
+    },
+    "247": {
+      "CropCode": "FB802",
+      "CropName": "フラミンゴ-大地"
+    },
+    "248": {
+      "CropCode": "FB803",
+      "CropName": "フラミンゴ-チョコ"
+    },
+    "249": {
+      "CropCode": "FB804",
+      "CropName": "アンスリウム-ブラックビューティー"
+    },
+    "250": {
+      "CropCode": "FB805",
+      "CropName": "アンスリウム-ブラックパール"
+    },
+    "251": {
+      "CropCode": "FB9",
+      "CropName": "カリフラワー-輸入"
+    },
+    "252": {
+      "CropCode": "FC000",
+      "CropName": "ダリア"
+    },
+    "253": {
+      "CropCode": "FC001",
+      "CropName": "ダリア-ミックスカラー"
+    },
+    "254": {
+      "CropCode": "FC1",
+      "CropName": "キュウリ-ブラックスパイク"
+    },
+    "255": {
+      "CropCode": "FC100",
+      "CropName": "ダリア-レッド"
+    },
+    "256": {
+      "CropCode": "FC101",
+      "CropName": "ダリア-陽炎"
+    },
+    "257": {
+      "CropCode": "FC102",
+      "CropName": "ダリア-イギリスレッド"
+    },
+    "258": {
+      "CropCode": "FC103",
+      "CropName": "ダリア-ドイツレッド"
+    },
+    "259": {
+      "CropCode": "FC104",
+      "CropName": "ダリア-レッドファースト"
+    },
+    "260": {
+      "CropCode": "FC105",
+      "CropName": "ダリア-香港レッド"
+    },
+    "261": {
+      "CropCode": "FC106",
+      "CropName": "ダリア-シンリレッド"
+    },
+    "262": {
+      "CropCode": "FC107",
+      "CropName": "ダリア-レッドフェニックス"
+    },
+    "263": {
+      "CropCode": "FC108",
+      "CropName": "ダリア-レッドクイーン"
+    },
+    "264": {
+      "CropCode": "FC109",
+      "CropName": "ダリア-カレー赤"
+    },
+    "265": {
+      "CropCode": "FC110",
+      "CropName": "ダリア-仙桃光"
+    },
+    "266": {
+      "CropCode": "FC111",
+      "CropName": "ダリア-顔之春"
+    },
+    "267": {
+      "CropCode": "FC112",
+      "CropName": "ダリア-ハードステムレッド"
+    },
+    "268": {
+      "CropCode": "FC113",
+      "CropName": "ダリア-桃太郎"
+    },
+    "269": {
+      "CropCode": "FC115",
+      "CropName": "ダリア-ニューピンク"
+    },
+    "270": {
+      "CropCode": "FC116",
+      "CropName": "ダリア-花御殿"
+    },
+    "271": {
+      "CropCode": "FC117",
+      "CropName": "ダリア-レッドシュウフォン"
+    },
+    "272": {
+      "CropCode": "FC118",
+      "CropName": "ダリア-レッドローズ"
+    },
+    "273": {
+      "CropCode": "FC130",
+      "CropName": "ダリア-麺線ダリアレッド"
+    },
+    "274": {
+      "CropCode": "FC2",
+      "CropName": "キュウリ-改良種"
+    },
+    "275": {
+      "CropCode": "FC200",
+      "CropName": "ダリア-金"
+    },
+    "276": {
+      "CropCode": "FC201",
+      "CropName": "ダリア-金初鳳"
+    },
+    "277": {
+      "CropCode": "FC202",
+      "CropName": "ダリア-精英金"
+    },
+    "278": {
+      "CropCode": "FC204",
+      "CropName": "ダリア-妙心"
+    },
+    "279": {
+      "CropCode": "FC205",
+      "CropName": "ダリア-金莎"
+    },
+    "280": {
+      "CropCode": "FC206",
+      "CropName": "ダリア-金嗓"
+    },
+    "281": {
+      "CropCode": "FC207",
+      "CropName": "ダリア-ロザーノオレンジ"
+    },
+    "282": {
+      "CropCode": "FC208",
+      "CropName": "ダリア-煙火オレンジ"
+    },
+    "283": {
+      "CropCode": "FC300",
+      "CropName": "ダリア-黄"
+    },
+    "284": {
+      "CropCode": "FC301",
+      "CropName": "ダリア-黄秀鳳"
+    },
+    "285": {
+      "CropCode": "FC302",
+      "CropName": "ダリア-世界一"
+    },
+    "286": {
+      "CropCode": "FC303",
+      "CropName": "ダリア-冬王"
+    },
+    "287": {
+      "CropCode": "FC304",
+      "CropName": "ダリア-新王妃"
+    },
+    "288": {
+      "CropCode": "FC305",
+      "CropName": "ダリア-雁之妃"
+    },
+    "289": {
+      "CropCode": "FC306",
+      "CropName": "ダリア-日本黄"
+    },
+    "290": {
+      "CropCode": "FC307",
+      "CropName": "ダリア-木瓜黄"
+    },
+    "291": {
+      "CropCode": "FC308",
+      "CropName": "ダリア-新種黄"
+    },
+    "292": {
+      "CropCode": "FC309",
+      "CropName": "ダリア-黄東亜"
+    },
+    "293": {
+      "CropCode": "FC310",
+      "CropName": "ダリア-新東亜"
+    },
+    "294": {
+      "CropCode": "FC311",
+      "CropName": "ダリア-黄月友"
+    },
+    "295": {
+      "CropCode": "FC312",
+      "CropName": "ダリア-尖葉黄"
+    },
+    "296": {
+      "CropCode": "FC313",
+      "CropName": "ダリア-矮仔黄"
+    },
+    "297": {
+      "CropCode": "FC314",
+      "CropName": "ダリア-黄丁字菊"
+    },
+    "298": {
+      "CropCode": "FC315",
+      "CropName": "ダリア-青心黄"
+    },
+    "299": {
+      "CropCode": "FC316",
+      "CropName": "ダイギク-黄精競"
+    },
+    "300": {
+      "CropCode": "FC317",
+      "CropName": "ダイギク-大頭黄"
+    },
+    "301": {
+      "CropCode": "FC318",
+      "CropName": "ダイギク-黄東陽"
+    },
+    "302": {
+      "CropCode": "FC319",
+      "CropName": "ダイギク-金莎黄"
+    },
+    "303": {
+      "CropCode": "FC320",
+      "CropName": "ダイギク-莎瑪奶油黄"
+    },
+    "304": {
+      "CropCode": "FC330",
+      "CropName": "ダイギク-黄麺線菊"
+    },
+    "305": {
+      "CropCode": "FC345",
+      "CropName": "ダイギク-黄スブレ"
+    },
+    "306": {
+      "CropCode": "FC350",
+      "CropName": "ダイギク-黄ピンポン"
+    },
+    "307": {
+      "CropCode": "FC380",
+      "CropName": "ダイギク-黄八媛"
+    },
+    "308": {
+      "CropCode": "FC400",
+      "CropName": "ダイギク-粉"
+    },
+    "309": {
+      "CropCode": "FC401",
+      "CropName": "ダイギク-杏紅"
+    },
+    "310": {
+      "CropCode": "FC402",
+      "CropName": "ダイギク-精英粉"
+    },
+    "311": {
+      "CropCode": "FC403",
+      "CropName": "ダイギク-サイン粉"
+    },
+    "312": {
+      "CropCode": "FC404",
+      "CropName": "ダイギク-粉初鳳"
+    },
+    "313": {
+      "CropCode": "FC405",
+      "CropName": "ダイギク-千台英"
+    },
+    "314": {
+      "CropCode": "FC406",
+      "CropName": "ダイギク-平頭粉"
+    },
+    "315": {
+      "CropCode": "FC407",
+      "CropName": "ダイギク-硬枝粉"
+    },
+    "316": {
+      "CropCode": "FC408",
+      "CropName": "ダイギク-粉ピンポン"
+    },
+    "317": {
+      "CropCode": "FC409",
+      "CropName": "ダイギク-粉クラウン"
+    },
+    "318": {
+      "CropCode": "FC410",
+      "CropName": "ダイギク-ロザーノ粉"
+    },
+    "319": {
+      "CropCode": "FC411",
+      "CropName": "ダイギク-ロザーノ粉緑"
+    },
+    "320": {
+      "CropCode": "FC480",
+      "CropName": "ダイギク-粉八媛"
+    },
+    "321": {
+      "CropCode": "FC500",
+      "CropName": "ダイギク-緑"
+    },
+    "322": {
+      "CropCode": "FC501",
+      "CropName": "ダイギク-緑絲菊"
+    },
+    "323": {
+      "CropCode": "FC502",
+      "CropName": "ダイギク-アンナ深緑"
+    },
+    "324": {
+      "CropCode": "FC508",
+      "CropName": "ダイギク-緑ピンポン"
+    },
+    "325": {
+      "CropCode": "FC509",
+      "CropName": "ダイギク-奇濃緑ピンポン"
+    },
+    "326": {
+      "CropCode": "FC600",
+      "CropName": "ダイギク-白"
+    },
+    "327": {
+      "CropCode": "FC601",
+      "CropName": "ダイギク-日本白"
+    },
+    "328": {
+      "CropCode": "FC602",
+      "CropName": "ダイギク-白大将"
+    },
+    "329": {
+      "CropCode": "FC603",
+      "CropName": "ダイギク-白玉"
+    },
+    "330": {
+      "CropCode": "FC604",
+      "CropName": "ダイギク-白領"
+    },
+    "331": {
+      "CropCode": "FC605",
+      "CropName": "ダイギク-白鳳"
+    },
+    "332": {
+      "CropCode": "FC606",
+      "CropName": "ダイギク-精英白"
+    },
+    "333": {
+      "CropCode": "FC607",
+      "CropName": "ダイギク-大頭白"
+    },
+    "334": {
+      "CropCode": "FC608",
+      "CropName": "ダイギク-白ピンポン"
+    },
+    "335": {
+      "CropCode": "FC609",
+      "CropName": "ダイギク-白東洋"
+    },
+    "336": {
+      "CropCode": "FC610",
+      "CropName": "ダイギク-丁字菊"
+    },
+    "337": {
+      "CropCode": "FC611",
+      "CropName": "ダイギク-白秀鳳"
+    },
+    "338": {
+      "CropCode": "FC612",
+      "CropName": "ダイギク-白雪山"
+    },
+    "339": {
+      "CropCode": "FC613",
+      "CropName": "ダイギク-白天星"
+    },
+    "340": {
+      "CropCode": "FC614",
+      "CropName": "ダイギク-雲水"
+    },
+    "341": {
+      "CropCode": "FC615",
+      "CropName": "ダイギク-国王"
+    },
+    "342": {
+      "CropCode": "FC616",
+      "CropName": "ダイギク-白牡丹"
+    },
+    "343": {
+      "CropCode": "FC617",
+      "CropName": "ダイギク-メッシ"
+    },
+    "344": {
+      "CropCode": "FC618",
+      "CropName": "ダイギク-ライデニック"
+    },
+    "345": {
+      "CropCode": "FC630",
+      "CropName": "ダイギク-白麺線菊"
+    },
+    "346": {
+      "CropCode": "FC645",
+      "CropName": "ダイギク-白スブレ"
+    },
+    "347": {
+      "CropCode": "FC680",
+      "CropName": "ダイギク-白八媛"
+    },
+    "348": {
+      "CropCode": "FC800",
+      "CropName": "ダイギク-染色ダイギク"
+    },
+    "349": {
+      "CropCode": "FC801",
+      "CropName": "染大菊-国王"
+    },
+    "350": {
+      "CropCode": "FC802",
+      "CropName": "染大菊-バディカ"
+    },
+    "351": {
+      "CropCode": "FC803",
+      "CropName": "染大菊-ボタン"
+    },
+    "352": {
+      "CropCode": "FC804",
+      "CropName": "染大菊-白天星"
+    },
+    "353": {
+      "CropCode": "FC805",
+      "CropName": "染大菊-白東洋"
+    },
+    "354": {
+      "CropCode": "FC806",
+      "CropName": "染大菊-シャーマ"
+    },
+    "355": {
+      "CropCode": "FC807",
+      "CropName": "染大菊-メイシ"
+    },
+    "356": {
+      "CropCode": "FD0",
+      "CropName": "花胡瓜-その他"
+    },
+    "357": {
+      "CropCode": "FD000",
+      "CropName": "小菊"
+    },
+    "358": {
+      "CropCode": "FD001",
+      "CropName": "小菊-混合色"
+    },
+    "359": {
+      "CropCode": "FD1",
+      "CropName": "花胡瓜"
+    },
+    "360": {
+      "CropCode": "FD100",
+      "CropName": "小菊-赤"
+    },
+    "361": {
+      "CropCode": "FD101",
+      "CropName": "小菊-赤鳳"
+    },
+    "362": {
+      "CropCode": "FD102",
+      "CropName": "小菊-赤花娘"
+    },
+    "363": {
+      "CropCode": "FD103",
+      "CropName": "小菊-空心赤"
+    },
+    "364": {
+      "CropCode": "FD104",
+      "CropName": "小菊-赤銅貨"
+    },
+    "365": {
+      "CropCode": "FD105",
+      "CropName": "小菊-赤初朝"
+    },
+    "366": {
+      "CropCode": "FD106",
+      "CropName": "小菊-赤炎"
+    },
+    "367": {
+      "CropCode": "FD107",
+      "CropName": "小菊-大新赤"
+    },
+    "368": {
+      "CropCode": "FD109",
+      "CropName": "小菊-陽炎小赤"
+    },
+    "369": {
+      "CropCode": "FD110",
+      "CropName": "小菊-コーヒー小赤"
+    },
+    "370": {
+      "CropCode": "FD111",
+      "CropName": "小菊-カレー小赤"
+    },
+    "371": {
+      "CropCode": "FD112",
+      "CropName": "小菊-赤雲南菊"
+    },
+    "372": {
+      "CropCode": "FD113",
+      "CropName": "小菊-日本小赤"
+    },
+    "373": {
+      "CropCode": "FD114",
+      "CropName": "小菊-桃太郎"
+    },
+    "374": {
+      "CropCode": "FD115",
+      "CropName": "小菊-紅初鳳"
+    },
+    "375": {
+      "CropCode": "FD116",
+      "CropName": "小菊-林哥紅"
+    },
+    "376": {
+      "CropCode": "FD117",
+      "CropName": "小菊-紅日"
+    },
+    "377": {
+      "CropCode": "FD118",
+      "CropName": "小菊-ハレー紅"
+    },
+    "378": {
+      "CropCode": "FD119",
+      "CropName": "小菊-龍鳳小紅"
+    },
+    "379": {
+      "CropCode": "FD120",
+      "CropName": "小菊-紅天星"
+    },
+    "380": {
+      "CropCode": "FD121",
+      "CropName": "小菊-紅美人"
+    },
+    "381": {
+      "CropCode": "FD122",
+      "CropName": "小菊-スプーン紅"
+    },
+    "382": {
+      "CropCode": "FD123",
+      "CropName": "小菊-ダイヤモンド紅"
+    },
+    "383": {
+      "CropCode": "FD124",
+      "CropName": "小菊-龍鳳紫"
+    },
+    "384": {
+      "CropCode": "FD125",
+      "CropName": "小菊-大一点紅"
+    },
+    "385": {
+      "CropCode": "FD126",
+      "CropName": "小菊-百花小紅"
+    },
+    "386": {
+      "CropCode": "FD127",
+      "CropName": "小菊-二色紅"
+    },
+    "387": {
+      "CropCode": "FD128",
+      "CropName": "小菊-虎紅"
+    },
+    "388": {
+      "CropCode": "FD129",
+      "CropName": "小菊-小桃紅"
+    },
+    "389": {
+      "CropCode": "FD130",
+      "CropName": "小菊-露水小紅"
+    },
+    "390": {
+      "CropCode": "FD131",
+      "CropName": "小菊-小紅娘"
+    },
+    "391": {
+      "CropCode": "FD132",
+      "CropName": "小菊-珍珠紅"
+    },
+    "392": {
+      "CropCode": "FD133",
+      "CropName": "小菊-日本絨紅"
+    },
+    "393": {
+      "CropCode": "FD134",
+      "CropName": "小菊-紅如意"
+    },
+    "394": {
+      "CropCode": "FD135",
+      "CropName": "小菊-紅バラ"
+    },
+    "395": {
+      "CropCode": "FD136",
+      "CropName": "小菊-フランス小紅"
+    },
+    "396": {
+      "CropCode": "FD137",
+      "CropName": "小菊-小虎紅"
+    },
+    "397": {
+      "CropCode": "FD138",
+      "CropName": "小菊-キャロライン"
+    },
+    "398": {
+      "CropCode": "FD139",
+      "CropName": "小菊-アラモス黄"
+    },
+    "399": {
+      "CropCode": "FD145",
+      "CropName": "小菊-紅ス不列"
+    },
+    "400": {
+      "CropCode": "FD150",
+      "CropName": "小菊-紅風車"
+    },
+    "401": {
+      "CropCode": "FD200",
+      "CropName": "小菊-金"
+    },
+    "402": {
+      "CropCode": "FD201",
+      "CropName": "小菊-金コーヒー"
+    },
+    "403": {
+      "CropCode": "FD202",
+      "CropName": "小菊-浅小金"
+    },
+    "404": {
+      "CropCode": "FD203",
+      "CropName": "小菊-金小菊"
+    },
+    "405": {
+      "CropCode": "FD204",
+      "CropName": "小菊-小金紅"
+    },
+    "406": {
+      "CropCode": "FD205",
+      "CropName": "小菊-金初鳳"
+    },
+    "407": {
+      "CropCode": "FD206",
+      "CropName": "小菊-双色金紅"
+    },
+    "408": {
+      "CropCode": "FD207",
+      "CropName": "小菊-双色金黄"
+    },
+    "409": {
+      "CropCode": "FD208",
+      "CropName": "小菊-金孔雀"
+    },
+    "410": {
+      "CropCode": "FD209",
+      "CropName": "小菊-ポンカン"
+    },
+    "411": {
+      "CropCode": "FD210",
+      "CropName": "小菊-吉祥金"
+    },
+    "412": {
+      "CropCode": "FD211",
+      "CropName": "小菊-ドイツ風車"
+    },
+    "413": {
+      "CropCode": "FD212",
+      "CropName": "小菊-タンボラ"
+    },
+    "414": {
+      "CropCode": "FD232",
+      "CropName": "小菊-珍珠金"
+    },
+    "415": {
+      "CropCode": "FD235",
+      "CropName": "小菊-リンク小金"
+    },
+    "416": {
+      "CropCode": "FD245",
+      "CropName": "小菊-金ス不列"
+    },
+    "417": {
+      "CropCode": "FD250",
+      "CropName": "小菊-金風車"
+    },
+    "418": {
+      "CropCode": "FD300",
+      "CropName": "小菊-黄"
+    },
+    "419": {
+      "CropCode": "FD301",
+      "CropName": "小菊-黄金月"
+    },
+    "420": {
+      "CropCode": "FD302",
+      "CropName": "小菊-黄銅銭"
+    },
+    "421": {
+      "CropCode": "FD303",
+      "CropName": "小菊-空心黄"
+    },
+    "422": {
+      "CropCode": "FD304",
+      "CropName": "小菊-クリスマスボール"
+    },
+    "423": {
+      "CropCode": "FD305",
+      "CropName": "小菊-黄初朝"
+    },
+    "424": {
+      "CropCode": "FD306",
+      "CropName": "小菊-多朵秀鳳"
+    },
+    "425": {
+      "CropCode": "FD307",
+      "CropName": "小菊-黄ピンポン"
+    },
+    "426": {
+      "CropCode": "FD308",
+      "CropName": "小菊-黄丁字菊"
+    },
+    "427": {
+      "CropCode": "FD309",
+      "CropName": "小菊-日本黄"
+    },
+    "428": {
+      "CropCode": "FD310",
+      "CropName": "小菊-青心黄"
+    },
+    "429": {
+      "CropCode": "FD311",
+      "CropName": "小菊-木瓜黄"
+    },
+    "430": {
+      "CropCode": "FD312",
+      "CropName": "小菊-黒心小黄"
+    },
+    "431": {
+      "CropCode": "FD313",
+      "CropName": "小菊-スプーン黄"
+    },
+    "432": {
+      "CropCode": "FD314",
+      "CropName": "小菊-ボタン菊黄"
+    },
+    "433": {
+      "CropCode": "FD315",
+      "CropName": "小菊-黄ダイヤモンド"
+    },
+    "434": {
+      "CropCode": "FD316",
+      "CropName": "小菊-冬月小黄"
+    },
+    "435": {
+      "CropCode": "FD317",
+      "CropName": "小菊-ダンス黄"
+    },
+    "436": {
+      "CropCode": "FD318",
+      "CropName": "小菊-小光輝"
+    },
+    "437": {
+      "CropCode": "FD319",
+      "CropName": "小菊-木瓜黄(重瓣)"
+    },
+    "438": {
+      "CropCode": "FD320",
+      "CropName": "小菊-オランダ黄"
+    },
+    "439": {
+      "CropCode": "FD321",
+      "CropName": "小菊-吉祥黄"
+    },
+    "440": {
+      "CropCode": "FD322",
+      "CropName": "小菊-金糸黄"
+    },
+    "441": {
+      "CropCode": "FD323",
+      "CropName": "小菊-一点黄"
+    },
+    "442": {
+      "CropCode": "FD324",
+      "CropName": "小菊-フランス小菊黄"
+    },
+    "443": {
+      "CropCode": "FD325",
+      "CropName": "小菊-黄マルゲリータ"
+    },
+    "444": {
+      "CropCode": "FD326",
+      "CropName": "小菊-モナリザサンシャイン黄"
+    },
+    "445": {
+      "CropCode": "FD330",
+      "CropName": "小菊-黄麺線小菊"
+    },
+    "446": {
+      "CropCode": "FD345",
+      "CropName": "小菊-黄スブレ"
+    },
+    "447": {
+      "CropCode": "FD350",
+      "CropName": "小菊-黄風車"
+    },
+    "448": {
+      "CropCode": "FD400",
+      "CropName": "小菊-ピンク"
+    },
+    "449": {
+      "CropCode": "FD401",
+      "CropName": "小菊-秋陽"
+    },
+    "450": {
+      "CropCode": "FD402",
+      "CropName": "小菊-大新粉"
+    },
+    "451": {
+      "CropCode": "FD403",
+      "CropName": "小菊-空心粉"
+    },
+    "452": {
+      "CropCode": "FD404",
+      "CropName": "小菊-花花世界"
+    },
+    "453": {
+      "CropCode": "FD405",
+      "CropName": "小菊-寒初朝"
+    },
+    "454": {
+      "CropCode": "FD406",
+      "CropName": "小菊-阿來粉"
+    },
+    "455": {
+      "CropCode": "FD407",
+      "CropName": "小菊-粉乒乓"
+    },
+    "456": {
+      "CropCode": "FD408",
+      "CropName": "小菊-瓊桃粉"
+    },
+    "457": {
+      "CropCode": "FD409",
+      "CropName": "小菊-炎陽粉"
+    },
+    "458": {
+      "CropCode": "FD410",
+      "CropName": "小菊-林哥粉"
+    },
+    "459": {
+      "CropCode": "FD411",
+      "CropName": "小菊-湯匙粉"
+    },
+    "460": {
+      "CropCode": "FD412",
+      "CropName": "小菊-粉雲南菊"
+    },
+    "461": {
+      "CropCode": "FD413",
+      "CropName": "小菊-粉初鳳"
+    },
+    "462": {
+      "CropCode": "FD414",
+      "CropName": "小菊-大陸粉"
+    },
+    "463": {
+      "CropCode": "FD415",
+      "CropName": "小菊-哈雷粉"
+    },
+    "464": {
+      "CropCode": "FD416",
+      "CropName": "小菊-珍珠粉"
+    },
+    "465": {
+      "CropCode": "FD417",
+      "CropName": "小菊-粉炎"
+    },
+    "466": {
+      "CropCode": "FD418",
+      "CropName": "小菊-粉火焰"
+    },
+    "467": {
+      "CropCode": "FD419",
+      "CropName": "小菊-日月小粉"
+    },
+    "468": {
+      "CropCode": "FD420",
+      "CropName": "小菊-荷蘭粉"
+    },
+    "469": {
+      "CropCode": "FD421",
+      "CropName": "小菊-水玲瓏"
+    },
+    "470": {
+      "CropCode": "FD422",
+      "CropName": "小菊-吉祥小粉"
+    },
+    "471": {
+      "CropCode": "FD423",
+      "CropName": "小菊-粉日記"
+    },
+    "472": {
+      "CropCode": "FD424",
+      "CropName": "小菊-小桃紅"
+    },
+    "473": {
+      "CropCode": "FD425",
+      "CropName": "小菊-瑪格麗特粉"
+    },
+    "474": {
+      "CropCode": "FD426",
+      "CropName": "小菊-シャンパンハレー"
+    },
+    "475": {
+      "CropCode": "FD427",
+      "CropName": "小菊-ピンクの美人"
+    },
+    "476": {
+      "CropCode": "FD428",
+      "CropName": "小菊-カレンダー小粉"
+    },
+    "477": {
+      "CropCode": "FD429",
+      "CropName": "小菊-桃の枝"
+    },
+    "478": {
+      "CropCode": "FD430",
+      "CropName": "小菊-麺線菊粉"
+    },
+    "479": {
+      "CropCode": "FD431",
+      "CropName": "小菊-桃紅雲南菊"
+    },
+    "480": {
+      "CropCode": "FD432",
+      "CropName": "小菊-彩雲"
+    },
+    "481": {
+      "CropCode": "FD433",
+      "CropName": "小菊-フィンランド小粉"
+    },
+    "482": {
+      "CropCode": "FD434",
+      "CropName": "小菊-イギリスの風車"
+    },
+    "483": {
+      "CropCode": "FD435",
+      "CropName": "小菊-リンク小粉"
+    },
+    "484": {
+      "CropCode": "FD436",
+      "CropName": "小菊-新秋陽"
+    },
+    "485": {
+      "CropCode": "FD437",
+      "CropName": "雲南菊-二色粉"
+    },
+    "486": {
+      "CropCode": "FD438",
+      "CropName": "小菊-湳港粉"
+    },
+    "487": {
+      "CropCode": "FD445",
+      "CropName": "小菊-粉スブレ"
+    },
+    "488": {
+      "CropCode": "FD446",
+      "CropName": "小菊-粉観音"
+    },
+    "489": {
+      "CropCode": "FD450",
+      "CropName": "小菊-粉風車"
+    },
+    "490": {
+      "CropCode": "FD451",
+      "CropName": "小菊-舞風車"
+    },
+    "491": {
+      "CropCode": "FD452",
+      "CropName": "小菊-辛ダ粉"
+    },
+    "492": {
+      "CropCode": "FD453",
+      "CropName": "小菊-棒棒糖-粉"
+    },
+    "493": {
+      "CropCode": "FD455",
+      "CropName": "小菊-美しい小粉"
+    },
+    "494": {
+      "CropCode": "FD456",
+      "CropName": "小菊-カロ粉"
+    },
+    "495": {
+      "CropCode": "FD457",
+      "CropName": "小菊-西ビア粉"
+    },
+    "496": {
+      "CropCode": "FD500",
+      "CropName": "小菊-緑"
+    },
+    "497": {
+      "CropCode": "FD501",
+      "CropName": "小菊-如玉"
+    },
+    "498": {
+      "CropCode": "FD502",
+      "CropName": "小菊-緑糸菊"
+    },
+    "499": {
+      "CropCode": "FD503",
+      "CropName": "小菊-鈕扣菊緑"
+    },
+    "500": {
+      "CropCode": "FD504",
+      "CropName": "小菊-ベレー録"
+    },
+    "501": {
+      "CropCode": "FD505",
+      "CropName": "小菊-福沢"
+    },
+    "502": {
+      "CropCode": "FD509",
+      "CropName": "小菊-奇濃緑ピンポン"
+    },
+    "503": {
+      "CropCode": "FD600",
+      "CropName": "小菊-白"
+    },
+    "504": {
+      "CropCode": "FD601",
+      "CropName": "小菊-丁字菊白"
+    },
+    "505": {
+      "CropCode": "FD602",
+      "CropName": "小菊-白銅貨"
+    },
+    "506": {
+      "CropCode": "FD603",
+      "CropName": "小菊-空心白(短瓣)"
+    },
+    "507": {
+      "CropCode": "FD604",
+      "CropName": "小菊-空心白(長瓣)"
+    },
+    "508": {
+      "CropCode": "FD605",
+      "CropName": "小菊-白初朝"
+    },
+    "509": {
+      "CropCode": "FD607",
+      "CropName": "小菊-白ピンポン"
+    },
+    "510": {
+      "CropCode": "FD608",
+      "CropName": "小菊-小秋白"
+    },
+    "511": {
+      "CropCode": "FD609",
+      "CropName": "小菊-鶏眼小白"
+    },
+    "512": {
+      "CropCode": "FD610",
+      "CropName": "小菊-青心小白"
+    },
+    "513": {
+      "CropCode": "FD611",
+      "CropName": "小菊-新丁字白"
+    },
+    "514": {
+      "CropCode": "FD612",
+      "CropName": "小菊-白雲南菊"
+    },
+    "515": {
+      "CropCode": "FD613",
+      "CropName": "小菊-鈕扣菊白"
+    },
+    "516": {
+      "CropCode": "FD614",
+      "CropName": "小菊-フランス小菊白"
+    },
+    "517": {
+      "CropCode": "FD615",
+      "CropName": "小菊-翠玉"
+    },
+    "518": {
+      "CropCode": "FD616",
+      "CropName": "小菊-跳舞白"
+    },
+    "519": {
+      "CropCode": "FD617",
+      "CropName": "小菊-白観音"
+    },
+    "520": {
+      "CropCode": "FD618",
+      "CropName": "小菊-白ダイヤモンド"
+    },
+    "521": {
+      "CropCode": "FD619",
+      "CropName": "小菊-小雪球白"
+    },
+    "522": {
+      "CropCode": "FD620",
+      "CropName": "小菊-オランダ小白"
+    },
+    "523": {
+      "CropCode": "FD621",
+      "CropName": "小菊-川涼"
+    },
+    "524": {
+      "CropCode": "FD622",
+      "CropName": "小菊-吉祥白"
+    },
+    "525": {
+      "CropCode": "FD623",
+      "CropName": "小菊-相思小白"
+    },
+    "526": {
+      "CropCode": "FD625",
+      "CropName": "小菊-白マルガリータ"
+    },
+    "527": {
+      "CropCode": "FD630",
+      "CropName": "小菊-白麺線小菊"
+    },
+    "528": {
+      "CropCode": "FD632",
+      "CropName": "小菊-真珠白"
+    },
+    "529": {
+      "CropCode": "FD633",
+      "CropName": "小菊-フィンランド小白"
+    },
+    "530": {
+      "CropCode": "FD635",
+      "CropName": "小菊-リンク小白"
+    },
+    "531": {
+      "CropCode": "FD645",
+      "CropName": "小菊-白スブレ"
+    },
+    "532": {
+      "CropCode": "FD646",
+      "CropName": "小菊-バン白"
+    },
+    "533": {
+      "CropCode": "FD657",
+      "CropName": "小菊-西ビア白"
+    },
+    "534": {
+      "CropCode": "FD700",
+      "CropName": "小菊-紫"
+    },
+    "535": {
+      "CropCode": "FD712",
+      "CropName": "小菊-紫雲南菊"
+    },
+    "536": {
+      "CropCode": "FD752",
+      "CropName": "小菊-シンダ紫紅"
+    },
+    "537": {
+      "CropCode": "FD800",
+      "CropName": "小菊-染色小菊"
+    },
+    "538": {
+      "CropCode": "FD801",
+      "CropName": "染小菊-フィンランド"
+    },
+    "539": {
+      "CropCode": "FD802",
+      "CropName": "染小菊-白ダイヤモンド"
+    },
+    "540": {
+      "CropCode": "FD9",
+      "CropName": "花胡瓜-輸入"
+    },
+    "541": {
+      "CropCode": "FD900",
+      "CropName": "小菊-ミニ翠菊"
+    },
+    "542": {
+      "CropCode": "FE0",
+      "CropName": "冬瓜-その他"
+    },
+    "543": {
+      "CropCode": "FE000",
+      "CropName": "アフリカ菊"
+    },
+    "544": {
+      "CropCode": "FE001",
+      "CropName": "アフリカ菊-混合色"
+    },
+    "545": {
+      "CropCode": "FE1",
+      "CropName": "冬瓜-白皮"
+    },
+    "546": {
+      "CropCode": "FE100",
+      "CropName": "アフリカ菊-赤"
+    },
+    "547": {
+      "CropCode": "FE101",
+      "CropName": "アフリカ菊-二色赤"
+    },
+    "548": {
+      "CropCode": "FE102",
+      "CropName": "アフリカ菊-ダリッチ"
+    },
+    "549": {
+      "CropCode": "FE103",
+      "CropName": "アフリカンデイジー-レッドクリスタル"
+    },
+    "550": {
+      "CropCode": "FE104",
+      "CropName": "アフリカンデイジー-レイノ"
+    },
+    "551": {
+      "CropCode": "FE105",
+      "CropName": "アフリカンデイジー-シロ"
+    },
+    "552": {
+      "CropCode": "FE106",
+      "CropName": "アフリカンデイジー-ロレイト"
+    },
+    "553": {
+      "CropCode": "FE107",
+      "CropName": "アフリカンデイジー-華麗"
+    },
+    "554": {
+      "CropCode": "FE108",
+      "CropName": "アフリカンデイジー-レッドパリ"
+    },
+    "555": {
+      "CropCode": "FE109",
+      "CropName": "アフリカンデイジー-ハビ"
+    },
+    "556": {
+      "CropCode": "FE110",
+      "CropName": "アフリカンデイジー-カブ"
+    },
+    "557": {
+      "CropCode": "FE111",
+      "CropName": "アフリカンデイジー-上海レッド"
+    },
+    "558": {
+      "CropCode": "FE112",
+      "CropName": "アフリカンデイジー-天籟"
+    },
+    "559": {
+      "CropCode": "FE113",
+      "CropName": "アフリカンデイジー-レキシントン"
+    },
+    "560": {
+      "CropCode": "FE2",
+      "CropName": "冬瓜-青皮"
+    },
+    "561": {
+      "CropCode": "FE200",
+      "CropName": "アフリカンデイジー-オレンジ"
+    },
+    "562": {
+      "CropCode": "FE201",
+      "CropName": "アフリカンデイジー-太陽神"
+    },
+    "563": {
+      "CropCode": "FE202",
+      "CropName": "アフリカンデイジー-砂丘"
+    },
+    "564": {
+      "CropCode": "FE203",
+      "CropName": "アフリカンデイジー-オーリン"
+    },
+    "565": {
+      "CropCode": "FE204",
+      "CropName": "アフリカンデイジー-メロディ"
+    },
+    "566": {
+      "CropCode": "FE205",
+      "CropName": "アフリカンデイジー-ハリベア"
+    },
+    "567": {
+      "CropCode": "FE3",
+      "CropName": "冬瓜-毛瓜"
+    },
+    "568": {
+      "CropCode": "FE300",
+      "CropName": "アフリカンデイジー-イエロー"
+    },
+    "569": {
+      "CropCode": "FE301",
+      "CropName": "アフリカンデイジー-ヒートウェーブ"
+    },
+    "570": {
+      "CropCode": "FE302",
+      "CropName": "アフリカンデイジー-ゴールドカップ"
+    },
+    "571": {
+      "CropCode": "FE400",
+      "CropName": "アフリカンデイジー-ピンク"
+    },
+    "572": {
+      "CropCode": "FE401",
+      "CropName": "アフリカンデイジー-イスマラ"
+    },
+    "573": {
+      "CropCode": "FE402",
+      "CropName": "アフリカンデイジー-マルシア"
+    },
+    "574": {
+      "CropCode": "FE403",
+      "CropName": "アフリカンデイジー-ドニカ"
+    },
+    "575": {
+      "CropCode": "FE404",
+      "CropName": "アフリカンデイジー-ムニラ"
+    },
+    "576": {
+      "CropCode": "FE405",
+      "CropName": "アフリカンデイジー-ロザリン"
+    },
+    "577": {
+      "CropCode": "FE406",
+      "CropName": "アフリカンデイジー-ピンクビューティ"
+    },
+    "578": {
+      "CropCode": "FE407",
+      "CropName": "アフリカンデイジー-スパーク"
+    },
+    "579": {
+      "CropCode": "FE408",
+      "CropName": "アフリカンデイジー-ピンクビーナス"
+    },
+    "580": {
+      "CropCode": "FE409",
+      "CropName": "アフリカンデイジー-ピンクチャーム"
+    },
+    "581": {
+      "CropCode": "FE410",
+      "CropName": "アフリカンデイジー-ナイチンゲール"
+    },
+    "582": {
+      "CropCode": "FE411",
+      "CropName": "アフリカンデイジー-リド"
+    },
+    "583": {
+      "CropCode": "FE412",
+      "CropName": "アフリカンデイジー-ナポレオン"
+    },
+    "584": {
+      "CropCode": "FE413",
+      "CropName": "アフリカンデイジー-フェイ"
+    },
+    "585": {
+      "CropCode": "FE415",
+      "CropName": "アフリカンデイジー-ピンクビューティー"
+    },
+    "586": {
+      "CropCode": "FE416",
+      "CropName": "アフリカンデイジー-情熱的なピンク"
+    },
+    "587": {
+      "CropCode": "FE600",
+      "CropName": "アフリカンデイジー-ホワイト"
+    },
+    "588": {
+      "CropCode": "FE601",
+      "CropName": "アフリカンデイジー-ホワイトスノー"
+    },
+    "589": {
+      "CropCode": "FE602",
+      "CropName": "アフリカンデイジー-マリア"
+    },
+    "590": {
+      "CropCode": "FE603",
+      "CropName": "アフリカンデイジー-ビアンカ"
+    },
+    "591": {
+      "CropCode": "FE604",
+      "CropName": "アフリカンデイジー-ホワイトベア"
+    },
+    "592": {
+      "CropCode": "FE605",
+      "CropName": "アフリカンデイジー-アイス山"
+    },
+    "593": {
+      "CropCode": "FE606",
+      "CropName": "アフリカンデイジー-サイコロ"
+    },
+    "594": {
+      "CropCode": "FE700",
+      "CropName": "アフリカンデイジー-パープル"
+    },
+    "595": {
+      "CropCode": "FE701",
+      "CropName": "アフリカンデイジー-パープルプリンス"
+    },
+    "596": {
+      "CropCode": "FE702",
+      "CropName": "アフリカンデイジー-ルーブル"
+    },
+    "597": {
+      "CropCode": "FE703",
+      "CropName": "アフリカンデイジー-ファラオ"
+    },
+    "598": {
+      "CropCode": "FE704",
+      "CropName": "アフリカンデイジー-クイーン"
+    },
+    "599": {
+      "CropCode": "FE801",
+      "CropName": "アフリカンデイジー-ポポ"
+    },
+    "600": {
+      "CropCode": "FE9",
+      "CropName": "冬瓜-輸入"
+    },
+    "601": {
+      "CropCode": "FE900",
+      "CropName": "アフリカンデイジー-ミニミックス"
+    },
+    "602": {
+      "CropCode": "FE910",
+      "CropName": "アフリカンデイジー-ミニレッド"
+    },
+    "603": {
+      "CropCode": "FE920",
+      "CropName": "アフリカンデイジー-ミニオレンジ"
+    },
+    "604": {
+      "CropCode": "FE930",
+      "CropName": "アフリカンデイジー-ミニイエロー"
+    },
+    "605": {
+      "CropCode": "FE940",
+      "CropName": "アフリカンデイジー-ミニピンク"
+    },
+    "606": {
+      "CropCode": "FE960",
+      "CropName": "アフリカンデイジー-ミニホワイト"
+    },
+    "607": {
+      "CropCode": "FE970",
+      "CropName": "アフリカンデイジー-ミニパープル"
+    },
+    "608": {
+      "CropCode": "FF0",
+      "CropName": "ヘチマ-その他"
+    },
+    "609": {
+      "CropCode": "FF1",
+      "CropName": "ヘチマ"
+    },
+    "610": {
+      "CropCode": "FF2",
+      "CropName": "ヘチマ-角ヘチマ"
+    },
+    "611": {
+      "CropCode": "FF3",
+      "CropName": "ヘチマ-白ヘチマ"
+    },
+    "612": {
+      "CropCode": "FF4",
+      "CropName": "ヘチマ-長ヘチマ"
+    },
+    "613": {
+      "CropCode": "FF9",
+      "CropName": "ヘチマ-輸入"
+    },
+    "614": {
+      "CropCode": "FG0",
+      "CropName": "苦瓜-その他"
+    },
+    "615": {
+      "CropCode": "FG000",
+      "CropName": "剣蘭"
+    },
+    "616": {
+      "CropCode": "FG001",
+      "CropName": "剣蘭-ミックスカラー"
+    },
+    "617": {
+      "CropCode": "FG1",
+      "CropName": "苦瓜-白米"
+    },
+    "618": {
+      "CropCode": "FG100",
+      "CropName": "剣蘭-赤"
+    },
+    "619": {
+      "CropCode": "FG101",
+      "CropName": "剣蘭-4号"
+    },
+    "620": {
+      "CropCode": "FG102",
+      "CropName": "剣蘭-13号"
+    },
+    "621": {
+      "CropCode": "FG103",
+      "CropName": "剣蘭-42号"
+    },
+    "622": {
+      "CropCode": "FG104",
+      "CropName": "剣蘭-223号"
+    },
+    "623": {
+      "CropCode": "FG105",
+      "CropName": "剣蘭-235号"
+    },
+    "624": {
+      "CropCode": "FG106",
+      "CropName": "剣ラン-マデリ"
+    },
+    "625": {
+      "CropCode": "FG107",
+      "CropName": "剣ラン-黒骨"
+    },
+    "626": {
+      "CropCode": "FG108",
+      "CropName": "剣ラン-桜紅"
+    },
+    "627": {
+      "CropCode": "FG109",
+      "CropName": "剣ラン-胭脂紅"
+    },
+    "628": {
+      "CropCode": "FG110",
+      "CropName": "剣ラン-バラ紅"
+    },
+    "629": {
+      "CropCode": "FG111",
+      "CropName": "剣ラン-43号"
+    },
+    "630": {
+      "CropCode": "FG112",
+      "CropName": "剣ラン-新桜紅"
+    },
+    "631": {
+      "CropCode": "FG113",
+      "CropName": "剣ラン-新種紅"
+    },
+    "632": {
+      "CropCode": "FG114",
+      "CropName": "剣ラン-新223号"
+    },
+    "633": {
+      "CropCode": "FG115",
+      "CropName": "剣ラン-243号"
+    },
+    "634": {
+      "CropCode": "FG116",
+      "CropName": "剣ラン-二色金紅"
+    },
+    "635": {
+      "CropCode": "FG118",
+      "CropName": "剣ラン-278号"
+    },
+    "636": {
+      "CropCode": "FG119",
+      "CropName": "剣ラン-279号"
+    },
+    "637": {
+      "CropCode": "FG120",
+      "CropName": "剣ラン-黒骨紅"
+    },
+    "638": {
+      "CropCode": "FG121",
+      "CropName": "剣ラン-265号"
+    },
+    "639": {
+      "CropCode": "FG122",
+      "CropName": "剣ラン-コンウェイ"
+    },
+    "640": {
+      "CropCode": "FG123",
+      "CropName": "剣ラン-艶紫紅"
+    },
+    "641": {
+      "CropCode": "FG2",
+      "CropName": "苦瓜-青大米"
+    },
+    "642": {
+      "CropCode": "FG200",
+      "CropName": "剣ラン-オレンジ"
+    },
+    "643": {
+      "CropCode": "FG201",
+      "CropName": "剣ラン-オレンジピンク"
+    },
+    "644": {
+      "CropCode": "FG3",
+      "CropName": "苦瓜-山苦瓜"
+    },
+    "645": {
+      "CropCode": "FG300",
+      "CropName": "剣ラン-黄"
+    },
+    "646": {
+      "CropCode": "FG301",
+      "CropName": "剣ラン-深黄"
+    },
+    "647": {
+      "CropCode": "FG302",
+      "CropName": "剣ラン-浅黄"
+    },
+    "648": {
+      "CropCode": "FG303",
+      "CropName": "剣ラン-黄紅心"
+    },
+    "649": {
+      "CropCode": "FG4",
+      "CropName": "ゴーヤ-翠緑"
+    },
+    "650": {
+      "CropCode": "FG400",
+      "CropName": "剣蘭-ピンク"
+    },
+    "651": {
+      "CropCode": "FG401",
+      "CropName": "剣蘭-新ピンク"
+    },
+    "652": {
+      "CropCode": "FG402",
+      "CropName": "剣蘭-司胖"
+    },
+    "653": {
+      "CropCode": "FG403",
+      "CropName": "剣蘭-馬ピンク"
+    },
+    "654": {
+      "CropCode": "FG404",
+      "CropName": "剣蘭-桃ピンク"
+    },
+    "655": {
+      "CropCode": "FG405",
+      "CropName": "剣蘭-薄ピンク"
+    },
+    "656": {
+      "CropCode": "FG406",
+      "CropName": "剣蘭-青殻ピンク"
+    },
+    "657": {
+      "CropCode": "FG407",
+      "CropName": "剣蘭-ピンクハート"
+    },
+    "658": {
+      "CropCode": "FG408",
+      "CropName": "剣蘭-512号"
+    },
+    "659": {
+      "CropCode": "FG409",
+      "CropName": "剣蘭-513号"
+    },
+    "660": {
+      "CropCode": "FG410",
+      "CropName": "剣蘭-515号"
+    },
+    "661": {
+      "CropCode": "FG411",
+      "CropName": "剣蘭-ピンクの美人"
+    },
+    "662": {
+      "CropCode": "FG412",
+      "CropName": "剣蘭-ピンクジャイアント"
+    },
+    "663": {
+      "CropCode": "FG413",
+      "CropName": "剣蘭-新司胖"
+    },
+    "664": {
+      "CropCode": "FG414",
+      "CropName": "剣蘭-アメリカンピンク"
+    },
+    "665": {
+      "CropCode": "FG415",
+      "CropName": "剣蘭-サマーローズ"
+    },
+    "666": {
+      "CropCode": "FG416",
+      "CropName": "剣蘭-4436号"
+    },
+    "667": {
+      "CropCode": "FG417",
+      "CropName": "剣蘭-フランス"
+    },
+    "668": {
+      "CropCode": "FG418",
+      "CropName": "剣蘭-437号"
+    },
+    "669": {
+      "CropCode": "FG419",
+      "CropName": "剣蘭-ビクトリア"
+    },
+    "670": {
+      "CropCode": "FG501",
+      "CropName": "剣蘭-610号"
+    },
+    "671": {
+      "CropCode": "FG600",
+      "CropName": "剣蘭-白"
+    },
+    "672": {
+      "CropCode": "FG601",
+      "CropName": "剣蘭-大白"
+    },
+    "673": {
+      "CropCode": "FG602",
+      "CropName": "剣蘭-アムステルダム"
+    },
+    "674": {
+      "CropCode": "FG603",
+      "CropName": "剣蘭-白紅心"
+    },
+    "675": {
+      "CropCode": "FG700",
+      "CropName": "剣蘭-紫"
+    },
+    "676": {
+      "CropCode": "FG701",
+      "CropName": "剣蘭-深紫"
+    },
+    "677": {
+      "CropCode": "FG702",
+      "CropName": "剣蘭-浅紫"
+    },
+    "678": {
+      "CropCode": "FG703",
+      "CropName": "剣蘭-深絨紫"
+    },
+    "679": {
+      "CropCode": "FG704",
+      "CropName": "剣蘭-黒紫"
+    },
+    "680": {
+      "CropCode": "FG705",
+      "CropName": "剣蘭-紫青"
+    },
+    "681": {
+      "CropCode": "FG706",
+      "CropName": "剣蘭-紫白心"
+    },
+    "682": {
+      "CropCode": "FG9",
+      "CropName": "苦瓜-輸入"
+    },
+    "683": {
+      "CropCode": "FH0",
+      "CropName": "扁蒲-その他"
+    },
+    "684": {
+      "CropCode": "FH000",
+      "CropName": "その他の花"
+    },
+    "685": {
+      "CropCode": "FH002",
+      "CropName": "オークション花"
+    },
+    "686": {
+      "CropCode": "FH003",
+      "CropName": "柔麗絲"
+    },
+    "687": {
+      "CropCode": "FH004",
+      "CropName": "八卦草(黄河)"
+    },
+    "688": {
+      "CropCode": "FH005",
+      "CropName": "金鎚花"
+    },
+    "689": {
+      "CropCode": "FH006",
+      "CropName": "黄梔花"
+    },
+    "690": {
+      "CropCode": "FH007",
+      "CropName": "松虫草"
+    },
+    "691": {
+      "CropCode": "FH008",
+      "CropName": "洋甘菊"
+    },
+    "692": {
+      "CropCode": "FH009",
+      "CropName": "万寿菊"
+    },
+    "693": {
+      "CropCode": "FH048",
+      "CropName": "連翹"
+    },
+    "694": {
+      "CropCode": "FH050",
+      "CropName": "水仙百合-混色"
+    },
+    "695": {
+      "CropCode": "FH051",
+      "CropName": "水仙百合-赤"
+    },
+    "696": {
+      "CropCode": "FH052",
+      "CropName": "水仙百合-橙"
+    },
+    "697": {
+      "CropCode": "FH053",
+      "CropName": "水仙百合-黄"
+    },
+    "698": {
+      "CropCode": "FH054",
+      "CropName": "水仙百合-ピンク"
+    },
+    "699": {
+      "CropCode": "FH055",
+      "CropName": "スイセンユリ-緑"
+    },
+    "700": {
+      "CropCode": "FH056",
+      "CropName": "スイセンユリ-白"
+    },
+    "701": {
+      "CropCode": "FH057",
+      "CropName": "スイセンユリ-紫"
+    },
+    "702": {
+      "CropCode": "FH061",
+      "CropName": "スイセンユリ-紫紅"
+    },
+    "703": {
+      "CropCode": "FH062",
+      "CropName": "スイセンユリ-二色"
+    },
+    "704": {
+      "CropCode": "FH063",
+      "CropName": "スイセンユリ-白帯紅"
+    },
+    "705": {
+      "CropCode": "FH071",
+      "CropName": "ヒガンバナ-紅花"
+    },
+    "706": {
+      "CropCode": "FH072",
+      "CropName": "ヒガンバナ-金花"
+    },
+    "707": {
+      "CropCode": "FH073",
+      "CropName": "ヒガンバナ-黄花"
+    },
+    "708": {
+      "CropCode": "FH074",
+      "CropName": "ヒガンバナ-粉花"
+    },
+    "709": {
+      "CropCode": "FH080",
+      "CropName": "ユリ"
+    },
+    "710": {
+      "CropCode": "FH090",
+      "CropName": "針垫花"
+    },
+    "711": {
+      "CropCode": "FH1",
+      "CropName": "扁蒲-長形"
+    },
+    "712": {
+      "CropCode": "FH101",
+      "CropName": "天国の鳥"
+    },
+    "713": {
+      "CropCode": "FH111",
+      "CropName": "小天国の鳥-紅"
+    },
+    "714": {
+      "CropCode": "FH112",
+      "CropName": "小天国の鳥-オレンジ帯紅"
+    },
+    "715": {
+      "CropCode": "FH113",
+      "CropName": "小天国の鳥-黄"
+    },
+    "716": {
+      "CropCode": "FH114",
+      "CropName": "小天国の鳥-ピンク"
+    },
+    "717": {
+      "CropCode": "FH120",
+      "CropName": "羽毛花"
+    },
+    "718": {
+      "CropCode": "FH121",
+      "CropName": "紅金鳥"
+    },
+    "719": {
+      "CropCode": "FH123",
+      "CropName": "黄金鳥"
+    },
+    "720": {
+      "CropCode": "FH124",
+      "CropName": "翡翠鳥"
+    },
+    "721": {
+      "CropCode": "FH125",
+      "CropName": "翠珠花"
+    },
+    "722": {
+      "CropCode": "FH127",
+      "CropName": "鶴蕉-黒美人"
+    },
+    "723": {
+      "CropCode": "FH128",
+      "CropName": "十日垂蕉"
+    },
+    "724": {
+      "CropCode": "FH129",
+      "CropName": "キンポウスイバナ"
+    },
+    "725": {
+      "CropCode": "FH130",
+      "CropName": "モンジュラン"
+    },
+    "726": {
+      "CropCode": "FH131",
+      "CropName": "ツルガシ"
+    },
+    "727": {
+      "CropCode": "FH132",
+      "CropName": "ショウツルバナ"
+    },
+    "728": {
+      "CropCode": "FH133",
+      "CropName": "ツルバナ紅美人"
+    },
+    "729": {
+      "CropCode": "FH134",
+      "CropName": "紅娘垂蕉"
+    },
+    "730": {
+      "CropCode": "FH135",
+      "CropName": "スイガシ"
+    },
+    "731": {
+      "CropCode": "FH136",
+      "CropName": "ハクレンバナ"
+    },
+    "732": {
+      "CropCode": "FH137",
+      "CropName": "観音蓮"
+    },
+    "733": {
+      "CropCode": "FH138",
+      "CropName": "美人蕉"
+    },
+    "734": {
+      "CropCode": "FH139",
+      "CropName": "石バラ"
+    },
+    "735": {
+      "CropCode": "FH140",
+      "CropName": "ショウカ"
+    },
+    "736": {
+      "CropCode": "FH145",
+      "CropName": "キンザンカ"
+    },
+    "737": {
+      "CropCode": "FH152",
+      "CropName": "野ショウガ-オレンジ"
+    },
+    "738": {
+      "CropCode": "FH156",
+      "CropName": "野ショウガ-ホワイト"
+    },
+    "739": {
+      "CropCode": "FH158",
+      "CropName": "紅ショウガ"
+    },
+    "740": {
+      "CropCode": "FH159",
+      "CropName": "球ショウガ"
+    },
+    "741": {
+      "CropCode": "FH164",
+      "CropName": "トーチフラワー"
+    },
+    "742": {
+      "CropCode": "FH170",
+      "CropName": "キツネノテブクロ"
+    },
+    "743": {
+      "CropCode": "FH180",
+      "CropName": "宮灯百合"
+    },
+    "744": {
+      "CropCode": "FH185",
+      "CropName": "嘉蘭(炎百合)"
+    },
+    "745": {
+      "CropCode": "FH190",
+      "CropName": "鳴子百合"
+    },
+    "746": {
+      "CropCode": "FH195",
+      "CropName": "ユランカ"
+    },
+    "747": {
+      "CropCode": "FH2",
+      "CropName": "扁蒲-円形"
+    },
+    "748": {
+      "CropCode": "FH201",
+      "CropName": "ネコヤナギ-直支"
+    },
+    "749": {
+      "CropCode": "FH202",
+      "CropName": "パールウィロー-ストレート"
+    },
+    "750": {
+      "CropCode": "FH203",
+      "CropName": "キャットテール-フォーク"
+    },
+    "751": {
+      "CropCode": "FH204",
+      "CropName": "パールウィロー-フォーク"
+    },
+    "752": {
+      "CropCode": "FH210",
+      "CropName": "夕霧草"
+    },
+    "753": {
+      "CropCode": "FH215",
+      "CropName": "ダンギク"
+    },
+    "754": {
+      "CropCode": "FH220",
+      "CropName": "羽扇豆"
+    },
+    "755": {
+      "CropCode": "FH225",
+      "CropName": "帝王花"
+    },
+    "756": {
+      "CropCode": "FH230",
+      "CropName": "夜来香"
+    },
+    "757": {
+      "CropCode": "FH231",
+      "CropName": "夜来香-単花"
+    },
+    "758": {
+      "CropCode": "FH232",
+      "CropName": "夜来香-重花"
+    },
+    "759": {
+      "CropCode": "FH240",
+      "CropName": "麦桿菊"
+    },
+    "760": {
+      "CropCode": "FH245",
+      "CropName": "初雪草"
+    },
+    "761": {
+      "CropCode": "FH251",
+      "CropName": "秀線"
+    },
+    "762": {
+      "CropCode": "FH256",
+      "CropName": "白秀線"
+    },
+    "763": {
+      "CropCode": "FH260",
+      "CropName": "丹頂(葱花)"
+    },
+    "764": {
+      "CropCode": "FH270",
+      "CropName": "千日紅"
+    },
+    "765": {
+      "CropCode": "FH280",
+      "CropName": "古代稀"
+    },
+    "766": {
+      "CropCode": "FH293",
+      "CropName": "ひまわり-単花"
+    },
+    "767": {
+      "CropCode": "FH294",
+      "CropName": "ひまわり-重花"
+    },
+    "768": {
+      "CropCode": "FH295",
+      "CropName": "ひまわり-金色の太陽"
+    },
+    "769": {
+      "CropCode": "FH296",
+      "CropName": "ひまわり-金のダイヤ"
+    },
+    "770": {
+      "CropCode": "FH297",
+      "CropName": "ひまわり-達冠七号"
+    },
+    "771": {
+      "CropCode": "FH298",
+      "CropName": "ひまわり-太陽神"
+    },
+    "772": {
+      "CropCode": "FH3",
+      "CropName": "扁蒲-花蒲"
+    },
+    "773": {
+      "CropCode": "FH301",
+      "CropName": "ボスニア菊"
+    },
+    "774": {
+      "CropCode": "FH302",
+      "CropName": "ヤグルマギク"
+    },
+    "775": {
+      "CropCode": "FH303",
+      "CropName": "ルリギク"
+    },
+    "776": {
+      "CropCode": "FH304",
+      "CropName": "ウロコトウギク"
+    },
+    "777": {
+      "CropCode": "FH305",
+      "CropName": "シロユウゼンギク"
+    },
+    "778": {
+      "CropCode": "FH306",
+      "CropName": "ハクジツソウ"
+    },
+    "779": {
+      "CropCode": "FH307",
+      "CropName": "ウリバギク"
+    },
+    "780": {
+      "CropCode": "FH308",
+      "CropName": "シロランギク"
+    },
+    "781": {
+      "CropCode": "FH309",
+      "CropName": "ボタン"
+    },
+    "782": {
+      "CropCode": "FH310",
+      "CropName": "ダイリカ-混色"
+    },
+    "783": {
+      "CropCode": "FH311",
+      "CropName": "ダイリカ-赤"
+    },
+    "784": {
+      "CropCode": "FH312",
+      "CropName": "ダイリカ-オレンジ"
+    },
+    "785": {
+      "CropCode": "FH313",
+      "CropName": "ダイリカ-黄"
+    },
+    "786": {
+      "CropCode": "FH314",
+      "CropName": "ダイリカ-ピンク"
+    },
+    "787": {
+      "CropCode": "FH316",
+      "CropName": "ダイリカ-白"
+    },
+    "788": {
+      "CropCode": "FH317",
+      "CropName": "ダイリカ-紫"
+    },
+    "789": {
+      "CropCode": "FH318",
+      "CropName": "ダイリカ-二色"
+    },
+    "790": {
+      "CropCode": "FH320",
+      "CropName": "アザミ(赤花)"
+    },
+    "791": {
+      "CropCode": "FH330",
+      "CropName": "ケイトウ"
+    },
+    "792": {
+      "CropCode": "FH331",
+      "CropName": "ケイトウ-清紅"
+    },
+    "793": {
+      "CropCode": "FH332",
+      "CropName": "ケイトウ-暗紅"
+    },
+    "794": {
+      "CropCode": "FH333",
+      "CropName": "ケイトウ-黄"
+    },
+    "795": {
+      "CropCode": "FH334",
+      "CropName": "ケイトウ-緑"
+    },
+    "796": {
+      "CropCode": "FH335",
+      "CropName": "銃型ケイトウ"
+    },
+    "797": {
+      "CropCode": "FH336",
+      "CropName": "垂れケイトウ"
+    },
+    "798": {
+      "CropCode": "FH337",
+      "CropName": "ケイトウ-紫紅"
+    },
+    "799": {
+      "CropCode": "FH338",
+      "CropName": "ケイトウ-黄緑"
+    },
+    "800": {
+      "CropCode": "FH339",
+      "CropName": "ケイトウ-ピンク"
+    },
+    "801": {
+      "CropCode": "FH340",
+      "CropName": "炎のケイトウ"
+    },
+    "802": {
+      "CropCode": "FH341",
+      "CropName": "炎のケイトウ-赤"
+    },
+    "803": {
+      "CropCode": "FH342",
+      "CropName": "炎のケイトウ-オレンジ"
+    },
+    "804": {
+      "CropCode": "FH343",
+      "CropName": "炎のケイトウ-黄"
+    },
+    "805": {
+      "CropCode": "FH344",
+      "CropName": "炎のケイトウ-ピンク"
+    },
+    "806": {
+      "CropCode": "FH350",
+      "CropName": "夢幻の草"
+    },
+    "807": {
+      "CropCode": "FH355",
+      "CropName": "パイナップルフラワー"
+    },
+    "808": {
+      "CropCode": "FH356",
+      "CropName": "観果パイナップルフラワー"
+    },
+    "809": {
+      "CropCode": "FH357",
+      "CropName": "観花パイナップルフラワー"
+    },
+    "810": {
+      "CropCode": "FH358",
+      "CropName": "サンゴパイナップル"
+    },
+    "811": {
+      "CropCode": "FH360",
+      "CropName": "金魚草-混色"
+    },
+    "812": {
+      "CropCode": "FH361",
+      "CropName": "金魚草-赤"
+    },
+    "813": {
+      "CropCode": "FH363",
+      "CropName": "金魚草-黄"
+    },
+    "814": {
+      "CropCode": "FH364",
+      "CropName": "金魚草-ピンク"
+    },
+    "815": {
+      "CropCode": "FH366",
+      "CropName": "金魚草-白"
+    },
+    "816": {
+      "CropCode": "FH368",
+      "CropName": "金魚草-二色"
+    },
+    "817": {
+      "CropCode": "FH370",
+      "CropName": "千鳥草"
+    },
+    "818": {
+      "CropCode": "FH375",
+      "CropName": "大飛燕草"
+    },
+    "819": {
+      "CropCode": "FH376",
+      "CropName": "小飛燕草"
+    },
+    "820": {
+      "CropCode": "FH380",
+      "CropName": "鳳尾草"
+    },
+    "821": {
+      "CropCode": "FH381",
+      "CropName": "麒麟草"
+    },
+    "822": {
+      "CropCode": "FH390",
+      "CropName": "泡盛草"
+    },
+    "823": {
+      "CropCode": "FH395",
+      "CropName": "虎尾花"
+    },
+    "824": {
+      "CropCode": "FH4"
+    },
+    "849": {
+      "CropName": "アジサイ-ピンク"
+    },
+    "850": {
+      "CropCode": "FH465",
+      "CropName": "アジサイ-グリーン"
+    },
+    "851": {
+      "CropCode": "FH466",
+      "CropName": "アジサイ-ホワイト"
+    },
+    "852": {
+      "CropCode": "FH467",
+      "CropName": "アジサイ-ブルー"
+    },
+    "853": {
+      "CropCode": "FH468",
+      "CropName": "アジサイ-水色"
+    },
+    "854": {
+      "CropCode": "FH470",
+      "CropName": "仙丹花"
+    },
+    "855": {
+      "CropCode": "FH480",
+      "CropName": "龍膽"
+    },
+    "856": {
+      "CropCode": "FH485",
+      "CropName": "風鈴花"
+    },
+    "857": {
+      "CropCode": "FH490",
+      "CropName": "白頭翁"
+    },
+    "858": {
+      "CropCode": "FH495",
+      "CropName": "陸蓮花"
+    },
+    "859": {
+      "CropCode": "FH496",
+      "CropName": "陸蓮花-ホワイト"
+    },
+    "860": {
+      "CropCode": "FH497",
+      "CropName": "陸蓮花-レッド"
+    },
+    "861": {
+      "CropCode": "FH498",
+      "CropName": "陸蓮花-イエロー"
+    },
+    "862": {
+      "CropCode": "FH499",
+      "CropName": "陸蓮花-ピンク"
+    },
+    "863": {
+      "CropCode": "FH500",
+      "CropName": "風信子"
+    },
+    "864": {
+      "CropCode": "FH510",
+      "CropName": "蝶陸蓮-混色"
+    },
+    "865": {
+      "CropCode": "FH511",
+      "CropName": "蝶陸蓮-レッド"
+    },
+    "866": {
+      "CropCode": "FH512",
+      "CropName": "蝶陸蓮-オレンジ"
+    },
+    "867": {
+      "CropCode": "FH513",
+      "CropName": "蝶陸蓮-イエロー"
+    },
+    "868": {
+      "CropCode": "FH514",
+      "CropName": "蝶陸蓮-ピンク"
+    },
+    "869": {
+      "CropCode": "FH516",
+      "CropName": "蝶陸蓮-ホワイト"
+    },
+    "870": {
+      "CropCode": "FH521",
+      "CropName": "迥香-イエロー"
+    },
+    "871": {
+      "CropCode": "FH522",
+      "CropName": "迥香-ホワイト"
+    },
+    "872": {
+      "CropCode": "FH580",
+      "CropName": "花菖蒲"
+    },
+    "873": {
+      "CropCode": "FH600",
+      "CropName": "臘梅"
+    },
+    "874": {
+      "CropCode": "FH610",
+      "CropName": "チューリップ-混色"
+    },
+    "875": {
+      "CropCode": "FH611",
+      "CropName": "チューリップ-赤"
+    },
+    "876": {
+      "CropCode": "FH612",
+      "CropName": "チューリップ-オレンジ"
+    },
+    "877": {
+      "CropCode": "FH613",
+      "CropName": "チューリップ-黄"
+    },
+    "878": {
+      "CropCode": "FH614",
+      "CropName": "チューリップ-ピンク"
+    },
+    "879": {
+      "CropCode": "FH616",
+      "CropName": "チューリップ-白"
+    },
+    "880": {
+      "CropCode": "FH617",
+      "CropName": "チューリップ-紫"
+    },
+    "881": {
+      "CropCode": "FH618",
+      "CropName": "チューリップ-二色"
+    },
+    "882": {
+      "CropCode": "FH620",
+      "CropName": "水仙"
+    },
+    "883": {
+      "CropCode": "FH626",
+      "CropName": "白鶴芋"
+    },
+    "884": {
+      "CropCode": "FH630",
+      "CropName": "海芋-混色"
+    },
+    "885": {
+      "CropCode": "FH631",
+      "CropName": "海芋-赤"
+    },
+    "886": {
+      "CropCode": "FH632",
+      "CropName": "海芋-オレンジ"
+    },
+    "887": {
+      "CropCode": "FH633",
+      "CropName": "海芋-黄"
+    },
+    "888": {
+      "CropCode": "FH634",
+      "CropName": "海芋-ピンク"
+    },
+    "889": {
+      "CropCode": "FH635",
+      "CropName": "海芋-緑"
+    },
+    "890": {
+      "CropCode": "FH636",
+      "CropName": "海芋-白"
+    },
+    "891": {
+      "CropCode": "FH637",
+      "CropName": "海芋-紫"
+    },
+    "892": {
+      "CropCode": "FH638",
+      "CropName": "海芋-乳白"
+    },
+    "893": {
+      "CropCode": "FH640",
+      "CropName": "睡蓮"
+    },
+    "894": {
+      "CropCode": "FH650",
+      "CropName": "蓮"
+    },
+    "895": {
+      "CropCode": "FH660",
+      "CropName": "天鵞絨"
+    },
+    "896": {
+      "CropCode": "FH661",
+      "CropName": "ベツレヘムの星"
+    },
+    "897": {
+      "CropCode": "FH670",
+      "CropName": "ジャスミン"
+    },
+    "898": {
+      "CropCode": "FH673",
+      "CropName": "三角桔梗"
+    },
+    "899": {
+      "CropCode": "FH680",
+      "CropName": "君子蘭"
+    },
+    "900": {
+      "CropCode": "FH690",
+      "CropName": "火球花"
+    },
+    "901": {
+      "CropCode": "FH700",
+      "CropName": "寒丁子(王冠)"
+    },
+    "902": {
+      "CropCode": "FH710",
+      "CropName": "深山櫻"
+    },
+    "903": {
+      "CropCode": "FH717",
+      "CropName": "深山櫻-紫霧"
+    },
+    "904": {
+      "CropCode": "FH720",
+      "CropName": "貝殼花"
+    },
+    "905": {
+      "CropCode": "FH730",
+      "CropName": "黒種草"
+    },
+    "906": {
+      "CropCode": "FH740",
+      "CropName": "金翠花"
+    },
+    "907": {
+      "CropCode": "FH750",
+      "CropName": "百子蓮(愛情花)"
+    },
+    "908": {
+      "CropCode": "FH756",
+      "CropName": "百子蓮大白"
+    },
+    "909": {
+      "CropCode": "FH757",
+      "CropName": "百子蓮大紫"
+    },
+    "910": {
+      "CropCode": "FH760",
+      "CropName": "火炬百合"
+    },
+    "911": {
+      "CropCode": "FH770",
+      "CropName": "アフリカチューリップ"
+    },
+    "912": {
+      "CropCode": "FH780",
+      "CropName": "トウモロコシユリ"
+    },
+    "913": {
+      "CropCode": "FH790",
+      "CropName": "青星花"
+    },
+    "914": {
+      "CropCode": "FH794",
+      "CropName": "青星花-ピンク"
+    },
+    "915": {
+      "CropCode": "FH795",
+      "CropName": "青星花-青"
+    },
+    "916": {
+      "CropCode": "FH796",
+      "CropName": "青星花-白"
+    },
+    "917": {
+      "CropCode": "FH800",
+      "CropName": "バラ-クリスマス"
+    },
+    "918": {
+      "CropCode": "FH890",
+      "CropName": "カンガルーフラワー"
+    },
+    "919": {
+      "CropCode": "FH900",
+      "CropName": "紫嬌花"
+    },
+    "920": {
+      "CropCode": "FI0",
+      "CropName": "ナス-その他"
+    },
+    "921": {
+      "CropCode": "FI1",
+      "CropName": "ナス-胭脂ナス"
+    },
+    "922": {
+      "CropCode": "FI2",
+      "CropName": "ナス-麻荸ナス"
+    },
+    "923": {
+      "CropCode": "FI3",
+      "CropName": "ナス-日本種"
+    },
+    "924": {
+      "CropCode": "FJ0",
+      "CropName": "トマト-その他"
+    },
+    "925": {
+      "CropCode": "FJ1",
+      "CropName": "トマト-黒柿"
+    },
+    "926": {
+      "CropCode": "FJ2",
+      "CropName": "トマト-粉柿"
+    },
+    "927": {
+      "CropCode": "FJ3",
+      "CropName": "トマト-牛トマト"
+    },
+    "928": {
+      "CropCode": "FK0",
+      "CropName": "甘椒-その他"
+    },
+    "929": {
+      "CropCode": "FK000",
+      "CropName": "ヒマワリの百合"
+    },
+    "930": {
+      "CropCode": "FK001",
+      "CropName": "ヒマワリの百合-単花"
+    },
+    "931": {
+      "CropCode": "FK002",
+      "CropName": "ヒマワリの百合-二花"
+    },
+    "932": {
+      "CropCode": "FK003",
+      "CropName": "ヒマワリの百合-三花"
+    },
+    "933": {
+      "CropCode": "FK004",
+      "CropName": "ヒマワリの百合-四花"
+    },
+    "934": {
+      "CropCode": "FK005",
+      "CropName": "ヒマワリの百合-五花"
+    },
+    "935": {
+      "CropCode": "FK009",
+      "CropName": "ヒマワリの百合-多花"
+    },
+    "936": {
+      "CropCode": "FK040",
+      "CropName": "ヒマワリの百合-粉"
+    },
+    "937": {
+      "CropCode": "FK041",
+      "CropName": "ヒマワリの百合-粉単花"
+    },
+    "938": {
+      "CropCode": "FK042",
+      "CropName": "ヒマワリの百合-粉二花"
+    },
+    "939": {
+      "CropCode": "FK043",
+      "CropName": "ヒマワリの百合-粉三花"
+    },
+    "940": {
+      "CropCode": "FK044",
+      "CropName": "ヒマワリの百合-粉四花"
+    },
+    "941": {
+      "CropCode": "FK045",
+      "CropName": "ヒマワリの百合-粉五花"
+    },
+    "942": {
+      "CropCode": "FK049",
+      "CropName": "ヒマワリの百合-粉多花"
+    },
+    "943": {
+      "CropCode": "FK110",
+      "CropName": "ヒマワリの百合-ローラ赤"
+    },
+    "944": {
+      "CropCode": "FK111",
+      "CropName": "ヒマワリの百合-ローラ赤単花"
+    },
+    "945": {
+      "CropCode": "FK112",
+      "CropName": "ヒマワリの百合-ローラ赤二花"
+    },
+    "946": {
+      "CropCode": "FK113",
+      "CropName": "ヒマワリの百合-ローラ赤三花"
+    },
+    "947": {
+      "CropCode": "FK114",
+      "CropName": "ヒマワリの百合-ローラ赤四花"
+    },
+    "948": {
+      "CropCode": "FK115",
+      "CropName": "ヒマワリの百合-ローラ赤五花"
+    },
+    "949": {
+      "CropCode": "FK119",
+      "CropName": "ヒマワリ-ローラレッド多花"
+    },
+    "950": {
+      "CropCode": "FK210",
+      "CropName": "ヒマワリ-オリンピックレッド"
+    },
+    "951": {
+      "CropCode": "FK211",
+      "CropName": "ヒマワリ-オリンピックレッド単花"
+    },
+    "952": {
+      "CropCode": "FK212",
+      "CropName": "ヒマワリ-オリンピックレッド二花"
+    },
+    "953": {
+      "CropCode": "FK213",
+      "CropName": "ヒマワリ-オリンピックレッド三花"
+    },
+    "954": {
+      "CropCode": "FK214",
+      "CropName": "ヒマワリ-オリンピックレッド四花"
+    },
+    "955": {
+      "CropCode": "FK215",
+      "CropName": "ヒマワリ-オリンピックレッド五花"
+    },
+    "956": {
+      "CropCode": "FK219",
+      "CropName": "ヒマワリ-アリンプックレッド多花"
+    },
+    "957": {
+      "CropCode": "FK3",
+      "CropName": "スイートペッパー-新香"
+    },
+    "958": {
+      "CropCode": "FK310",
+      "CropName": "ヒマワリ-赤"
+    },
+    "959": {
+      "CropCode": "FK311",
+      "CropName": "ヒマワリ-赤単花"
+    },
+    "960": {
+      "CropCode": "FK312",
+      "CropName": "ヒマワリ-赤二花"
+    },
+    "961": {
+      "CropCode": "FK313",
+      "CropName": "ヒマワリ-赤三花"
+    },
+    "962": {
+      "CropCode": "FK314",
+      "CropName": "ヒマワリ-赤四花"
+    },
+    "963": {
+      "CropCode": "FK315",
+      "CropName": "ヒマワリ-赤五花"
+    },
+    "964": {
+      "CropCode": "FK319",
+      "CropName": "ヒマワリ-赤多花"
+    },
+    "965": {
+      "CropCode": "FK340",
+      "CropName": "ヒマワリ-マリー粉"
+    },
+    "966": {
+      "CropCode": "FK341",
+      "CropName": "ヒマワリ-マリー粉単花"
+    },
+    "967": {
+      "CropCode": "FK342",
+      "CropName": "ヒマワリ-マリー粉二花"
+    },
+    "968": {
+      "CropCode": "FK343",
+      "CropName": "ヒマワリ-マリー粉三花"
+    },
+    "969": {
+      "CropCode": "FK344",
+      "CropName": "ヒマワリ-マリー粉四花"
+    },
+    "970": {
+      "CropCode": "FK345",
+      "CropName": "ヒマワリ-マリー粉五花"
+    },
+    "971": {
+      "CropCode": "FK349",
+      "CropName": "ヒマワリ-マリー粉多花"
+    },
+    "972": {
+      "CropCode": "FK4",
+      "CropName": "スイートペッパー-カラフル種"
+    },
+    "973": {
+      "CropCode": "FK410",
+      "CropName": "ヒマワリ-アカポックレッド"
+    },
+    "974": {
+      "CropCode": "FK411",
+      "CropName": "ヒマワリ-アカポック紅単朵"
+    },
+    "975": {
+      "CropCode": "FK412",
+      "CropName": "ヒマワリ-アカポック紅双朵"
+    },
+    "976": {
+      "CropCode": "FK413",
+      "CropName": "ヒマワリ-アカポック紅三朵"
+    },
+    "977": {
+      "CropCode": "FK414",
+      "CropName": "ヒマワリ-アカポック紅四朵"
+    },
+    "978": {
+      "CropCode": "FK415",
+      "CropName": "ヒマワリ-アカポック紅五朵"
+    },
+    "979": {
+      "CropCode": "FK419",
+      "CropName": "ヒマワリ-アカポック紅多朵"
+    },
+    "980": {
+      "CropCode": "FK420",
+      "CropName": "ヒマワリ-アティア"
+    },
+    "981": {
+      "CropCode": "FK421",
+      "CropName": "ヒマワリ-アティア単朵"
+    },
+    "982": {
+      "CropCode": "FK422",
+      "CropName": "ヒマワリ-アティア双朵"
+    },
+    "983": {
+      "CropCode": "FK423",
+      "CropName": "ヒマワリ-アティア三朵"
+    },
+    "984": {
+      "CropCode": "FK429",
+      "CropName": "ヒマワリ-アティア多朵"
+    },
+    "985": {
+      "CropCode": "FK430",
+      "CropName": "ヒマワリ-マリーの星"
+    },
+    "986": {
+      "CropCode": "FK431",
+      "CropName": "ヒマワリ-マリーの星単朵"
+    },
+    "987": {
+      "CropCode": "FK432",
+      "CropName": "ヒマワリ-マリーの星双朵"
+    },
+    "988": {
+      "CropCode": "FK433",
+      "CropName": "ヒマワリ-マリーの星三朵"
+    },
+    "989": {
+      "CropCode": "FK439",
+      "CropName": "ヒマワリ-マリーの星多朵"
+    },
+    "990": {
+      "CropCode": "FK440",
+      "CropName": "ロディナ"
+    },
+    "991": {
+      "CropCode": "FK441",
+      "CropName": "ロディナ-単朵"
+    },
+    "992": {
+      "CropCode": "FK442",
+      "CropName": "ロディナ-双朵"
+    },
+    "993": {
+      "CropCode": "FK443",
+      "CropName": "ロディナ-三朵"
+    },
+    "994": {
+      "CropCode": "FK449",
+      "CropName": "ロディナ-多朵"
+    },
+    "995": {
+      "CropCode": "FK450",
+      "CropName": "コブラ"
+    },
+    "996": {
+      "CropCode": "FK451",
+      "CropName": "コブラ-単朵"
+    },
+    "997": {
+      "CropCode": "FK452",
+      "CropName": "コブラ-双朵"
+    },
+    "998": {
+      "CropCode": "FK453",
+      "CropName": "コブラ-三朵"
+    },
+    "999": {
+      "CropCode": "FK459",
+      "CropName": "コブラー-多花"
+    }
+  },
+  "Next": true
+}

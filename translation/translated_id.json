@@ -1,0 +1,4006 @@
+{
+  "RS": "OK",
+  "Data": {
+    "0": {
+      "CropCode": "11",
+      "CropName": "Kelapa"
+    },
+    "1": {
+      "CropCode": "119",
+      "CropName": "Kelapa-Imporn"
+    },
+    "2": {
+      "CropCode": "12",
+      "CropName": "Kelapa-Kupas"
+    },
+    "3": {
+      "CropCode": "129",
+      "CropName": "Kelapa-Kupas Imporn"
+    },
+    "4": {
+      "CropCode": "22",
+      "CropName": "Kurma"
+    },
+    "5": {
+      "CropCode": "229",
+      "CropName": "Kurma-Imporn"
+    },
+    "6": {
+      "CropCode": "30",
+      "CropName": "Srikaya-Lainnya"
+    },
+    "7": {
+      "CropCode": "31",
+      "CropName": "Srikaya"
+    },
+    "8": {
+      "CropCode": "32",
+      "CropName": "Srikaya-Nanas Srikaya"
+    },
+    "9": {
+      "CropCode": "41",
+      "CropName": "Plum"
+    },
+    "10": {
+      "CropCode": "42",
+      "CropName": "Jujube"
+    },
+    "11": {
+      "CropCode": "43",
+      "CropName": "Mulberry"
+    },
+    "12": {
+      "CropCode": "45",
+      "CropName": "Stroberi"
+    },
+    "13": {
+      "CropCode": "459",
+      "CropName": "Stroberi-Imporn"
+    },
+    "14": {
+      "CropCode": "46",
+      "CropName": "Blueberry"
+    },
+    "15": {
+      "CropCode": "469",
+      "CropName": "Blueberry-Imporn"
+    },
+    "16": {
+      "CropCode": "50",
+      "CropName": "Markisa-Lainnya"
+    },
+    "17": {
+      "CropCode": "51",
+      "CropName": "Markisa-Jenis Unggul"
+    },
+    "18": {
+      "CropCode": "61",
+      "CropName": "Tebu-Berkulit"
+    },
+    "19": {
+      "CropCode": "62",
+      "CropName": "Tebu-Dikupas"
+    },
+    "20": {
+      "CropCode": "70",
+      "CropName": "Tomat Ceri-Lainnya"
+    },
+    "21": {
+      "CropCode": "71",
+      "CropName": "Tomat Ceri-Umum"
+    },
+    "22": {
+      "CropCode": "72",
+      "CropName": "Tomat Ceri-Santa"
+    },
+    "23": {
+      "CropCode": "73",
+      "CropName": "Tomat Ceri-Cantik"
+    },
+    "24": {
+      "CropCode": "74",
+      "CropName": "Tomat Ceri - Gadis"
+    },
+    "25": {
+      "CropCode": "811",
+      "CropName": "Nangka Merah - Daging Putih"
+    },
+    "26": {
+      "CropCode": "812",
+      "CropName": "Nangka Merah - Daging Merah"
+    },
+    "27": {
+      "CropCode": "813",
+      "CropName": "Nangka Merah - Nangka Merah Dua Warna"
+    },
+    "28": {
+      "CropCode": "819",
+      "CropName": "Nangka Merah - Impor"
+    },
+    "29": {
+      "CropCode": "82",
+      "CropName": "Nangka - Daging Merah"
+    },
+    "30": {
+      "CropCode": "829",
+      "CropName": "Kurma - Impor"
+    },
+    "31": {
+      "CropCode": "83",
+      "CropName": "Ubi Jalar - Ubi Salju"
+    },
+    "32": {
+      "CropCode": "839",
+      "CropName": "Ceri - Impor"
+    },
+    "33": {
+      "CropCode": "84",
+      "CropName": "Delima"
+    },
+    "34": {
+      "CropCode": "849",
+      "CropName": "Delima - Impor"
+    },
+    "35": {
+      "CropCode": "85",
+      "CropName": "Durian"
+    },
+    "36": {
+      "CropCode": "859",
+      "CropName": "Durian - Impor"
+    },
+    "37": {
+      "CropCode": "86",
+      "CropName": "Mangosteen"
+    },
+    "38": {
+      "CropCode": "869",
+      "CropName": "Mangosteen - Impor"
+    },
+    "39": {
+      "CropCode": "87",
+      "CropName": "Rambutan"
+    },
+    "40": {
+      "CropCode": "879",
+      "CropName": "Rambutan - Impor"
+    },
+    "41": {
+      "CropCode": "88",
+      "CropName": "Anggur"
+    },
+    "42": {
+      "CropCode": "91",
+      "CropName": "Lainnya"
+    },
+    "43": {
+      "CropCode": "919",
+      "CropName": "Lainnya - Impor"
+    },
+    "44": {
+      "CropCode": "A0",
+      "CropName": "Pisang - Lainnya"
+    },
+    "45": {
+      "CropCode": "A1",
+      "CropName": "Pisang"
+    },
+    "46": {
+      "CropCode": "A2",
+      "CropName": "Pisang - Pisang Merah"
+    },
+    "47": {
+      "CropCode": "A3",
+      "CropName": "Pisang - Pisang Dandy"
+    },
+    "48": {
+      "CropCode": "A4",
+      "CropName": "Pisang - Pisang Vietnam"
+    },
+    "49": {
+      "CropCode": "B0",
+      "CropName": "Nanas- lainnya"
+    },
+    "50": {
+      "CropCode": "B1",
+      "CropName": "Nanas- Kain Inggris"
+    },
+    "51": {
+      "CropCode": "B2",
+      "CropName": "Nanas- Nanas Emas"
+    },
+    "52": {
+      "CropCode": "B3",
+      "CropName": "Nanas- Nanas Air"
+    },
+    "53": {
+      "CropCode": "B4",
+      "CropName": "Nanas- Bunga Nanas"
+    },
+    "54": {
+      "CropCode": "B5",
+      "CropName": "Nanas- Nanas Apel"
+    },
+    "55": {
+      "CropCode": "B6",
+      "CropName": "Nanas- Manis"
+    },
+    "56": {
+      "CropCode": "B7",
+      "CropName": "Nanas- Nanas Susu"
+    },
+    "57": {
+      "CropCode": "B8",
+      "CropName": "Nanas- Nanas Semangka"
+    },
+    "58": {
+      "CropCode": "B9",
+      "CropName": "Nanas- Impor"
+    },
+    "59": {
+      "CropCode": "C0",
+      "CropName": "Jeruk- lainnya"
+    },
+    "60": {
+      "CropCode": "C1",
+      "CropName": "Jeruk Ponkan"
+    },
+    "61": {
+      "CropCode": "C2",
+      "CropName": "Jeruk Manggis"
+    },
+    "62": {
+      "CropCode": "C3",
+      "CropName": "Jeruk Harimau"
+    },
+    "63": {
+      "CropCode": "C4",
+      "CropName": "Jeruk Merah- Jeruk Cantik"
+    },
+    "64": {
+      "CropCode": "C5",
+      "CropName": "Jeruk Wenzhou"
+    },
+    "65": {
+      "CropCode": "C6",
+      "CropName": "Jeruk Fuli Meng"
+    },
+    "66": {
+      "CropCode": "C7",
+      "CropName": "Jeruk Cerah"
+    },
+    "67": {
+      "CropCode": "C8",
+      "CropName": "Jeruk Mutiara"
+    },
+    "68": {
+      "CropCode": "C9",
+      "CropName": "Jeruk- Impor"
+    },
+    "69": {
+      "CropCode": "D1",
+      "CropName": "Jeruk Tong"
+    },
+    "70": {
+      "CropCode": "D2",
+      "CropName": "Jeruk Laut"
+    },
+    "71": {
+      "CropCode": "E0",
+      "CropName": "Jeruk Manis- lainnya"
+    },
+    "72": {
+      "CropCode": "E1",
+      "CropName": "Jeruk Manis- Jeruk"
+    },
+    "73": {
+      "CropCode": "E2",
+      "CropName": "Jeruk Manis- Valencia"
+    },
+    "74": {
+      "CropCode": "E3",
+      "CropName": "Jeruk Manis- Daging Merah"
+    },
+    "75": {
+      "CropCode": "E9",
+      "CropName": "Jeruk Manis- Impor"
+    },
+    "76": {
+      "CropCode": "F0",
+      "CropName": "Jeruk Campuran- Lainnya"
+    },
+    "77": {
+      "CropCode": "F1",
+      "CropName": "Jeruk Campuran- Lemon"
+    },
+    "78": {
+      "CropCode": "F2",
+      "CropName": "Jeruk Campuran- Kumquat"
+    },
+    "79": {
+      "CropCode": "F4",
+      "CropName": "Jeruk Campuran- Jeruk"
+    },
+    "80": {
+      "CropCode": "F5",
+      "CropName": "Jeruk Campuran- Lemon Tanpa Biji"
+    },
+    "81": {
+      "CropCode": "F6",
+      "CropName": "Jeruk Campuran- Lemon Emas"
+    },
+    "82": {
+      "CropCode": "F9",
+      "CropName": "Jeruk Campuran- Impor"
+    },
+    "83": {
+      "CropCode": "FA0",
+      "CropName": "Bunga Lainnya"
+    },
+    "84": {
+      "CropCode": "FA000",
+      "CropName": "Anyelir- Campuran Ukuran Besar"
+    },
+    "85": {
+      "CropCode": "FA001",
+      "CropName": "Anyelir- Warna Campuran"
+    },
+    "86": {
+      "CropCode": "FA1",
+      "CropName": "Okra Kuning"
+    },
+    "87": {
+      "CropCode": "FA100",
+      "CropName": "Anyelir- Merah"
+    },
+    "88": {
+      "CropCode": "FA101",
+      "CropName": "Anyelir- Merah Muda"
+    },
+    "89": {
+      "CropCode": "FA102",
+      "CropName": "Anyelir- Merah Tua"
+    },
+    "90": {
+      "CropCode": "FA103",
+      "CropName": "Anyelir- Oranye Merah"
+    },
+    "91": {
+      "CropCode": "FA104",
+      "CropName": "Anyelir- Merah Sakura"
+    },
+    "92": {
+      "CropCode": "FA120",
+      "CropName": "Anyelir- Bulu Merah"
+    },
+    "93": {
+      "CropCode": "FA2",
+      "CropName": "Bunga Fanjian"
+    },
+    "94": {
+      "CropCode": "FA200",
+      "CropName": "Anyelir- Oranye"
+    },
+    "95": {
+      "CropCode": "FA220",
+      "CropName": "Anyelir- Bulu Oranye"
+    },
+    "96": {
+      "CropCode": "FA300",
+      "CropName": "Anyelir- Kuning"
+    },
+    "97": {
+      "CropCode": "FA301",
+      "CropName": "Anyelir- Kuning Tua"
+    },
+    "98": {
+      "CropCode": "FA302",
+      "CropName": "Anyelir- Kuning Muda"
+    },
+    "99": {
+      "CropCode": "FA303",
+      "CropName": "Carnation-Orange Yellow"
+    },
+    "100": {
+      "CropCode": "FA304",
+      "CropName": "Carnation-Dual Color Gold Red"
+    },
+    "101": {
+      "CropCode": "FA320",
+      "CropName": "Carnation-Yellow Feather"
+    },
+    "102": {
+      "CropCode": "FA4",
+      "CropName": "Jasmine"
+    },
+    "103": {
+      "CropCode": "FA400",
+      "CropName": "Carnation-Pink"
+    },
+    "104": {
+      "CropCode": "FA401",
+      "CropName": "Carnation-Deep Pink"
+    },
+    "105": {
+      "CropCode": "FA402",
+      "CropName": "Carnation-Light Pink"
+    },
+    "106": {
+      "CropCode": "FA403",
+      "CropName": "Carnation-Thin Pink"
+    },
+    "107": {
+      "CropCode": "FA420",
+      "CropName": "Carnation-Pink Feather"
+    },
+    "108": {
+      "CropCode": "FA500",
+      "CropName": "Carnation-Green"
+    },
+    "109": {
+      "CropCode": "FA501",
+      "CropName": "Carnation-Apple Green"
+    },
+    "110": {
+      "CropCode": "FA600",
+      "CropName": "Carnation-White"
+    },
+    "111": {
+      "CropCode": "FA601",
+      "CropName": "Carnation-Clear White"
+    },
+    "112": {
+      "CropCode": "FA602",
+      "CropName": "Carnation-Milk White"
+    },
+    "113": {
+      "CropCode": "FA603",
+      "CropName": "Carnation-White with Red"
+    },
+    "114": {
+      "CropCode": "FA604",
+      "CropName": "Carnation-Yellow with Purple"
+    },
+    "115": {
+      "CropCode": "FA605",
+      "CropName": "Carnation-White with Purple"
+    },
+    "116": {
+      "CropCode": "FA606",
+      "CropName": "Carnation-Yellow with Red"
+    },
+    "117": {
+      "CropCode": "FA607",
+      "CropName": "Carnation-Pink with Red"
+    },
+    "118": {
+      "CropCode": "FA608",
+      "CropName": "Carnation-Pink with White"
+    },
+    "119": {
+      "CropCode": "FA609",
+      "CropName": "Carnation-Pink with Purple"
+    },
+    "120": {
+      "CropCode": "FA700",
+      "CropName": "Carnation-Purple"
+    },
+    "121": {
+      "CropCode": "FA701",
+      "CropName": "Carnation-Purple with White"
+    },
+    "122": {
+      "CropCode": "FA800",
+      "CropName": "Carnation-Multiple Blooms (Mixed Color)"
+    },
+    "123": {
+      "CropCode": "FA810",
+      "CropName": "Carnation-Multiple Blooms Red"
+    },
+    "124": {
+      "CropCode": "FA811",
+      "CropName": "Carnation-多花櫻紅"
+    },
+    "125": {
+      "CropCode": "FA812",
+      "CropName": "Carnation-波斯桃紅"
+    },
+    "126": {
+      "CropCode": "FA813",
+      "CropName": "Carnation-波列羅"
+    },
+    "127": {
+      "CropCode": "FA814",
+      "CropName": "Carnation-滿意"
+    },
+    "128": {
+      "CropCode": "FA815",
+      "CropName": "Carnation-輕吻"
+    },
+    "129": {
+      "CropCode": "FA820",
+      "CropName": "Carnation-多花橙"
+    },
+    "130": {
+      "CropCode": "FA830",
+      "CropName": "Carnation-多花黃"
+    },
+    "131": {
+      "CropCode": "FA840",
+      "CropName": "Carnation-多花粉"
+    },
+    "132": {
+      "CropCode": "FA841",
+      "CropName": "Carnation-多花淺粉"
+    },
+    "133": {
+      "CropCode": "FA842",
+      "CropName": "Carnation-天鵝粉"
+    },
+    "134": {
+      "CropCode": "FA843",
+      "CropName": "Carnation-拿鐵"
+    },
+    "135": {
+      "CropCode": "FA844",
+      "CropName": "Carnation-妮娜"
+    },
+    "136": {
+      "CropCode": "FA845",
+      "CropName": "Carnation-美莉莎"
+    },
+    "137": {
+      "CropCode": "FA851",
+      "CropName": "Carnation-蘋果綠"
+    },
+    "138": {
+      "CropCode": "FA860",
+      "CropName": "Carnation-多花白"
+    },
+    "139": {
+      "CropCode": "FA861",
+      "CropName": "Carnation-白鐵時諾"
+    },
+    "140": {
+      "CropCode": "FA862",
+      "CropName": "Carnation-白水晶"
+    },
+    "141": {
+      "CropCode": "FA870",
+      "CropName": "Carnation-多花紫"
+    },
+    "142": {
+      "CropCode": "FA871",
+      "CropName": "Carnation-仙女紫"
+    },
+    "143": {
+      "CropCode": "FA872",
+      "CropName": "Carnation-史波特"
+    },
+    "144": {
+      "CropCode": "FA881",
+      "CropName": "Carnation-多花紅帶白"
+    },
+    "145": {
+      "CropCode": "FA882",
+      "CropName": "Carnation-多花紅帶粉"
+    },
+    "146": {
+      "CropCode": "FA883",
+      "CropName": "Carnation-多花橙帶紅"
+    },
+    "147": {
+      "CropCode": "FA884",
+      "CropName": "Carnation-多花黃帶紅"
+    },
+    "148": {
+      "CropCode": "FA885",
+      "CropName": "Carnation-多花黃帶紫"
+    },
+    "149": {
+      "CropCode": "FA886",
+      "CropName": "Carnation- Banyak Putih dengan Merah"
+    },
+    "150": {
+      "CropCode": "FA887",
+      "CropName": "Carnation- Banyak Putih dengan Ungu"
+    },
+    "151": {
+      "CropCode": "FA9",
+      "CropName": "Buah-Buahan- Impor"
+    },
+    "152": {
+      "CropCode": "FA900",
+      "CropName": "Kekasih Kecil-(Campuran)"
+    },
+    "153": {
+      "CropCode": "FA910",
+      "CropName": "Kekasih Kecil- Merah"
+    },
+    "154": {
+      "CropCode": "FA920",
+      "CropName": "Kekasih Kecil- Jingga"
+    },
+    "155": {
+      "CropCode": "FA930",
+      "CropName": "Kekasih Kecil- Kuning"
+    },
+    "156": {
+      "CropCode": "FA940",
+      "CropName": "Kekasih Kecil- Merah Muda"
+    },
+    "157": {
+      "CropCode": "FA960",
+      "CropName": "Kekasih Kecil- Putih"
+    },
+    "158": {
+      "CropCode": "FA970",
+      "CropName": "Kekasih Kecil- Ungu"
+    },
+    "159": {
+      "CropCode": "FA980",
+      "CropName": "Nona Cantik"
+    },
+    "160": {
+      "CropCode": "FA981",
+      "CropName": "Hortensia- Merah"
+    },
+    "161": {
+      "CropCode": "FA984",
+      "CropName": "Hortensia- Merah Muda"
+    },
+    "162": {
+      "CropCode": "FA985",
+      "CropName": "Hortensia- Hijau"
+    },
+    "163": {
+      "CropCode": "FA986",
+      "CropName": "Hortensia- Putih"
+    },
+    "164": {
+      "CropCode": "FA987",
+      "CropName": "Hortensia- Ungu"
+    },
+    "165": {
+      "CropCode": "FA988",
+      "CropName": "Hortensia- Dua Warna"
+    },
+    "166": {
+      "CropCode": "FA989",
+      "CropName": "Hortensia- Ungu Merah"
+    },
+    "167": {
+      "CropCode": "FA990",
+      "CropName": "Hortensia- Ungu Putih"
+    },
+    "168": {
+      "CropCode": "FB0",
+      "CropName": "Brokoli- Lainnya"
+    },
+    "169": {
+      "CropCode": "FB000",
+      "CropName": "Bunga Flamingo"
+    },
+    "170": {
+      "CropCode": "FB001",
+      "CropName": "Bunga Flamingo- Campuran"
+    },
+    "171": {
+      "CropCode": "FB1",
+      "CropName": "Brokoli- Batang Hijau"
+    },
+    "172": {
+      "CropCode": "FB100",
+      "CropName": "Bunga Flamingo- Merah"
+    },
+    "173": {
+      "CropCode": "FB101",
+      "CropName": "Bunga Flamingo- Merah Hati"
+    },
+    "174": {
+      "CropCode": "FB102",
+      "CropName": "Anthurium-Red Yellow Heart"
+    },
+    "175": {
+      "CropCode": "FB103",
+      "CropName": "Anthurium-Red Green Heart"
+    },
+    "176": {
+      "CropCode": "FB104",
+      "CropName": "Anthurium-Small Ear"
+    },
+    "177": {
+      "CropCode": "FB105",
+      "CropName": "Anthurium-Red Green Edge"
+    },
+    "178": {
+      "CropCode": "FB106",
+      "CropName": "Anthurium-Cupid"
+    },
+    "179": {
+      "CropCode": "FB107",
+      "CropName": "Anthurium-Alice"
+    },
+    "180": {
+      "CropCode": "FB108",
+      "CropName": "Anthurium-Trinidad"
+    },
+    "181": {
+      "CropCode": "FB109",
+      "CropName": "Anthurium-Friend"
+    },
+    "182": {
+      "CropCode": "FB11",
+      "CropName": "Cauliflower-Green Stem"
+    },
+    "183": {
+      "CropCode": "FB110",
+      "CropName": "Anthurium-Jupiter"
+    },
+    "184": {
+      "CropCode": "FB111",
+      "CropName": "Anthurium-Moonlight"
+    },
+    "185": {
+      "CropCode": "FB112",
+      "CropName": "Anthurium-First Red"
+    },
+    "186": {
+      "CropCode": "FB113",
+      "CropName": "Anthurium-Red Bell"
+    },
+    "187": {
+      "CropCode": "FB114",
+      "CropName": "Anthurium-Red Star"
+    },
+    "188": {
+      "CropCode": "FB115",
+      "CropName": "Anthurium-Venus"
+    },
+    "189": {
+      "CropCode": "FB12",
+      "CropName": "Cauliflower-Green Stem"
+    },
+    "190": {
+      "CropCode": "FB2",
+      "CropName": "Cauliflower-White Stem"
+    },
+    "191": {
+      "CropCode": "FB200",
+      "CropName": "Anthurium-Orange"
+    },
+    "192": {
+      "CropCode": "FB201",
+      "CropName": "Anthurium-Orange Green Edge"
+    },
+    "193": {
+      "CropCode": "FB21",
+      "CropName": "Cauliflower-White Stem"
+    },
+    "194": {
+      "CropCode": "FB22",
+      "CropName": "Cauliflower-White Stem"
+    },
+    "195": {
+      "CropCode": "FB301",
+      "CropName": "Anthurium-Golden Dragon"
+    },
+    "196": {
+      "CropCode": "FB302",
+      "CropName": "Anthurium-Yellow Mary"
+    },
+    "197": {
+      "CropCode": "FB400",
+      "CropName": "Anthurium-Pink"
+    },
+    "198": {
+      "CropCode": "FB401",
+      "CropName": "Anthurium-Summer Pink"
+    },
+    "199": {
+      "CropCode": "FB402",
+      "CropName": "Bunga Flamingo- Merah Muda"
+    },
+    "200": {
+      "CropCode": "FB403",
+      "CropName": "Bunga Flamingo- Coral Merah Muda"
+    },
+    "201": {
+      "CropCode": "FB404",
+      "CropName": "Bunga Flamingo- Pengantin Merah Muda"
+    },
+    "202": {
+      "CropCode": "FB405",
+      "CropName": "Bunga Flamingo- Hijau Muda Merah Muda"
+    },
+    "203": {
+      "CropCode": "FB406",
+      "CropName": "Bunga Flamingo- Putri Merah Muda"
+    },
+    "204": {
+      "CropCode": "FB407",
+      "CropName": "Bunga Flamingo- Mimpi"
+    },
+    "205": {
+      "CropCode": "FB408",
+      "CropName": "Bunga Flamingo- Wanita Merah Muda"
+    },
+    "206": {
+      "CropCode": "FB409",
+      "CropName": "Bunga Flamingo- Sprite Merah Muda"
+    },
+    "207": {
+      "CropCode": "FB410",
+      "CropName": "Bunga Flamingo- Ratu"
+    },
+    "208": {
+      "CropCode": "FB411",
+      "CropName": "Bunga Flamingo- Permaisuri"
+    },
+    "209": {
+      "CropCode": "FB412",
+      "CropName": "Bunga Flamingo- Presiden"
+    },
+    "210": {
+      "CropCode": "FB413",
+      "CropName": "Bunga Flamingo- Dewi"
+    },
+    "211": {
+      "CropCode": "FB415",
+      "CropName": "Bunga Flamingo- Rosa"
+    },
+    "212": {
+      "CropCode": "FB416",
+      "CropName": "Bunga Flamingo- Peri Bunga"
+    },
+    "213": {
+      "CropCode": "FB417",
+      "CropName": "Bunga Flamingo- Pelangi"
+    },
+    "214": {
+      "CropCode": "FB418",
+      "CropName": "Bunga Flamingo- Nektar Merah Muda"
+    },
+    "215": {
+      "CropCode": "FB419",
+      "CropName": "Bunga Flamingo- Tai Chi"
+    },
+    "216": {
+      "CropCode": "FB420",
+      "CropName": "Bunga Flamingo- Cranberry Merah Muda"
+    },
+    "217": {
+      "CropCode": "FB421",
+      "CropName": "Bunga Flamingo- Sanata"
+    },
+    "218": {
+      "CropCode": "FB422",
+      "CropName": "Bunga Flamingo- Kekasih"
+    },
+    "219": {
+      "CropCode": "FB423",
+      "CropName": "Bunga Flamingo- Wanita Madu"
+    },
+    "220": {
+      "CropCode": "FB424",
+      "CropName": "Bunga Flamingo- Keajaiban"
+    },
+    "221": {
+      "CropCode": "FB425",
+      "CropName": "Bunga Flamingo- Beruntung"
+    },
+    "222": {
+      "CropCode": "FB426",
+      "CropName": "Bunga Flamingo- Renda Merah Muda"
+    },
+    "223": {
+      "CropCode": "FB500",
+      "CropName": "Bunga Flamingo- Hijau Zamrud"
+    },
+    "224": {
+      "CropCode": "FB501",
+      "CropName": "Bunga Flamingo- Hijau Apel"
+    },
+    "225": {
+      "CropCode": "FB502",
+      "CropName": "Bunga Flamingo- Hijau Merah"
+    },
+    "226": {
+      "CropCode": "FB503",
+      "CropName": "Bunga Flamingo- Gadis Hijau"
+    },
+    "227": {
+      "CropCode": "FB504",
+      "CropName": "Bunga Flamingo- Laila"
+    },
+    "228": {
+      "CropCode": "FB505",
+      "CropName": "Bunga Flamingo- Sampanye"
+    },
+    "229": {
+      "CropCode": "FB506",
+      "CropName": "Bunga Flamingo- Batu Hijau"
+    },
+    "230": {
+      "CropCode": "FB507",
+      "CropName": "Bunga Flamingo- Peri Hijau"
+    },
+    "231": {
+      "CropCode": "FB508",
+      "CropName": "Bunga Flamingo- Naga Hijau"
+    },
+    "232": {
+      "CropCode": "FB509",
+      "CropName": "Bunga Flamingo- Hutan"
+    },
+    "233": {
+      "CropCode": "FB600",
+      "CropName": "Bunga Flamingo- Putih"
+    },
+    "234": {
+      "CropCode": "FB601",
+      "CropName": "Bunga Flamingo- Putih Hijau"
+    },
+    "235": {
+      "CropCode": "FB602",
+      "CropName": "Bunga Flamingo- Putih Kuning"
+    },
+    "236": {
+      "CropCode": "FB603",
+      "CropName": "Bunga Flamingo- Putih Merah"
+    },
+    "237": {
+      "CropCode": "FB604",
+      "CropName": "Bunga Flamingo- Putih Hijau"
+    },
+    "238": {
+      "CropCode": "FB605",
+      "CropName": "Bunga Flamingo- Karnaval"
+    },
+    "239": {
+      "CropCode": "FB606",
+      "CropName": "Bunga Flamingo- Simba"
+    },
+    "240": {
+      "CropCode": "FB607",
+      "CropName": "Bunga Flamingo- Dewi Bulan"
+    },
+    "241": {
+      "CropCode": "FB608",
+      "CropName": "Bunga Flamingo- Cinta"
+    },
+    "242": {
+      "CropCode": "FB700",
+      "CropName": "Bunga Flamingo- Ungu"
+    },
+    "243": {
+      "CropCode": "FB701",
+      "CropName": "Bunga Flamingo- Supersonik"
+    },
+    "244": {
+      "CropCode": "FB702",
+      "CropName": "Bunga Flamingo- Caesar"
+    },
+    "245": {
+      "CropCode": "FB800",
+      "CropName": "Bunga Flamingo- Merah Kopi"
+    },
+    "246": {
+      "CropCode": "FB801",
+      "CropName": "Bunga Flamingo- Garis Kopi"
+    },
+    "247": {
+      "CropCode": "FB802",
+      "CropName": "Bunga Flamingo- Bumi"
+    },
+    "248": {
+      "CropCode": "FB803",
+      "CropName": "Bunga Flamingo- Cokelat"
+    },
+    "249": {
+      "CropCode": "FB804",
+      "CropName": "Anthurium-Black Beauty"
+    },
+    "250": {
+      "CropCode": "FB805",
+      "CropName": "Anthurium-Black Pearl"
+    },
+    "251": {
+      "CropCode": "FB9",
+      "CropName": "Kembang Kol-Impor"
+    },
+    "252": {
+      "CropCode": "FC000",
+      "CropName": "Dahlia"
+    },
+    "253": {
+      "CropCode": "FC001",
+      "CropName": "Dahlia-Campuran Warna"
+    },
+    "254": {
+      "CropCode": "FC1",
+      "CropName": "Mentimun-Black Thorn"
+    },
+    "255": {
+      "CropCode": "FC100",
+      "CropName": "Dahlia-Merah"
+    },
+    "256": {
+      "CropCode": "FC101",
+      "CropName": "Dahlia-Yang Keren"
+    },
+    "257": {
+      "CropCode": "FC102",
+      "CropName": "Dahlia-Merah Inggris"
+    },
+    "258": {
+      "CropCode": "FC103",
+      "CropName": "Dahlia-Merah Jerman"
+    },
+    "259": {
+      "CropCode": "FC104",
+      "CropName": "Dahlia-Merah Awal Phoenix"
+    },
+    "260": {
+      "CropCode": "FC105",
+      "CropName": "Dahlia-Merah Hong Kong"
+    },
+    "261": {
+      "CropCode": "FC106",
+      "CropName": "Dahlia-Merah Xianli"
+    },
+    "262": {
+      "CropCode": "FC107",
+      "CropName": "Dahlia-Merah Phoenix"
+    },
+    "263": {
+      "CropCode": "FC108",
+      "CropName": "Dahlia-Merah Permaisuri"
+    },
+    "264": {
+      "CropCode": "FC109",
+      "CropName": "Dahlia-Merah Kari"
+    },
+    "265": {
+      "CropCode": "FC110",
+      "CropName": "Dahlia-Cahaya Persik"
+    },
+    "266": {
+      "CropCode": "FC111",
+      "CropName": "Dahlia-Cinta Warna"
+    },
+    "267": {
+      "CropCode": "FC112",
+      "CropName": "Dahlia-Merah Kaku"
+    },
+    "268": {
+      "CropCode": "FC113",
+      "CropName": "Dahlia-Tomato Peach"
+    },
+    "269": {
+      "CropCode": "FC115",
+      "CropName": "Dahlia-Merah Muda Baru"
+    },
+    "270": {
+      "CropCode": "FC116",
+      "CropName": "Dahlia-Kastil Bunga"
+    },
+    "271": {
+      "CropCode": "FC117",
+      "CropName": "Dahlia-Merah Xiufeng"
+    },
+    "272": {
+      "CropCode": "FC118",
+      "CropName": "Dahlia-Merah Mawar"
+    },
+    "273": {
+      "CropCode": "FC130",
+      "CropName": "Dahlia-Merah Mie"
+    },
+    "274": {
+      "CropCode": "FC2",
+      "CropName": "Mentimun - Varietas Unggul"
+    },
+    "275": {
+      "CropCode": "FC200",
+      "CropName": "Krisan - Emas"
+    },
+    "276": {
+      "CropCode": "FC201",
+      "CropName": "Krisan - Emas Awal"
+    },
+    "277": {
+      "CropCode": "FC202",
+      "CropName": "Krisan - Emas Unggulan"
+    },
+    "278": {
+      "CropCode": "FC204",
+      "CropName": "Krisan - Hati yang Indah"
+    },
+    "279": {
+      "CropCode": "FC205",
+      "CropName": "Krisan - Emas Sasa"
+    },
+    "280": {
+      "CropCode": "FC206",
+      "CropName": "Krisan - Suara Emas"
+    },
+    "281": {
+      "CropCode": "FC207",
+      "CropName": "Krisan - Jeruk Rosano"
+    },
+    "282": {
+      "CropCode": "FC208",
+      "CropName": "Krisan - Jeruk Kembang Api"
+    },
+    "283": {
+      "CropCode": "FC300",
+      "CropName": "Krisan - Kuning"
+    },
+    "284": {
+      "CropCode": "FC301",
+      "CropName": "Krisan - Kuning Indah"
+    },
+    "285": {
+      "CropCode": "FC302",
+      "CropName": "Krisan - Dunia Satu"
+    },
+    "286": {
+      "CropCode": "FC303",
+      "CropName": "Krisan - Raja Musim Dingin"
+    },
+    "287": {
+      "CropCode": "FC304",
+      "CropName": "Krisan - Ratu Baru"
+    },
+    "288": {
+      "CropCode": "FC305",
+      "CropName": "Krisan - Ratu Angsa"
+    },
+    "289": {
+      "CropCode": "FC306",
+      "CropName": "Krisan - Kuning Jepang"
+    },
+    "290": {
+      "CropCode": "FC307",
+      "CropName": "Krisan - Kuning Pepaya"
+    },
+    "291": {
+      "CropCode": "FC308",
+      "CropName": "Krisan - Kuning Varietas Baru"
+    },
+    "292": {
+      "CropCode": "FC309",
+      "CropName": "Krisan - Kuning Asia Timur"
+    },
+    "293": {
+      "CropCode": "FC310",
+      "CropName": "Krisan - Asia Timur Baru"
+    },
+    "294": {
+      "CropCode": "FC311",
+      "CropName": "Krisan - Kuning Teman Bulan"
+    },
+    "295": {
+      "CropCode": "FC312",
+      "CropName": "Krisan - Kuning Daun Runcing"
+    },
+    "296": {
+      "CropCode": "FC313",
+      "CropName": "Krisan - Kuning Pendek"
+    },
+    "297": {
+      "CropCode": "FC314",
+      "CropName": "Krisan - Kuning Tanda T"
+    },
+    "298": {
+      "CropCode": "FC315",
+      "CropName": "Krisan - Kuning Hati Hijau"
+    },
+    "299": {
+      "CropCode": "FC316",
+      "CropName": "Dahlia - Kuning Ginseng"
+    },
+    "300": {
+      "CropCode": "FC317",
+      "CropName": "Dahlia - Kepala Besar Kuning"
+    },
+    "301": {
+      "CropCode": "FC318",
+      "CropName": "Dahlia - Kuning Dongyang"
+    },
+    "302": {
+      "CropCode": "FC319",
+      "CropName": "Dahlia - Kuning Shasa"
+    },
+    "303": {
+      "CropCode": "FC320",
+      "CropName": "Dahlia - Kuning Krim Shama"
+    },
+    "304": {
+      "CropCode": "FC330",
+      "CropName": "Dahlia - Kuning Mianxian"
+    },
+    "305": {
+      "CropCode": "FC345",
+      "CropName": "Dahlia - Kuning Sublet"
+    },
+    "306": {
+      "CropCode": "FC350",
+      "CropName": "Dahlia - Kuning Pingpong"
+    },
+    "307": {
+      "CropCode": "FC380",
+      "CropName": "Dahlia - Kuning Bayuan"
+    },
+    "308": {
+      "CropCode": "FC400",
+      "CropName": "Dahlia - Merah Muda"
+    },
+    "309": {
+      "CropCode": "FC401",
+      "CropName": "Dahlia - Merah Aprikot"
+    },
+    "310": {
+      "CropCode": "FC402",
+      "CropName": "Dahlia - Elite Merah Muda"
+    },
+    "311": {
+      "CropCode": "FC403",
+      "CropName": "Dahlia - Tanda Merah Muda"
+    },
+    "312": {
+      "CropCode": "FC404",
+      "CropName": "Dahlia - Merah Muda Awal Feng"
+    },
+    "313": {
+      "CropCode": "FC405",
+      "CropName": "Dahlia - Seribu Taiping"
+    },
+    "314": {
+      "CropCode": "FC406",
+      "CropName": "Dahlia - Merah Muda Rata"
+    },
+    "315": {
+      "CropCode": "FC407",
+      "CropName": "Dahlia - Merah Muda Keras"
+    },
+    "316": {
+      "CropCode": "FC408",
+      "CropName": "Dahlia - Merah Muda Pingpong"
+    },
+    "317": {
+      "CropCode": "FC409",
+      "CropName": "Dahlia - Mahkota Merah Muda"
+    },
+    "318": {
+      "CropCode": "FC410",
+      "CropName": "Dahlia - Rosano Merah Muda"
+    },
+    "319": {
+      "CropCode": "FC411",
+      "CropName": "Dahlia - Rosano Merah Muda Hijau"
+    },
+    "320": {
+      "CropCode": "FC480",
+      "CropName": "Dahlia - Merah Muda Bayuan"
+    },
+    "321": {
+      "CropCode": "FC500",
+      "CropName": "Dahlia - Hijau"
+    },
+    "322": {
+      "CropCode": "FC501",
+      "CropName": "Dahlia - Hijau Siku"
+    },
+    "323": {
+      "CropCode": "FC502",
+      "CropName": "Dahlia - Hijau Dalam Anna"
+    },
+    "324": {
+      "CropCode": "FC508",
+      "CropName": "Dahlia - Hijau Pingpong"
+    },
+    "325": {
+      "CropCode": "FC509",
+      "CropName": "Dahlia - Hijau Kental Ajaib"
+    },
+    "326": {
+      "CropCode": "FC600",
+      "CropName": "Dahlia - Putih"
+    },
+    "327": {
+      "CropCode": "FC601",
+      "CropName": "Dahlia - Putih Jepang"
+    },
+    "328": {
+      "CropCode": "FC602",
+      "CropName": "Dahlia - Jenderal Putih"
+    },
+    "329": {
+      "CropCode": "FC603",
+      "CropName": "Dahlia - Mutiara Putih"
+    },
+    "330": {
+      "CropCode": "FC604",
+      "CropName": "Dahlia - Kerah Putih"
+    },
+    "331": {
+      "CropCode": "FC605",
+      "CropName": "Dahlia - Phoenix Putih"
+    },
+    "332": {
+      "CropCode": "FC606",
+      "CropName": "Dahlia - Elite Putih"
+    },
+    "333": {
+      "CropCode": "FC607",
+      "CropName": "Dahlia - Kepala Besar Putih"
+    },
+    "334": {
+      "CropCode": "FC608",
+      "CropName": "Dahlia - Pingpong Putih"
+    },
+    "335": {
+      "CropCode": "FC609",
+      "CropName": "Dahlia - Dongyang Putih"
+    },
+    "336": {
+      "CropCode": "FC610",
+      "CropName": "Dahlia - Bunga T"
+    },
+    "337": {
+      "CropCode": "FC611",
+      "CropName": "Dahlia - Putih Xiu Feng"
+    },
+    "338": {
+      "CropCode": "FC612",
+      "CropName": "Dahlia - Gunung Salju Putih"
+    },
+    "339": {
+      "CropCode": "FC613",
+      "CropName": "Dahlia - Bintang Putih"
+    },
+    "340": {
+      "CropCode": "FC614",
+      "CropName": "Dahlia - Air Awan"
+    },
+    "341": {
+      "CropCode": "FC615",
+      "CropName": "Dahlia - Raja"
+    },
+    "342": {
+      "CropCode": "FC616",
+      "CropName": "Dahlia - Peony Putih"
+    },
+    "343": {
+      "CropCode": "FC617",
+      "CropName": "Dahlia - Messi"
+    },
+    "344": {
+      "CropCode": "FC618",
+      "CropName": "Dahlia - Raidenik"
+    },
+    "345": {
+      "CropCode": "FC630",
+      "CropName": "Dahlia - Bunga Mie Putih"
+    },
+    "346": {
+      "CropCode": "FC645",
+      "CropName": "Dahlia - Putih Stubble"
+    },
+    "347": {
+      "CropCode": "FC680",
+      "CropName": "Dahlia - Putih Delapan Wanita"
+    },
+    "348": {
+      "CropCode": "FC800",
+      "CropName": "Dahlia - Dahlia Berwarna"
+    },
+    "349": {
+      "CropCode": "FC801",
+      "CropName": "Krisan Rami- Raja"
+    },
+    "350": {
+      "CropCode": "FC802",
+      "CropName": "Krisan Rami- Badika"
+    },
+    "351": {
+      "CropCode": "FC803",
+      "CropName": "Krisan Rami- Peony"
+    },
+    "352": {
+      "CropCode": "FC804",
+      "CropName": "Krisan Rami- Bintang Putih"
+    },
+    "353": {
+      "CropCode": "FC805",
+      "CropName": "Krisan Rami- Putih Oriental"
+    },
+    "354": {
+      "CropCode": "FC806",
+      "CropName": "Krisan Rami- Shama"
+    },
+    "355": {
+      "CropCode": "FC807",
+      "CropName": "Krisan Rami- Messi"
+    },
+    "356": {
+      "CropCode": "FD0",
+      "CropName": "Labu Bunga- Lainnya"
+    },
+    "357": {
+      "CropCode": "FD000",
+      "CropName": "Krisan Kecil"
+    },
+    "358": {
+      "CropCode": "FD001",
+      "CropName": "Krisan Kecil- Campuran Warna"
+    },
+    "359": {
+      "CropCode": "FD1",
+      "CropName": "Labu Bunga"
+    },
+    "360": {
+      "CropCode": "FD100",
+      "CropName": "Krisan Kecil- Merah"
+    },
+    "361": {
+      "CropCode": "FD101",
+      "CropName": "Krisan Kecil- Merah Phoenix"
+    },
+    "362": {
+      "CropCode": "FD102",
+      "CropName": "Krisan Kecil- Merah Bunga Perempuan"
+    },
+    "363": {
+      "CropCode": "FD103",
+      "CropName": "Krisan Kecil- Merah Berongga"
+    },
+    "364": {
+      "CropCode": "FD104",
+      "CropName": "Krisan Kecil- Merah Koin"
+    },
+    "365": {
+      "CropCode": "FD105",
+      "CropName": "Krisan Kecil- Merah Pagi"
+    },
+    "366": {
+      "CropCode": "FD106",
+      "CropName": "Krisan Kecil- Merah Api"
+    },
+    "367": {
+      "CropCode": "FD107",
+      "CropName": "Krisan Kecil- Merah Baru Besar"
+    },
+    "368": {
+      "CropCode": "FD109",
+      "CropName": "Krisan Kecil- Merah Kecil Kabut"
+    },
+    "369": {
+      "CropCode": "FD110",
+      "CropName": "Krisan Kecil- Merah Kecil Kopi"
+    },
+    "370": {
+      "CropCode": "FD111",
+      "CropName": "Krisan Kecil- Merah Kecil Kari"
+    },
+    "371": {
+      "CropCode": "FD112",
+      "CropName": "Krisan Kecil- Merah Yunnan"
+    },
+    "372": {
+      "CropCode": "FD113",
+      "CropName": "Krisan Kecil- Merah Kecil Jepang"
+    },
+    "373": {
+      "CropCode": "FD114",
+      "CropName": "Krisan Kecil- Peach Taro"
+    },
+    "374": {
+      "CropCode": "FD115",
+      "CropName": "Krisan Kecil - Merah Awal Phoenix"
+    },
+    "375": {
+      "CropCode": "FD116",
+      "CropName": "Krisan Kecil - Merah Ling Ge"
+    },
+    "376": {
+      "CropCode": "FD117",
+      "CropName": "Krisan Kecil - Merah Matahari"
+    },
+    "377": {
+      "CropCode": "FD118",
+      "CropName": "Krisan Kecil - Merah Harley"
+    },
+    "378": {
+      "CropCode": "FD119",
+      "CropName": "Krisan Kecil - Merah Naga Phoenix"
+    },
+    "379": {
+      "CropCode": "FD120",
+      "CropName": "Krisan Kecil - Merah Bintang Langit"
+    },
+    "380": {
+      "CropCode": "FD121",
+      "CropName": "Krisan Kecil - Merah Cantik"
+    },
+    "381": {
+      "CropCode": "FD122",
+      "CropName": "Krisan Kecil - Merah Sendok"
+    },
+    "382": {
+      "CropCode": "FD123",
+      "CropName": "Krisan Kecil - Merah Berlian"
+    },
+    "383": {
+      "CropCode": "FD124",
+      "CropName": "Krisan Kecil - Ungu Naga Phoenix"
+    },
+    "384": {
+      "CropCode": "FD125",
+      "CropName": "Krisan Kecil - Merah Lebih Besar"
+    },
+    "385": {
+      "CropCode": "FD126",
+      "CropName": "Krisan Kecil - Merah Seribu Bunga"
+    },
+    "386": {
+      "CropCode": "FD127",
+      "CropName": "Krisan Kecil - Merah Dua Warna"
+    },
+    "387": {
+      "CropCode": "FD128",
+      "CropName": "Krisan Kecil - Merah Harimau"
+    },
+    "388": {
+      "CropCode": "FD129",
+      "CropName": "Krisan Kecil - Merah Kecil"
+    },
+    "389": {
+      "CropCode": "FD130",
+      "CropName": "Krisan Kecil - Merah Embun Kecil"
+    },
+    "390": {
+      "CropCode": "FD131",
+      "CropName": "Krisan Kecil - Merah Kecil"
+    },
+    "391": {
+      "CropCode": "FD132",
+      "CropName": "Krisan Kecil - Merah Mutiara"
+    },
+    "392": {
+      "CropCode": "FD133",
+      "CropName": "Krisan Kecil - Merah Beludru Jepang"
+    },
+    "393": {
+      "CropCode": "FD134",
+      "CropName": "Krisan Kecil - Merah Seperti Keberuntungan"
+    },
+    "394": {
+      "CropCode": "FD135",
+      "CropName": "Krisan Kecil - Merah Mawar"
+    },
+    "395": {
+      "CropCode": "FD136",
+      "CropName": "Krisan Kecil - Merah Kecil Prancis"
+    },
+    "396": {
+      "CropCode": "FD137",
+      "CropName": "Krisan Kecil - Merah Harimau Kecil"
+    },
+    "397": {
+      "CropCode": "FD138",
+      "CropName": "Krisan Kecil - Caroline"
+    },
+    "398": {
+      "CropCode": "FD139",
+      "CropName": "Krisan Kecil - Kuning Alamos"
+    },
+    "399": {
+      "CropCode": "FD145",
+      "CropName": "Chrysanthemum Kecil - Merah Strobilus"
+    },
+    "400": {
+      "CropCode": "FD150",
+      "CropName": "Chrysanthemum Kecil - Angin Merah"
+    },
+    "401": {
+      "CropCode": "FD200",
+      "CropName": "Chrysanthemum Kecil - Emas"
+    },
+    "402": {
+      "CropCode": "FD201",
+      "CropName": "Chrysanthemum Kecil - Kopi Emas"
+    },
+    "403": {
+      "CropCode": "FD202",
+      "CropName": "Chrysanthemum Kecil - Emas Kecil Pucat"
+    },
+    "404": {
+      "CropCode": "FD203",
+      "CropName": "Chrysanthemum Kecil - Chrysanthemum Emas Kecil"
+    },
+    "405": {
+      "CropCode": "FD204",
+      "CropName": "Chrysanthemum Kecil - Merah Emas Kecil"
+    },
+    "406": {
+      "CropCode": "FD205",
+      "CropName": "Chrysanthemum Kecil - Emas Awal Phoenix"
+    },
+    "407": {
+      "CropCode": "FD206",
+      "CropName": "Chrysanthemum Kecil - Emas Merah Dua Warna"
+    },
+    "408": {
+      "CropCode": "FD207",
+      "CropName": "Chrysanthemum Kecil - Emas Kuning Dua Warna"
+    },
+    "409": {
+      "CropCode": "FD208",
+      "CropName": "Chrysanthemum Kecil - Merak Emas"
+    },
+    "410": {
+      "CropCode": "FD209",
+      "CropName": "Chrysanthemum Kecil - Jeruk Pamelo"
+    },
+    "411": {
+      "CropCode": "FD210",
+      "CropName": "Chrysanthemum Kecil - Emas Beruntung"
+    },
+    "412": {
+      "CropCode": "FD211",
+      "CropName": "Chrysanthemum Kecil - Kincir Angin Jerman"
+    },
+    "413": {
+      "CropCode": "FD212",
+      "CropName": "Chrysanthemum Kecil - Tambora"
+    },
+    "414": {
+      "CropCode": "FD232",
+      "CropName": "Chrysanthemum Kecil - Emas Mutiara"
+    },
+    "415": {
+      "CropCode": "FD235",
+      "CropName": "Chrysanthemum Kecil - Emas Kecil Link"
+    },
+    "416": {
+      "CropCode": "FD245",
+      "CropName": "Chrysanthemum Kecil - Strobilus Emas"
+    },
+    "417": {
+      "CropCode": "FD250",
+      "CropName": "Chrysanthemum Kecil - Kincir Angin Emas"
+    },
+    "418": {
+      "CropCode": "FD300",
+      "CropName": "Chrysanthemum Kecil - Kuning"
+    },
+    "419": {
+      "CropCode": "FD301",
+      "CropName": "Chrysanthemum Kecil - Bulan Emas Kuning"
+    },
+    "420": {
+      "CropCode": "FD302",
+      "CropName": "Chrysanthemum Kecil - Uang Kuning Tembaga"
+    },
+    "421": {
+      "CropCode": "FD303",
+      "CropName": "Chrysanthemum Kecil - Kuning Berongga"
+    },
+    "422": {
+      "CropCode": "FD304",
+      "CropName": "Chrysanthemum Kecil - Bola Natal"
+    },
+    "423": {
+      "CropCode": "FD305",
+      "CropName": "Chrysanthemum Kecil - Pagi Emas Kuning"
+    },
+    "424": {
+      "CropCode": "FD306",
+      "CropName": "Krisan Kecil - Banyak Bunga"
+    },
+    "425": {
+      "CropCode": "FD307",
+      "CropName": "Krisan Kecil - Kuning Pingpong"
+    },
+    "426": {
+      "CropCode": "FD308",
+      "CropName": "Krisan Kecil - Kuning T"
+    },
+    "427": {
+      "CropCode": "FD309",
+      "CropName": "Krisan Kecil - Kuning Jepang"
+    },
+    "428": {
+      "CropCode": "FD310",
+      "CropName": "Krisan Kecil - Kuning Hati Hijau"
+    },
+    "429": {
+      "CropCode": "FD311",
+      "CropName": "Krisan Kecil - Kuning Pepaya"
+    },
+    "430": {
+      "CropCode": "FD312",
+      "CropName": "Krisan Kecil - Kuning Kecil Hati Hitam"
+    },
+    "431": {
+      "CropCode": "FD313",
+      "CropName": "Krisan Kecil - Kuning Sendok"
+    },
+    "432": {
+      "CropCode": "FD314",
+      "CropName": "Krisan Kecil - Kuning Kancing"
+    },
+    "433": {
+      "CropCode": "FD315",
+      "CropName": "Krisan Kecil - Kuning Berlian"
+    },
+    "434": {
+      "CropCode": "FD316",
+      "CropName": "Krisan Kecil - Kuning Kecil Bulan Desember"
+    },
+    "435": {
+      "CropCode": "FD317",
+      "CropName": "Krisan Kecil - Kuning Menari"
+    },
+    "436": {
+      "CropCode": "FD318",
+      "CropName": "Krisan Kecil - Kuning Kecil Bersinar"
+    },
+    "437": {
+      "CropCode": "FD319",
+      "CropName": "Krisan Kecil - Kuning Pepaya (Berkelopak Banyak)"
+    },
+    "438": {
+      "CropCode": "FD320",
+      "CropName": "Krisan Kecil - Kuning Belanda"
+    },
+    "439": {
+      "CropCode": "FD321",
+      "CropName": "Krisan Kecil - Kuning Beruntung"
+    },
+    "440": {
+      "CropCode": "FD322",
+      "CropName": "Krisan Kecil - Kuning Benang Emas"
+    },
+    "441": {
+      "CropCode": "FD323",
+      "CropName": "Krisan Kecil - Kuning Sedikit"
+    },
+    "442": {
+      "CropCode": "FD324",
+      "CropName": "Krisan Kecil - Kuning Krisan Prancis"
+    },
+    "443": {
+      "CropCode": "FD325",
+      "CropName": "Krisan Kecil - Kuning Marguerite"
+    },
+    "444": {
+      "CropCode": "FD326",
+      "CropName": "Krisan Kecil - Kuning Matahari Mona Lisa"
+    },
+    "445": {
+      "CropCode": "FD330",
+      "CropName": "Krisan Kecil - Kuning Mie Kecil"
+    },
+    "446": {
+      "CropCode": "FD345",
+      "CropName": "Krisan Kecil - Kuning St. Brigid"
+    },
+    "447": {
+      "CropCode": "FD350",
+      "CropName": "Krisan Kecil - Kuning Kincir Angin"
+    },
+    "448": {
+      "CropCode": "FD400",
+      "CropName": "Krisan Kecil - Merah Muda"
+    },
+    "449": {
+      "CropCode": "FD401",
+      "CropName": "Krisan Kecil - Qiu Yang"
+    },
+    "450": {
+      "CropCode": "FD402",
+      "CropName": "Krisan Kecil - Daxin Fen"
+    },
+    "451": {
+      "CropCode": "FD403",
+      "CropName": "Krisan Kecil - Kongxin Fen"
+    },
+    "452": {
+      "CropCode": "FD404",
+      "CropName": "Krisan Kecil - Dunia Bunga"
+    },
+    "453": {
+      "CropCode": "FD405",
+      "CropName": "Krisan Kecil - Han Chu Zhao"
+    },
+    "454": {
+      "CropCode": "FD406",
+      "CropName": "Krisan Kecil - A Lai Fen"
+    },
+    "455": {
+      "CropCode": "FD407",
+      "CropName": "Krisan Kecil - Fen Ping Pang"
+    },
+    "456": {
+      "CropCode": "FD408",
+      "CropName": "Krisan Kecil - Qiong Tao Fen"
+    },
+    "457": {
+      "CropCode": "FD409",
+      "CropName": "Krisan Kecil - Yan Yang Fen"
+    },
+    "458": {
+      "CropCode": "FD410",
+      "CropName": "Krisan Kecil - Lin Ge Fen"
+    },
+    "459": {
+      "CropCode": "FD411",
+      "CropName": "Krisan Kecil - Tang Chi Fen"
+    },
+    "460": {
+      "CropCode": "FD412",
+      "CropName": "Krisan Kecil - Fen Yun Nan Ju"
+    },
+    "461": {
+      "CropCode": "FD413",
+      "CropName": "Krisan Kecil - Fen Chu Feng"
+    },
+    "462": {
+      "CropCode": "FD414",
+      "CropName": "Krisan Kecil - Da Lu Fen"
+    },
+    "463": {
+      "CropCode": "FD415",
+      "CropName": "Krisan Kecil - Ha Lei Fen"
+    },
+    "464": {
+      "CropCode": "FD416",
+      "CropName": "Krisan Kecil - Zhen Zhu Fen"
+    },
+    "465": {
+      "CropCode": "FD417",
+      "CropName": "Krisan Kecil - Fen Yan"
+    },
+    "466": {
+      "CropCode": "FD418",
+      "CropName": "Krisan Kecil - Fen Huo Yan"
+    },
+    "467": {
+      "CropCode": "FD419",
+      "CropName": "Krisan Kecil - Ri Yue Xiao Fen"
+    },
+    "468": {
+      "CropCode": "FD420",
+      "CropName": "Krisan Kecil - He Lan Fen"
+    },
+    "469": {
+      "CropCode": "FD421",
+      "CropName": "Krisan Kecil - Shui Ling Long"
+    },
+    "470": {
+      "CropCode": "FD422",
+      "CropName": "Krisan Kecil - Ji Xiang Xiao Fen"
+    },
+    "471": {
+      "CropCode": "FD423",
+      "CropName": "Krisan Kecil - Fen Ri Ji"
+    },
+    "472": {
+      "CropCode": "FD424",
+      "CropName": "Krisan Kecil - Xiao Tao Hong"
+    },
+    "473": {
+      "CropCode": "FD425",
+      "CropName": "Krisan Kecil - Margarita Fen"
+    },
+    "474": {
+      "CropCode": "FD426",
+      "CropName": "Krisan Kecil - Champagne Harlequin"
+    },
+    "475": {
+      "CropCode": "FD427",
+      "CropName": "Krisan Kecil - Pink Beauty"
+    },
+    "476": {
+      "CropCode": "FD428",
+      "CropName": "Krisan Kecil - Kalender Pink"
+    },
+    "477": {
+      "CropCode": "FD429",
+      "CropName": "Krisan Kecil - Cabang Persik"
+    },
+    "478": {
+      "CropCode": "FD430",
+      "CropName": "Krisan Kecil - Mie Krisan Pink"
+    },
+    "479": {
+      "CropCode": "FD431",
+      "CropName": "Krisan Kecil - Krisan Yunnan Merah Muda"
+    },
+    "480": {
+      "CropCode": "FD432",
+      "CropName": "Krisan Kecil - Awan Berwarna"
+    },
+    "481": {
+      "CropCode": "FD433",
+      "CropName": "Krisan Kecil - Pink Finlandia"
+    },
+    "482": {
+      "CropCode": "FD434",
+      "CropName": "Krisan Kecil - Kincir Angin Inggris"
+    },
+    "483": {
+      "CropCode": "FD435",
+      "CropName": "Krisan Kecil - Pink Link"
+    },
+    "484": {
+      "CropCode": "FD436",
+      "CropName": "Krisan Kecil - Musim Gugur Baru"
+    },
+    "485": {
+      "CropCode": "FD437",
+      "CropName": "Krisan Yunnan - Pink Dua Warna"
+    },
+    "486": {
+      "CropCode": "FD438",
+      "CropName": "Krisan Kecil - Pink Nan Gang"
+    },
+    "487": {
+      "CropCode": "FD445",
+      "CropName": "Krisan Kecil - Pink Spun"
+    },
+    "488": {
+      "CropCode": "FD446",
+      "CropName": "Krisan Kecil - Pink Guanyin"
+    },
+    "489": {
+      "CropCode": "FD450",
+      "CropName": "Krisan Kecil - Pink Kincir Angin"
+    },
+    "490": {
+      "CropCode": "FD451",
+      "CropName": "Krisan Kecil - Menari Kincir Angin"
+    },
+    "491": {
+      "CropCode": "FD452",
+      "CropName": "Krisan Kecil - Pink Cinta"
+    },
+    "492": {
+      "CropCode": "FD453",
+      "CropName": "Krisan Kecil - Permen Lollipop - Pink"
+    },
+    "493": {
+      "CropCode": "FD455",
+      "CropName": "Krisan Kecil - Pink Cantik"
+    },
+    "494": {
+      "CropCode": "FD456",
+      "CropName": "Krisan Kecil - Pink Carlo"
+    },
+    "495": {
+      "CropCode": "FD457",
+      "CropName": "Krisan Kecil - Pink Sivia"
+    },
+    "496": {
+      "CropCode": "FD500",
+      "CropName": "Krisan Kecil - Hijau"
+    },
+    "497": {
+      "CropCode": "FD501",
+      "CropName": "Krisan Kecil - Seperti Giok"
+    },
+    "498": {
+      "CropCode": "FD502",
+      "CropName": "Krisan Kecil - Krisan Hijau Sutra"
+    },
+    "499": {
+      "CropCode": "FD503",
+      "CropName": "Krisan Kecil - Krisan Kecil Hijau"
+    },
+    "500": {
+      "CropCode": "FD504",
+      "CropName": "Krisan Kecil - Beret Rekaman"
+    },
+    "501": {
+      "CropCode": "FD505",
+      "CropName": "Krisan Kecil - Fukuzawa"
+    },
+    "502": {
+      "CropCode": "FD509",
+      "CropName": "Krisan Kecil - Hijau Pekat Pingpong"
+    },
+    "503": {
+      "CropCode": "FD600",
+      "CropName": "Krisan Kecil - Putih"
+    },
+    "504": {
+      "CropCode": "FD601",
+      "CropName": "Krisan Kecil - Krisan T"
+    },
+    "505": {
+      "CropCode": "FD602",
+      "CropName": "Krisan Kecil - Koin Putih"
+    },
+    "506": {
+      "CropCode": "FD603",
+      "CropName": "Krisan Kecil - Putih Berongga (Petal Pendek)"
+    },
+    "507": {
+      "CropCode": "FD604",
+      "CropName": "Krisan Kecil - Putih Berongga (Petal Panjang)"
+    },
+    "508": {
+      "CropCode": "FD605",
+      "CropName": "Krisan Kecil - Putih Awal"
+    },
+    "509": {
+      "CropCode": "FD607",
+      "CropName": "Krisan Kecil - Putih Pingpong"
+    },
+    "510": {
+      "CropCode": "FD608",
+      "CropName": "Krisan Kecil - Putih Musim Gugur Kecil"
+    },
+    "511": {
+      "CropCode": "FD609",
+      "CropName": "Krisan Kecil - Putih Mata Ayam Kecil"
+    },
+    "512": {
+      "CropCode": "FD610",
+      "CropName": "Krisan Kecil - Putih Hati Hijau Kecil"
+    },
+    "513": {
+      "CropCode": "FD611",
+      "CropName": "Krisan Kecil - Putih T Baru"
+    },
+    "514": {
+      "CropCode": "FD612",
+      "CropName": "Krisan Kecil - Krisan Putih Yunnan"
+    },
+    "515": {
+      "CropCode": "FD613",
+      "CropName": "Krisan Kecil - Krisan Kecil Putih"
+    },
+    "516": {
+      "CropCode": "FD614",
+      "CropName": "Krisan Kecil - Krisan Kecil Putih Prancis"
+    },
+    "517": {
+      "CropCode": "FD615",
+      "CropName": "Krisan Kecil - Giok"
+    },
+    "518": {
+      "CropCode": "FD616",
+      "CropName": "Krisan Kecil - Putih Menari"
+    },
+    "519": {
+      "CropCode": "FD617",
+      "CropName": "Krisan Kecil - Putih Guanyin"
+    },
+    "520": {
+      "CropCode": "FD618",
+      "CropName": "Krisan Kecil - Berlian Putih"
+    },
+    "521": {
+      "CropCode": "FD619",
+      "CropName": "Krisan Kecil - Putih Bola Salju Kecil"
+    },
+    "522": {
+      "CropCode": "FD620",
+      "CropName": "Krisan Kecil - Putih Kecil Belanda"
+    },
+    "523": {
+      "CropCode": "FD621",
+      "CropName": "Krisan Kecil - Dataran Sungai"
+    },
+    "524": {
+      "CropCode": "FD622",
+      "CropName": "Krisan Kecil - Putih Beruntung"
+    },
+    "525": {
+      "CropCode": "FD623",
+      "CropName": "Krisan Kecil - Putih Rindu"
+    },
+    "526": {
+      "CropCode": "FD625",
+      "CropName": "Krisan Kecil - Putih Margareta"
+    },
+    "527": {
+      "CropCode": "FD630",
+      "CropName": "Krisan Kecil - Putih Mie Kecil"
+    },
+    "528": {
+      "CropCode": "FD632",
+      "CropName": "Krisan Kecil - Putih Mutiara"
+    },
+    "529": {
+      "CropCode": "FD633",
+      "CropName": "Krisan Kecil - Putih Finlandia"
+    },
+    "530": {
+      "CropCode": "FD635",
+      "CropName": "Krisan Kecil - Putih Link"
+    },
+    "531": {
+      "CropCode": "FD645",
+      "CropName": "Krisan Kecil - Putih Sibulet"
+    },
+    "532": {
+      "CropCode": "FD646",
+      "CropName": "Krisan Kecil - Putih Bang"
+    },
+    "533": {
+      "CropCode": "FD657",
+      "CropName": "Krisan Kecil - Putih Sevilla"
+    },
+    "534": {
+      "CropCode": "FD700",
+      "CropName": "Krisan Kecil - Ungu"
+    },
+    "535": {
+      "CropCode": "FD712",
+      "CropName": "Krisan Kecil - Ungu Yunnan"
+    },
+    "536": {
+      "CropCode": "FD752",
+      "CropName": "Krisan Kecil - Ungu Merah Sindra"
+    },
+    "537": {
+      "CropCode": "FD800",
+      "CropName": "Krisan Kecil - Krisan Berwarna"
+    },
+    "538": {
+      "CropCode": "FD801",
+      "CropName": "Krisan Berwarna - Finlandia"
+    },
+    "539": {
+      "CropCode": "FD802",
+      "CropName": "Krisan Berwarna - Berlian Putih"
+    },
+    "540": {
+      "CropCode": "FD9",
+      "CropName": "Mentimun Bunga - Impor"
+    },
+    "541": {
+      "CropCode": "FD900",
+      "CropName": "Krisan Kecil - Krisan Mini"
+    },
+    "542": {
+      "CropCode": "FE0",
+      "CropName": "Labuh - Lainnya"
+    },
+    "543": {
+      "CropCode": "FE000",
+      "CropName": "Krisan Afrika"
+    },
+    "544": {
+      "CropCode": "FE001",
+      "CropName": "Krisan Afrika - Campuran Warna"
+    },
+    "545": {
+      "CropCode": "FE1",
+      "CropName": "Labuh - Kulit Putih"
+    },
+    "546": {
+      "CropCode": "FE100",
+      "CropName": "Krisan Afrika - Merah"
+    },
+    "547": {
+      "CropCode": "FE101",
+      "CropName": "Krisan Afrika - Dua Warna Merah"
+    },
+    "548": {
+      "CropCode": "FE102",
+      "CropName": "Krisan Afrika - Dalich"
+    },
+    "549": {
+      "CropCode": "FE103",
+      "CropName": "African Daisy - Red Crystal"
+    },
+    "550": {
+      "CropCode": "FE104",
+      "CropName": "African Daisy - Reno"
+    },
+    "551": {
+      "CropCode": "FE105",
+      "CropName": "African Daisy - Shiro"
+    },
+    "552": {
+      "CropCode": "FE106",
+      "CropName": "African Daisy - Loreto"
+    },
+    "553": {
+      "CropCode": "FE107",
+      "CropName": "African Daisy - Gorgeous"
+    },
+    "554": {
+      "CropCode": "FE108",
+      "CropName": "African Daisy - Red Paris"
+    },
+    "555": {
+      "CropCode": "FE109",
+      "CropName": "African Daisy - Habby"
+    },
+    "556": {
+      "CropCode": "FE110",
+      "CropName": "African Daisy - Cab"
+    },
+    "557": {
+      "CropCode": "FE111",
+      "CropName": "African Daisy - Shanghai Red"
+    },
+    "558": {
+      "CropCode": "FE112",
+      "CropName": "African Daisy - Celestial"
+    },
+    "559": {
+      "CropCode": "FE113",
+      "CropName": "African Daisy - Lexington"
+    },
+    "560": {
+      "CropCode": "FE2",
+      "CropName": "Winter Melon - Green Skin"
+    },
+    "561": {
+      "CropCode": "FE200",
+      "CropName": "African Daisy - Orange"
+    },
+    "562": {
+      "CropCode": "FE201",
+      "CropName": "African Daisy - Sun God"
+    },
+    "563": {
+      "CropCode": "FE202",
+      "CropName": "African Daisy - Dune"
+    },
+    "564": {
+      "CropCode": "FE203",
+      "CropName": "African Daisy - Orlin"
+    },
+    "565": {
+      "CropCode": "FE204",
+      "CropName": "African Daisy - Melrose"
+    },
+    "566": {
+      "CropCode": "FE205",
+      "CropName": "African Daisy - Harry Bear"
+    },
+    "567": {
+      "CropCode": "FE3",
+      "CropName": "Winter Melon - Hairy Melon"
+    },
+    "568": {
+      "CropCode": "FE300",
+      "CropName": "African Daisy - Yellow"
+    },
+    "569": {
+      "CropCode": "FE301",
+      "CropName": "African Daisy - Heat Wave"
+    },
+    "570": {
+      "CropCode": "FE302",
+      "CropName": "African Daisy - Golden爵"
+    },
+    "571": {
+      "CropCode": "FE400",
+      "CropName": "African Daisy - Pink"
+    },
+    "572": {
+      "CropCode": "FE401",
+      "CropName": "African Daisy - Ismara"
+    },
+    "573": {
+      "CropCode": "FE402",
+      "CropName": "African Daisy - Malucia"
+    },
+    "574": {
+      "CropCode": "FE403",
+      "CropName": "African Daisy - Donika"
+    },
+    "575": {
+      "CropCode": "FE404",
+      "CropName": "African Daisy - Munira"
+    },
+    "576": {
+      "CropCode": "FE405",
+      "CropName": "African Daisy - Rosalyn"
+    },
+    "577": {
+      "CropCode": "FE406",
+      "CropName": "African Daisy - Pink Beauty"
+    },
+    "578": {
+      "CropCode": "FE407",
+      "CropName": "African Daisy - Spark"
+    },
+    "579": {
+      "CropCode": "FE408",
+      "CropName": "African Daisy - Pink Beauty"
+    },
+    "580": {
+      "CropCode": "FE409",
+      "CropName": "African Daisy - Pink Charm"
+    },
+    "581": {
+      "CropCode": "FE410",
+      "CropName": "African Daisy - Nightingale"
+    },
+    "582": {
+      "CropCode": "FE411",
+      "CropName": "African Daisy - Lido"
+    },
+    "583": {
+      "CropCode": "FE412",
+      "CropName": "African Daisy - Napoleon"
+    },
+    "584": {
+      "CropCode": "FE413",
+      "CropName": "African Daisy - Fei Er"
+    },
+    "585": {
+      "CropCode": "FE415",
+      "CropName": "African Daisy - Pink Lovely"
+    },
+    "586": {
+      "CropCode": "FE416",
+      "CropName": "African Daisy - Passion Pink"
+    },
+    "587": {
+      "CropCode": "FE600",
+      "CropName": "African Daisy - White"
+    },
+    "588": {
+      "CropCode": "FE601",
+      "CropName": "African Daisy - Snow White"
+    },
+    "589": {
+      "CropCode": "FE602",
+      "CropName": "African Daisy - Maria"
+    },
+    "590": {
+      "CropCode": "FE603",
+      "CropName": "African Daisy - Bianco"
+    },
+    "591": {
+      "CropCode": "FE604",
+      "CropName": "African Daisy - White Bear"
+    },
+    "592": {
+      "CropCode": "FE605",
+      "CropName": "African Daisy - Iceberg"
+    },
+    "593": {
+      "CropCode": "FE606",
+      "CropName": "African Daisy - Dice"
+    },
+    "594": {
+      "CropCode": "FE700",
+      "CropName": "African Daisy - Purple"
+    },
+    "595": {
+      "CropCode": "FE701",
+      "CropName": "African Daisy - Purple Prince"
+    },
+    "596": {
+      "CropCode": "FE702",
+      "CropName": "African Daisy - Ruble"
+    },
+    "597": {
+      "CropCode": "FE703",
+      "CropName": "African Daisy - Pharaoh"
+    },
+    "598": {
+      "CropCode": "FE704",
+      "CropName": "African Daisy - Queen"
+    },
+    "599": {
+      "CropCode": "FE801",
+      "CropName": "African Daisy - Bobo"
+    },
+    "600": {
+      "CropCode": "FE9",
+      "CropName": "Winter Melon - Import"
+    },
+    "601": {
+      "CropCode": "FE900",
+      "CropName": "African Daisy - Mini Mixed Color"
+    },
+    "602": {
+      "CropCode": "FE910",
+      "CropName": "African Daisy - Mini Red"
+    },
+    "603": {
+      "CropCode": "FE920",
+      "CropName": "African Daisy - Mini Orange"
+    },
+    "604": {
+      "CropCode": "FE930",
+      "CropName": "African Daisy - Mini Yellow"
+    },
+    "605": {
+      "CropCode": "FE940",
+      "CropName": "African Daisy - Mini Pink"
+    },
+    "606": {
+      "CropCode": "FE960",
+      "CropName": "African Daisy - Mini White"
+    },
+    "607": {
+      "CropCode": "FE970",
+      "CropName": "African Daisy - Mini Purple"
+    },
+    "608": {
+      "CropCode": "FF0",
+      "CropName": "Luffa - Other"
+    },
+    "609": {
+      "CropCode": "FF1",
+      "CropName": "Luffa"
+    },
+    "610": {
+      "CropCode": "FF2",
+      "CropName": "Luffa - Corner Melon"
+    },
+    "611": {
+      "CropCode": "FF3",
+      "CropName": "Luffa - White Melon"
+    },
+    "612": {
+      "CropCode": "FF4",
+      "CropName": "Luffa - Long Luffa"
+    },
+    "613": {
+      "CropCode": "FF9",
+      "CropName": "Luffa - Import"
+    },
+    "614": {
+      "CropCode": "FG0",
+      "CropName": "Bitter Melon - Other"
+    },
+    "615": {
+      "CropCode": "FG000",
+      "CropName": "Gladiolus"
+    },
+    "616": {
+      "CropCode": "FG001",
+      "CropName": "Gladiolus - Mixed Color"
+    },
+    "617": {
+      "CropCode": "FG1",
+      "CropName": "Bitter Melon - White Rice"
+    },
+    "618": {
+      "CropCode": "FG100",
+      "CropName": "Gladiolus - Red"
+    },
+    "619": {
+      "CropCode": "FG101",
+      "CropName": "Gladiolus - No. 4"
+    },
+    "620": {
+      "CropCode": "FG102",
+      "CropName": "Gladiolus - No. 13"
+    },
+    "621": {
+      "CropCode": "FG103",
+      "CropName": "Gladiolus - No. 42"
+    },
+    "622": {
+      "CropCode": "FG104",
+      "CropName": "Gladiolus - No. 223"
+    },
+    "623": {
+      "CropCode": "FG105",
+      "CropName": "Gladiolus - No. 235"
+    },
+    "624": {
+      "CropCode": "FG106",
+      "CropName": "Lily Sword - Madeli"
+    },
+    "625": {
+      "CropCode": "FG107",
+      "CropName": "Lily Sword - Black Bone"
+    },
+    "626": {
+      "CropCode": "FG108",
+      "CropName": "Lily Sword - Cherry Red"
+    },
+    "627": {
+      "CropCode": "FG109",
+      "CropName": "Lily Sword - Blush Red"
+    },
+    "628": {
+      "CropCode": "FG110",
+      "CropName": "Lily Sword - Rose Red"
+    },
+    "629": {
+      "CropCode": "FG111",
+      "CropName": "Lily Sword - No. 43"
+    },
+    "630": {
+      "CropCode": "FG112",
+      "CropName": "Lily Sword - New Cherry Red"
+    },
+    "631": {
+      "CropCode": "FG113",
+      "CropName": "Lily Sword - New Red Variety"
+    },
+    "632": {
+      "CropCode": "FG114",
+      "CropName": "Lily Sword - New No. 223"
+    },
+    "633": {
+      "CropCode": "FG115",
+      "CropName": "Lily Sword - No. 243"
+    },
+    "634": {
+      "CropCode": "FG116",
+      "CropName": "Lily Sword - Bicolor Gold Red"
+    },
+    "635": {
+      "CropCode": "FG118",
+      "CropName": "Lily Sword - No. 278"
+    },
+    "636": {
+      "CropCode": "FG119",
+      "CropName": "Lily Sword - No. 279"
+    },
+    "637": {
+      "CropCode": "FG120",
+      "CropName": "Lily Sword - Black Bone Red"
+    },
+    "638": {
+      "CropCode": "FG121",
+      "CropName": "Lily Sword - No. 265"
+    },
+    "639": {
+      "CropCode": "FG122",
+      "CropName": "Lily Sword - Conway"
+    },
+    "640": {
+      "CropCode": "FG123",
+      "CropName": "Lily Sword - Bright Purple Red"
+    },
+    "641": {
+      "CropCode": "FG2",
+      "CropName": "Bitter Melon - Green Rice"
+    },
+    "642": {
+      "CropCode": "FG200",
+      "CropName": "Lily Sword - Orange"
+    },
+    "643": {
+      "CropCode": "FG201",
+      "CropName": "Lily Sword - Orange Pink"
+    },
+    "644": {
+      "CropCode": "FG3",
+      "CropName": "Bitter Melon - Mountain Bitter Melon"
+    },
+    "645": {
+      "CropCode": "FG300",
+      "CropName": "Lily Sword - Yellow"
+    },
+    "646": {
+      "CropCode": "FG301",
+      "CropName": "Lily Sword - Deep Yellow"
+    },
+    "647": {
+      "CropCode": "FG302",
+      "CropName": "Lily Sword - Light Yellow"
+    },
+    "648": {
+      "CropCode": "FG303",
+      "CropName": "Lily Sword - Yellow Red Heart"
+    },
+    "649": {
+      "CropCode": "FG4",
+      "CropName": "Pare- hijau"
+    },
+    "650": {
+      "CropCode": "FG400",
+      "CropName": "Lily- merah muda"
+    },
+    "651": {
+      "CropCode": "FG401",
+      "CropName": "Lily- baru merah muda"
+    },
+    "652": {
+      "CropCode": "FG402",
+      "CropName": "Lily- Si Pao"
+    },
+    "653": {
+      "CropCode": "FG403",
+      "CropName": "Lily- Ma merah muda"
+    },
+    "654": {
+      "CropCode": "FG404",
+      "CropName": "Lily- Persik merah muda"
+    },
+    "655": {
+      "CropCode": "FG405",
+      "CropName": "Lily- tipis merah muda"
+    },
+    "656": {
+      "CropCode": "FG406",
+      "CropName": "Lily- hijau kulit merah muda"
+    },
+    "657": {
+      "CropCode": "FG407",
+      "CropName": "Lily- hati merah muda"
+    },
+    "658": {
+      "CropCode": "FG408",
+      "CropName": "Lily- nomor 512"
+    },
+    "659": {
+      "CropCode": "FG409",
+      "CropName": "Lily- nomor 513"
+    },
+    "660": {
+      "CropCode": "FG410",
+      "CropName": "Lily- nomor 515"
+    },
+    "661": {
+      "CropCode": "FG411",
+      "CropName": "Lily- gadis merah muda"
+    },
+    "662": {
+      "CropCode": "FG412",
+      "CropName": "Lily- raksasa merah muda"
+    },
+    "663": {
+      "CropCode": "FG413",
+      "CropName": "Lily- baru Si Pao"
+    },
+    "664": {
+      "CropCode": "FG414",
+      "CropName": "Lily- merah muda Amerika"
+    },
+    "665": {
+      "CropCode": "FG415",
+      "CropName": "Lily- mawar musim panas"
+    },
+    "666": {
+      "CropCode": "FG416",
+      "CropName": "Lily- nomor 4436"
+    },
+    "667": {
+      "CropCode": "FG417",
+      "CropName": "Lily- Fa Du"
+    },
+    "668": {
+      "CropCode": "FG418",
+      "CropName": "Lily- nomor 437"
+    },
+    "669": {
+      "CropCode": "FG419",
+      "CropName": "Lily- Victoria"
+    },
+    "670": {
+      "CropCode": "FG501",
+      "CropName": "Lily- nomor 610"
+    },
+    "671": {
+      "CropCode": "FG600",
+      "CropName": "Lily- putih"
+    },
+    "672": {
+      "CropCode": "FG601",
+      "CropName": "Lily- besar putih"
+    },
+    "673": {
+      "CropCode": "FG602",
+      "CropName": "Lily- Amsterdam"
+    },
+    "674": {
+      "CropCode": "FG603",
+      "CropName": "Lily Pedang- Putih Merah"
+    },
+    "675": {
+      "CropCode": "FG700",
+      "CropName": "Lily Pedang- Ungu"
+    },
+    "676": {
+      "CropCode": "FG701",
+      "CropName": "Lily Pedang- Ungu Tua"
+    },
+    "677": {
+      "CropCode": "FG702",
+      "CropName": "Lily Pedang- Ungu Muda"
+    },
+    "678": {
+      "CropCode": "FG703",
+      "CropName": "Lily Pedang- Ungu Beludru Tua"
+    },
+    "679": {
+      "CropCode": "FG704",
+      "CropName": "Lily Pedang- Ungu Hitam"
+    },
+    "680": {
+      "CropCode": "FG705",
+      "CropName": "Lily Pedang- Ungu Biru"
+    },
+    "681": {
+      "CropCode": "FG706",
+      "CropName": "Lily Pedang- Putih Ungu"
+    },
+    "682": {
+      "CropCode": "FG9",
+      "CropName": "Pare- Impor"
+    },
+    "683": {
+      "CropCode": "FH0",
+      "CropName": "Daun Papan- Lainnya"
+    },
+    "684": {
+      "CropCode": "FH000",
+      "CropName": "Bunga Lainnya"
+    },
+    "685": {
+      "CropCode": "FH002",
+      "CropName": "Bunga Lelang"
+    },
+    "686": {
+      "CropCode": "FH003",
+      "CropName": "Rovelis"
+    },
+    "687": {
+      "CropCode": "FH004",
+      "CropName": "Rumput Bagua (Sungai Kuning)"
+    },
+    "688": {
+      "CropCode": "FH005",
+      "CropName": "Bunga Palu Emas"
+    },
+    "689": {
+      "CropCode": "FH006",
+      "CropName": "Bunga Kuning"
+    },
+    "690": {
+      "CropCode": "FH007",
+      "CropName": "Jamur Pinus"
+    },
+    "691": {
+      "CropCode": "FH008",
+      "CropName": "Chamomile"
+    },
+    "692": {
+      "CropCode": "FH009",
+      "CropName": "Bunga Marigold"
+    },
+    "693": {
+      "CropCode": "FH048",
+      "CropName": "Bunga Forsythia"
+    },
+    "694": {
+      "CropCode": "FH050",
+      "CropName": "Lily Narsis- Campuran"
+    },
+    "695": {
+      "CropCode": "FH051",
+      "CropName": "Lily Narsis- Merah"
+    },
+    "696": {
+      "CropCode": "FH052",
+      "CropName": "Lily Narsis- Jingga"
+    },
+    "697": {
+      "CropCode": "FH053",
+      "CropName": "Lily Narsis- Kuning"
+    },
+    "698": {
+      "CropCode": "FH054",
+      "CropName": "Lily Narsis- Merah Muda"
+    },
+    "699": {
+      "CropCode": "FH055",
+      "CropName": "Narcissus Lily-Hijau"
+    },
+    "700": {
+      "CropCode": "FH056",
+      "CropName": "Narcissus Lily-Putih"
+    },
+    "701": {
+      "CropCode": "FH057",
+      "CropName": "Narcissus Lily-Ungu"
+    },
+    "702": {
+      "CropCode": "FH061",
+      "CropName": "Narcissus Lily-Merah Muda"
+    },
+    "703": {
+      "CropCode": "FH062",
+      "CropName": "Narcissus Lily-Dua Warna"
+    },
+    "704": {
+      "CropCode": "FH063",
+      "CropName": "Narcissus Lily-Putih Garis Merah"
+    },
+    "705": {
+      "CropCode": "FH071",
+      "CropName": "Hippeastrum-Bunga Merah"
+    },
+    "706": {
+      "CropCode": "FH072",
+      "CropName": "Hippeastrum-Bunga Emas"
+    },
+    "707": {
+      "CropCode": "FH073",
+      "CropName": "Hippeastrum-Bunga Kuning"
+    },
+    "708": {
+      "CropCode": "FH074",
+      "CropName": "Hippeastrum-Bunga Merah Muda"
+    },
+    "709": {
+      "CropCode": "FH080",
+      "CropName": "Hemerocallis"
+    },
+    "710": {
+      "CropCode": "FH090",
+      "CropName": "Bunga Jarum"
+    },
+    "711": {
+      "CropCode": "FH1",
+      "CropName": "Bunga Lili-Panjang"
+    },
+    "712": {
+      "CropCode": "FH101",
+      "CropName": "Burung Surga"
+    },
+    "713": {
+      "CropCode": "FH111",
+      "CropName": "Burung Surga Kecil-Merah"
+    },
+    "714": {
+      "CropCode": "FH112",
+      "CropName": "Burung Surga Kecil-Jingga Garis Merah"
+    },
+    "715": {
+      "CropCode": "FH113",
+      "CropName": "Burung Surga Kecil-Kuning"
+    },
+    "716": {
+      "CropCode": "FH114",
+      "CropName": "Burung Surga Kecil-Merah Muda"
+    },
+    "717": {
+      "CropCode": "FH120",
+      "CropName": "Bunga Bulu"
+    },
+    "718": {
+      "CropCode": "FH121",
+      "CropName": "Burung Emas Merah"
+    },
+    "719": {
+      "CropCode": "FH123",
+      "CropName": "Burung Emas"
+    },
+    "720": {
+      "CropCode": "FH124",
+      "CropName": "Burung Giok"
+    },
+    "721": {
+      "CropCode": "FH125",
+      "CropName": "Bunga Zamrud"
+    },
+    "722": {
+      "CropCode": "FH127",
+      "CropName": "Pisang Angsa-Putih Hitam"
+    },
+    "723": {
+      "CropCode": "FH128",
+      "CropName": "Pisang Tergantung Sepuluh Hari"
+    },
+    "724": {
+      "CropCode": "FH129",
+      "CropName": "Pisang Kuning"
+    },
+    "725": {
+      "CropCode": "FH130",
+      "CropName": "Anggrek Wangian"
+    },
+    "726": {
+      "CropCode": "FH131",
+      "CropName": "Kembang Kuntul"
+    },
+    "727": {
+      "CropCode": "FH132",
+      "CropName": "Pisang Kecil Kuntul"
+    },
+    "728": {
+      "CropCode": "FH133",
+      "CropName": "Pisang Kuntul Merah"
+    },
+    "729": {
+      "CropCode": "FH134",
+      "CropName": "Pisang Merah"
+    },
+    "730": {
+      "CropCode": "FH135",
+      "CropName": "Kuntul"
+    },
+    "731": {
+      "CropCode": "FH136",
+      "CropName": "Pisang Teratai Putih"
+    },
+    "732": {
+      "CropCode": "FH137",
+      "CropName": "Teratai Avalokitesvara"
+    },
+    "733": {
+      "CropCode": "FH138",
+      "CropName": "Kembang Cantik"
+    },
+    "734": {
+      "CropCode": "FH139",
+      "CropName": "Mawar Batu"
+    },
+    "735": {
+      "CropCode": "FH140",
+      "CropName": "Bunga Jahe"
+    },
+    "736": {
+      "CropCode": "FH145",
+      "CropName": "Bunga Marigold"
+    },
+    "737": {
+      "CropCode": "FH152",
+      "CropName": "Bunga Jahe Liar - Oranye"
+    },
+    "738": {
+      "CropCode": "FH156",
+      "CropName": "Bunga Jahe Liar - Putih"
+    },
+    "739": {
+      "CropCode": "FH158",
+      "CropName": "Bunga Jahe Merah"
+    },
+    "740": {
+      "CropCode": "FH159",
+      "CropName": "Bunga Jahe Bola"
+    },
+    "741": {
+      "CropCode": "FH164",
+      "CropName": "Bunga Obor"
+    },
+    "742": {
+      "CropCode": "FH170",
+      "CropName": "Lili Ekor Rubah"
+    },
+    "743": {
+      "CropCode": "FH180",
+      "CropName": "Lili Lampion"
+    },
+    "744": {
+      "CropCode": "FH185",
+      "CropName": "Kalanchoe (Lili Api)"
+    },
+    "745": {
+      "CropCode": "FH190",
+      "CropName": "Lili Suara"
+    },
+    "746": {
+      "CropCode": "FH195",
+      "CropName": "Bunga Magnolia"
+    },
+    "747": {
+      "CropCode": "FH2",
+      "CropName": "Pangkal Bulat"
+    },
+    "748": {
+      "CropCode": "FH201",
+      "CropName": "Kucing Willow - Lurus"
+    },
+    "749": {
+      "CropCode": "FH202",
+      "CropName": "Lentera Mutiara-Direct"
+    },
+    "750": {
+      "CropCode": "FH203",
+      "CropName": "Kucing Willow-Cabang"
+    },
+    "751": {
+      "CropCode": "FH204",
+      "CropName": "Lentera Mutiara-Cabang"
+    },
+    "752": {
+      "CropCode": "FH210",
+      "CropName": "Rumput Senja"
+    },
+    "753": {
+      "CropCode": "FH215",
+      "CropName": "Krisan Segmen"
+    },
+    "754": {
+      "CropCode": "FH220",
+      "CropName": "Kacang Payung"
+    },
+    "755": {
+      "CropCode": "FH225",
+      "CropName": "Bunga Kaisar"
+    },
+    "756": {
+      "CropCode": "FH230",
+      "CropName": "Bunga Malam"
+    },
+    "757": {
+      "CropCode": "FH231",
+      "CropName": "Bunga Malam-Single Petal"
+    },
+    "758": {
+      "CropCode": "FH232",
+      "CropName": "Bunga Malam-Double Petal"
+    },
+    "759": {
+      "CropCode": "FH240",
+      "CropName": "Bunga Roti Gandum"
+    },
+    "760": {
+      "CropCode": "FH245",
+      "CropName": "Rumput Salju Pertama"
+    },
+    "761": {
+      "CropCode": "FH251",
+      "CropName": "Garis Indah"
+    },
+    "762": {
+      "CropCode": "FH256",
+      "CropName": "Garis Indah Putih"
+    },
+    "763": {
+      "CropCode": "FH260",
+      "CropName": "Bunga Merah (Bawang)"
+    },
+    "764": {
+      "CropCode": "FH270",
+      "CropName": "Bunga Seribu Hari"
+    },
+    "765": {
+      "CropCode": "FH280",
+      "CropName": "Langka Kuno"
+    },
+    "766": {
+      "CropCode": "FH293",
+      "CropName": "Bunga Matahari-Single Petal"
+    },
+    "767": {
+      "CropCode": "FH294",
+      "CropName": "Bunga Matahari-Double Petal"
+    },
+    "768": {
+      "CropCode": "FH295",
+      "CropName": "Bunga Matahari-Sinar Emas"
+    },
+    "769": {
+      "CropCode": "FH296",
+      "CropName": "Bunga Matahari-Intan Emas"
+    },
+    "770": {
+      "CropCode": "FH297",
+      "CropName": "Bunga Matahari-Delapan Tanda"
+    },
+    "771": {
+      "CropCode": "FH298",
+      "CropName": "Bunga Matahari-Dewa Matahari"
+    },
+    "772": {
+      "CropCode": "FH3",
+      "CropName": "Bunga Kecil- Bunga Kecil"
+    },
+    "773": {
+      "CropCode": "FH301",
+      "CropName": "Bunga Persia"
+    },
+    "774": {
+      "CropCode": "FH302",
+      "CropName": "Bunga Kembang Kertas"
+    },
+    "775": {
+      "CropCode": "FH303",
+      "CropName": "Bunga Kembang Kertas Biru"
+    },
+    "776": {
+      "CropCode": "FH304",
+      "CropName": "Bunga Kembang Kertas Sisik"
+    },
+    "777": {
+      "CropCode": "FH305",
+      "CropName": "Bunga Kembang Kertas Putih"
+    },
+    "778": {
+      "CropCode": "FH306",
+      "CropName": "Bunga Kembang Kertas Harian"
+    },
+    "779": {
+      "CropCode": "FH307",
+      "CropName": "Bunga Kembang Kertas Daun Timun"
+    },
+    "780": {
+      "CropCode": "FH308",
+      "CropName": "Bunga Kembang Kertas Biru Putih"
+    },
+    "781": {
+      "CropCode": "FH309",
+      "CropName": "Bunga Peony"
+    },
+    "782": {
+      "CropCode": "FH310",
+      "CropName": "Bunga Dali - Campuran"
+    },
+    "783": {
+      "CropCode": "FH311",
+      "CropName": "Bunga Dali - Merah"
+    },
+    "784": {
+      "CropCode": "FH312",
+      "CropName": "Bunga Dali - Oranye"
+    },
+    "785": {
+      "CropCode": "FH313",
+      "CropName": "Bunga Dali - Kuning"
+    },
+    "786": {
+      "CropCode": "FH314",
+      "CropName": "Bunga Dali - Merah Muda"
+    },
+    "787": {
+      "CropCode": "FH316",
+      "CropName": "Bunga Dali - Putih"
+    },
+    "788": {
+      "CropCode": "FH317",
+      "CropName": "Bunga Dali - Ungu"
+    },
+    "789": {
+      "CropCode": "FH318",
+      "CropName": "Bunga Dali - Dua Warna"
+    },
+    "790": {
+      "CropCode": "FH320",
+      "CropName": "Bunga Thistle (Bunga Merah)"
+    },
+    "791": {
+      "CropCode": "FH330",
+      "CropName": "Bunga Ayam Jantan"
+    },
+    "792": {
+      "CropCode": "FH331",
+      "CropName": "Bunga Ayam Jantan - Merah Muda"
+    },
+    "793": {
+      "CropCode": "FH332",
+      "CropName": "Bunga Ayam Jantan - Merah Tua"
+    },
+    "794": {
+      "CropCode": "FH333",
+      "CropName": "Bunga Ayam Jantan - Kuning"
+    },
+    "795": {
+      "CropCode": "FH334",
+      "CropName": "Bunga Ayam Jantan - Hijau"
+    },
+    "796": {
+      "CropCode": "FH335",
+      "CropName": "Bunga Ayam Jantan Tipe Senapan"
+    },
+    "797": {
+      "CropCode": "FH336",
+      "CropName": "Bunga Ayam Jantan Gantung"
+    },
+    "798": {
+      "CropCode": "FH337",
+      "CropName": "Bunga Ayam Jantan - Merah Ungu"
+    },
+    "799": {
+      "CropCode": "FH338",
+      "CropName": "Celosia- Hijau Kuning"
+    },
+    "800": {
+      "CropCode": "FH339",
+      "CropName": "Celosia- Merah Muda"
+    },
+    "801": {
+      "CropCode": "FH340",
+      "CropName": "Celosia Api"
+    },
+    "802": {
+      "CropCode": "FH341",
+      "CropName": "Celosia Api- Merah"
+    },
+    "803": {
+      "CropCode": "FH342",
+      "CropName": "Celosia Api- Jingga"
+    },
+    "804": {
+      "CropCode": "FH343",
+      "CropName": "Celosia Api- Kuning"
+    },
+    "805": {
+      "CropCode": "FH344",
+      "CropName": "Celosia Api- Merah Muda"
+    },
+    "806": {
+      "CropCode": "FH350",
+      "CropName": "Rumput Mimpi"
+    },
+    "807": {
+      "CropCode": "FH355",
+      "CropName": "Bunga Nanas"
+    },
+    "808": {
+      "CropCode": "FH356",
+      "CropName": "Bunga Nanas Berbuah"
+    },
+    "809": {
+      "CropCode": "FH357",
+      "CropName": "Bunga Nanas Berbunga"
+    },
+    "810": {
+      "CropCode": "FH358",
+      "CropName": "Nanas Karang"
+    },
+    "811": {
+      "CropCode": "FH360",
+      "CropName": "Bunga Ikan Mas- Campuran"
+    },
+    "812": {
+      "CropCode": "FH361",
+      "CropName": "Bunga Ikan Mas- Merah"
+    },
+    "813": {
+      "CropCode": "FH363",
+      "CropName": "Bunga Ikan Mas- Kuning"
+    },
+    "814": {
+      "CropCode": "FH364",
+      "CropName": "Bunga Ikan Mas- Merah Muda"
+    },
+    "815": {
+      "CropCode": "FH366",
+      "CropName": "Bunga Ikan Mas- Putih"
+    },
+    "816": {
+      "CropCode": "FH368",
+      "CropName": "Bunga Ikan Mas- Dua Warna"
+    },
+    "817": {
+      "CropCode": "FH370",
+      "CropName": "Bunga Seribu Burung"
+    },
+    "818": {
+      "CropCode": "FH375",
+      "CropName": "Bunga Terbang Besar"
+    },
+    "819": {
+      "CropCode": "FH376",
+      "CropName": "Bunga Terbang Kecil"
+    },
+    "820": {
+      "CropCode": "FH380",
+      "CropName": "Bunga Ekor Ayam"
+    },
+    "821": {
+      "CropCode": "FH381",
+      "CropName": "Bunga Kirin"
+    },
+    "822": {
+      "CropCode": "FH390",
+      "CropName": "Rumput Awam"
+    },
+    "823": {
+      "CropCode": "FH395",
+      "CropName": "Bunga Ekor Harimau"
+    },
+    "824": {
+      "CropCode": "FH4",
+      "CropName": "Bunga Teratai-Peras"
+    },
+    "825": {
+      "CropCode": "FH410",
+      "CropName": "Alice-Campuran"
+    },
+    "826": {
+      "CropCode": "FH413",
+      "CropName": "Alice-Kuning"
+    },
+    "827": {
+      "CropCode": "FH416",
+      "CropName": "Alice-Putih"
+    },
+    "828": {
+      "CropCode": "FH417",
+      "CropName": "Alice-Biru Muda"
+    },
+    "829": {
+      "CropCode": "FH418",
+      "CropName": "Alice-Biru Tua"
+    },
+    "830": {
+      "CropCode": "FH420",
+      "CropName": "Bunga Calla"
+    },
+    "831": {
+      "CropCode": "FH421",
+      "CropName": "Calla Alice"
+    },
+    "832": {
+      "CropCode": "FH434",
+      "CropName": "Kunyit-Pink"
+    },
+    "833": {
+      "CropCode": "FH440",
+      "CropName": "Anggrek Kecil-Campuran"
+    },
+    "834": {
+      "CropCode": "FH441",
+      "CropName": "Anggrek Kecil-Merah"
+    },
+    "835": {
+      "CropCode": "FH442",
+      "CropName": "Anggrek Kecil-Jingga"
+    },
+    "836": {
+      "CropCode": "FH443",
+      "CropName": "Anggrek Kecil-Kuning"
+    },
+    "837": {
+      "CropCode": "FH444",
+      "CropName": "Anggrek Kecil-Pink"
+    },
+    "838": {
+      "CropCode": "FH446",
+      "CropName": "Anggrek Kecil-Putih"
+    },
+    "839": {
+      "CropCode": "FH447",
+      "CropName": "Anggrek Kecil-Ungu"
+    },
+    "840": {
+      "CropCode": "FH450",
+      "CropName": "Violet-Satu Petal"
+    },
+    "841": {
+      "CropCode": "FH451",
+      "CropName": "Violet-Dua Petal"
+    },
+    "842": {
+      "CropCode": "FH452",
+      "CropName": "Violet-Dua Petal Merah Muda"
+    },
+    "843": {
+      "CropCode": "FH454",
+      "CropName": "Violet-Dua Petal Pink"
+    },
+    "844": {
+      "CropCode": "FH456",
+      "CropName": "Violet-Dua Petal Putih"
+    },
+    "845": {
+      "CropCode": "FH457",
+      "CropName": "Violet-Dua Petal Ungu Muda"
+    },
+    "846": {
+      "CropCode": "FH458",
+      "CropName": "Violet-Dua Petal Ungu Tua"
+    },
+    "847": {
+      "CropCode": "FH460",
+      "CropName": "Bunga Hidrangea"
+    },
+    "848": {
+      "CropCode": "FH461",
+      "CropName": "Bunga Hidrangea-Merah"
+    },
+    "849": {
+      "CropCode": "FH464",
+      "CropName": "Hydrangea- Pink"
+    },
+    "850": {
+      "CropCode": "FH465",
+      "CropName": "Hydrangea- Green"
+    },
+    "851": {
+      "CropCode": "FH466",
+      "CropName": "Hydrangea- White"
+    },
+    "852": {
+      "CropCode": "FH467",
+      "CropName": "Hydrangea- Blue"
+    },
+    "853": {
+      "CropCode": "FH468",
+      "CropName": "Hydrangea- Light Blue"
+    },
+    "854": {
+      "CropCode": "FH470",
+      "CropName": "Gloxinia"
+    },
+    "855": {
+      "CropCode": "FH480",
+      "CropName": "Gentian"
+    },
+    "856": {
+      "CropCode": "FH485",
+      "CropName": "Bellflower"
+    },
+    "857": {
+      "CropCode": "FH490",
+      "CropName": "Anemone"
+    },
+    "858": {
+      "CropCode": "FH495",
+      "CropName": "Lotus"
+    },
+    "859": {
+      "CropCode": "FH496",
+      "CropName": "Lotus- White"
+    },
+    "860": {
+      "CropCode": "FH497",
+      "CropName": "Lotus- Red"
+    },
+    "861": {
+      "CropCode": "FH498",
+      "CropName": "Lotus- Yellow"
+    },
+    "862": {
+      "CropCode": "FH499",
+      "CropName": "Lotus- Pink"
+    },
+    "863": {
+      "CropCode": "FH500",
+      "CropName": "Hyacinth"
+    },
+    "864": {
+      "CropCode": "FH510",
+      "CropName": "Butterfly Lotus- Mixed Color"
+    },
+    "865": {
+      "CropCode": "FH511",
+      "CropName": "Butterfly Lotus- Red"
+    },
+    "866": {
+      "CropCode": "FH512",
+      "CropName": "Butterfly Lotus- Orange"
+    },
+    "867": {
+      "CropCode": "FH513",
+      "CropName": "Butterfly Lotus- Yellow"
+    },
+    "868": {
+      "CropCode": "FH514",
+      "CropName": "Butterfly Lotus- Pink"
+    },
+    "869": {
+      "CropCode": "FH516",
+      "CropName": "Butterfly Lotus- White"
+    },
+    "870": {
+      "CropCode": "FH521",
+      "CropName": "Aroma- Yellow"
+    },
+    "871": {
+      "CropCode": "FH522",
+      "CropName": "Aroma- White"
+    },
+    "872": {
+      "CropCode": "FH580",
+      "CropName": "Iris"
+    },
+    "873": {
+      "CropCode": "FH600",
+      "CropName": "Wintersweet"
+    },
+    "874": {
+      "CropCode": "FH610",
+      "CropName": "Tulip-Variegated"
+    },
+    "875": {
+      "CropCode": "FH611",
+      "CropName": "Tulip-Red"
+    },
+    "876": {
+      "CropCode": "FH612",
+      "CropName": "Tulip-Orange"
+    },
+    "877": {
+      "CropCode": "FH613",
+      "CropName": "Tulip-Yellow"
+    },
+    "878": {
+      "CropCode": "FH614",
+      "CropName": "Tulip-Pink"
+    },
+    "879": {
+      "CropCode": "FH616",
+      "CropName": "Tulip-White"
+    },
+    "880": {
+      "CropCode": "FH617",
+      "CropName": "Tulip-Purple"
+    },
+    "881": {
+      "CropCode": "FH618",
+      "CropName": "Tulip-Bicolor"
+    },
+    "882": {
+      "CropCode": "FH620",
+      "CropName": "Daffodil"
+    },
+    "883": {
+      "CropCode": "FH626",
+      "CropName": "Peace Lily"
+    },
+    "884": {
+      "CropCode": "FH630",
+      "CropName": "Calla Lily-Variegated"
+    },
+    "885": {
+      "CropCode": "FH631",
+      "CropName": "Calla Lily-Red"
+    },
+    "886": {
+      "CropCode": "FH632",
+      "CropName": "Calla Lily-Orange"
+    },
+    "887": {
+      "CropCode": "FH633",
+      "CropName": "Calla Lily-Yellow"
+    },
+    "888": {
+      "CropCode": "FH634",
+      "CropName": "Calla Lily-Pink"
+    },
+    "889": {
+      "CropCode": "FH635",
+      "CropName": "Calla Lily-Green"
+    },
+    "890": {
+      "CropCode": "FH636",
+      "CropName": "Calla Lily-White"
+    },
+    "891": {
+      "CropCode": "FH637",
+      "CropName": "Calla Lily-Purple"
+    },
+    "892": {
+      "CropCode": "FH638",
+      "CropName": "Calla Lily-Cream"
+    },
+    "893": {
+      "CropCode": "FH640",
+      "CropName": "Water Lily"
+    },
+    "894": {
+      "CropCode": "FH650",
+      "CropName": "Lotus"
+    },
+    "895": {
+      "CropCode": "FH660",
+      "CropName": "Velvet"
+    },
+    "896": {
+      "CropCode": "FH661",
+      "CropName": "Bethlehem Star"
+    },
+    "897": {
+      "CropCode": "FH670",
+      "CropName": "Jasmine"
+    },
+    "898": {
+      "CropCode": "FH673",
+      "CropName": "Triangular Bellflower"
+    },
+    "899": {
+      "CropCode": "FH680",
+      "CropName": "Kembang Kecubung"
+    },
+    "900": {
+      "CropCode": "FH690",
+      "CropName": "Bunga Api"
+    },
+    "901": {
+      "CropCode": "FH700",
+      "CropName": "Bunga Dingding (Mahkota)"
+    },
+    "902": {
+      "CropCode": "FH710",
+      "CropName": "Sakura Gunung"
+    },
+    "903": {
+      "CropCode": "FH717",
+      "CropName": "Sakura Gunung - Kabut Ungu"
+    },
+    "904": {
+      "CropCode": "FH720",
+      "CropName": "Bunga Kerang"
+    },
+    "905": {
+      "CropCode": "FH730",
+      "CropName": "Bunga Hitam"
+    },
+    "906": {
+      "CropCode": "FH740",
+      "CropName": "Bunga Emas"
+    },
+    "907": {
+      "CropCode": "FH750",
+      "CropName": "Bunga Seribu (Bunga Cinta)"
+    },
+    "908": {
+      "CropCode": "FH756",
+      "CropName": "Bunga Seribu Putih Besar"
+    },
+    "909": {
+      "CropCode": "FH757",
+      "CropName": "Bunga Seribu Ungu Besar"
+    },
+    "910": {
+      "CropCode": "FH760",
+      "CropName": "Lili Obor"
+    },
+    "911": {
+      "CropCode": "FH770",
+      "CropName": "Tulip Afrika"
+    },
+    "912": {
+      "CropCode": "FH780",
+      "CropName": "Lili Jagung"
+    },
+    "913": {
+      "CropCode": "FH790",
+      "CropName": "Bunga Bintang Biru"
+    },
+    "914": {
+      "CropCode": "FH794",
+      "CropName": "Bunga Bintang Biru - Merah Muda"
+    },
+    "915": {
+      "CropCode": "FH795",
+      "CropName": "Bunga Bintang Biru - Biru"
+    },
+    "916": {
+      "CropCode": "FH796",
+      "CropName": "Bunga Bintang Biru - Putih"
+    },
+    "917": {
+      "CropCode": "FH800",
+      "CropName": "Mawar - Natal"
+    },
+    "918": {
+      "CropCode": "FH890",
+      "CropName": "Bunga Kanguru"
+    },
+    "919": {
+      "CropCode": "FH900",
+      "CropName": "Bunga Ungu Manis"
+    },
+    "920": {
+      "CropCode": "FI0",
+      "CropName": "Terong - Lainnya"
+    },
+    "921": {
+      "CropCode": "FI1",
+      "CropName": "Terong - Terong Merah"
+    },
+    "922": {
+      "CropCode": "FI2",
+      "CropName": "Terong - Terong Kecil"
+    },
+    "923": {
+      "CropCode": "FI3",
+      "CropName": "Terong - Varietas Jepang"
+    },
+    "924": {
+      "CropCode": "FJ0",
+      "CropName": "Tomat- lainnya"
+    },
+    "925": {
+      "CropCode": "FJ1",
+      "CropName": "Tomat- Black Persimmon"
+    },
+    "926": {
+      "CropCode": "FJ2",
+      "CropName": "Tomat- Pink Persimmon"
+    },
+    "927": {
+      "CropCode": "FJ3",
+      "CropName": "Tomat- Beefsteak"
+    },
+    "928": {
+      "CropCode": "FK0",
+      "CropName": "Paprika- lainnya"
+    },
+    "929": {
+      "CropCode": "FK000",
+      "CropName": "Bunga Matahari"
+    },
+    "930": {
+      "CropCode": "FK001",
+      "CropName": "Bunga Matahari- satu bunga"
+    },
+    "931": {
+      "CropCode": "FK002",
+      "CropName": "Bunga Matahari- dua bunga"
+    },
+    "932": {
+      "CropCode": "FK003",
+      "CropName": "Bunga Matahari- tiga bunga"
+    },
+    "933": {
+      "CropCode": "FK004",
+      "CropName": "Bunga Matahari- empat bunga"
+    },
+    "934": {
+      "CropCode": "FK005",
+      "CropName": "Bunga Matahari- lima bunga"
+    },
+    "935": {
+      "CropCode": "FK009",
+      "CropName": "Bunga Matahari- banyak bunga"
+    },
+    "936": {
+      "CropCode": "FK040",
+      "CropName": "Bunga Matahari- pink"
+    },
+    "937": {
+      "CropCode": "FK041",
+      "CropName": "Bunga Matahari- pink satu bunga"
+    },
+    "938": {
+      "CropCode": "FK042",
+      "CropName": "Bunga Matahari- pink dua bunga"
+    },
+    "939": {
+      "CropCode": "FK043",
+      "CropName": "Bunga Matahari- pink tiga bunga"
+    },
+    "940": {
+      "CropCode": "FK044",
+      "CropName": "Bunga Matahari- pink empat bunga"
+    },
+    "941": {
+      "CropCode": "FK045",
+      "CropName": "Bunga Matahari- pink lima bunga"
+    },
+    "942": {
+      "CropCode": "FK049",
+      "CropName": "Bunga Matahari- pink banyak bunga"
+    },
+    "943": {
+      "CropCode": "FK110",
+      "CropName": "Bunga Matahari- Laura Merah"
+    },
+    "944": {
+      "CropCode": "FK111",
+      "CropName": "Bunga Matahari- Laura Merah satu bunga"
+    },
+    "945": {
+      "CropCode": "FK112",
+      "CropName": "Bunga Matahari- Laura Merah dua bunga"
+    },
+    "946": {
+      "CropCode": "FK113",
+      "CropName": "Bunga Matahari- Laura Merah tiga bunga"
+    },
+    "947": {
+      "CropCode": "FK114",
+      "CropName": "Bunga Matahari- Laura Merah empat bunga"
+    },
+    "948": {
+      "CropCode": "FK115",
+      "CropName": "Bunga Matahari- Laura Merah lima bunga"
+    },
+    "949": {
+      "CropCode": "FK119",
+      "CropName": "Bunga Matahari - Laura Merah Banyak"
+    },
+    "950": {
+      "CropCode": "FK210",
+      "CropName": "Bunga Matahari - Olimpiade Merah"
+    },
+    "951": {
+      "CropCode": "FK211",
+      "CropName": "Bunga Matahari - Olimpiade Merah Satu Bunga"
+    },
+    "952": {
+      "CropCode": "FK212",
+      "CropName": "Bunga Matahari - Olimpiade Merah Dua Bunga"
+    },
+    "953": {
+      "CropCode": "FK213",
+      "CropName": "Bunga Matahari - Olimpiade Merah Tiga Bunga"
+    },
+    "954": {
+      "CropCode": "FK214",
+      "CropName": "Bunga Matahari - Olimpiade Merah Empat Bunga"
+    },
+    "955": {
+      "CropCode": "FK215",
+      "CropName": "Bunga Matahari - Olimpiade Merah Lima Bunga"
+    },
+    "956": {
+      "CropCode": "FK219",
+      "CropName": "Bunga Matahari - Olimpiade Merah Banyak"
+    },
+    "957": {
+      "CropCode": "FK3",
+      "CropName": "Paprika - Rasa Baru"
+    },
+    "958": {
+      "CropCode": "FK310",
+      "CropName": "Bunga Matahari - Merah"
+    },
+    "959": {
+      "CropCode": "FK311",
+      "CropName": "Bunga Matahari - Merah Satu Bunga"
+    },
+    "960": {
+      "CropCode": "FK312",
+      "CropName": "Bunga Matahari - Merah Dua Bunga"
+    },
+    "961": {
+      "CropCode": "FK313",
+      "CropName": "Bunga Matahari - Merah Tiga Bunga"
+    },
+    "962": {
+      "CropCode": "FK314",
+      "CropName": "Bunga Matahari - Merah Empat Bunga"
+    },
+    "963": {
+      "CropCode": "FK315",
+      "CropName": "Bunga Matahari - Merah Lima Bunga"
+    },
+    "964": {
+      "CropCode": "FK319",
+      "CropName": "Bunga Matahari - Merah Banyak"
+    },
+    "965": {
+      "CropCode": "FK340",
+      "CropName": "Bunga Matahari - Mary Pink"
+    },
+    "966": {
+      "CropCode": "FK341",
+      "CropName": "Bunga Matahari - Mary Pink Satu Bunga"
+    },
+    "967": {
+      "CropCode": "FK342",
+      "CropName": "Bunga Matahari - Mary Pink Dua Bunga"
+    },
+    "968": {
+      "CropCode": "FK343",
+      "CropName": "Bunga Matahari - Mary Pink Tiga Bunga"
+    },
+    "969": {
+      "CropCode": "FK344",
+      "CropName": "Bunga Matahari - Mary Pink Empat Bunga"
+    },
+    "970": {
+      "CropCode": "FK345",
+      "CropName": "Bunga Matahari - Mary Pink Lima Bunga"
+    },
+    "971": {
+      "CropCode": "FK349",
+      "CropName": "Bunga Matahari - Mary Pink Banyak"
+    },
+    "972": {
+      "CropCode": "FK4",
+      "CropName": "Paprika - Varietas Berwarna"
+    },
+    "973": {
+      "CropCode": "FK410",
+      "CropName": "Bunga Matahari - Akapulko Merah"
+    },
+    "974": {
+      "CropCode": "FK411",
+      "CropName": "Bunga Matahari - Akapok Merah Tunggal"
+    },
+    "975": {
+      "CropCode": "FK412",
+      "CropName": "Bunga Matahari - Akapok Merah Ganda"
+    },
+    "976": {
+      "CropCode": "FK413",
+      "CropName": "Bunga Matahari - Akapok Merah Tiga"
+    },
+    "977": {
+      "CropCode": "FK414",
+      "CropName": "Bunga Matahari - Akapok Merah Empat"
+    },
+    "978": {
+      "CropCode": "FK415",
+      "CropName": "Bunga Matahari - Akapok Merah Lima"
+    },
+    "979": {
+      "CropCode": "FK419",
+      "CropName": "Bunga Matahari - Akapok Merah Banyak"
+    },
+    "980": {
+      "CropCode": "FK420",
+      "CropName": "Bunga Matahari - Atia"
+    },
+    "981": {
+      "CropCode": "FK421",
+      "CropName": "Bunga Matahari - Atia Tunggal"
+    },
+    "982": {
+      "CropCode": "FK422",
+      "CropName": "Bunga Matahari - Atia Ganda"
+    },
+    "983": {
+      "CropCode": "FK423",
+      "CropName": "Bunga Matahari - Atia Tiga"
+    },
+    "984": {
+      "CropCode": "FK429",
+      "CropName": "Bunga Matahari - Atia Banyak"
+    },
+    "985": {
+      "CropCode": "FK430",
+      "CropName": "Bunga Matahari - Bintang Mary"
+    },
+    "986": {
+      "CropCode": "FK431",
+      "CropName": "Bunga Matahari - Bintang Mary Tunggal"
+    },
+    "987": {
+      "CropCode": "FK432",
+      "CropName": "Bunga Matahari - Bintang Mary Ganda"
+    },
+    "988": {
+      "CropCode": "FK433",
+      "CropName": "Bunga Matahari - Bintang Mary Tiga"
+    },
+    "989": {
+      "CropCode": "FK439",
+      "CropName": "Bunga Matahari - Bintang Mary Banyak"
+    },
+    "990": {
+      "CropCode": "FK440",
+      "CropName": "Rodina"
+    },
+    "991": {
+      "CropCode": "FK441",
+      "CropName": "Rodina - Tunggal"
+    },
+    "992": {
+      "CropCode": "FK442",
+      "CropName": "Rodina - Ganda"
+    },
+    "993": {
+      "CropCode": "FK443",
+      "CropName": "Rodina - Tiga"
+    },
+    "994": {
+      "CropCode": "FK449",
+      "CropName": "Rodina - Banyak"
+    },
+    "995": {
+      "CropCode": "FK450",
+      "CropName": "Kobala"
+    },
+    "996": {
+      "CropCode": "FK451",
+      "CropName": "Kobala - Tunggal"
+    },
+    "997": {
+      "CropCode": "FK452",
+      "CropName": "Kobala - Ganda"
+    },
+    "998": {
+      "CropCode": "FK453",
+      "CropName": "Kobala - Tiga"
+    },
+    "999": {
+      "CropCode": "FK459",
+      "CropName": "Kopra - Banyak Bunga"
+    }
+  },
+  "Next": true
+}

@@ -1,0 +1,4006 @@
+{
+  "RS": "OK",
+  "Data": {
+    "0": {
+      "CropCode": "11",
+      "CropName": "Coconut"
+    },
+    "1": {
+      "CropCode": "119",
+      "CropName": "Coconut - Imported"
+    },
+    "2": {
+      "CropCode": "12",
+      "CropName": "Coconut - Shelled"
+    },
+    "3": {
+      "CropCode": "129",
+      "CropName": "Coconut - Shelled Imported"
+    },
+    "4": {
+      "CropCode": "22",
+      "CropName": "Jujube"
+    },
+    "5": {
+      "CropCode": "229",
+      "CropName": "Jujube - Imported"
+    },
+    "6": {
+      "CropCode": "30",
+      "CropName": "Cherimoya - Others"
+    },
+    "7": {
+      "CropCode": "31",
+      "CropName": "Cherimoya"
+    },
+    "8": {
+      "CropCode": "32",
+      "CropName": "Cherimoya - Pineapple Cherimoya"
+    },
+    "9": {
+      "CropCode": "41",
+      "CropName": "Plum"
+    },
+    "10": {
+      "CropCode": "42",
+      "CropName": "Wax Apple"
+    },
+    "11": {
+      "CropCode": "43",
+      "CropName": "Mulberry"
+    },
+    "12": {
+      "CropCode": "45",
+      "CropName": "Strawberry"
+    },
+    "13": {
+      "CropCode": "459",
+      "CropName": "Strawberry - Imported"
+    },
+    "14": {
+      "CropCode": "46",
+      "CropName": "Blueberry"
+    },
+    "15": {
+      "CropCode": "469",
+      "CropName": "Blueberry - Imported"
+    },
+    "16": {
+      "CropCode": "50",
+      "CropName": "Passion Fruit - Others"
+    },
+    "17": {
+      "CropCode": "51",
+      "CropName": "Passion Fruit - Improved Variety"
+    },
+    "18": {
+      "CropCode": "61",
+      "CropName": "Sugarcane - With Skin"
+    },
+    "19": {
+      "CropCode": "62",
+      "CropName": "Sugarcane - Peeled"
+    },
+    "20": {
+      "CropCode": "70",
+      "CropName": "Cherry Tomato - Others"
+    },
+    "21": {
+      "CropCode": "71",
+      "CropName": "Cherry Tomato - Regular"
+    },
+    "22": {
+      "CropCode": "72",
+      "CropName": "Cherry Tomato - Sweet"
+    },
+    "23": {
+      "CropCode": "73",
+      "CropName": "Cherry Tomato - Cute"
+    },
+    "24": {
+      "CropCode": "74",
+      "CropName": "Cherry Tomato - Jade Girl"
+    },
+    "25": {
+      "CropCode": "811",
+      "CropName": "Dragon Fruit - White Flesh"
+    },
+    "26": {
+      "CropCode": "812",
+      "CropName": "Dragon Fruit - Red Flesh"
+    },
+    "27": {
+      "CropCode": "813",
+      "CropName": "Dragon Fruit - Bicolor Dragon Fruit"
+    },
+    "28": {
+      "CropCode": "819",
+      "CropName": "Dragon Fruit - Imported"
+    },
+    "29": {
+      "CropCode": "82",
+      "CropName": "Dragon Fruit - Red Flesh"
+    },
+    "30": {
+      "CropCode": "829",
+      "CropName": "Honey Date - Imported"
+    },
+    "31": {
+      "CropCode": "83",
+      "CropName": "Jerusalem Artichoke - Snow Lotus Potato"
+    },
+    "32": {
+      "CropCode": "839",
+      "CropName": "Cherry - Imported"
+    },
+    "33": {
+      "CropCode": "84",
+      "CropName": "Pomegranate"
+    },
+    "34": {
+      "CropCode": "849",
+      "CropName": "Pomegranate - Imported"
+    },
+    "35": {
+      "CropCode": "85",
+      "CropName": "Durian"
+    },
+    "36": {
+      "CropCode": "859",
+      "CropName": "Durian - Imported"
+    },
+    "37": {
+      "CropCode": "86",
+      "CropName": "Mangosteen"
+    },
+    "38": {
+      "CropCode": "869",
+      "CropName": "Mangosteen - Imported"
+    },
+    "39": {
+      "CropCode": "87",
+      "CropName": "Rambutan"
+    },
+    "40": {
+      "CropCode": "879",
+      "CropName": "Rambutan - Imported"
+    },
+    "41": {
+      "CropCode": "88",
+      "CropName": "Tree Grape"
+    },
+    "42": {
+      "CropCode": "91",
+      "CropName": "Others"
+    },
+    "43": {
+      "CropCode": "919",
+      "CropName": "Others - Imported"
+    },
+    "44": {
+      "CropCode": "A0",
+      "CropName": "Banana - Others"
+    },
+    "45": {
+      "CropCode": "A1",
+      "CropName": "Banana"
+    },
+    "46": {
+      "CropCode": "A2",
+      "CropName": "Banana - Red Banana"
+    },
+    "47": {
+      "CropCode": "A3",
+      "CropName": "Banana - Dwarf Banana"
+    },
+    "48": {
+      "CropCode": "A4",
+      "CropName": "Banana - Vietnamese Dwarf"
+    },
+    "49": {
+      "CropCode": "B0",
+      "CropName": "Pineapple - Others"
+    },
+    "50": {
+      "CropCode": "B1",
+      "CropName": "Pineapple - Kaiying"
+    },
+    "51": {
+      "CropCode": "B2",
+      "CropName": "Pineapple - Golden Diamond Pineapple"
+    },
+    "52": {
+      "CropCode": "B3",
+      "CropName": "Pineapple - Fragrant Pineapple"
+    },
+    "53": {
+      "CropCode": "B4",
+      "CropName": "Pineapple - Pineapple Flower"
+    },
+    "54": {
+      "CropCode": "B5",
+      "CropName": "Pineapple - Apple Pineapple"
+    },
+    "55": {
+      "CropCode": "B6",
+      "CropName": "Pineapple - Sweet Honey"
+    },
+    "56": {
+      "CropCode": "B7",
+      "CropName": "Pineapple - Milk Pineapple"
+    },
+    "57": {
+      "CropCode": "B8",
+      "CropName": "Pineapple - Watermelon Pineapple"
+    },
+    "58": {
+      "CropCode": "B9",
+      "CropName": "Pineapple - Imported"
+    },
+    "59": {
+      "CropCode": "C0",
+      "CropName": "Citrus - Others"
+    },
+    "60": {
+      "CropCode": "C1",
+      "CropName": "Ponkan"
+    },
+    "61": {
+      "CropCode": "C2",
+      "CropName": "Mogwa Citrus"
+    },
+    "62": {
+      "CropCode": "C3",
+      "CropName": "Tiger Head Citrus"
+    },
+    "63": {
+      "CropCode": "C4",
+      "CropName": "Red Citrus - Beauty Citrus"
+    },
+    "64": {
+      "CropCode": "C5",
+      "CropName": "Wenzhou Citrus"
+    },
+    "65": {
+      "CropCode": "C6",
+      "CropName": "Fleming Citrus"
+    },
+    "66": {
+      "CropCode": "C7",
+      "CropName": "Sunshine Citrus"
+    },
+    "67": {
+      "CropCode": "C8",
+      "CropName": "Pearl Citrus"
+    },
+    "68": {
+      "CropCode": "C9",
+      "CropName": "Citrus - Imported"
+    },
+    "69": {
+      "CropCode": "D1",
+      "CropName": "Barrel Citrus"
+    },
+    "70": {
+      "CropCode": "D2",
+      "CropName": "Sea Pear Citrus"
+    },
+    "71": {
+      "CropCode": "E0",
+      "CropName": "Sweet Orange - Others"
+    },
+    "72": {
+      "CropCode": "E1",
+      "CropName": "Sweet Orange - Navel Orange"
+    },
+    "73": {
+      "CropCode": "E2",
+      "CropName": "Sweet Orange - Late Valencia"
+    },
+    "74": {
+      "CropCode": "E3",
+      "CropName": "Sweet Orange - Red Flesh Orange"
+    },
+    "75": {
+      "CropCode": "E9",
+      "CropName": "Sweet Orange - Imported"
+    },
+    "76": {
+      "CropCode": "F0",
+      "CropName": "Citrus - Others"
+    },
+    "77": {
+      "CropCode": "F1",
+      "CropName": "Citrus - Lemon"
+    },
+    "78": {
+      "CropCode": "F2",
+      "CropName": "Citrus - Kumquat"
+    },
+    "79": {
+      "CropCode": "F4",
+      "CropName": "Citrus - Tangerine"
+    },
+    "80": {
+      "CropCode": "F5",
+      "CropName": "Citrus - Seedless Lemon"
+    },
+    "81": {
+      "CropCode": "F6",
+      "CropName": "Citrus - Golden Lemon"
+    },
+    "82": {
+      "CropCode": "F9",
+      "CropName": "Citrus - Imported"
+    },
+    "83": {
+      "CropCode": "FA0",
+      "CropName": "Other Flowers"
+    },
+    "84": {
+      "CropCode": "FA000",
+      "CropName": "Carnation - Medium and Large Mixed"
+    },
+    "85": {
+      "CropCode": "FA001",
+      "CropName": "Carnation - Mixed Colors"
+    },
+    "86": {
+      "CropCode": "FA1",
+      "CropName": "Yellow Okra"
+    },
+    "87": {
+      "CropCode": "FA100",
+      "CropName": "Carnation - Red"
+    },
+    "88": {
+      "CropCode": "FA101",
+      "CropName": "Carnation - Light Red"
+    },
+    "89": {
+      "CropCode": "FA102",
+      "CropName": "Carnation - Dark Red"
+    },
+    "90": {
+      "CropCode": "FA103",
+      "CropName": "Carnation - Orange Red"
+    },
+    "91": {
+      "CropCode": "FA104",
+      "CropName": "Carnation - Cherry Red"
+    },
+    "92": {
+      "CropCode": "FA120",
+      "CropName": "Carnation - Red Feather"
+    },
+    "93": {
+      "CropCode": "FA2",
+      "CropName": "Fan Flower"
+    },
+    "94": {
+      "CropCode": "FA200",
+      "CropName": "Carnation - Orange"
+    },
+    "95": {
+      "CropCode": "FA220",
+      "CropName": "Carnation - Orange Feather"
+    },
+    "96": {
+      "CropCode": "FA300",
+      "CropName": "Carnation - Yellow"
+    },
+    "97": {
+      "CropCode": "FA301",
+      "CropName": "Carnation - Dark Yellow"
+    },
+    "98": {
+      "CropCode": "FA302",
+      "CropName": "Carnation - Light Yellow"
+    },
+    "99": {
+      "CropCode": "FA303",
+      "CropName": "Carnation - Orange Yellow"
+    },
+    "100": {
+      "CropCode": "FA304",
+      "CropName": "Carnation - Bicolor Gold Red"
+    },
+    "101": {
+      "CropCode": "FA320",
+      "CropName": "Carnation - Yellow Feather"
+    },
+    "102": {
+      "CropCode": "FA4",
+      "CropName": "Queen Flower"
+    },
+    "103": {
+      "CropCode": "FA400",
+      "CropName": "Carnation - Pink"
+    },
+    "104": {
+      "CropCode": "FA401",
+      "CropName": "Carnation - Deep Pink"
+    },
+    "105": {
+      "CropCode": "FA402",
+      "CropName": "Carnation - Light Pink"
+    },
+    "106": {
+      "CropCode": "FA403",
+      "CropName": "Carnation - Thin Pink"
+    },
+    "107": {
+      "CropCode": "FA420",
+      "CropName": "Carnation - Pink Feather"
+    },
+    "108": {
+      "CropCode": "FA500",
+      "CropName": "Carnation - Green"
+    },
+    "109": {
+      "CropCode": "FA501",
+      "CropName": "Carnation - Apple Green"
+    },
+    "110": {
+      "CropCode": "FA600",
+      "CropName": "Carnation - White"
+    },
+    "111": {
+      "CropCode": "FA601",
+      "CropName": "Carnation - Pure White"
+    },
+    "112": {
+      "CropCode": "FA602",
+      "CropName": "Carnation - Milk White"
+    },
+    "113": {
+      "CropCode": "FA603",
+      "CropName": "Carnation - White with Red"
+    },
+    "114": {
+      "CropCode": "FA604",
+      "CropName": "Carnation - Yellow with Purple"
+    },
+    "115": {
+      "CropCode": "FA605",
+      "CropName": "Carnation - White with Purple"
+    },
+    "116": {
+      "CropCode": "FA606",
+      "CropName": "Carnation - Yellow with Red"
+    },
+    "117": {
+      "CropCode": "FA607",
+      "CropName": "Carnation - Pink with Red"
+    },
+    "118": {
+      "CropCode": "FA608",
+      "CropName": "Carnation - Pink with White"
+    },
+    "119": {
+      "CropCode": "FA609",
+      "CropName": "Carnation - Pink with Purple"
+    },
+    "120": {
+      "CropCode": "FA700",
+      "CropName": "Carnation - Purple"
+    },
+    "121": {
+      "CropCode": "FA701",
+      "CropName": "Carnation - Purple with White"
+    },
+    "122": {
+      "CropCode": "FA800",
+      "CropName": "Carnation - Multiple Flowers (Mixed Color)"
+    },
+    "123": {
+      "CropCode": "FA810",
+      "CropName": "Carnation - Multiple Flowers Red"
+    },
+    "124": {
+      "CropCode": "FA811",
+      "CropName": "Carnation - Many Flowering Cherry Red"
+    },
+    "125": {
+      "CropCode": "FA812",
+      "CropName": "Carnation - Persian Peach Red"
+    },
+    "126": {
+      "CropCode": "FA813",
+      "CropName": "Carnation - Polaro"
+    },
+    "127": {
+      "CropCode": "FA814",
+      "CropName": "Carnation - Satisfaction"
+    },
+    "128": {
+      "CropCode": "FA815",
+      "CropName": "Carnation - Light Kiss"
+    },
+    "129": {
+      "CropCode": "FA820",
+      "CropName": "Carnation - Many Flowering Orange"
+    },
+    "130": {
+      "CropCode": "FA830",
+      "CropName": "Carnation - Many Flowering Yellow"
+    },
+    "131": {
+      "CropCode": "FA840",
+      "CropName": "Carnation - Many Flowering Pink"
+    },
+    "132": {
+      "CropCode": "FA841",
+      "CropName": "Carnation - Many Flowering Light Pink"
+    },
+    "133": {
+      "CropCode": "FA842",
+      "CropName": "Carnation - Swan Pink"
+    },
+    "134": {
+      "CropCode": "FA843",
+      "CropName": "Carnation - Latte"
+    },
+    "135": {
+      "CropCode": "FA844",
+      "CropName": "Carnation - Nina"
+    },
+    "136": {
+      "CropCode": "FA845",
+      "CropName": "Carnation - Melissa"
+    },
+    "137": {
+      "CropCode": "FA851",
+      "CropName": "Carnation - Apple Green"
+    },
+    "138": {
+      "CropCode": "FA860",
+      "CropName": "Carnation - Many Flowering White"
+    },
+    "139": {
+      "CropCode": "FA861",
+      "CropName": "Carnation - White Iron Nuo"
+    },
+    "140": {
+      "CropCode": "FA862",
+      "CropName": "Carnation - White Crystal"
+    },
+    "141": {
+      "CropCode": "FA870",
+      "CropName": "Carnation - Many Flowering Purple"
+    },
+    "142": {
+      "CropCode": "FA871",
+      "CropName": "Carnation - Fairy Purple"
+    },
+    "143": {
+      "CropCode": "FA872",
+      "CropName": "Carnation - Sport"
+    },
+    "144": {
+      "CropCode": "FA881",
+      "CropName": "Carnation - Many Flowering Red with White"
+    },
+    "145": {
+      "CropCode": "FA882",
+      "CropName": "Carnation - Many Flowering Red with Pink"
+    },
+    "146": {
+      "CropCode": "FA883",
+      "CropName": "Carnation - Many Flowering Orange with Red"
+    },
+    "147": {
+      "CropCode": "FA884",
+      "CropName": "Carnation - Many Flowering Yellow with Red"
+    },
+    "148": {
+      "CropCode": "FA885",
+      "CropName": "Carnation - Many Flowering Yellow with Purple"
+    },
+    "149": {
+      "CropCode": "FA886",
+      "CropName": "Carnation - Multi-bloom White with Red"
+    },
+    "150": {
+      "CropCode": "FA887",
+      "CropName": "Carnation - Multi-bloom White with Purple"
+    },
+    "151": {
+      "CropCode": "FA9",
+      "CropName": "Berry - Imported"
+    },
+    "152": {
+      "CropCode": "FA900",
+      "CropName": "Little Cutie - (Mixed Color)"
+    },
+    "153": {
+      "CropCode": "FA910",
+      "CropName": "Little Cutie - Red"
+    },
+    "154": {
+      "CropCode": "FA920",
+      "CropName": "Little Cutie - Orange"
+    },
+    "155": {
+      "CropCode": "FA930",
+      "CropName": "Little Cutie - Yellow"
+    },
+    "156": {
+      "CropCode": "FA940",
+      "CropName": "Little Cutie - Pink"
+    },
+    "157": {
+      "CropCode": "FA960",
+      "CropName": "Little Cutie - White"
+    },
+    "158": {
+      "CropCode": "FA970",
+      "CropName": "Little Cutie - Purple"
+    },
+    "159": {
+      "CropCode": "FA980",
+      "CropName": "Beautiful Nadeshiko"
+    },
+    "160": {
+      "CropCode": "FA981",
+      "CropName": "Hydrangea Nadeshiko - Red"
+    },
+    "161": {
+      "CropCode": "FA984",
+      "CropName": "Hydrangea Nadeshiko - Pink"
+    },
+    "162": {
+      "CropCode": "FA985",
+      "CropName": "Hydrangea Nadeshiko - Green Carnation"
+    },
+    "163": {
+      "CropCode": "FA986",
+      "CropName": "Hydrangea Nadeshiko - White"
+    },
+    "164": {
+      "CropCode": "FA987",
+      "CropName": "Hydrangea Nadeshiko - Purple"
+    },
+    "165": {
+      "CropCode": "FA988",
+      "CropName": "Hydrangea Nadeshiko - Bicolor"
+    },
+    "166": {
+      "CropCode": "FA989",
+      "CropName": "Hydrangea Nadeshiko - Purple Red"
+    },
+    "167": {
+      "CropCode": "FA990",
+      "CropName": "Hydrangea Nadeshiko - Purple White"
+    },
+    "168": {
+      "CropCode": "FB0",
+      "CropName": "Cauliflower - Others"
+    },
+    "169": {
+      "CropCode": "FB000",
+      "CropName": "Anthurium"
+    },
+    "170": {
+      "CropCode": "FB001",
+      "CropName": "Anthurium - Mixed Color"
+    },
+    "171": {
+      "CropCode": "FB1",
+      "CropName": "Cauliflower - Green Stem"
+    },
+    "172": {
+      "CropCode": "FB100",
+      "CropName": "Anthurium - Red"
+    },
+    "173": {
+      "CropCode": "FB101",
+      "CropName": "Anthurium - Red Heart"
+    },
+    "174": {
+      "CropCode": "FB102",
+      "CropName": "Anthurium - Red Yellow Heart"
+    },
+    "175": {
+      "CropCode": "FB103",
+      "CropName": "Anthurium - Red Green Heart"
+    },
+    "176": {
+      "CropCode": "FB104",
+      "CropName": "Anthurium - Small Ear"
+    },
+    "177": {
+      "CropCode": "FB105",
+      "CropName": "Anthurium - Red Green Edge"
+    },
+    "178": {
+      "CropCode": "FB106",
+      "CropName": "Anthurium - Cupid"
+    },
+    "179": {
+      "CropCode": "FB107",
+      "CropName": "Anthurium - Alice"
+    },
+    "180": {
+      "CropCode": "FB108",
+      "CropName": "Anthurium - Trinidad"
+    },
+    "181": {
+      "CropCode": "FB109",
+      "CropName": "Anthurium - Friend"
+    },
+    "182": {
+      "CropCode": "FB11",
+      "CropName": "Cauliflower - Green Stem"
+    },
+    "183": {
+      "CropCode": "FB110",
+      "CropName": "Anthurium - Jupiter"
+    },
+    "184": {
+      "CropCode": "FB111",
+      "CropName": "Anthurium - Moonlight"
+    },
+    "185": {
+      "CropCode": "FB112",
+      "CropName": "Anthurium - First Red"
+    },
+    "186": {
+      "CropCode": "FB113",
+      "CropName": "Anthurium - Red Bell"
+    },
+    "187": {
+      "CropCode": "FB114",
+      "CropName": "Anthurium - Red Star"
+    },
+    "188": {
+      "CropCode": "FB115",
+      "CropName": "Anthurium - Venus"
+    },
+    "189": {
+      "CropCode": "FB12",
+      "CropName": "Cauliflower - Green Stem"
+    },
+    "190": {
+      "CropCode": "FB2",
+      "CropName": "Cauliflower - White Stem"
+    },
+    "191": {
+      "CropCode": "FB200",
+      "CropName": "Anthurium - Orange"
+    },
+    "192": {
+      "CropCode": "FB201",
+      "CropName": "Anthurium - Orange Green Edge"
+    },
+    "193": {
+      "CropCode": "FB21",
+      "CropName": "Cauliflower - White Stem"
+    },
+    "194": {
+      "CropCode": "FB22",
+      "CropName": "Cauliflower - White Stem"
+    },
+    "195": {
+      "CropCode": "FB301",
+      "CropName": "Anthurium - Golden Dragon"
+    },
+    "196": {
+      "CropCode": "FB302",
+      "CropName": "Anthurium - Yellow Mary"
+    },
+    "197": {
+      "CropCode": "FB400",
+      "CropName": "Anthurium - Pink"
+    },
+    "198": {
+      "CropCode": "FB401",
+      "CropName": "Anthurium - Summer Pink"
+    },
+    "199": {
+      "CropCode": "FB402",
+      "CropName": "Anthurium - Lotus Pink"
+    },
+    "200": {
+      "CropCode": "FB403",
+      "CropName": "Anthurium - Coral Pink"
+    },
+    "201": {
+      "CropCode": "FB404",
+      "CropName": "Anthurium - Pink Bride"
+    },
+    "202": {
+      "CropCode": "FB405",
+      "CropName": "Anthurium - Pink Green Edge"
+    },
+    "203": {
+      "CropCode": "FB406",
+      "CropName": "Anthurium - Pink Princess"
+    },
+    "204": {
+      "CropCode": "FB407",
+      "CropName": "Anthurium - Dreamy"
+    },
+    "205": {
+      "CropCode": "FB408",
+      "CropName": "Anthurium - Pink Beauty"
+    },
+    "206": {
+      "CropCode": "FB409",
+      "CropName": "Anthurium - Sprite Pink"
+    },
+    "207": {
+      "CropCode": "FB410",
+      "CropName": "Anthurium - Queen"
+    },
+    "208": {
+      "CropCode": "FB411",
+      "CropName": "Anthurium - Princess"
+    },
+    "209": {
+      "CropCode": "FB412",
+      "CropName": "Anthurium - President"
+    },
+    "210": {
+      "CropCode": "FB413",
+      "CropName": "Anthurium - Goddess"
+    },
+    "211": {
+      "CropCode": "FB415",
+      "CropName": "Anthurium - Rosa"
+    },
+    "212": {
+      "CropCode": "FB416",
+      "CropName": "Anthurium - Flower Fairy"
+    },
+    "213": {
+      "CropCode": "FB417",
+      "CropName": "Anthurium - Rainbow"
+    },
+    "214": {
+      "CropCode": "FB418",
+      "CropName": "Anthurium - Passion Pink"
+    },
+    "215": {
+      "CropCode": "FB419",
+      "CropName": "Anthurium - Tai Chi"
+    },
+    "216": {
+      "CropCode": "FB420",
+      "CropName": "Anthurium - Cranberry"
+    },
+    "217": {
+      "CropCode": "FB421",
+      "CropName": "Anthurium - Sonata"
+    },
+    "218": {
+      "CropCode": "FB422",
+      "CropName": "Anthurium - Lover"
+    },
+    "219": {
+      "CropCode": "FB423",
+      "CropName": "Anthurium - Honey Beauty"
+    },
+    "220": {
+      "CropCode": "FB424",
+      "CropName": "Anthurium - Miracle"
+    },
+    "221": {
+      "CropCode": "FB425",
+      "CropName": "Anthurium - Auspicious"
+    },
+    "222": {
+      "CropCode": "FB426",
+      "CropName": "Anthurium - Pink Lace"
+    },
+    "223": {
+      "CropCode": "FB500",
+      "CropName": "Anthurium - Emerald Green"
+    },
+    "224": {
+      "CropCode": "FB501",
+      "CropName": "Anthurium - Apple Green"
+    },
+    "225": {
+      "CropCode": "FB502",
+      "CropName": "Anthurium - Green Red Heart"
+    },
+    "226": {
+      "CropCode": "FB503",
+      "CropName": "Anthurium - Green Girl"
+    },
+    "227": {
+      "CropCode": "FB504",
+      "CropName": "Anthurium - Raymena"
+    },
+    "228": {
+      "CropCode": "FB505",
+      "CropName": "Anthurium - Champagne"
+    },
+    "229": {
+      "CropCode": "FB506",
+      "CropName": "Anthurium - Green Gem"
+    },
+    "230": {
+      "CropCode": "FB507",
+      "CropName": "Anthurium - Green Elf"
+    },
+    "231": {
+      "CropCode": "FB508",
+      "CropName": "Anthurium - Azure Dragon"
+    },
+    "232": {
+      "CropCode": "FB509",
+      "CropName": "Anthurium - Forest"
+    },
+    "233": {
+      "CropCode": "FB600",
+      "CropName": "Anthurium - White"
+    },
+    "234": {
+      "CropCode": "FB601",
+      "CropName": "Anthurium - White Blue Heart"
+    },
+    "235": {
+      "CropCode": "FB602",
+      "CropName": "Anthurium - White Yellow Heart"
+    },
+    "236": {
+      "CropCode": "FB603",
+      "CropName": "Anthurium - White Red Heart"
+    },
+    "237": {
+      "CropCode": "FB604",
+      "CropName": "Anthurium - White Green Edge"
+    },
+    "238": {
+      "CropCode": "FB605",
+      "CropName": "Anthurium - Carnival"
+    },
+    "239": {
+      "CropCode": "FB606",
+      "CropName": "Anthurium - Simba"
+    },
+    "240": {
+      "CropCode": "FB607",
+      "CropName": "Anthurium - Moon Goddess"
+    },
+    "241": {
+      "CropCode": "FB608",
+      "CropName": "Anthurium - Love"
+    },
+    "242": {
+      "CropCode": "FB700",
+      "CropName": "Anthurium - Purple"
+    },
+    "243": {
+      "CropCode": "FB701",
+      "CropName": "Anthurium - Supersonic"
+    },
+    "244": {
+      "CropCode": "FB702",
+      "CropName": "Anthurium - Caesar"
+    },
+    "245": {
+      "CropCode": "FB800",
+      "CropName": "Anthurium - Coffee Red"
+    },
+    "246": {
+      "CropCode": "FB801",
+      "CropName": "Anthurium - Coffee Striped"
+    },
+    "247": {
+      "CropCode": "FB802",
+      "CropName": "Anthurium - Earth"
+    },
+    "248": {
+      "CropCode": "FB803",
+      "CropName": "Anthurium - Chocolate"
+    },
+    "249": {
+      "CropCode": "FB804",
+      "CropName": "Anthurium - Black Beauty"
+    },
+    "250": {
+      "CropCode": "FB805",
+      "CropName": "Anthurium - Black Pearl"
+    },
+    "251": {
+      "CropCode": "FB9",
+      "CropName": "Cauliflower - Imported"
+    },
+    "252": {
+      "CropCode": "FC000",
+      "CropName": "Chrysanthemum"
+    },
+    "253": {
+      "CropCode": "FC001",
+      "CropName": "Chrysanthemum - Mixed Color"
+    },
+    "254": {
+      "CropCode": "FC1",
+      "CropName": "Cucumber - Black Spine"
+    },
+    "255": {
+      "CropCode": "FC100",
+      "CropName": "Chrysanthemum - Red"
+    },
+    "256": {
+      "CropCode": "FC101",
+      "CropName": "Chrysanthemum - Sunlight"
+    },
+    "257": {
+      "CropCode": "FC102",
+      "CropName": "Chrysanthemum - British Red"
+    },
+    "258": {
+      "CropCode": "FC103",
+      "CropName": "Chrysanthemum - German Red"
+    },
+    "259": {
+      "CropCode": "FC104",
+      "CropName": "Chrysanthemum - Red Initial Phoenix"
+    },
+    "260": {
+      "CropCode": "FC105",
+      "CropName": "Chrysanthemum - Hong Kong Red"
+    },
+    "261": {
+      "CropCode": "FC106",
+      "CropName": "Chrysanthemum - New Power Red"
+    },
+    "262": {
+      "CropCode": "FC107",
+      "CropName": "Chrysanthemum - Red Phoenix"
+    },
+    "263": {
+      "CropCode": "FC108",
+      "CropName": "Chrysanthemum - Red Concubine"
+    },
+    "264": {
+      "CropCode": "FC109",
+      "CropName": "Chrysanthemum - Curry Red"
+    },
+    "265": {
+      "CropCode": "FC110",
+      "CropName": "Chrysanthemum - Fairy Peach Light"
+    },
+    "266": {
+      "CropCode": "FC111",
+      "CropName": "Chrysanthemum - Spring of Colors"
+    },
+    "267": {
+      "CropCode": "FC112",
+      "CropName": "Chrysanthemum - Hard Branch Red"
+    },
+    "268": {
+      "CropCode": "FC113",
+      "CropName": "Chrysanthemum - Peach Boy"
+    },
+    "269": {
+      "CropCode": "FC115",
+      "CropName": "Chrysanthemum - New Pink"
+    },
+    "270": {
+      "CropCode": "FC116",
+      "CropName": "Chrysanthemum - Flower Palace"
+    },
+    "271": {
+      "CropCode": "FC117",
+      "CropName": "Chrysanthemum - Red Show Phoenix"
+    },
+    "272": {
+      "CropCode": "FC118",
+      "CropName": "Chrysanthemum - Red Rose"
+    },
+    "273": {
+      "CropCode": "FC130",
+      "CropName": "Chrysanthemum - Noodle Flower Red"
+    },
+    "274": {
+      "CropCode": "FC2",
+      "CropName": "Cucumber - Improved Variety"
+    },
+    "275": {
+      "CropCode": "FC200",
+      "CropName": "Chrysanthemum - Gold"
+    },
+    "276": {
+      "CropCode": "FC201",
+      "CropName": "Chrysanthemum - Gold Initial Phoenix"
+    },
+    "277": {
+      "CropCode": "FC202",
+      "CropName": "Chrysanthemum - Elite Gold"
+    },
+    "278": {
+      "CropCode": "FC204",
+      "CropName": "Chrysanthemum - Wonderful Heart"
+    },
+    "279": {
+      "CropCode": "FC205",
+      "CropName": "Chrysanthemum - Gold Sa"
+    },
+    "280": {
+      "CropCode": "FC206",
+      "CropName": "Chrysanthemum - Golden Voice"
+    },
+    "281": {
+      "CropCode": "FC207",
+      "CropName": "Chrysanthemum - Rosano Orange"
+    },
+    "282": {
+      "CropCode": "FC208",
+      "CropName": "Chrysanthemum - Firework Orange"
+    },
+    "283": {
+      "CropCode": "FC300",
+      "CropName": "Chrysanthemum - Yellow"
+    },
+    "284": {
+      "CropCode": "FC301",
+      "CropName": "Chrysanthemum - Yellow Show Phoenix"
+    },
+    "285": {
+      "CropCode": "FC302",
+      "CropName": "Chrysanthemum - World One"
+    },
+    "286": {
+      "CropCode": "FC303",
+      "CropName": "Chrysanthemum - Winter King"
+    },
+    "287": {
+      "CropCode": "FC304",
+      "CropName": "Chrysanthemum - New Queen"
+    },
+    "288": {
+      "CropCode": "FC305",
+      "CropName": "Chrysanthemum - Goose Queen"
+    },
+    "289": {
+      "CropCode": "FC306",
+      "CropName": "Chrysanthemum - Japanese Yellow"
+    },
+    "290": {
+      "CropCode": "FC307",
+      "CropName": "Chrysanthemum - Papaya Yellow"
+    },
+    "291": {
+      "CropCode": "FC308",
+      "CropName": "Chrysanthemum - New Variety Yellow"
+    },
+    "292": {
+      "CropCode": "FC309",
+      "CropName": "Chrysanthemum - Yellow East Asia"
+    },
+    "293": {
+      "CropCode": "FC310",
+      "CropName": "Chrysanthemum - New East Asia"
+    },
+    "294": {
+      "CropCode": "FC311",
+      "CropName": "Chrysanthemum - Yellow Moon Friend"
+    },
+    "295": {
+      "CropCode": "FC312",
+      "CropName": "Chrysanthemum - Sharp Leaf Yellow"
+    },
+    "296": {
+      "CropCode": "FC313",
+      "CropName": "Chrysanthemum - Dwarf Yellow"
+    },
+    "297": {
+      "CropCode": "FC314",
+      "CropName": "Chrysanthemum - Yellow T-shaped Chrysanthemum"
+    },
+    "298": {
+      "CropCode": "FC315",
+      "CropName": "Chrysanthemum - Green Heart Yellow"
+    },
+    "299": {
+      "CropCode": "FC316",
+      "CropName": "Large Chrysanthemum - Yellow Essence Competition"
+    },
+    "300": {
+      "CropCode": "FC317",
+      "CropName": "Large Chrysanthemum - Big Head Yellow"
+    },
+    "301": {
+      "CropCode": "FC318",
+      "CropName": "Large Chrysanthemum - Yellow Dongyang"
+    },
+    "302": {
+      "CropCode": "FC319",
+      "CropName": "Large Chrysanthemum - Golden Sands Yellow"
+    },
+    "303": {
+      "CropCode": "FC320",
+      "CropName": "Large Chrysanthemum - Shama Cream Yellow"
+    },
+    "304": {
+      "CropCode": "FC330",
+      "CropName": "Large Chrysanthemum - Yellow Noodle Chrysanthemum"
+    },
+    "305": {
+      "CropCode": "FC345",
+      "CropName": "Large Chrysanthemum - Yellow Sibule"
+    },
+    "306": {
+      "CropCode": "FC350",
+      "CropName": "Large Chrysanthemum - Yellow Ping Pong"
+    },
+    "307": {
+      "CropCode": "FC380",
+      "CropName": "Large Chrysanthemum - Yellow Bayuan"
+    },
+    "308": {
+      "CropCode": "FC400",
+      "CropName": "Large Chrysanthemum - Pink"
+    },
+    "309": {
+      "CropCode": "FC401",
+      "CropName": "Large Chrysanthemum - Apricot Red"
+    },
+    "310": {
+      "CropCode": "FC402",
+      "CropName": "Large Chrysanthemum - Elite Pink"
+    },
+    "311": {
+      "CropCode": "FC403",
+      "CropName": "Large Chrysanthemum - Signature Pink"
+    },
+    "312": {
+      "CropCode": "FC404",
+      "CropName": "Large Chrysanthemum - Pink Early Phoenix"
+    },
+    "313": {
+      "CropCode": "FC405",
+      "CropName": "Large Chrysanthemum - Thousand Taiwan Ying"
+    },
+    "314": {
+      "CropCode": "FC406",
+      "CropName": "Large Chrysanthemum - Flat Head Pink"
+    },
+    "315": {
+      "CropCode": "FC407",
+      "CropName": "Large Chrysanthemum - Hard Stem Pink"
+    },
+    "316": {
+      "CropCode": "FC408",
+      "CropName": "Large Chrysanthemum - Pink Ping Pong"
+    },
+    "317": {
+      "CropCode": "FC409",
+      "CropName": "Large Chrysanthemum - Pink Crown"
+    },
+    "318": {
+      "CropCode": "FC410",
+      "CropName": "Large Chrysanthemum - Rosano Pink"
+    },
+    "319": {
+      "CropCode": "FC411",
+      "CropName": "Large Chrysanthemum - Rosano Pink Green"
+    },
+    "320": {
+      "CropCode": "FC480",
+      "CropName": "Large Chrysanthemum - Pink Bayuan"
+    },
+    "321": {
+      "CropCode": "FC500",
+      "CropName": "Large Chrysanthemum - Green"
+    },
+    "322": {
+      "CropCode": "FC501",
+      "CropName": "Large Chrysanthemum - Green Silk Chrysanthemum"
+    },
+    "323": {
+      "CropCode": "FC502",
+      "CropName": "Large Chrysanthemum - Anna Deep Green"
+    },
+    "324": {
+      "CropCode": "FC508",
+      "CropName": "Large Chrysanthemum - Green Ping Pong"
+    },
+    "325": {
+      "CropCode": "FC509",
+      "CropName": "Large Chrysanthemum - Unique Dense Green Ping Pong"
+    },
+    "326": {
+      "CropCode": "FC600",
+      "CropName": "Large Chrysanthemum - White"
+    },
+    "327": {
+      "CropCode": "FC601",
+      "CropName": "Large Chrysanthemum - Japanese White"
+    },
+    "328": {
+      "CropCode": "FC602",
+      "CropName": "Large Chrysanthemum - White General"
+    },
+    "329": {
+      "CropCode": "FC603",
+      "CropName": "Large Chrysanthemum - White Jade"
+    },
+    "330": {
+      "CropCode": "FC604",
+      "CropName": "Large Chrysanthemum - White Collar"
+    },
+    "331": {
+      "CropCode": "FC605",
+      "CropName": "Large Chrysanthemum - White Phoenix"
+    },
+    "332": {
+      "CropCode": "FC606",
+      "CropName": "Large Chrysanthemum - Elite White"
+    },
+    "333": {
+      "CropCode": "FC607",
+      "CropName": "Large Chrysanthemum - Big Head White"
+    },
+    "334": {
+      "CropCode": "FC608",
+      "CropName": "Large Chrysanthemum - White Ping Pong"
+    },
+    "335": {
+      "CropCode": "FC609",
+      "CropName": "Large Chrysanthemum - White Oriental"
+    },
+    "336": {
+      "CropCode": "FC610",
+      "CropName": "Large Chrysanthemum - T-shaped Chrysanthemum"
+    },
+    "337": {
+      "CropCode": "FC611",
+      "CropName": "Large Chrysanthemum - White Show Phoenix"
+    },
+    "338": {
+      "CropCode": "FC612",
+      "CropName": "Large Chrysanthemum - White Snow Mountain"
+    },
+    "339": {
+      "CropCode": "FC613",
+      "CropName": "Large Chrysanthemum - White Star"
+    },
+    "340": {
+      "CropCode": "FC614",
+      "CropName": "Large Chrysanthemum - Cloud Water"
+    },
+    "341": {
+      "CropCode": "FC615",
+      "CropName": "Large Chrysanthemum - King"
+    },
+    "342": {
+      "CropCode": "FC616",
+      "CropName": "Large Chrysanthemum - White Peony"
+    },
+    "343": {
+      "CropCode": "FC617",
+      "CropName": "Large Chrysanthemum - Messi"
+    },
+    "344": {
+      "CropCode": "FC618",
+      "CropName": "Large Chrysanthemum - Lidenik"
+    },
+    "345": {
+      "CropCode": "FC630",
+      "CropName": "Large Chrysanthemum - White Noodle Chrysanthemum"
+    },
+    "346": {
+      "CropCode": "FC645",
+      "CropName": "Large Chrysanthemum - White Sublet"
+    },
+    "347": {
+      "CropCode": "FC680",
+      "CropName": "Large Chrysanthemum - White Eight Yuan"
+    },
+    "348": {
+      "CropCode": "FC800",
+      "CropName": "Large Chrysanthemum - Dyed Large Chrysanthemum"
+    },
+    "349": {
+      "CropCode": "FC801",
+      "CropName": "Dyeing Chrysanthemum - King"
+    },
+    "350": {
+      "CropCode": "FC802",
+      "CropName": "Dyeing Chrysanthemum - Bardika"
+    },
+    "351": {
+      "CropCode": "FC803",
+      "CropName": "Dyeing Chrysanthemum - Peony"
+    },
+    "352": {
+      "CropCode": "FC804",
+      "CropName": "Dyeing Chrysanthemum - White Star"
+    },
+    "353": {
+      "CropCode": "FC805",
+      "CropName": "Dyeing Chrysanthemum - White Oriental"
+    },
+    "354": {
+      "CropCode": "FC806",
+      "CropName": "Dyeing Chrysanthemum - Shama"
+    },
+    "355": {
+      "CropCode": "FC807",
+      "CropName": "Dyeing Chrysanthemum - Macy"
+    },
+    "356": {
+      "CropCode": "FD0",
+      "CropName": "Flower Gourd - Others"
+    },
+    "357": {
+      "CropCode": "FD000",
+      "CropName": "Small Chrysanthemum"
+    },
+    "358": {
+      "CropCode": "FD001",
+      "CropName": "Small Chrysanthemum - Mixed Color"
+    },
+    "359": {
+      "CropCode": "FD1",
+      "CropName": "Flower Gourd"
+    },
+    "360": {
+      "CropCode": "FD100",
+      "CropName": "Small Chrysanthemum - Red"
+    },
+    "361": {
+      "CropCode": "FD101",
+      "CropName": "Small Chrysanthemum - Red Phoenix"
+    },
+    "362": {
+      "CropCode": "FD102",
+      "CropName": "Small Chrysanthemum - Red Flower Girl"
+    },
+    "363": {
+      "CropCode": "FD103",
+      "CropName": "Small Chrysanthemum - Hollow Red"
+    },
+    "364": {
+      "CropCode": "FD104",
+      "CropName": "Small Chrysanthemum - Red Copper Coin"
+    },
+    "365": {
+      "CropCode": "FD105",
+      "CropName": "Small Chrysanthemum - Red Early Morning"
+    },
+    "366": {
+      "CropCode": "FD106",
+      "CropName": "Small Chrysanthemum - Red Flame"
+    },
+    "367": {
+      "CropCode": "FD107",
+      "CropName": "Small Chrysanthemum - Big New Red"
+    },
+    "368": {
+      "CropCode": "FD109",
+      "CropName": "Small Chrysanthemum - Sun Heat Small Red"
+    },
+    "369": {
+      "CropCode": "FD110",
+      "CropName": "Small Chrysanthemum - Coffee Small Red"
+    },
+    "370": {
+      "CropCode": "FD111",
+      "CropName": "Small Chrysanthemum - Curry Small Red"
+    },
+    "371": {
+      "CropCode": "FD112",
+      "CropName": "Small Chrysanthemum - Red Yunnan Chrysanthemum"
+    },
+    "372": {
+      "CropCode": "FD113",
+      "CropName": "Small Chrysanthemum - Japanese Small Red"
+    },
+    "373": {
+      "CropCode": "FD114",
+      "CropName": "Small Chrysanthemum - Peach Boy"
+    },
+    "374": {
+      "CropCode": "FD115",
+      "CropName": "Small Chrysanthemum - Red Initial Phoenix"
+    },
+    "375": {
+      "CropCode": "FD116",
+      "CropName": "Small Chrysanthemum - Lin Ge Red"
+    },
+    "376": {
+      "CropCode": "FD117",
+      "CropName": "Small Chrysanthemum - Red Sun"
+    },
+    "377": {
+      "CropCode": "FD118",
+      "CropName": "Small Chrysanthemum - Harley Red"
+    },
+    "378": {
+      "CropCode": "FD119",
+      "CropName": "Small Chrysanthemum - Dragon Phoenix Small Red"
+    },
+    "379": {
+      "CropCode": "FD120",
+      "CropName": "Small Chrysanthemum - Red Star"
+    },
+    "380": {
+      "CropCode": "FD121",
+      "CropName": "Small Chrysanthemum - Red Beauty"
+    },
+    "381": {
+      "CropCode": "FD122",
+      "CropName": "Small Chrysanthemum - Spoon Red"
+    },
+    "382": {
+      "CropCode": "FD123",
+      "CropName": "Small Chrysanthemum - Diamond Red"
+    },
+    "383": {
+      "CropCode": "FD124",
+      "CropName": "Small Chrysanthemum - Dragon Phoenix Purple"
+    },
+    "384": {
+      "CropCode": "FD125",
+      "CropName": "Small Chrysanthemum - A Bit Bigger Red"
+    },
+    "385": {
+      "CropCode": "FD126",
+      "CropName": "Small Chrysanthemum - Hundred Flowers Small Red"
+    },
+    "386": {
+      "CropCode": "FD127",
+      "CropName": "Small Chrysanthemum - Two-Color Red"
+    },
+    "387": {
+      "CropCode": "FD128",
+      "CropName": "Small Chrysanthemum - Tiger Red"
+    },
+    "388": {
+      "CropCode": "FD129",
+      "CropName": "Small Chrysanthemum - Small Peach Red"
+    },
+    "389": {
+      "CropCode": "FD130",
+      "CropName": "Small Chrysanthemum - Dew Small Red"
+    },
+    "390": {
+      "CropCode": "FD131",
+      "CropName": "Small Chrysanthemum - Small Red Bride"
+    },
+    "391": {
+      "CropCode": "FD132",
+      "CropName": "Small Chrysanthemum - Pearl Red"
+    },
+    "392": {
+      "CropCode": "FD133",
+      "CropName": "Small Chrysanthemum - Japanese Velvet Red"
+    },
+    "393": {
+      "CropCode": "FD134",
+      "CropName": "Small Chrysanthemum - Red Ruyi"
+    },
+    "394": {
+      "CropCode": "FD135",
+      "CropName": "Small Chrysanthemum - Red Rose"
+    },
+    "395": {
+      "CropCode": "FD136",
+      "CropName": "Small Chrysanthemum - French Small Red"
+    },
+    "396": {
+      "CropCode": "FD137",
+      "CropName": "Small Chrysanthemum - Small Tiger Red"
+    },
+    "397": {
+      "CropCode": "FD138",
+      "CropName": "Small Chrysanthemum - Caroline"
+    },
+    "398": {
+      "CropCode": "FD139",
+      "CropName": "Small Chrysanthemum - Alamos Yellow"
+    },
+    "399": {
+      "CropCode": "FD145",
+      "CropName": "Small Chrysanthemum - Red Sibu"
+    },
+    "400": {
+      "CropCode": "FD150",
+      "CropName": "Small Chrysanthemum - Red Windmill"
+    },
+    "401": {
+      "CropCode": "FD200",
+      "CropName": "Small Chrysanthemum - Gold"
+    },
+    "402": {
+      "CropCode": "FD201",
+      "CropName": "Small Chrysanthemum - Golden Coffee"
+    },
+    "403": {
+      "CropCode": "FD202",
+      "CropName": "Small Chrysanthemum - Light Gold"
+    },
+    "404": {
+      "CropCode": "FD203",
+      "CropName": "Small Chrysanthemum - Gold Small Chrysanthemum"
+    },
+    "405": {
+      "CropCode": "FD204",
+      "CropName": "Small Chrysanthemum - Small Gold Red"
+    },
+    "406": {
+      "CropCode": "FD205",
+      "CropName": "Small Chrysanthemum - Golden Initial Phoenix"
+    },
+    "407": {
+      "CropCode": "FD206",
+      "CropName": "Small Chrysanthemum - Bicolor Gold Red"
+    },
+    "408": {
+      "CropCode": "FD207",
+      "CropName": "Small Chrysanthemum - Bicolor Gold Yellow"
+    },
+    "409": {
+      "CropCode": "FD208",
+      "CropName": "Small Chrysanthemum - Golden Peacock"
+    },
+    "410": {
+      "CropCode": "FD209",
+      "CropName": "Small Chrysanthemum - Pomelo"
+    },
+    "411": {
+      "CropCode": "FD210",
+      "CropName": "Small Chrysanthemum - Auspicious Gold"
+    },
+    "412": {
+      "CropCode": "FD211",
+      "CropName": "Small Chrysanthemum - German Windmill"
+    },
+    "413": {
+      "CropCode": "FD212",
+      "CropName": "Small Chrysanthemum - Tambora"
+    },
+    "414": {
+      "CropCode": "FD232",
+      "CropName": "Small Chrysanthemum - Pearl Gold"
+    },
+    "415": {
+      "CropCode": "FD235",
+      "CropName": "Small Chrysanthemum - Link Small Gold"
+    },
+    "416": {
+      "CropCode": "FD245",
+      "CropName": "Small Chrysanthemum - Gold Sibu"
+    },
+    "417": {
+      "CropCode": "FD250",
+      "CropName": "Small Chrysanthemum - Gold Windmill"
+    },
+    "418": {
+      "CropCode": "FD300",
+      "CropName": "Small Chrysanthemum - Yellow"
+    },
+    "419": {
+      "CropCode": "FD301",
+      "CropName": "Small Chrysanthemum - Golden Moon"
+    },
+    "420": {
+      "CropCode": "FD302",
+      "CropName": "Small Chrysanthemum - Brass Coin"
+    },
+    "421": {
+      "CropCode": "FD303",
+      "CropName": "Small Chrysanthemum - Hollow Yellow"
+    },
+    "422": {
+      "CropCode": "FD304",
+      "CropName": "Small Chrysanthemum - Christmas Ball"
+    },
+    "423": {
+      "CropCode": "FD305",
+      "CropName": "Small Chrysanthemum - Yellow Initial Morning"
+    },
+    "424": {
+      "CropCode": "FD306",
+      "CropName": "Small Chrysanthemum - Multi-flower Show Phoenix"
+    },
+    "425": {
+      "CropCode": "FD307",
+      "CropName": "Small Chrysanthemum - Yellow Ping Pong"
+    },
+    "426": {
+      "CropCode": "FD308",
+      "CropName": "Small Chrysanthemum - Yellow T-shaped Chrysanthemum"
+    },
+    "427": {
+      "CropCode": "FD309",
+      "CropName": "Small Chrysanthemum - Japanese Yellow"
+    },
+    "428": {
+      "CropCode": "FD310",
+      "CropName": "Small Chrysanthemum - Green Heart Yellow"
+    },
+    "429": {
+      "CropCode": "FD311",
+      "CropName": "Small Chrysanthemum - Papaya Yellow"
+    },
+    "430": {
+      "CropCode": "FD312",
+      "CropName": "Small Chrysanthemum - Black Heart Small Yellow"
+    },
+    "431": {
+      "CropCode": "FD313",
+      "CropName": "Small Chrysanthemum - Spoon Yellow"
+    },
+    "432": {
+      "CropCode": "FD314",
+      "CropName": "Small Chrysanthemum - Button Chrysanthemum Yellow"
+    },
+    "433": {
+      "CropCode": "FD315",
+      "CropName": "Small Chrysanthemum - Yellow Diamond"
+    },
+    "434": {
+      "CropCode": "FD316",
+      "CropName": "Small Chrysanthemum - Winter Month Small Yellow"
+    },
+    "435": {
+      "CropCode": "FD317",
+      "CropName": "Small Chrysanthemum - Dancing Yellow"
+    },
+    "436": {
+      "CropCode": "FD318",
+      "CropName": "Small Chrysanthemum - Small Radiance"
+    },
+    "437": {
+      "CropCode": "FD319",
+      "CropName": "Small Chrysanthemum - Papaya Yellow (Double Petal)"
+    },
+    "438": {
+      "CropCode": "FD320",
+      "CropName": "Small Chrysanthemum - Dutch Yellow"
+    },
+    "439": {
+      "CropCode": "FD321",
+      "CropName": "Small Chrysanthemum - Auspicious Yellow"
+    },
+    "440": {
+      "CropCode": "FD322",
+      "CropName": "Small Chrysanthemum - Golden Silk Yellow"
+    },
+    "441": {
+      "CropCode": "FD323",
+      "CropName": "Small Chrysanthemum - A Little Yellow"
+    },
+    "442": {
+      "CropCode": "FD324",
+      "CropName": "Small Chrysanthemum - French Small Chrysanthemum Yellow"
+    },
+    "443": {
+      "CropCode": "FD325",
+      "CropName": "Small Chrysanthemum - Yellow Marguerite"
+    },
+    "444": {
+      "CropCode": "FD326",
+      "CropName": "Small Chrysanthemum - Mona Lisa Sunshine Yellow"
+    },
+    "445": {
+      "CropCode": "FD330",
+      "CropName": "Small Chrysanthemum - Yellow Noodle Small Chrysanthemum"
+    },
+    "446": {
+      "CropCode": "FD345",
+      "CropName": "Small Chrysanthemum - Yellow Sublette"
+    },
+    "447": {
+      "CropCode": "FD350",
+      "CropName": "Small Chrysanthemum - Yellow Windmill"
+    },
+    "448": {
+      "CropCode": "FD400",
+      "CropName": "Small Chrysanthemum - Pink"
+    },
+    "449": {
+      "CropCode": "FD401",
+      "CropName": "Small Chrysanthemum - Autumn Sun"
+    },
+    "450": {
+      "CropCode": "FD402",
+      "CropName": "Small Chrysanthemum - New Pink"
+    },
+    "451": {
+      "CropCode": "FD403",
+      "CropName": "Small Chrysanthemum - Hollow Pink"
+    },
+    "452": {
+      "CropCode": "FD404",
+      "CropName": "Small Chrysanthemum - Flower World"
+    },
+    "453": {
+      "CropCode": "FD405",
+      "CropName": "Small Chrysanthemum - Cold Morning"
+    },
+    "454": {
+      "CropCode": "FD406",
+      "CropName": "Small Chrysanthemum - A-Lai Pink"
+    },
+    "455": {
+      "CropCode": "FD407",
+      "CropName": "Small Chrysanthemum - Pink Ping Pong"
+    },
+    "456": {
+      "CropCode": "FD408",
+      "CropName": "Small Chrysanthemum - Jade Peach Pink"
+    },
+    "457": {
+      "CropCode": "FD409",
+      "CropName": "Small Chrysanthemum - Fiery Sun Pink"
+    },
+    "458": {
+      "CropCode": "FD410",
+      "CropName": "Small Chrysanthemum - Brother Lin Pink"
+    },
+    "459": {
+      "CropCode": "FD411",
+      "CropName": "Small Chrysanthemum - Spoon Pink"
+    },
+    "460": {
+      "CropCode": "FD412",
+      "CropName": "Small Chrysanthemum - Yunnan Pink Chrysanthemum"
+    },
+    "461": {
+      "CropCode": "FD413",
+      "CropName": "Small Chrysanthemum - Early Phoenix Pink"
+    },
+    "462": {
+      "CropCode": "FD414",
+      "CropName": "Small Chrysanthemum - Mainland Pink"
+    },
+    "463": {
+      "CropCode": "FD415",
+      "CropName": "Small Chrysanthemum - Halle Pink"
+    },
+    "464": {
+      "CropCode": "FD416",
+      "CropName": "Small Chrysanthemum - Pearl Pink"
+    },
+    "465": {
+      "CropCode": "FD417",
+      "CropName": "Small Chrysanthemum - Fiery Pink"
+    },
+    "466": {
+      "CropCode": "FD418",
+      "CropName": "Small Chrysanthemum - Flame Pink"
+    },
+    "467": {
+      "CropCode": "FD419",
+      "CropName": "Small Chrysanthemum - Sun and Moon Small Pink"
+    },
+    "468": {
+      "CropCode": "FD420",
+      "CropName": "Small Chrysanthemum - Dutch Pink"
+    },
+    "469": {
+      "CropCode": "FD421",
+      "CropName": "Small Chrysanthemum - Water Linglong"
+    },
+    "470": {
+      "CropCode": "FD422",
+      "CropName": "Small Chrysanthemum - Auspicious Small Pink"
+    },
+    "471": {
+      "CropCode": "FD423",
+      "CropName": "Small Chrysanthemum - Pink Diary"
+    },
+    "472": {
+      "CropCode": "FD424",
+      "CropName": "Small Chrysanthemum - Little Peach Red"
+    },
+    "473": {
+      "CropCode": "FD425",
+      "CropName": "Small Chrysanthemum - Margaret Pink"
+    },
+    "474": {
+      "CropCode": "FD426",
+      "CropName": "Chrysanthemum - Champagne Harley"
+    },
+    "475": {
+      "CropCode": "FD427",
+      "CropName": "Chrysanthemum - Pink Beauty"
+    },
+    "476": {
+      "CropCode": "FD428",
+      "CropName": "Chrysanthemum - Calendar Pink"
+    },
+    "477": {
+      "CropCode": "FD429",
+      "CropName": "Chrysanthemum - Peach Branch"
+    },
+    "478": {
+      "CropCode": "FD430",
+      "CropName": "Chrysanthemum - Noodle Flower Pink"
+    },
+    "479": {
+      "CropCode": "FD431",
+      "CropName": "Chrysanthemum - Peach Red Yunnan"
+    },
+    "480": {
+      "CropCode": "FD432",
+      "CropName": "Chrysanthemum - Colorful Cloud"
+    },
+    "481": {
+      "CropCode": "FD433",
+      "CropName": "Chrysanthemum - Finnish Pink"
+    },
+    "482": {
+      "CropCode": "FD434",
+      "CropName": "Chrysanthemum - British Windmill"
+    },
+    "483": {
+      "CropCode": "FD435",
+      "CropName": "Chrysanthemum - Link Pink"
+    },
+    "484": {
+      "CropCode": "FD436",
+      "CropName": "Chrysanthemum - New Autumn Sun"
+    },
+    "485": {
+      "CropCode": "FD437",
+      "CropName": "Yunnan Chrysanthemum - Dual Color Pink"
+    },
+    "486": {
+      "CropCode": "FD438",
+      "CropName": "Chrysanthemum - Nan Gang Pink"
+    },
+    "487": {
+      "CropCode": "FD445",
+      "CropName": "Chrysanthemum - Pink Subtle"
+    },
+    "488": {
+      "CropCode": "FD446",
+      "CropName": "Chrysanthemum - Pink Guanyin"
+    },
+    "489": {
+      "CropCode": "FD450",
+      "CropName": "Chrysanthemum - Pink Windmill"
+    },
+    "490": {
+      "CropCode": "FD451",
+      "CropName": "Chrysanthemum - Dance Windmill"
+    },
+    "491": {
+      "CropCode": "FD452",
+      "CropName": "Chrysanthemum - Cinda Pink"
+    },
+    "492": {
+      "CropCode": "FD453",
+      "CropName": "Chrysanthemum - Lollipop - Pink"
+    },
+    "493": {
+      "CropCode": "FD455",
+      "CropName": "Chrysanthemum - Beautiful Pink"
+    },
+    "494": {
+      "CropCode": "FD456",
+      "CropName": "Chrysanthemum - Carlo Pink"
+    },
+    "495": {
+      "CropCode": "FD457",
+      "CropName": "Chrysanthemum - Sevilla Pink"
+    },
+    "496": {
+      "CropCode": "FD500",
+      "CropName": "Chrysanthemum - Green"
+    },
+    "497": {
+      "CropCode": "FD501",
+      "CropName": "Chrysanthemum - Like Jade"
+    },
+    "498": {
+      "CropCode": "FD502",
+      "CropName": "Chrysanthemum - Green Silk Flower"
+    },
+    "499": {
+      "CropCode": "FD503",
+      "CropName": "Small Chrysanthemum - Button Chrysanthemum Green"
+    },
+    "500": {
+      "CropCode": "FD504",
+      "CropName": "Small Chrysanthemum - Beret Recording"
+    },
+    "501": {
+      "CropCode": "FD505",
+      "CropName": "Small Chrysanthemum - Fortune"
+    },
+    "502": {
+      "CropCode": "FD509",
+      "CropName": "Small Chrysanthemum - Unique Dense Green Ping Pong"
+    },
+    "503": {
+      "CropCode": "FD600",
+      "CropName": "Small Chrysanthemum - White"
+    },
+    "504": {
+      "CropCode": "FD601",
+      "CropName": "Small Chrysanthemum - T-shaped Chrysanthemum White"
+    },
+    "505": {
+      "CropCode": "FD602",
+      "CropName": "Small Chrysanthemum - White Coin"
+    },
+    "506": {
+      "CropCode": "FD603",
+      "CropName": "Small Chrysanthemum - Hollow White (Short Petal)"
+    },
+    "507": {
+      "CropCode": "FD604",
+      "CropName": "Small Chrysanthemum - Hollow White (Long Petal)"
+    },
+    "508": {
+      "CropCode": "FD605",
+      "CropName": "Small Chrysanthemum - White Early Morning"
+    },
+    "509": {
+      "CropCode": "FD607",
+      "CropName": "Small Chrysanthemum - White Ping Pong"
+    },
+    "510": {
+      "CropCode": "FD608",
+      "CropName": "Small Chrysanthemum - Small Autumn White"
+    },
+    "511": {
+      "CropCode": "FD609",
+      "CropName": "Small Chrysanthemum - Chicken Eye Small White"
+    },
+    "512": {
+      "CropCode": "FD610",
+      "CropName": "Small Chrysanthemum - Green Heart Small White"
+    },
+    "513": {
+      "CropCode": "FD611",
+      "CropName": "Small Chrysanthemum - New T-shaped White"
+    },
+    "514": {
+      "CropCode": "FD612",
+      "CropName": "Small Chrysanthemum - White Yunnan Chrysanthemum"
+    },
+    "515": {
+      "CropCode": "FD613",
+      "CropName": "Small Chrysanthemum - Button Chrysanthemum White"
+    },
+    "516": {
+      "CropCode": "FD614",
+      "CropName": "Small Chrysanthemum - French Small Chrysanthemum White"
+    },
+    "517": {
+      "CropCode": "FD615",
+      "CropName": "Small Chrysanthemum - Jade"
+    },
+    "518": {
+      "CropCode": "FD616",
+      "CropName": "Small Chrysanthemum - Dancing White"
+    },
+    "519": {
+      "CropCode": "FD617",
+      "CropName": "Small Chrysanthemum - White Guanyin"
+    },
+    "520": {
+      "CropCode": "FD618",
+      "CropName": "Small Chrysanthemum - White Diamond"
+    },
+    "521": {
+      "CropCode": "FD619",
+      "CropName": "Small Chrysanthemum - Small Snowball White"
+    },
+    "522": {
+      "CropCode": "FD620",
+      "CropName": "Small Chrysanthemum - Dutch Small White"
+    },
+    "523": {
+      "CropCode": "FD621",
+      "CropName": "Small Chrysanthemum - Chuanliang"
+    },
+    "524": {
+      "CropCode": "FD622",
+      "CropName": "Chrysanthemum - Auspicious White"
+    },
+    "525": {
+      "CropCode": "FD623",
+      "CropName": "Chrysanthemum - Love Small White"
+    },
+    "526": {
+      "CropCode": "FD625",
+      "CropName": "Chrysanthemum - White Margarita"
+    },
+    "527": {
+      "CropCode": "FD630",
+      "CropName": "Chrysanthemum - White Vermicelli Chrysanthemum"
+    },
+    "528": {
+      "CropCode": "FD632",
+      "CropName": "Chrysanthemum - Pearl White"
+    },
+    "529": {
+      "CropCode": "FD633",
+      "CropName": "Chrysanthemum - Finnish Small White"
+    },
+    "530": {
+      "CropCode": "FD635",
+      "CropName": "Chrysanthemum - Link Small White"
+    },
+    "531": {
+      "CropCode": "FD645",
+      "CropName": "Chrysanthemum - White Sublette"
+    },
+    "532": {
+      "CropCode": "FD646",
+      "CropName": "Chrysanthemum - Bang White"
+    },
+    "533": {
+      "CropCode": "FD657",
+      "CropName": "Chrysanthemum - Sevilla White"
+    },
+    "534": {
+      "CropCode": "FD700",
+      "CropName": "Chrysanthemum - Purple"
+    },
+    "535": {
+      "CropCode": "FD712",
+      "CropName": "Chrysanthemum - Purple Yunnan Chrysanthemum"
+    },
+    "536": {
+      "CropCode": "FD752",
+      "CropName": "Chrysanthemum - Cinda Purple Red"
+    },
+    "537": {
+      "CropCode": "FD800",
+      "CropName": "Chrysanthemum - Dyed Chrysanthemum"
+    },
+    "538": {
+      "CropCode": "FD801",
+      "CropName": "Dyed Chrysanthemum - Finnish"
+    },
+    "539": {
+      "CropCode": "FD802",
+      "CropName": "Dyed Chrysanthemum - White Diamond"
+    },
+    "540": {
+      "CropCode": "FD9",
+      "CropName": "Flower Cucumber - Imported"
+    },
+    "541": {
+      "CropCode": "FD900",
+      "CropName": "Chrysanthemum - Mini Green Chrysanthemum"
+    },
+    "542": {
+      "CropCode": "FE0",
+      "CropName": "Winter Melon - Others"
+    },
+    "543": {
+      "CropCode": "FE000",
+      "CropName": "African Daisy"
+    },
+    "544": {
+      "CropCode": "FE001",
+      "CropName": "African Daisy - Mixed Color"
+    },
+    "545": {
+      "CropCode": "FE1",
+      "CropName": "Winter Melon - White Skin"
+    },
+    "546": {
+      "CropCode": "FE100",
+      "CropName": "African Daisy - Red"
+    },
+    "547": {
+      "CropCode": "FE101",
+      "CropName": "African Daisy - Bicolor Red"
+    },
+    "548": {
+      "CropCode": "FE102",
+      "CropName": "African Daisy - Dalich"
+    },
+    "549": {
+      "CropCode": "FE103",
+      "CropName": "African Daisy - Red Crystal"
+    },
+    "550": {
+      "CropCode": "FE104",
+      "CropName": "African Daisy - Reno"
+    },
+    "551": {
+      "CropCode": "FE105",
+      "CropName": "African Daisy - Shiloh"
+    },
+    "552": {
+      "CropCode": "FE106",
+      "CropName": "African Daisy - Loreto"
+    },
+    "553": {
+      "CropCode": "FE107",
+      "CropName": "African Daisy - Gorgeous"
+    },
+    "554": {
+      "CropCode": "FE108",
+      "CropName": "African Daisy - Red Paris"
+    },
+    "555": {
+      "CropCode": "FE109",
+      "CropName": "African Daisy - Habby"
+    },
+    "556": {
+      "CropCode": "FE110",
+      "CropName": "African Daisy - Cab"
+    },
+    "557": {
+      "CropCode": "FE111",
+      "CropName": "African Daisy - Shanghai Red"
+    },
+    "558": {
+      "CropCode": "FE112",
+      "CropName": "African Daisy - Celestial"
+    },
+    "559": {
+      "CropCode": "FE113",
+      "CropName": "African Daisy - Lexington"
+    },
+    "560": {
+      "CropCode": "FE2",
+      "CropName": "Winter Melon - Green Skin"
+    },
+    "561": {
+      "CropCode": "FE200",
+      "CropName": "African Daisy - Orange"
+    },
+    "562": {
+      "CropCode": "FE201",
+      "CropName": "African Daisy - Sun God"
+    },
+    "563": {
+      "CropCode": "FE202",
+      "CropName": "African Daisy - Dune"
+    },
+    "564": {
+      "CropCode": "FE203",
+      "CropName": "African Daisy - Orlin"
+    },
+    "565": {
+      "CropCode": "FE204",
+      "CropName": "African Daisy - Melrose"
+    },
+    "566": {
+      "CropCode": "FE205",
+      "CropName": "African Daisy - Harry Bear"
+    },
+    "567": {
+      "CropCode": "FE3",
+      "CropName": "Winter Melon - Hairy Melon"
+    },
+    "568": {
+      "CropCode": "FE300",
+      "CropName": "African Daisy - Yellow"
+    },
+    "569": {
+      "CropCode": "FE301",
+      "CropName": "African Daisy - Heat Wave"
+    },
+    "570": {
+      "CropCode": "FE302",
+      "CropName": "African Daisy - Golden Duke"
+    },
+    "571": {
+      "CropCode": "FE400",
+      "CropName": "African Daisy - Pink"
+    },
+    "572": {
+      "CropCode": "FE401",
+      "CropName": "African Daisy - Ismara"
+    },
+    "573": {
+      "CropCode": "FE402",
+      "CropName": "African Daisy - Marussia"
+    },
+    "574": {
+      "CropCode": "FE403",
+      "CropName": "African Daisy - Donica"
+    },
+    "575": {
+      "CropCode": "FE404",
+      "CropName": "African Daisy - Munira"
+    },
+    "576": {
+      "CropCode": "FE405",
+      "CropName": "African Daisy - Rosalyn"
+    },
+    "577": {
+      "CropCode": "FE406",
+      "CropName": "African Daisy - Pink Beauty"
+    },
+    "578": {
+      "CropCode": "FE407",
+      "CropName": "African Daisy - Spark"
+    },
+    "579": {
+      "CropCode": "FE408",
+      "CropName": "African Daisy - Pink Beauty"
+    },
+    "580": {
+      "CropCode": "FE409",
+      "CropName": "African Daisy - Pink Charm"
+    },
+    "581": {
+      "CropCode": "FE410",
+      "CropName": "African Daisy - Nightingale"
+    },
+    "582": {
+      "CropCode": "FE411",
+      "CropName": "African Daisy - Lido"
+    },
+    "583": {
+      "CropCode": "FE412",
+      "CropName": "African Daisy - Napoleon"
+    },
+    "584": {
+      "CropCode": "FE413",
+      "CropName": "African Daisy - Fei Er"
+    },
+    "585": {
+      "CropCode": "FE415",
+      "CropName": "African Daisy - Pink Lovely"
+    },
+    "586": {
+      "CropCode": "FE416",
+      "CropName": "African Daisy - Passion Pink"
+    },
+    "587": {
+      "CropCode": "FE600",
+      "CropName": "African Daisy - White"
+    },
+    "588": {
+      "CropCode": "FE601",
+      "CropName": "African Daisy - Snow White"
+    },
+    "589": {
+      "CropCode": "FE602",
+      "CropName": "African Daisy - Maria"
+    },
+    "590": {
+      "CropCode": "FE603",
+      "CropName": "African Daisy - Bianco"
+    },
+    "591": {
+      "CropCode": "FE604",
+      "CropName": "African Daisy - White Bear"
+    },
+    "592": {
+      "CropCode": "FE605",
+      "CropName": "African Daisy - Iceberg"
+    },
+    "593": {
+      "CropCode": "FE606",
+      "CropName": "African Daisy - Dice"
+    },
+    "594": {
+      "CropCode": "FE700",
+      "CropName": "African Daisy - Purple"
+    },
+    "595": {
+      "CropCode": "FE701",
+      "CropName": "African Daisy - Purple Prince"
+    },
+    "596": {
+      "CropCode": "FE702",
+      "CropName": "African Daisy - Ruble"
+    },
+    "597": {
+      "CropCode": "FE703",
+      "CropName": "African Daisy - Pharaoh"
+    },
+    "598": {
+      "CropCode": "FE704",
+      "CropName": "African Daisy - Queen"
+    },
+    "599": {
+      "CropCode": "FE801",
+      "CropName": "African Daisy - Bobo"
+    },
+    "600": {
+      "CropCode": "FE9",
+      "CropName": "Winter Melon - Imported"
+    },
+    "601": {
+      "CropCode": "FE900",
+      "CropName": "African Daisy - Mini Mixed Color"
+    },
+    "602": {
+      "CropCode": "FE910",
+      "CropName": "African Daisy - Mini Red"
+    },
+    "603": {
+      "CropCode": "FE920",
+      "CropName": "African Daisy - Mini Orange"
+    },
+    "604": {
+      "CropCode": "FE930",
+      "CropName": "African Daisy - Mini Yellow"
+    },
+    "605": {
+      "CropCode": "FE940",
+      "CropName": "African Daisy - Mini Pink"
+    },
+    "606": {
+      "CropCode": "FE960",
+      "CropName": "African Daisy - Mini White"
+    },
+    "607": {
+      "CropCode": "FE970",
+      "CropName": "African Daisy - Mini Purple"
+    },
+    "608": {
+      "CropCode": "FF0",
+      "CropName": "Luffa - Others"
+    },
+    "609": {
+      "CropCode": "FF1",
+      "CropName": "Luffa"
+    },
+    "610": {
+      "CropCode": "FF2",
+      "CropName": "Luffa - Horn Melon"
+    },
+    "611": {
+      "CropCode": "FF3",
+      "CropName": "Luffa - White Melon"
+    },
+    "612": {
+      "CropCode": "FF4",
+      "CropName": "Luffa - Long Luffa"
+    },
+    "613": {
+      "CropCode": "FF9",
+      "CropName": "Luffa - Imported"
+    },
+    "614": {
+      "CropCode": "FG0",
+      "CropName": "Bitter Melon - Others"
+    },
+    "615": {
+      "CropCode": "FG000",
+      "CropName": "Gladiolus"
+    },
+    "616": {
+      "CropCode": "FG001",
+      "CropName": "Gladiolus - Mixed Color"
+    },
+    "617": {
+      "CropCode": "FG1",
+      "CropName": "Bitter Melon - White Rice"
+    },
+    "618": {
+      "CropCode": "FG100",
+      "CropName": "Gladiolus - Red"
+    },
+    "619": {
+      "CropCode": "FG101",
+      "CropName": "Gladiolus - No. 4"
+    },
+    "620": {
+      "CropCode": "FG102",
+      "CropName": "Gladiolus - No. 13"
+    },
+    "621": {
+      "CropCode": "FG103",
+      "CropName": "Gladiolus - No. 42"
+    },
+    "622": {
+      "CropCode": "FG104",
+      "CropName": "Gladiolus - No. 223"
+    },
+    "623": {
+      "CropCode": "FG105",
+      "CropName": "Gladiolus - No. 235"
+    },
+    "624": {
+      "CropCode": "FG106",
+      "CropName": "Sword Lily - Madeli"
+    },
+    "625": {
+      "CropCode": "FG107",
+      "CropName": "Sword Lily - Black Bone"
+    },
+    "626": {
+      "CropCode": "FG108",
+      "CropName": "Sword Lily - Cherry Red"
+    },
+    "627": {
+      "CropCode": "FG109",
+      "CropName": "Sword Lily - Rosy Red"
+    },
+    "628": {
+      "CropCode": "FG110",
+      "CropName": "Sword Lily - Rose Red"
+    },
+    "629": {
+      "CropCode": "FG111",
+      "CropName": "Sword Lily - No. 43"
+    },
+    "630": {
+      "CropCode": "FG112",
+      "CropName": "Sword Lily - New Cherry Red"
+    },
+    "631": {
+      "CropCode": "FG113",
+      "CropName": "Sword Lily - New Variety Red"
+    },
+    "632": {
+      "CropCode": "FG114",
+      "CropName": "Sword Lily - New No. 223"
+    },
+    "633": {
+      "CropCode": "FG115",
+      "CropName": "Sword Lily - No. 243"
+    },
+    "634": {
+      "CropCode": "FG116",
+      "CropName": "Sword Lily - Bicolor Gold Red"
+    },
+    "635": {
+      "CropCode": "FG118",
+      "CropName": "Sword Lily - No. 278"
+    },
+    "636": {
+      "CropCode": "FG119",
+      "CropName": "Sword Lily - No. 279"
+    },
+    "637": {
+      "CropCode": "FG120",
+      "CropName": "Sword Lily - Black Bone Red"
+    },
+    "638": {
+      "CropCode": "FG121",
+      "CropName": "Sword Lily - No. 265"
+    },
+    "639": {
+      "CropCode": "FG122",
+      "CropName": "Sword Lily - Kang Wei"
+    },
+    "640": {
+      "CropCode": "FG123",
+      "CropName": "Sword Lily - Bright Purple Red"
+    },
+    "641": {
+      "CropCode": "FG2",
+      "CropName": "Bitter Melon - Green Rice"
+    },
+    "642": {
+      "CropCode": "FG200",
+      "CropName": "Sword Lily - Orange"
+    },
+    "643": {
+      "CropCode": "FG201",
+      "CropName": "Sword Lily - Orange Pink"
+    },
+    "644": {
+      "CropCode": "FG3",
+      "CropName": "Bitter Melon - Mountain Bitter Melon"
+    },
+    "645": {
+      "CropCode": "FG300",
+      "CropName": "Sword Lily - Yellow"
+    },
+    "646": {
+      "CropCode": "FG301",
+      "CropName": "Sword Lily - Deep Yellow"
+    },
+    "647": {
+      "CropCode": "FG302",
+      "CropName": "Sword Lily - Light Yellow"
+    },
+    "648": {
+      "CropCode": "FG303",
+      "CropName": "Sword Lily - Yellow Red Heart"
+    },
+    "649": {
+      "CropCode": "FG4",
+      "CropName": "Bitter Melon - Green"
+    },
+    "650": {
+      "CropCode": "FG400",
+      "CropName": "Gladiolus - Pink"
+    },
+    "651": {
+      "CropCode": "FG401",
+      "CropName": "Gladiolus - New Pink"
+    },
+    "652": {
+      "CropCode": "FG402",
+      "CropName": "Gladiolus - Si Fat"
+    },
+    "653": {
+      "CropCode": "FG403",
+      "CropName": "Gladiolus - Horse Pink"
+    },
+    "654": {
+      "CropCode": "FG404",
+      "CropName": "Gladiolus - Peach Pink"
+    },
+    "655": {
+      "CropCode": "FG405",
+      "CropName": "Gladiolus - Light Pink"
+    },
+    "656": {
+      "CropCode": "FG406",
+      "CropName": "Gladiolus - Green Shell Pink"
+    },
+    "657": {
+      "CropCode": "FG407",
+      "CropName": "Gladiolus - Pink Heart"
+    },
+    "658": {
+      "CropCode": "FG408",
+      "CropName": "Gladiolus - No. 512"
+    },
+    "659": {
+      "CropCode": "FG409",
+      "CropName": "Gladiolus - No. 513"
+    },
+    "660": {
+      "CropCode": "FG410",
+      "CropName": "Gladiolus - No. 515"
+    },
+    "661": {
+      "CropCode": "FG411",
+      "CropName": "Gladiolus - Pink Beauty"
+    },
+    "662": {
+      "CropCode": "FG412",
+      "CropName": "Gladiolus - Pink Giant"
+    },
+    "663": {
+      "CropCode": "FG413",
+      "CropName": "Gladiolus - New Si Fat"
+    },
+    "664": {
+      "CropCode": "FG414",
+      "CropName": "Gladiolus - American Pink"
+    },
+    "665": {
+      "CropCode": "FG415",
+      "CropName": "Gladiolus - Summer Rose"
+    },
+    "666": {
+      "CropCode": "FG416",
+      "CropName": "Gladiolus - No. 4436"
+    },
+    "667": {
+      "CropCode": "FG417",
+      "CropName": "Gladiolus - French Capital"
+    },
+    "668": {
+      "CropCode": "FG418",
+      "CropName": "Gladiolus - No. 437"
+    },
+    "669": {
+      "CropCode": "FG419",
+      "CropName": "Gladiolus - Victoria"
+    },
+    "670": {
+      "CropCode": "FG501",
+      "CropName": "Gladiolus - No. 610"
+    },
+    "671": {
+      "CropCode": "FG600",
+      "CropName": "Gladiolus - White"
+    },
+    "672": {
+      "CropCode": "FG601",
+      "CropName": "Gladiolus - Big White"
+    },
+    "673": {
+      "CropCode": "FG602",
+      "CropName": "Gladiolus - Amsterdam"
+    },
+    "674": {
+      "CropCode": "FG603",
+      "CropName": "Sword Lily - White with Red Heart"
+    },
+    "675": {
+      "CropCode": "FG700",
+      "CropName": "Sword Lily - Purple"
+    },
+    "676": {
+      "CropCode": "FG701",
+      "CropName": "Sword Lily - Deep Purple"
+    },
+    "677": {
+      "CropCode": "FG702",
+      "CropName": "Sword Lily - Light Purple"
+    },
+    "678": {
+      "CropCode": "FG703",
+      "CropName": "Sword Lily - Deep Velvet Purple"
+    },
+    "679": {
+      "CropCode": "FG704",
+      "CropName": "Sword Lily - Black Purple"
+    },
+    "680": {
+      "CropCode": "FG705",
+      "CropName": "Sword Lily - Purple Blue"
+    },
+    "681": {
+      "CropCode": "FG706",
+      "CropName": "Sword Lily - Purple with White Heart"
+    },
+    "682": {
+      "CropCode": "FG9",
+      "CropName": "Bitter Melon - Imported"
+    },
+    "683": {
+      "CropCode": "FH0",
+      "CropName": "Flat Leaf - Others"
+    },
+    "684": {
+      "CropCode": "FH000",
+      "CropName": "Other Flowers"
+    },
+    "685": {
+      "CropCode": "FH002",
+      "CropName": "Auction Flowers"
+    },
+    "686": {
+      "CropCode": "FH003",
+      "CropName": "Rolis"
+    },
+    "687": {
+      "CropCode": "FH004",
+      "CropName": "Bagua Grass (Yellow River)"
+    },
+    "688": {
+      "CropCode": "FH005",
+      "CropName": "Golden Hammer Flower"
+    },
+    "689": {
+      "CropCode": "FH006",
+      "CropName": "Yellow Gardenia"
+    },
+    "690": {
+      "CropCode": "FH007",
+      "CropName": "Cordyceps"
+    },
+    "691": {
+      "CropCode": "FH008",
+      "CropName": "Chamomile"
+    },
+    "692": {
+      "CropCode": "FH009",
+      "CropName": "Marigold"
+    },
+    "693": {
+      "CropCode": "FH048",
+      "CropName": "Forsythia"
+    },
+    "694": {
+      "CropCode": "FH050",
+      "CropName": "Narcissus Lily - Mixed Color"
+    },
+    "695": {
+      "CropCode": "FH051",
+      "CropName": "Narcissus Lily - Red"
+    },
+    "696": {
+      "CropCode": "FH052",
+      "CropName": "Narcissus Lily - Orange"
+    },
+    "697": {
+      "CropCode": "FH053",
+      "CropName": "Narcissus Lily - Yellow"
+    },
+    "698": {
+      "CropCode": "FH054",
+      "CropName": "Narcissus Lily - Pink"
+    },
+    "699": {
+      "CropCode": "FH055",
+      "CropName": "Narcissus Lily - Green"
+    },
+    "700": {
+      "CropCode": "FH056",
+      "CropName": "Narcissus Lily - White"
+    },
+    "701": {
+      "CropCode": "FH057",
+      "CropName": "Narcissus Lily - Purple"
+    },
+    "702": {
+      "CropCode": "FH061",
+      "CropName": "Narcissus Lily - Red Purple"
+    },
+    "703": {
+      "CropCode": "FH062",
+      "CropName": "Narcissus Lily - Bicolor"
+    },
+    "704": {
+      "CropCode": "FH063",
+      "CropName": "Narcissus Lily - White with Red"
+    },
+    "705": {
+      "CropCode": "FH071",
+      "CropName": "Lycoris - Red Flower"
+    },
+    "706": {
+      "CropCode": "FH072",
+      "CropName": "Lycoris - Gold Flower"
+    },
+    "707": {
+      "CropCode": "FH073",
+      "CropName": "Lycoris - Yellow Flower"
+    },
+    "708": {
+      "CropCode": "FH074",
+      "CropName": "Lycoris - Pink Flower"
+    },
+    "709": {
+      "CropCode": "FH080",
+      "CropName": "Daylily"
+    },
+    "710": {
+      "CropCode": "FH090",
+      "CropName": "Needle Cushion Flower"
+    },
+    "711": {
+      "CropCode": "FH1",
+      "CropName": "Bulrush - Long Shape"
+    },
+    "712": {
+      "CropCode": "FH101",
+      "CropName": "Bird of Paradise"
+    },
+    "713": {
+      "CropCode": "FH111",
+      "CropName": "Small Bird of Paradise - Red"
+    },
+    "714": {
+      "CropCode": "FH112",
+      "CropName": "Small Bird of Paradise - Orange with Red"
+    },
+    "715": {
+      "CropCode": "FH113",
+      "CropName": "Small Bird of Paradise - Yellow"
+    },
+    "716": {
+      "CropCode": "FH114",
+      "CropName": "Small Bird of Paradise - Pink"
+    },
+    "717": {
+      "CropCode": "FH120",
+      "CropName": "Feather Flower"
+    },
+    "718": {
+      "CropCode": "FH121",
+      "CropName": "Red Gold Bird"
+    },
+    "719": {
+      "CropCode": "FH123",
+      "CropName": "Golden Bird"
+    },
+    "720": {
+      "CropCode": "FH124",
+      "CropName": "Emerald Bird"
+    },
+    "721": {
+      "CropCode": "FH125",
+      "CropName": "Jade Pearl Flower"
+    },
+    "722": {
+      "CropCode": "FH127",
+      "CropName": "Crane Banana - Black Beauty"
+    },
+    "723": {
+      "CropCode": "FH128",
+      "CropName": "Ten-Day Hanging Banana"
+    },
+    "724": {
+      "CropCode": "FH129",
+      "CropName": "Golden Phoenix Banana"
+    },
+    "725": {
+      "CropCode": "FH130",
+      "CropName": "Wen Zhu Lan"
+    },
+    "726": {
+      "CropCode": "FH131",
+      "CropName": "Crane Focus"
+    },
+    "727": {
+      "CropCode": "FH132",
+      "CropName": "Little Crane Banana"
+    },
+    "728": {
+      "CropCode": "FH133",
+      "CropName": "Crane Banana Red Beauty"
+    },
+    "729": {
+      "CropCode": "FH134",
+      "CropName": "Red Daughter Banana"
+    },
+    "730": {
+      "CropCode": "FH135",
+      "CropName": "Hanging Focus"
+    },
+    "731": {
+      "CropCode": "FH136",
+      "CropName": "White Lotus Banana"
+    },
+    "732": {
+      "CropCode": "FH137",
+      "CropName": "Guanyin Lotus"
+    },
+    "733": {
+      "CropCode": "FH138",
+      "CropName": "Beauty Banana"
+    },
+    "734": {
+      "CropCode": "FH139",
+      "CropName": "Stone Rose"
+    },
+    "735": {
+      "CropCode": "FH140",
+      "CropName": "Ginger Lotus"
+    },
+    "736": {
+      "CropCode": "FH145",
+      "CropName": "Marigold"
+    },
+    "737": {
+      "CropCode": "FH152",
+      "CropName": "Wild Ginger Flower - Orange"
+    },
+    "738": {
+      "CropCode": "FH156",
+      "CropName": "Wild Ginger Flower - White"
+    },
+    "739": {
+      "CropCode": "FH158",
+      "CropName": "Red Ginger Flower"
+    },
+    "740": {
+      "CropCode": "FH159",
+      "CropName": "Ball Ginger Flower"
+    },
+    "741": {
+      "CropCode": "FH164",
+      "CropName": "Torch Flower"
+    },
+    "742": {
+      "CropCode": "FH170",
+      "CropName": "Fox Tail Lily"
+    },
+    "743": {
+      "CropCode": "FH180",
+      "CropName": "Palace Lantern Lily"
+    },
+    "744": {
+      "CropCode": "FH185",
+      "CropName": "Jia Lan (Flame Lily)"
+    },
+    "745": {
+      "CropCode": "FH190",
+      "CropName": "Naruko Lily"
+    },
+    "746": {
+      "CropCode": "FH195",
+      "CropName": "Yulan Flower"
+    },
+    "747": {
+      "CropCode": "FH2",
+      "CropName": "Flat Cattail - Round"
+    },
+    "748": {
+      "CropCode": "FH201",
+      "CropName": "Catkin - Straight Branch"
+    },
+    "749": {
+      "CropCode": "FH202",
+      "CropName": "Pearl Willow - Straight Stem"
+    },
+    "750": {
+      "CropCode": "FH203",
+      "CropName": "Catkin - Forked"
+    },
+    "751": {
+      "CropCode": "FH204",
+      "CropName": "Pearl Willow - Forked"
+    },
+    "752": {
+      "CropCode": "FH210",
+      "CropName": "Evening Mist Grass"
+    },
+    "753": {
+      "CropCode": "FH215",
+      "CropName": "Segmented Chrysanthemum"
+    },
+    "754": {
+      "CropCode": "FH220",
+      "CropName": "Feather Fan Bean"
+    },
+    "755": {
+      "CropCode": "FH225",
+      "CropName": "Emperor Flower"
+    },
+    "756": {
+      "CropCode": "FH230",
+      "CropName": "Night Fragrance"
+    },
+    "757": {
+      "CropCode": "FH231",
+      "CropName": "Night Fragrance - Single Petal"
+    },
+    "758": {
+      "CropCode": "FH232",
+      "CropName": "Night Fragrance - Double Petal"
+    },
+    "759": {
+      "CropCode": "FH240",
+      "CropName": "Barley Flower"
+    },
+    "760": {
+      "CropCode": "FH245",
+      "CropName": "First Snow Grass"
+    },
+    "761": {
+      "CropCode": "FH251",
+      "CropName": "Elegant Line"
+    },
+    "762": {
+      "CropCode": "FH256",
+      "CropName": "White Elegant Line"
+    },
+    "763": {
+      "CropCode": "FH260",
+      "CropName": "Red Crown (Chive Flower)"
+    },
+    "764": {
+      "CropCode": "FH270",
+      "CropName": "Thousand Day Red"
+    },
+    "765": {
+      "CropCode": "FH280",
+      "CropName": "Ancient Rare"
+    },
+    "766": {
+      "CropCode": "FH293",
+      "CropName": "Sunflower - Single Petal"
+    },
+    "767": {
+      "CropCode": "FH294",
+      "CropName": "Sunflower - Double Petal"
+    },
+    "768": {
+      "CropCode": "FH295",
+      "CropName": "Sunflower - Golden Sunshine"
+    },
+    "769": {
+      "CropCode": "FH296",
+      "CropName": "Sunflower - Golden Diamond"
+    },
+    "770": {
+      "CropCode": "FH297",
+      "CropName": "Sunflower - Champion No. 7"
+    },
+    "771": {
+      "CropCode": "FH298",
+      "CropName": "Sunflower - Sun God"
+    },
+    "772": {
+      "CropCode": "FH3",
+      "CropName": "Flat Cattail - Flower Cattail"
+    },
+    "773": {
+      "CropCode": "FH301",
+      "CropName": "Persian Daisy"
+    },
+    "774": {
+      "CropCode": "FH302",
+      "CropName": "Cornflower"
+    },
+    "775": {
+      "CropCode": "FH303",
+      "CropName": "Globe Amaranth"
+    },
+    "776": {
+      "CropCode": "FH304",
+      "CropName": "Scabiosa"
+    },
+    "777": {
+      "CropCode": "FH305",
+      "CropName": "White Zen Chrysanthemum"
+    },
+    "778": {
+      "CropCode": "FH306",
+      "CropName": "White Dayflower"
+    },
+    "779": {
+      "CropCode": "FH307",
+      "CropName": "Gourd Leaf Chrysanthemum"
+    },
+    "780": {
+      "CropCode": "FH308",
+      "CropName": "White Blue Chrysanthemum"
+    },
+    "781": {
+      "CropCode": "FH309",
+      "CropName": "Peony"
+    },
+    "782": {
+      "CropCode": "FH310",
+      "CropName": "Dali Flower - Mixed Color"
+    },
+    "783": {
+      "CropCode": "FH311",
+      "CropName": "Dali Flower - Red"
+    },
+    "784": {
+      "CropCode": "FH312",
+      "CropName": "Dali Flower - Orange"
+    },
+    "785": {
+      "CropCode": "FH313",
+      "CropName": "Dali Flower - Yellow"
+    },
+    "786": {
+      "CropCode": "FH314",
+      "CropName": "Dali Flower - Pink"
+    },
+    "787": {
+      "CropCode": "FH316",
+      "CropName": "Dali Flower - White"
+    },
+    "788": {
+      "CropCode": "FH317",
+      "CropName": "Dali Flower - Purple"
+    },
+    "789": {
+      "CropCode": "FH318",
+      "CropName": "Dali Flower - Bicolor"
+    },
+    "790": {
+      "CropCode": "FH320",
+      "CropName": "Thistle (Red Flower)"
+    },
+    "791": {
+      "CropCode": "FH330",
+      "CropName": "Cockscomb"
+    },
+    "792": {
+      "CropCode": "FH331",
+      "CropName": "Cockscomb - Light Red"
+    },
+    "793": {
+      "CropCode": "FH332",
+      "CropName": "Cockscomb - Dark Red"
+    },
+    "794": {
+      "CropCode": "FH333",
+      "CropName": "Cockscomb - Yellow"
+    },
+    "795": {
+      "CropCode": "FH334",
+      "CropName": "Cockscomb - Green"
+    },
+    "796": {
+      "CropCode": "FH335",
+      "CropName": "Spike Cockscomb"
+    },
+    "797": {
+      "CropCode": "FH336",
+      "CropName": "Drooping Cockscomb"
+    },
+    "798": {
+      "CropCode": "FH337",
+      "CropName": "Cockscomb - Purple Red"
+    },
+    "799": {
+      "CropCode": "FH338",
+      "CropName": "Cockscomb - Yellow Green"
+    },
+    "800": {
+      "CropCode": "FH339",
+      "CropName": "Cockscomb - Pink"
+    },
+    "801": {
+      "CropCode": "FH340",
+      "CropName": "Flame Cockscomb"
+    },
+    "802": {
+      "CropCode": "FH341",
+      "CropName": "Flame Cockscomb - Red"
+    },
+    "803": {
+      "CropCode": "FH342",
+      "CropName": "Flame Cockscomb - Orange"
+    },
+    "804": {
+      "CropCode": "FH343",
+      "CropName": "Flame Cockscomb - Yellow"
+    },
+    "805": {
+      "CropCode": "FH344",
+      "CropName": "Flame Cockscomb - Pink"
+    },
+    "806": {
+      "CropCode": "FH350",
+      "CropName": "Dream Grass"
+    },
+    "807": {
+      "CropCode": "FH355",
+      "CropName": "Pineapple Flower"
+    },
+    "808": {
+      "CropCode": "FH356",
+      "CropName": "Fruit Pineapple Flower"
+    },
+    "809": {
+      "CropCode": "FH357",
+      "CropName": "Flowering Pineapple Flower"
+    },
+    "810": {
+      "CropCode": "FH358",
+      "CropName": "Coral Pineapple"
+    },
+    "811": {
+      "CropCode": "FH360",
+      "CropName": "Snapdragon - Mixed Color"
+    },
+    "812": {
+      "CropCode": "FH361",
+      "CropName": "Snapdragon - Red"
+    },
+    "813": {
+      "CropCode": "FH363",
+      "CropName": "Snapdragon - Yellow"
+    },
+    "814": {
+      "CropCode": "FH364",
+      "CropName": "Snapdragon - Pink"
+    },
+    "815": {
+      "CropCode": "FH366",
+      "CropName": "Snapdragon - White"
+    },
+    "816": {
+      "CropCode": "FH368",
+      "CropName": "Snapdragon - Bicolor"
+    },
+    "817": {
+      "CropCode": "FH370",
+      "CropName": "Bird's Foot Trefoil"
+    },
+    "818": {
+      "CropCode": "FH375",
+      "CropName": "Large Delphinium"
+    },
+    "819": {
+      "CropCode": "FH376",
+      "CropName": "Small Delphinium"
+    },
+    "820": {
+      "CropCode": "FH380",
+      "CropName": "Fountain Grass"
+    },
+    "821": {
+      "CropCode": "FH381",
+      "CropName": "Qilin Grass"
+    },
+    "822": {
+      "CropCode": "FH390",
+      "CropName": "Awamori Grass"
+    },
+    "823": {
+      "CropCode": "FH395",
+      "CropName": "Tiger Tail Flower"
+    },
+    "824": {
+      "CropCode": "FH4",
+      "CropName": "Flat-leaved - Pear Lily"
+    },
+    "825": {
+      "CropCode": "FH410",
+      "CropName": "Alice - Mixed Color"
+    },
+    "826": {
+      "CropCode": "FH413",
+      "CropName": "Alice - Yellow"
+    },
+    "827": {
+      "CropCode": "FH416",
+      "CropName": "Alice - White"
+    },
+    "828": {
+      "CropCode": "FH417",
+      "CropName": "Alice - Light Blue"
+    },
+    "829": {
+      "CropCode": "FH418",
+      "CropName": "Alice - Dark Blue"
+    },
+    "830": {
+      "CropCode": "FH420",
+      "CropName": "Calla Lily"
+    },
+    "831": {
+      "CropCode": "FH421",
+      "CropName": "Dahlia Calla Lily"
+    },
+    "832": {
+      "CropCode": "FH434",
+      "CropName": "Turmeric - Pink"
+    },
+    "833": {
+      "CropCode": "FH440",
+      "CropName": "Freesia - Mixed Color"
+    },
+    "834": {
+      "CropCode": "FH441",
+      "CropName": "Freesia - Red"
+    },
+    "835": {
+      "CropCode": "FH442",
+      "CropName": "Freesia - Orange"
+    },
+    "836": {
+      "CropCode": "FH443",
+      "CropName": "Freesia - Yellow"
+    },
+    "837": {
+      "CropCode": "FH444",
+      "CropName": "Freesia - Pink"
+    },
+    "838": {
+      "CropCode": "FH446",
+      "CropName": "Freesia - White"
+    },
+    "839": {
+      "CropCode": "FH447",
+      "CropName": "Freesia - Purple"
+    },
+    "840": {
+      "CropCode": "FH450",
+      "CropName": "Violet - Single Petal"
+    },
+    "841": {
+      "CropCode": "FH451",
+      "CropName": "Violet - Double Petal"
+    },
+    "842": {
+      "CropCode": "FH452",
+      "CropName": "Violet - Double Petal Pink"
+    },
+    "843": {
+      "CropCode": "FH454",
+      "CropName": "Violet - Double Petal Light Pink"
+    },
+    "844": {
+      "CropCode": "FH456",
+      "CropName": "Violet - Double Petal White"
+    },
+    "845": {
+      "CropCode": "FH457",
+      "CropName": "Violet - Double Petal Light Purple"
+    },
+    "846": {
+      "CropCode": "FH458",
+      "CropName": "Violet - Double Petal Dark Purple"
+    },
+    "847": {
+      "CropCode": "FH460",
+      "CropName": "Hydrangea"
+    },
+    "848": {
+      "CropCode": "FH461",
+      "CropName": "Hydrangea - Red"
+    },
+    "849": {
+      "CropCode": "FH464",
+      "CropName": "Hydrangea - Pink"
+    },
+    "850": {
+      "CropCode": "FH465",
+      "CropName": "Hydrangea - Green"
+    },
+    "851": {
+      "CropCode": "FH466",
+      "CropName": "Hydrangea - White"
+    },
+    "852": {
+      "CropCode": "FH467",
+      "CropName": "Hydrangea - Blue"
+    },
+    "853": {
+      "CropCode": "FH468",
+      "CropName": "Hydrangea - Water Blue"
+    },
+    "854": {
+      "CropCode": "FH470",
+      "CropName": "Gloxinia"
+    },
+    "855": {
+      "CropCode": "FH480",
+      "CropName": "Gentian"
+    },
+    "856": {
+      "CropCode": "FH485",
+      "CropName": "Bellflower"
+    },
+    "857": {
+      "CropCode": "FH490",
+      "CropName": "Anemone"
+    },
+    "858": {
+      "CropCode": "FH495",
+      "CropName": "Lotus"
+    },
+    "859": {
+      "CropCode": "FH496",
+      "CropName": "Lotus - White"
+    },
+    "860": {
+      "CropCode": "FH497",
+      "CropName": "Lotus - Red"
+    },
+    "861": {
+      "CropCode": "FH498",
+      "CropName": "Lotus - Yellow"
+    },
+    "862": {
+      "CropCode": "FH499",
+      "CropName": "Lotus - Pink"
+    },
+    "863": {
+      "CropCode": "FH500",
+      "CropName": "Hyacinth"
+    },
+    "864": {
+      "CropCode": "FH510",
+      "CropName": "Butterfly Lotus - Mixed Color"
+    },
+    "865": {
+      "CropCode": "FH511",
+      "CropName": "Butterfly Lotus - Red"
+    },
+    "866": {
+      "CropCode": "FH512",
+      "CropName": "Butterfly Lotus - Orange"
+    },
+    "867": {
+      "CropCode": "FH513",
+      "CropName": "Butterfly Lotus - Yellow"
+    },
+    "868": {
+      "CropCode": "FH514",
+      "CropName": "Butterfly Lotus - Pink"
+    },
+    "869": {
+      "CropCode": "FH516",
+      "CropName": "Butterfly Lotus - White"
+    },
+    "870": {
+      "CropCode": "FH521",
+      "CropName": "Fragrant - Yellow"
+    },
+    "871": {
+      "CropCode": "FH522",
+      "CropName": "Fragrant - White"
+    },
+    "872": {
+      "CropCode": "FH580",
+      "CropName": "Iris"
+    },
+    "873": {
+      "CropCode": "FH600",
+      "CropName": "Wintersweet"
+    },
+    "874": {
+      "CropCode": "FH610",
+      "CropName": "Tulip - Mixed Color"
+    },
+    "875": {
+      "CropCode": "FH611",
+      "CropName": "Tulip - Red"
+    },
+    "876": {
+      "CropCode": "FH612",
+      "CropName": "Tulip - Orange"
+    },
+    "877": {
+      "CropCode": "FH613",
+      "CropName": "Tulip - Yellow"
+    },
+    "878": {
+      "CropCode": "FH614",
+      "CropName": "Tulip - Pink"
+    },
+    "879": {
+      "CropCode": "FH616",
+      "CropName": "Tulip - White"
+    },
+    "880": {
+      "CropCode": "FH617",
+      "CropName": "Tulip - Purple"
+    },
+    "881": {
+      "CropCode": "FH618",
+      "CropName": "Tulip - Bicolor"
+    },
+    "882": {
+      "CropCode": "FH620",
+      "CropName": "Daffodil"
+    },
+    "883": {
+      "CropCode": "FH626",
+      "CropName": "Peace Lily"
+    },
+    "884": {
+      "CropCode": "FH630",
+      "CropName": "Calla Lily - Mixed Color"
+    },
+    "885": {
+      "CropCode": "FH631",
+      "CropName": "Calla Lily - Red"
+    },
+    "886": {
+      "CropCode": "FH632",
+      "CropName": "Calla Lily - Orange"
+    },
+    "887": {
+      "CropCode": "FH633",
+      "CropName": "Calla Lily - Yellow"
+    },
+    "888": {
+      "CropCode": "FH634",
+      "CropName": "Calla Lily - Pink"
+    },
+    "889": {
+      "CropCode": "FH635",
+      "CropName": "Calla Lily - Green"
+    },
+    "890": {
+      "CropCode": "FH636",
+      "CropName": "Calla Lily - White"
+    },
+    "891": {
+      "CropCode": "FH637",
+      "CropName": "Calla Lily - Purple"
+    },
+    "892": {
+      "CropCode": "FH638",
+      "CropName": "Calla Lily - Cream"
+    },
+    "893": {
+      "CropCode": "FH640",
+      "CropName": "Water Lily"
+    },
+    "894": {
+      "CropCode": "FH650",
+      "CropName": "Lotus"
+    },
+    "895": {
+      "CropCode": "FH660",
+      "CropName": "Velvet"
+    },
+    "896": {
+      "CropCode": "FH661",
+      "CropName": "Bethlehem Star"
+    },
+    "897": {
+      "CropCode": "FH670",
+      "CropName": "Jasmine"
+    },
+    "898": {
+      "CropCode": "FH673",
+      "CropName": "Triangular Bellflower"
+    },
+    "899": {
+      "CropCode": "FH680",
+      "CropName": "Clivia"
+    },
+    "900": {
+      "CropCode": "FH690",
+      "CropName": "Fireball Flower"
+    },
+    "901": {
+      "CropCode": "FH700",
+      "CropName": "Cold Dingzi (Crown)"
+    },
+    "902": {
+      "CropCode": "FH710",
+      "CropName": "Mountain Cherry"
+    },
+    "903": {
+      "CropCode": "FH717",
+      "CropName": "Mountain Cherry - Purple Mist"
+    },
+    "904": {
+      "CropCode": "FH720",
+      "CropName": "Shell Flower"
+    },
+    "905": {
+      "CropCode": "FH730",
+      "CropName": "Black Seed Grass"
+    },
+    "906": {
+      "CropCode": "FH740",
+      "CropName": "Golden Emerald Flower"
+    },
+    "907": {
+      "CropCode": "FH750",
+      "CropName": "Lotus (Love Flower)"
+    },
+    "908": {
+      "CropCode": "FH756",
+      "CropName": "Large White Lotus"
+    },
+    "909": {
+      "CropCode": "FH757",
+      "CropName": "Large Purple Lotus"
+    },
+    "910": {
+      "CropCode": "FH760",
+      "CropName": "Torch Lily"
+    },
+    "911": {
+      "CropCode": "FH770",
+      "CropName": "African Tulip"
+    },
+    "912": {
+      "CropCode": "FH780",
+      "CropName": "Corn Lily"
+    },
+    "913": {
+      "CropCode": "FH790",
+      "CropName": "Blue Star Flower"
+    },
+    "914": {
+      "CropCode": "FH794",
+      "CropName": "Blue Star Flower - Pink"
+    },
+    "915": {
+      "CropCode": "FH795",
+      "CropName": "Blue Star Flower - Blue"
+    },
+    "916": {
+      "CropCode": "FH796",
+      "CropName": "Blue Star Flower - White"
+    },
+    "917": {
+      "CropCode": "FH800",
+      "CropName": "Rose - Christmas"
+    },
+    "918": {
+      "CropCode": "FH890",
+      "CropName": "Kangaroo Flower"
+    },
+    "919": {
+      "CropCode": "FH900",
+      "CropName": "Purple Beauty Flower"
+    },
+    "920": {
+      "CropCode": "FI0",
+      "CropName": "Eggplant - Other"
+    },
+    "921": {
+      "CropCode": "FI1",
+      "CropName": "Eggplant - Lipstick Eggplant"
+    },
+    "922": {
+      "CropCode": "FI2",
+      "CropName": "Eggplant - Hemp Eggplant"
+    },
+    "923": {
+      "CropCode": "FI3",
+      "CropName": "Eggplant - Japanese Variety"
+    },
+    "924": {
+      "CropCode": "FJ0",
+      "CropName": "Tomato - Others"
+    },
+    "925": {
+      "CropCode": "FJ1",
+      "CropName": "Tomato - Black Tomato"
+    },
+    "926": {
+      "CropCode": "FJ2",
+      "CropName": "Tomato - Pink Tomato"
+    },
+    "927": {
+      "CropCode": "FJ3",
+      "CropName": "Tomato - Beefsteak Tomato"
+    },
+    "928": {
+      "CropCode": "FK0",
+      "CropName": "Sweet Pepper - Others"
+    },
+    "929": {
+      "CropCode": "FK000",
+      "CropName": "Sunflower Lily"
+    },
+    "930": {
+      "CropCode": "FK001",
+      "CropName": "Sunflower Lily - Single Flower"
+    },
+    "931": {
+      "CropCode": "FK002",
+      "CropName": "Sunflower Lily - Double Flower"
+    },
+    "932": {
+      "CropCode": "FK003",
+      "CropName": "Sunflower Lily - Triple Flower"
+    },
+    "933": {
+      "CropCode": "FK004",
+      "CropName": "Sunflower Lily - Four Flowers"
+    },
+    "934": {
+      "CropCode": "FK005",
+      "CropName": "Sunflower Lily - Five Flowers"
+    },
+    "935": {
+      "CropCode": "FK009",
+      "CropName": "Sunflower Lily - Multiple Flowers"
+    },
+    "936": {
+      "CropCode": "FK040",
+      "CropName": "Sunflower Lily - Pink"
+    },
+    "937": {
+      "CropCode": "FK041",
+      "CropName": "Sunflower Lily - Pink Single Flower"
+    },
+    "938": {
+      "CropCode": "FK042",
+      "CropName": "Sunflower Lily - Pink Double Flower"
+    },
+    "939": {
+      "CropCode": "FK043",
+      "CropName": "Sunflower Lily - Pink Triple Flower"
+    },
+    "940": {
+      "CropCode": "FK044",
+      "CropName": "Sunflower Lily - Pink Four Flowers"
+    },
+    "941": {
+      "CropCode": "FK045",
+      "CropName": "Sunflower Lily - Pink Five Flowers"
+    },
+    "942": {
+      "CropCode": "FK049",
+      "CropName": "Sunflower Lily - Pink Multiple Flowers"
+    },
+    "943": {
+      "CropCode": "FK110",
+      "CropName": "Sunflower Lily - Laura Red"
+    },
+    "944": {
+      "CropCode": "FK111",
+      "CropName": "Sunflower Lily - Laura Red Single Flower"
+    },
+    "945": {
+      "CropCode": "FK112",
+      "CropName": "Sunflower Lily - Laura Red Double Flower"
+    },
+    "946": {
+      "CropCode": "FK113",
+      "CropName": "Sunflower Lily - Laura Red Triple Flower"
+    },
+    "947": {
+      "CropCode": "FK114",
+      "CropName": "Sunflower Lily - Laura Red Four Flowers"
+    },
+    "948": {
+      "CropCode": "FK115",
+      "CropName": "Sunflower Lily - Laura Red Five Flowers"
+    },
+    "949": {
+      "CropCode": "FK119",
+      "CropName": "Sunflower - Laura Red Multi-Flower"
+    },
+    "950": {
+      "CropCode": "FK210",
+      "CropName": "Sunflower - Olympic Red"
+    },
+    "951": {
+      "CropCode": "FK211",
+      "CropName": "Sunflower - Olympic Red Single Flower"
+    },
+    "952": {
+      "CropCode": "FK212",
+      "CropName": "Sunflower - Olympic Red Double Flower"
+    },
+    "953": {
+      "CropCode": "FK213",
+      "CropName": "Sunflower - Olympic Red Triple Flower"
+    },
+    "954": {
+      "CropCode": "FK214",
+      "CropName": "Sunflower - Olympic Red Four Flowers"
+    },
+    "955": {
+      "CropCode": "FK215",
+      "CropName": "Sunflower - Olympic Red Five Flowers"
+    },
+    "956": {
+      "CropCode": "FK219",
+      "CropName": "Sunflower - Olympic Red Multi-Flower"
+    },
+    "957": {
+      "CropCode": "FK3",
+      "CropName": "Sweet Pepper - New Fragrance"
+    },
+    "958": {
+      "CropCode": "FK310",
+      "CropName": "Sunflower - Red"
+    },
+    "959": {
+      "CropCode": "FK311",
+      "CropName": "Sunflower - Red Single Flower"
+    },
+    "960": {
+      "CropCode": "FK312",
+      "CropName": "Sunflower - Red Double Flower"
+    },
+    "961": {
+      "CropCode": "FK313",
+      "CropName": "Sunflower - Red Triple Flower"
+    },
+    "962": {
+      "CropCode": "FK314",
+      "CropName": "Sunflower - Red Four Flowers"
+    },
+    "963": {
+      "CropCode": "FK315",
+      "CropName": "Sunflower - Red Five Flowers"
+    },
+    "964": {
+      "CropCode": "FK319",
+      "CropName": "Sunflower - Red Multi-Flower"
+    },
+    "965": {
+      "CropCode": "FK340",
+      "CropName": "Sunflower - Mary Pink"
+    },
+    "966": {
+      "CropCode": "FK341",
+      "CropName": "Sunflower - Mary Pink Single Flower"
+    },
+    "967": {
+      "CropCode": "FK342",
+      "CropName": "Sunflower - Mary Pink Double Flower"
+    },
+    "968": {
+      "CropCode": "FK343",
+      "CropName": "Sunflower - Mary Pink Triple Flower"
+    },
+    "969": {
+      "CropCode": "FK344",
+      "CropName": "Sunflower - Mary Pink Four Flowers"
+    },
+    "970": {
+      "CropCode": "FK345",
+      "CropName": "Sunflower - Mary Pink Five Flowers"
+    },
+    "971": {
+      "CropCode": "FK349",
+      "CropName": "Sunflower - Mary Pink Multi-Flower"
+    },
+    "972": {
+      "CropCode": "FK4",
+      "CropName": "Sweet Pepper - Colorful Variety"
+    },
+    "973": {
+      "CropCode": "FK410",
+      "CropName": "Sunflower - Acapulco Red"
+    },
+    "974": {
+      "CropCode": "FK411",
+      "CropName": "Sunflower - Acapulco Red Single"
+    },
+    "975": {
+      "CropCode": "FK412",
+      "CropName": "Sunflower - Acapulco Red Double"
+    },
+    "976": {
+      "CropCode": "FK413",
+      "CropName": "Sunflower - Acapulco Red Triple"
+    },
+    "977": {
+      "CropCode": "FK414",
+      "CropName": "Sunflower - Acapulco Red Quadruple"
+    },
+    "978": {
+      "CropCode": "FK415",
+      "CropName": "Sunflower - Acapulco Red Quintuple"
+    },
+    "979": {
+      "CropCode": "FK419",
+      "CropName": "Sunflower - Acapulco Red Multiple"
+    },
+    "980": {
+      "CropCode": "FK420",
+      "CropName": "Sunflower - Atia"
+    },
+    "981": {
+      "CropCode": "FK421",
+      "CropName": "Sunflower - Atia Single"
+    },
+    "982": {
+      "CropCode": "FK422",
+      "CropName": "Sunflower - Atia Double"
+    },
+    "983": {
+      "CropCode": "FK423",
+      "CropName": "Sunflower - Atia Triple"
+    },
+    "984": {
+      "CropCode": "FK429",
+      "CropName": "Sunflower - Atia Multiple"
+    },
+    "985": {
+      "CropCode": "FK430",
+      "CropName": "Sunflower - Mary Star"
+    },
+    "986": {
+      "CropCode": "FK431",
+      "CropName": "Sunflower - Mary Star Single"
+    },
+    "987": {
+      "CropCode": "FK432",
+      "CropName": "Sunflower - Mary Star Double"
+    },
+    "988": {
+      "CropCode": "FK433",
+      "CropName": "Sunflower - Mary Star Triple"
+    },
+    "989": {
+      "CropCode": "FK439",
+      "CropName": "Sunflower - Mary Star Multiple"
+    },
+    "990": {
+      "CropCode": "FK440",
+      "CropName": "Rodina"
+    },
+    "991": {
+      "CropCode": "FK441",
+      "CropName": "Rodina - Single"
+    },
+    "992": {
+      "CropCode": "FK442",
+      "CropName": "Rodina - Double"
+    },
+    "993": {
+      "CropCode": "FK443",
+      "CropName": "Rodina - Triple"
+    },
+    "994": {
+      "CropCode": "FK449",
+      "CropName": "Rodina - Multiple"
+    },
+    "995": {
+      "CropCode": "FK450",
+      "CropName": "Coprala"
+    },
+    "996": {
+      "CropCode": "FK451",
+      "CropName": "Coprala - Single"
+    },
+    "997": {
+      "CropCode": "FK452",
+      "CropName": "Coprala - Double"
+    },
+    "998": {
+      "CropCode": "FK453",
+      "CropName": "Coprala - Triple"
+    },
+    "999": {
+      "CropCode": "FK459",
+      "CropName": "Cabbage - Multi-flower"
+    }
+  },
+  "Next": true
+}
