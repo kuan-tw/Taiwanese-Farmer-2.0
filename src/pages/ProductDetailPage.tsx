@@ -42,7 +42,7 @@ export function ProductDetailPage() {
     cropName: string;
     data: AgriProduct[];
   }[]>([]);
-  const [activeTab, setActiveTab] = useState<'details'|'pest'|'history'|'market'|'compare'>('details');
+  
 
   useEffect(() => {
     const fetchTranslations = async () => {
@@ -273,21 +273,8 @@ export function ProductDetailPage() {
         </div>
       ) : (
         <div className="space-y-4 sm:space-y-6">
-          <div className="sm:hidden mb-4">
-             <select 
-                value={activeTab}
-                onChange={(e) => setActiveTab(e.target.value as any)}
-                className={`w-full p-3 rounded-lg border ${isDarkMode ? 'bg-gray-800 border-gray-700 text-white' : 'bg-white border-gray-300 text-gray-900'}`}
-             >
-                <option value="details">{language === 'zh' ? '產品資訊' : 'Product Info'}</option>
-                {pestDiseaseData.length > 0 && <option value="pest">{language === 'zh' ? '病蟲害診斷' : 'Pest & Disease'}</option>}
-                <option value="history">{language === 'zh' ? '歷史價格' : 'Price History'}</option>
-                {markets.length > 0 && <option value="market">{language === 'zh' ? '市場比較' : 'Market Comparison'}</option>}
-                <option value="compare">{t('crop.comparison') || (language === 'zh' ? '作物比較' : 'Crop Comparison')}</option>
-             </select>
-          </div>
 
-          <div className={`${activeTab === 'details' ? 'block' : 'hidden'} sm:block`}>
+          <div className="block">
             <ProductDetails 
               product={product} 
               englishName={englishName}
@@ -303,7 +290,7 @@ export function ProductDetailPage() {
           </div>
           
           {pestDiseaseData.length > 0 && (
-            <div className={`${activeTab === 'pest' ? 'block' : 'hidden'} sm:block space-y-4`}>
+            <div className="block space-y-4">
               <h2 className={`text-lg sm:text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'} px-2 sm:px-0`}>
                 {language === 'zh' ? '病蟲害診斷' : 'Pest & Disease Diagnosis'}
               </h2>
@@ -313,7 +300,7 @@ export function ProductDetailPage() {
             </div>
           )}
 
-          <div className={`${activeTab === 'history' ? 'block' : 'hidden'} sm:block space-y-4 sm:space-y-6`}>
+          <div className="block space-y-4 sm:space-y-6">
             <div className={`${
               isDarkMode ? 'bg-gray-800' : 'bg-white'
             } p-3 sm:p-4 rounded-lg shadow transition-colors duration-200 mx-2 sm:mx-0`}>
@@ -380,7 +367,7 @@ export function ProductDetailPage() {
             {historyData.length > 0 && <PriceHistory historyData={historyData} />}
           </div>
             
-          <div className={`${activeTab === 'market' ? 'block' : 'hidden'} sm:block`}>
+          <div className="block">
             {markets.length > 0 && product && (
               <MarketComparison 
                 markets={markets} 
@@ -389,7 +376,7 @@ export function ProductDetailPage() {
             )}
           </div>
             
-          <div className={`${activeTab === 'compare' ? 'block' : 'hidden'} sm:block space-y-4`}>
+          <div className="block space-y-4">
             {comparisonCrops.length > 0 && (
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 px-2 sm:px-0">
