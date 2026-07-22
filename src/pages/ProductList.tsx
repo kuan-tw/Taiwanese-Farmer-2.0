@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Search, AlertTriangle, Calendar, Sprout, Filter, SlidersHorizontal } from 'lucide-react';
 import { AgriProduct, Market } from '../types/api';
 import { EpidemicList } from '../components/EpidemicList';
@@ -31,10 +31,11 @@ const marketCategories: MarketCategory[] = [
 ];
 
 export function ProductList() {
+  const location = useLocation();
   const [productData, setProductData] = useState<ProductData>({});
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
-  const [showEpidemics, setShowEpidemics] = useState(false);
+  const [showEpidemics, setShowEpidemics] = useState(location.state?.showEpidemics || false);
   const [showFilters, setShowFilters] = useState(false);
   const [markets, setMarkets] = useState<Market[]>([]);
   const [selectedMarket, setSelectedMarket] = useState<string>('');
@@ -53,7 +54,7 @@ export function ProductList() {
       try {
         await Promise.all(langs.map(async (lang) => {
           try {
-            const response = await fetch(`/translation/translated_${lang}.json`);
+            const response = await fetch(`${import.meta.env.BASE_URL}translation/translated_${lang}.json`);
             if (response.ok) {
               const data = await response.json();
               translationData[lang] = data;

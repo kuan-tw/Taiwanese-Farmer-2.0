@@ -20,7 +20,7 @@ export function EpidemicDetailPage() {
           資訊不存在
         </p>
         <button
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/', { state: { showEpidemics: true } })}
           className="text-blue-500 hover:text-blue-600 mt-4 inline-flex items-center"
         >
           <ChevronLeft className="w-4 h-4 mr-1" />
@@ -33,7 +33,7 @@ export function EpidemicDetailPage() {
   return (
     <div className="max-w-3xl mx-auto space-y-6">
       <button
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/', { state: { showEpidemics: true } })}
         className="inline-flex items-center text-blue-500 hover:text-blue-600 text-sm sm:text-base"
       >
         <ChevronLeft className="w-4 h-4 mr-1" />

@@ -1,5 +1,6 @@
 export const customCanvasBackgroundColor = {
   id: 'customCanvasBackgroundColor',
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   beforeDraw: (chart: any, args: any, options: any) => {
     const {ctx} = chart;
     ctx.save();

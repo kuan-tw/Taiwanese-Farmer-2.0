@@ -54,7 +54,7 @@ export function ProductDetailPage() {
         
         await Promise.all(languages.map(async (lang) => {
           try {
-            const response = await fetch(`/translation/translated_${lang}.json`);
+            const response = await fetch(`${import.meta.env.BASE_URL}translation/translated_${lang}.json`);
             if (response.ok) {
               const data = await response.json();
               translationData[lang] = data;
@@ -247,7 +247,7 @@ export function ProductDetailPage() {
   return (
     <div className="space-y-4 sm:space-y-6 px-2 sm:px-4 lg:px-0">
       <button
-        onClick={() => navigate('/')}
+        onClick={() => navigate(-1)}
         className="inline-flex items-center text-blue-500 hover:text-blue-600 mb-2 sm:mb-4 text-sm sm:text-base"
       >
         <ChevronLeft className="w-4 h-4 mr-1" />
@@ -263,13 +263,13 @@ export function ProductDetailPage() {
           <p className={`text-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
             Product not found
           </p>
-          <Link
-            to="/"
+          <button
+            onClick={() => navigate(-1)}
             className="text-blue-500 hover:text-blue-600 mt-4 inline-flex items-center"
           >
             <ChevronLeft className="w-4 h-4 mr-1" />
             {t('actions.back')}
-          </Link>
+          </button>
         </div>
       ) : (
         <div className="space-y-4 sm:space-y-6">

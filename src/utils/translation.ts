@@ -48,7 +48,7 @@ export const translations = {
       add: '新增作物'
     },
     actions: {
-      back: '返回產品列表',
+      back: '返回上一頁',
       cancel: '取消',
       advanced: '進階',
       export: '匯出圖表'
@@ -103,7 +103,7 @@ export const translations = {
       add: 'Add Crop'
     },
     actions: {
-      back: 'Back to products',
+      back: 'Go back',
       cancel: 'Cancel',
       advanced: 'Advanced',
       export: 'Export Chart'
@@ -158,7 +158,7 @@ export const translations = {
       add: '作物を追加'
     },
     actions: {
-      back: '製品一覧に戻る',
+      back: '前のページに戻る',
       cancel: 'キャンセル',
       advanced: '高度な',
       export: 'グラフをエクスポート'
@@ -213,7 +213,7 @@ export const translations = {
       add: '작물 추가'
     },
     actions: {
-      back: '제품 목록으로 돌아가기',
+      back: '이전 페이지로 돌아가기',
       cancel: '취소',
       advanced: '고급',
       export: '차트 내보내기'
@@ -268,7 +268,7 @@ export const translations = {
       add: 'Tambah Tanaman'
     },
     actions: {
-      back: 'Kembali ke daftar produk',
+      back: 'Kembali',
       cancel: 'Batal',
       advanced: 'Lanjutan',
       export: 'Ekspor Grafik'
@@ -323,7 +323,7 @@ export const translations = {
       add: 'Tambah Tanaman'
     },
     actions: {
-      back: 'Kembali ke senarai produk',
+      back: 'Kembali',
       cancel: 'Batal',
       advanced: 'Lanjutan',
       export: 'Eksport Carta'
@@ -378,7 +378,7 @@ export const translations = {
       add: 'เพิ่มพืชผล'
     },
     actions: {
-      back: 'กลับไปยังรายการผลิตภัณฑ์',
+      back: 'กลับ',
       cancel: 'ยกเลิก',
       advanced: 'ขั้นสูง',
       export: 'ส่งออกแผนภูมิ'
@@ -433,7 +433,7 @@ export const translations = {
       add: 'Thêm Cây Trồng'
     },
     actions: {
-      back: 'Quay lại danh sách sản phẩm',
+      back: 'Quay lại',
       cancel: 'Hủy',
       advanced: 'Nâng cao',
       export: 'Xuất Biểu Đồ'
