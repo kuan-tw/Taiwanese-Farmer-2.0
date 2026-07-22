@@ -1,17 +1,18 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { useParams, Link, useSearchParams, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect, useCallback, Suspense, lazy } from 'react';
+import { useParams, useSearchParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft, Calendar, Plus } from 'lucide-react';
 import { AgriProduct, PestDiseaseDiagnosis } from '../types/api';
 import { ProductDetails } from '../components/ProductDetails';
-import { PriceHistory } from '../components/PriceHistory';
-import { MarketComparison } from '../components/MarketComparison';
-import { CropComparison } from '../components/CropComparison';
-import { CropSearch } from '../components/CropSearch';
-import { PestDiseaseInfo } from '../components/PestDiseaseInfo';
 import { convertToTaiwanDate } from '../utils/date';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from '../hooks/useTranslation';
+
+const PriceHistory = lazy(() => import('../components/PriceHistory').then(m => ({ default: m.PriceHistory })));
+const MarketComparison = lazy(() => import('../components/MarketComparison').then(m => ({ default: m.MarketComparison })));
+const CropComparison = lazy(() => import('../components/CropComparison').then(m => ({ default: m.CropComparison })));
+const CropSearch = lazy(() => import('../components/CropSearch').then(m => ({ default: m.CropSearch })));
+const PestDiseaseInfo = lazy(() => import('../components/PestDiseaseInfo').then(m => ({ default: m.PestDiseaseInfo })));
 
 export function ProductDetailPage() {
   const navigate = useNavigate();
@@ -43,7 +44,13 @@ export function ProductDetailPage() {
     data: AgriProduct[];
   }[]>([]);
   const [activeTab, setActiveTab] = useState<'details'|'pest'|'history'|'market'|'compare'>('details');
-  
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     const fetchTranslations = async () => {
@@ -273,6 +280,7 @@ export function ProductDetailPage() {
           </button>
         </div>
       ) : (
+        <Suspense fallback={<div className="flex justify-center p-8"><div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div></div>}>
         <div className="space-y-4 sm:space-y-6">
 
           <div className="sm:hidden mb-4">
@@ -288,7 +296,8 @@ export function ProductDetailPage() {
                 <option value="compare">{t("crop.comparison") || (language === "zh" ? "作物比較" : "Crop Comparison")}</option>
              </select>
           </div>
-          <div className={`${activeTab === 'details' ? 'block' : 'hidden'} sm:block`}>
+          {(!isMobile || activeTab === 'details') && (
+          <div className="sm:block">
             <ProductDetails 
               product={product} 
               englishName={englishName}
@@ -302,9 +311,10 @@ export function ProductDetailPage() {
               }}
             />
           </div>
-          
-          {pestDiseaseData.length > 0 && (
-            <div className={`${activeTab === 'pest' ? 'block' : 'hidden'} sm:block space-y-4`}>
+          )}
+
+          {pestDiseaseData.length > 0 && (!isMobile || activeTab === 'pest') && (
+            <div className="sm:block space-y-4">
               <h2 className={`text-lg sm:text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'} px-2 sm:px-0`}>
                 {language === 'zh' ? '病蟲害診斷' : 'Pest & Disease Diagnosis'}
               </h2>
@@ -314,7 +324,8 @@ export function ProductDetailPage() {
             </div>
           )}
 
-          <div className={`${activeTab === 'history' ? 'block' : 'hidden'} sm:block space-y-4 sm:space-y-6`}>
+          {(!isMobile || activeTab === 'history') && (
+          <div className="sm:block space-y-4 sm:space-y-6">
             <div className={`${
               isDarkMode ? 'bg-gray-800' : 'bg-white'
             } p-3 sm:p-4 rounded-lg shadow transition-colors duration-200 mx-2 sm:mx-0`}>
@@ -380,8 +391,11 @@ export function ProductDetailPage() {
 
             {historyData.length > 0 && <PriceHistory historyData={historyData} />}
           </div>
+          )}
+
             
-          <div className={`${activeTab === 'market' ? 'block' : 'hidden'} sm:block`}>
+          {(!isMobile || activeTab === 'market') && (
+          <div className="sm:block">
             {markets.length > 0 && product && (
               <MarketComparison 
                 markets={markets} 
@@ -389,8 +403,11 @@ export function ProductDetailPage() {
               />
             )}
           </div>
+          )}
+
             
-          <div className={`${activeTab === 'compare' ? 'block' : 'hidden'} sm:block space-y-4`}>
+          {(!isMobile || activeTab === 'compare') && (
+          <div className="sm:block space-y-4">
             {comparisonCrops.length > 0 && (
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 px-2 sm:px-0">
@@ -432,7 +449,9 @@ export function ProductDetailPage() {
               </div>
             )}
           </div>
+          )}
         </div>
+        </Suspense>
       )}
     </div>
   );
