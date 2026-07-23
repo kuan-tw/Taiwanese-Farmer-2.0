@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Search, AlertTriangle, Calendar, Sprout, Filter, SlidersHorizontal } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
+import { ProductCard } from '../components/ProductCard';
+import { Search, AlertTriangle, Calendar, Filter, SlidersHorizontal } from 'lucide-react';
 import { AgriProduct, Market } from '../types/api';
 import { EpidemicList } from '../components/EpidemicList';
 import { convertToTaiwanDate } from '../utils/date';
@@ -36,6 +37,15 @@ export function ProductList() {
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [showEpidemics, setShowEpidemics] = useState(location.state?.showEpidemics || false);
+
+  useEffect(() => {
+    if (location.state?.reset) {
+      setShowEpidemics(false);
+      setSearchTerm('');
+    } else if (location.state?.showEpidemics !== undefined) {
+      setShowEpidemics(location.state.showEpidemics);
+    }
+  }, [location.state]);
   const [showFilters, setShowFilters] = useState(false);
   const [markets, setMarkets] = useState<Market[]>([]);
   const [selectedMarket, setSelectedMarket] = useState<string>('');
@@ -314,92 +324,7 @@ export function ProductList() {
               const translatedName = getTranslatedCropName(cropCode, product.CropName);
               
               return (
-                <Link
-                  key={cropCode}
-                  to={`/product/${cropCode}${selectedMarket ? `?market=${selectedMarket}` : ''}`}
-                  className={`block cursor-pointer ${
-                    isDarkMode ? 'bg-gray-800' : 'bg-white'
-                  } rounded-lg shadow-lg hover:shadow-xl transition-all duration-300`}
-                >
-                  <div className={`relative h-48 sm:rounded-t-lg overflow-hidden hidden sm:block ${
-                    isDarkMode ? 'bg-gradient-to-br from-green-600 to-green-700' : 'bg-gradient-to-br from-green-400 to-green-500'
-                  }`}>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <Sprout className="w-16 h-16 text-white drop-shadow-lg" />
-                    </div>
-                    <div className="absolute inset-0 bg-black/10 hover:bg-black/20 transition-colors duration-300"></div>
-                  </div>
-
-                  <div className="p-4 sm:p-8">
-                    <div className="flex items-center gap-6 mb-6">
-                      <div>
-                        <h3 className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                          {translatedName}
-                        </h3>
-                        <p className={`text-lg ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                          {product.MarketName}
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-3 gap-4 mb-6">
-                      <div className={`p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
-                        <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                          {t('price.high')}
-                        </p>
-                        <p className={`text-lg font-semibold text-green-500`}>
-                          ${product.Upper_Price.toFixed(2)}
-                        </p>
-                      </div>
-                      <div className={`p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
-                        <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                          {t('price.mid')}
-                        </p>
-                        <p className={`text-lg font-semibold text-blue-500`}>
-                          ${product.Middle_Price.toFixed(2)}
-                        </p>
-                      </div>
-                      <div className={`p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
-                        <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                          {t('price.low')}
-                        </p>
-                        <p className={`text-lg font-semibold text-red-500`}>
-                          ${product.Lower_Price.toFixed(2)}
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-2 gap-6 mb-6">
-                      <div>
-                        <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                          {t('price.average')}
-                        </p>
-                        <p className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                          ${product.Avg_Price.toFixed(2)}
-                        </p>
-                      </div>
-                      <div>
-                        <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                          {t('price.volume')}
-                        </p>
-                        <p className={`text-3xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                          {product.Trans_Quantity.toLocaleString()} kg
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className="flex justify-between items-center">
-                      <span className={`text-sm font-mono px-3 py-1.5 rounded-full ${
-                        isDarkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-600'
-                      }`}>
-                        #{product.CropCode}
-                      </span>
-                      <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                        {formatDate(product.TransDate)}
-                      </span>
-                    </div>
-                  </div>
-                </Link>
+                <ProductCard key={cropCode} cropCode={cropCode} product={product} translatedName={translatedName} selectedMarket={selectedMarket} />
               );
             })}
           </div>

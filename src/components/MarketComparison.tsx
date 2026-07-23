@@ -202,7 +202,7 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
         <h3 className={`text-xl font-bold ${
           isDarkMode ? 'text-white' : 'text-gray-900'
         }`}>
-          {t('market.for')} {productName}
+          {['zh', 'ja', 'ko'].includes(language) ? `${productName} ${t('market.for')}` : `${t('market.for')} ${productName}`}
         </h3>
         {!isMobile && <button
           onClick={handleExportChart}

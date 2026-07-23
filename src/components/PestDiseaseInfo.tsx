@@ -17,6 +17,30 @@ export const PestDiseaseInfo: React.FC<PestDiseaseInfoProps> = ({ diagnoses }) =
 
   if (!diagnoses || diagnoses.length === 0) return null;
 
+  
+  const renderTextWithLinks = (text: string) => {
+    if (!text) return null;
+    return text.split(/(https?:\/\/[^\s()<>。，、！？；：\n\r]+)/g).map((part, i) => {
+      if (part.startsWith('http')) {
+        let url = part;
+        let suffix = '';
+        if (url.endsWith('.') || url.endsWith(',')) {
+          suffix = url.slice(-1);
+          url = url.slice(0, -1);
+        }
+        return (
+          <React.Fragment key={i}>
+            <a href={url} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 underline break-all">
+              {url}
+            </a>
+            {suffix}
+          </React.Fragment>
+        );
+      }
+      return part;
+    });
+  };
+
   const diagnosis = diagnoses[selectedIndex];
 
   return (
@@ -77,7 +101,7 @@ export const PestDiseaseInfo: React.FC<PestDiseaseInfoProps> = ({ diagnoses }) =
             </h4>
           </div>
           <p className={`text-xs sm:text-sm whitespace-pre-line break-words ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-            {diagnosis.Question}
+            {renderTextWithLinks(diagnosis.Question)}
           </p>
         </div>
 
@@ -89,7 +113,7 @@ export const PestDiseaseInfo: React.FC<PestDiseaseInfoProps> = ({ diagnoses }) =
             </h4>
           </div>
           <p className={`text-xs sm:text-sm whitespace-pre-line break-words ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-            {diagnosis.Answer}
+            {renderTextWithLinks(diagnosis.Answer)}
           </p>
         </div>
 
@@ -101,7 +125,7 @@ export const PestDiseaseInfo: React.FC<PestDiseaseInfoProps> = ({ diagnoses }) =
             </h4>
           </div>
           <p className={`text-xs sm:text-sm whitespace-pre-line break-words ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-            {diagnosis.Provision}
+            {renderTextWithLinks(diagnosis.Provision)}
           </p>
         </div>
       </div>

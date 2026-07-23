@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, Suspense, lazy } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useSearchParams, useNavigate } from 'react-router-dom';
 import { ChevronLeft, Calendar, Plus } from 'lucide-react';
 import { AgriProduct, PestDiseaseDiagnosis } from '../types/api';
