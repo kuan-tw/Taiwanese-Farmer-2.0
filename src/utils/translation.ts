@@ -28,6 +28,12 @@ export const translations = {
       prediction: '價格預測 (未來3天)'
     },
     loading: {
+      imported: [
+        '搭飛機來的 "{crop}" 正在過海關...',
+        '進口的 "{crop}" 正在坐船乘風破浪...',
+        '來自海外的 "{crop}" 正在檢疫中...',
+        '跨海而來的 "{crop}" 正在通關...'
+      ],
       planting: [
         '正在為你種植最新鮮的 "{crop}"...',
         '鋤禾日當午，汗滴禾下土...',
@@ -134,6 +140,12 @@ export const translations = {
       prediction: 'Price Prediction (Next 3 Days)'
     },
     loading: {
+      imported: [
+        'Imported "{crop}" is clearing customs...',
+        'Imported "{crop}" is sailing across the ocean...',
+        'Overseas "{crop}" is undergoing quarantine...',
+        '"{crop}" from abroad is passing through customs...'
+      ],
       planting: [
         'Planting the freshest "{crop}" for you...',
         'Hard work at noon, sweat dripping on the soil...',
@@ -240,6 +252,12 @@ export const translations = {
       prediction: '価格予測（今後3日間）'
     },
     loading: {
+      imported: [
+        '輸入された「{crop}」が税関を通過しています...',
+        '輸入「{crop}」が海を渡っています...',
+        '海外からの「{crop}」を検疫中...',
+        '海外からの「{crop}」が通関中...'
+      ],
       planting: [
         'あなたのために新鮮な"{crop}"を栽培しています...',
         '正午の重労働、土に落ちる汗...',
@@ -346,6 +364,12 @@ export const translations = {
       prediction: '가격 예측 (향후 3일)'
     },
     loading: {
+      imported: [
+        '수입된 "{crop}"(이)가 세관을 통과하고 있습니다...',
+        '수입 "{crop}"(이)가 바다를 건너고 있습니다...',
+        '해외에서 온 "{crop}"(이)가 검역 중입니다...',
+        '바다를 건너온 "{crop}"(이)가 통관 중입니다...'
+      ],
       planting: [
         '가장 신선한 "{crop}"(을)를 심는 중...',
         '정오의 고된 노동, 흙에 떨어지는 땀...',
@@ -452,6 +476,12 @@ export const translations = {
       prediction: 'Prediksi Harga (3 Hari Ke Depan)'
     },
     loading: {
+      imported: [
+        '"{crop}" impor sedang melewati bea cukai...',
+        '"{crop}" impor sedang berlayar menyeberangi lautan...',
+        '"{crop}" luar negeri sedang dikarantina...',
+        '"{crop}" dari luar negeri sedang melewati bea cukai...'
+      ],
       planting: [
         'Menanam "{crop}" segar untuk Anda...',
         'Kerja keras di siang hari, keringat menetes di tanah...',
@@ -558,6 +588,12 @@ export const translations = {
       prediction: 'Ramalan Harga (3 Hari Akan Datang)'
     },
     loading: {
+      imported: [
+        '"{crop}" import sedang melepasi kastam...',
+        '"{crop}" import sedang belayar merentasi lautan...',
+        '"{crop}" luar negara sedang dikuarantin...',
+        '"{crop}" dari luar negara sedang melepasi kastam...'
+      ],
       planting: [
         'Menanam "{crop}" segar untuk anda...',
         'Kerja keras di tengah hari, peluh menitis di tanah...',
@@ -664,6 +700,12 @@ export const translations = {
       prediction: 'การพยากรณ์ราคา (3 วันข้างหน้า)'
     },
     loading: {
+      imported: [
+        '"{crop}" นำเข้ากำลังผ่านด่านศุลกากร...',
+        '"{crop}" นำเข้ากำลังแล่นข้ามมหาสมุทร...',
+        '"{crop}" จากต่างประเทศกำลังถูกกักกัน...',
+        '"{crop}" จากต่างประเทศกำลังผ่านด่านศุลกากร...'
+      ],
       planting: [
         'กำลังปลูก "{crop}" ที่สดใหม่ที่สุดสำหรับคุณ...',
         'ทำงานหนักตอนเที่ยง เหงื่อหยดลงดิน...',
@@ -770,6 +812,12 @@ export const translations = {
       prediction: 'Dự Đoán Giá (3 Ngày Tới)'
     },
     loading: {
+      imported: [
+        '"{crop}" nhập khẩu đang làm thủ tục hải quan...',
+        '"{crop}" nhập khẩu đang đi thuyền vượt đại dương...',
+        '"{crop}" từ nước ngoài đang được kiểm dịch...',
+        '"{crop}" từ nước ngoài đang qua hải quan...'
+      ],
       planting: [
         'Đang trồng "{crop}" tươi nhất cho bạn...',
         'Làm việc vất vả giữa trưa, mồ hôi rơi trên đất...',

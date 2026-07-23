@@ -16,12 +16,15 @@ export const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({ type = 'default'
   const { language } = useLanguage();
   const [index, setIndex] = useState(0);
 
-  const texts = t(`loading.${type}`);
+  const isImported = cropName?.includes('進口');
+  const translationKey = isImported && type === 'planting' ? 'loading.imported' : `loading.${type}`;
+  
+  const texts = t(translationKey);
   const textArray = Array.isArray(texts) ? texts : [texts as string];
 
   useEffect(() => {
     setIndex(Math.floor(Math.random() * textArray.length));
-  }, [type, textArray.length]);
+  }, [translationKey, textArray.length]);
 
   let text = textArray[index] || '';
 
@@ -29,7 +32,7 @@ export const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({ type = 'default'
     text = text.replace(/\{market\}/g, marketName);
   }
   
-  if (type === 'planting' && cropName && text) {
+  if ((type === 'planting' || isImported) && cropName && text) {
     text = text.replace(/\{crop\}/g, cropName);
   }
 
@@ -47,6 +50,7 @@ export const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({ type = 'default'
     }[language || 'en'] || 'produce';
     text = text.replace(/\{crop\}/g, genericCrop);
   }
+
   if (text.includes('{market}')) {
     text = text.replace(/\{market\}/g, t('market.market'));
   }

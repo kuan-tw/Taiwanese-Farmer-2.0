@@ -69,7 +69,7 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link to="/" state={{ reset: Date.now() }} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="/images/twfarmer.ico" alt="Logo" className={`w-8 h-8 sm:w-10 sm:h-10 ${isDarkMode ? 'rounded-full' : ''}`} />
+            <img src="/images/logo.svg" alt="Logo" className={`w-8 h-8 sm:w-10 sm:h-10 ${isDarkMode ? 'drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]' : ''}`} />
             <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
               {getTitle(language)}
             </h1>

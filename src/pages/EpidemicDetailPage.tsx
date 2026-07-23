@@ -11,6 +11,29 @@ export function EpidemicDetailPage() {
   const { isDarkMode } = useTheme();
   const { t } = useTranslation();
   
+
+  const renderTextWithLinks = (text: string) => {
+    if (!text) return null;
+    const parts = text.split(/(https?:\/\/[^\s()<>。，、！？；：\n\r]+)/g);
+    return parts.map((part, i) => {
+      if (part.startsWith('http')) {
+        return (
+          <a
+            key={i}
+            href={part}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:text-blue-600 underline break-all"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {part}
+          </a>
+        );
+      }
+      return <React.Fragment key={i}>{part}</React.Fragment>;
+    });
+  };
+
   const epidemic = location.state?.epidemic as PlantEpidemic;
 
   if (!epidemic) {
@@ -81,7 +104,7 @@ export function EpidemicDetailPage() {
         </div>
 
         <div className={`prose max-w-none mb-8 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-          <p className="whitespace-pre-line leading-relaxed">{epidemic.Body}</p>
+          <p className="whitespace-pre-line leading-relaxed">{renderTextWithLinks(epidemic.Body)}</p>
         </div>
 
         {epidemic.Prescription && (
@@ -99,16 +122,7 @@ export function EpidemicDetailPage() {
             <p className={`whitespace-pre-line leading-relaxed ${
               isDarkMode ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              {epidemic.Prescription.split(/(https?:\/\/[^\s)]+)/g).map((part, i) => {
-                if (part.match(/(https?:\/\/[^\s)]+)/)) {
-                  return (
-                    <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 underline break-all">
-                      {part}
-                    </a>
-                  );
-                }
-                return part;
-              })}
+              {renderTextWithLinks(epidemic.Prescription)}
             </p>
           </div>
         )}

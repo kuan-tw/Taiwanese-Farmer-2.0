@@ -33,6 +33,13 @@ const parseROCDate = (rocDateStr: string) => {
 export function ProductDetailPage() {
   const location = useLocation();
   const navigate = useNavigate();
+  const handleBack = () => {
+    if (window.history.state && window.history.state.idx > 0) {
+      navigate(-1);
+    } else {
+      navigate('/', { replace: true });
+    }
+  };
   const { cropCode } = useParams<{ cropCode: string }>();
   const [searchParams, setSearchParams] = useSearchParams();
   const [localMarketCode, setLocalMarketCode] = useState<string | null>(searchParams.get('market'));
@@ -272,7 +279,7 @@ export function ProductDetailPage() {
   return (
     <div className="space-y-4 sm:space-y-6 px-2 sm:px-4 lg:px-0">
       <button
-        onClick={() => navigate(-1)}
+        onClick={handleBack}
         className="inline-flex items-center text-blue-500 hover:text-blue-600 mb-2 sm:mb-4 text-sm sm:text-base"
       >
         <ChevronLeft className="w-4 h-4 mr-1" />
@@ -291,7 +298,7 @@ export function ProductDetailPage() {
             Product not found
           </p>
           <button
-            onClick={() => navigate(-1)}
+            onClick={handleBack}
             className="text-blue-500 hover:text-blue-600 mt-4 inline-flex items-center"
           >
             <ChevronLeft className="w-4 h-4 mr-1" />
@@ -324,7 +331,7 @@ export function ProductDetailPage() {
               onMarketSelect={(newMarketCode) => {
                 if (newMarketCode !== localMarketCode) {
                   setLocalMarketCode(newMarketCode);
-                  setSearchParams({ market: newMarketCode });
+                  setSearchParams({ market: newMarketCode }, { replace: true });
                 }
               }}
             />
