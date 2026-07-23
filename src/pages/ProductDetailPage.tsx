@@ -147,7 +147,7 @@ export function ProductDetailPage() {
       if (allMarketsData.Data) {
         const unique = new Map();
         allMarketsData.Data.forEach((d: AgriProduct) => {
-          if (!unique.has(d.MarketCode) || new Date(d.TransDate) > new Date(unique.get(d.MarketCode).TransDate)) {
+          if (!unique.has(d.MarketCode) || parseROCDate(d.TransDate) > parseROCDate(unique.get(d.MarketCode).TransDate)) {
             unique.set(d.MarketCode, d);
           }
         });
@@ -169,7 +169,7 @@ export function ProductDetailPage() {
           // Find the most recent entry in the fetched history
           let latestEntry = historyData.Data[0];
           historyData.Data.forEach((d: AgriProduct) => {
-             if (new Date(d.TransDate) > new Date(latestEntry.TransDate)) {
+             if (parseROCDate(d.TransDate) > parseROCDate(latestEntry.TransDate)) {
                 latestEntry = d;
              }
           });

@@ -32,6 +32,22 @@ ChartJS.register(
   Legend
 );
 
+
+const parseROCDate = (rocDateStr) => {
+  if (!rocDateStr) return new Date();
+  const parts = rocDateStr.split('.');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0]) + 1911;
+    const month = parseInt(parts[1]) - 1;
+    const day = parseInt(parts[2]);
+    return new Date(year, month, day);
+  }
+  // Try fallback replacing dots with dashes
+  const d = new Date(rocDateStr.replace(/\./g, '-'));
+  if (isNaN(d.getTime())) return new Date();
+  return d;
+};
+
 interface PriceHistoryProps {
   historyData: AgriProduct[];
 }
@@ -48,14 +64,14 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
   const sortedData = aggregateProductsByDate(historyData).sort((a, b) => 
-    new Date(a.TransDate).getTime() - new Date(b.TransDate).getTime()
+    parseROCDate(a.TransDate).getTime() - parseROCDate(b.TransDate).getTime()
   );
 
   // Calculate price estimation using linear regression
   const calculateEstimation = () => {
     const n = sortedData.length;
     const x = Array.from({ length: n }, (_, i) => i);
-    const y = sortedData.map(item => item.Avg_Price);
+    const y = sortedData.map(item => Number(item.Avg_Price || 0));
     
     const sumX = x.reduce((a, b) => a + b, 0);
     const sumY = y.reduce((a, b) => a + b, 0);
@@ -75,11 +91,16 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
   };
 
   const predictions = sortedData.length >= 2 ? calculateEstimation() : [];
-  const lastDate = sortedData.length > 0 ? new Date(sortedData[sortedData.length - 1].TransDate) : new Date();
+  const lastDate = sortedData.length > 0 ? parseROCDate(sortedData[sortedData.length - 1].TransDate) : new Date();
   const futureDates = Array.from({ length: 3 }, (_, i) => {
     const date = new Date(lastDate);
     date.setDate(date.getDate() + i + 1);
-    return date.toISOString().split('T')[0];
+    
+    const y = date.getFullYear() - 1911;
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}.${m}.${d}`;
+
   });
 
   const data = {
@@ -225,13 +246,13 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
             <div key={idx} className={`p-3 rounded-lg flex justify-between items-center ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
               <div>
                 <p className={`text-sm font-medium ${isDarkMode ? 'text-gray-200' : 'text-gray-800'}`}>{item.TransDate}</p>
-                <p className={`text-xs ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{item.Trans_Quantity.toLocaleString()} kg</p>
+                <p className={`text-xs ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{Number(item.Trans_Quantity || 0).toLocaleString()} kg</p>
               </div>
               <div className="text-right">
-                <p className={`text-sm font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>${item.Avg_Price.toFixed(2)}</p>
+                <p className={`text-sm font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>${Number(item.Avg_Price || 0).toFixed(2)}</p>
                 <div className="flex gap-2 text-[10px]">
-                  <span className="text-red-500">L: ${item.Lower_Price.toFixed(2)}</span>
-                  <span className="text-green-500">H: ${item.Upper_Price.toFixed(2)}</span>
+                  <span className="text-red-500">L: ${Number(item.Lower_Price || 0).toFixed(2)}</span>
+                  <span className="text-green-500">H: ${Number(item.Upper_Price || 0).toFixed(2)}</span>
                 </div>
               </div>
             </div>
@@ -250,7 +271,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
           {predictions.map((price, index) => (
             <div key={index} className={`text-center p-2 sm:p-0 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
               <p className="text-xs sm:text-sm">{futureDates[index]}</p>
-              <p className="text-base sm:text-lg font-bold text-blue-500">${price.toFixed(2)}</p>
+              <p className="text-base sm:text-lg font-bold text-blue-500">${Number(price || 0).toFixed(2)}</p>
             </div>
           ))}
         </div>

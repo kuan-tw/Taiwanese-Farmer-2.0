@@ -24,6 +24,21 @@ ChartJS.register(
   Legend
 );
 
+
+const parseROCDate = (rocDateStr) => {
+  if (!rocDateStr) return new Date(0);
+  const parts = rocDateStr.split('.');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0]) + 1911;
+    const month = parseInt(parts[1]) - 1;
+    const day = parseInt(parts[2]);
+    return new Date(year, month, day);
+  }
+  const d = new Date(rocDateStr.replace(/\./g, '-'));
+  if (isNaN(d.getTime())) return new Date(0);
+  return d;
+};
+
 interface MarketComparisonProps {
   markets: AgriProduct[];
   productName: string;
@@ -46,7 +61,7 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
     const marketMap = new Map<string, AgriProduct>();
     markets.forEach(market => {
       const existingMarket = marketMap.get(market.MarketCode);
-      if (!existingMarket || new Date(market.TransDate) > new Date(existingMarket.TransDate)) {
+      if (!existingMarket || parseROCDate(market.TransDate) > parseROCDate(existingMarket.TransDate)) {
         marketMap.set(market.MarketCode, market);
       }
     });
@@ -248,12 +263,12 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
                 <td className={`text-right py-2 px-1 ${
                   isDarkMode ? 'text-gray-300' : 'text-gray-900'
                 }`}>
-                  ${market.Avg_Price.toFixed(2)}
+                  ${Number(market.Avg_Price || 0).toFixed(2)}
                 </td>
                 <td className={`text-right py-2 px-1 ${
                   isDarkMode ? 'text-gray-300' : 'text-gray-900'
                 }`}>
-                  {market.Trans_Quantity.toLocaleString()}
+                  {Number(market.Trans_Quantity || 0).toLocaleString()}
                 </td>
                 <td className="flex justify-center py-2 px-1">
                   {getPriceIndicator(market.Avg_Price, avgPrice)}
