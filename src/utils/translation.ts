@@ -103,6 +103,18 @@ export const translations = {
       comparison: '作物比較',
       add: '新增作物'
     },
+    exportModal: {
+      title: '匯出圖表選項',
+      background: '背景顏色',
+      bg_transparent: '透明',
+      bg_white: '白色',
+      bg_dark: '深色',
+      bg_theme: '跟隨主題',
+      format: '圖片格式',
+      watermark: '浮水印 (網站 Logo)',
+      watermark_desc: '在圖片右下角加上「台灣農夫」標誌',
+      download: '下載圖片'
+    },
     actions: {
       back: '返回上一頁',
       cancel: '取消',
@@ -214,6 +226,18 @@ export const translations = {
     crop: {
       comparison: 'Crop Comparison',
       add: 'Add Crop'
+    },
+    exportModal: {
+      title: 'Export Chart Options',
+      background: 'Background Color',
+      bg_transparent: 'Transparent',
+      bg_white: 'White',
+      bg_dark: 'Dark',
+      bg_theme: 'Match Theme',
+      format: 'Image Format',
+      watermark: 'Watermark (Website Logo)',
+      watermark_desc: 'Add "Taiwanese Farmer" logo to the bottom right',
+      download: 'Download Image'
     },
     actions: {
       back: 'Go back',
@@ -327,6 +351,18 @@ export const translations = {
       comparison: '作物比較',
       add: '作物を追加'
     },
+    exportModal: {
+      title: 'グラフのエクスポートオプション',
+      background: '背景色',
+      bg_transparent: '透明',
+      bg_white: '白',
+      bg_dark: '暗い',
+      bg_theme: 'テーマに合わせる',
+      format: '画像フォーマット',
+      watermark: '透かし (サイトロゴ)',
+      watermark_desc: '右下に「台湾農夫」のロゴを追加する',
+      download: '画像をダウンロード'
+    },
     actions: {
       back: '前のページに戻る',
       cancel: 'キャンセル',
@@ -438,6 +474,18 @@ export const translations = {
     crop: {
       comparison: '작물 비교',
       add: '작물 추가'
+    },
+    exportModal: {
+      title: '차트 내보내기 옵션',
+      background: '배경색',
+      bg_transparent: '투명',
+      bg_white: '흰색',
+      bg_dark: '어두운 색',
+      bg_theme: '테마 일치',
+      format: '이미지 형식',
+      watermark: '워터마크 (웹사이트 로고)',
+      watermark_desc: '우측 하단에 "대만 농부" 로고 추가',
+      download: '이미지 다운로드'
     },
     actions: {
       back: '이전 페이지로 돌아가기',
@@ -551,6 +599,18 @@ export const translations = {
       comparison: 'Perbandingan Tanaman',
       add: 'Tambah Tanaman'
     },
+    exportModal: {
+      title: 'Opsi Ekspor Grafik',
+      background: 'Warna Latar Belakang',
+      bg_transparent: 'Transparan',
+      bg_white: 'Putih',
+      bg_dark: 'Gelap',
+      bg_theme: 'Ikuti Tema',
+      format: 'Format Gambar',
+      watermark: 'Tanda Air (Logo Situs)',
+      watermark_desc: 'Tambahkan logo "Petani Taiwan" di kanan bawah',
+      download: 'Unduh Gambar'
+    },
     actions: {
       back: 'Kembali',
       cancel: 'Batal',
@@ -662,6 +722,18 @@ export const translations = {
     crop: {
       comparison: 'Perbandingan Tanaman',
       add: 'Tambah Tanaman'
+    },
+    exportModal: {
+      title: 'Pilihan Eksport Carta',
+      background: 'Warna Latar Belakang',
+      bg_transparent: 'Lutsinar',
+      bg_white: 'Putih',
+      bg_dark: 'Gelap',
+      bg_theme: 'Ikut Tema',
+      format: 'Format Imej',
+      watermark: 'Tanda Air (Logo Tapak)',
+      watermark_desc: 'Tambahkan logo "Petani Taiwan" di penjuru kanan bawah',
+      download: 'Muat Turun Imej'
     },
     actions: {
       back: 'Kembali',
@@ -775,6 +847,18 @@ export const translations = {
       comparison: 'เปรียบเทียบพืชผล',
       add: 'เพิ่มพืชผล'
     },
+    exportModal: {
+      title: 'ตัวเลือกการส่งออกแผนภูมิ',
+      background: 'สีพื้นหลัง',
+      bg_transparent: 'โปร่งใส',
+      bg_white: 'ขาว',
+      bg_dark: 'มืด',
+      bg_theme: 'ตามธีม',
+      format: 'รูปแบบรูปภาพ',
+      watermark: 'ลายน้ำ (โลโก้เว็บไซต์)',
+      watermark_desc: 'เพิ่มโลโก้ "เกษตรกรไต้หวัน" ที่มุมขวาล่าง',
+      download: 'ดาวน์โหลดรูปภาพ'
+    },
     actions: {
       back: 'กลับ',
       cancel: 'ยกเลิก',
@@ -886,6 +970,18 @@ export const translations = {
     crop: {
       comparison: 'So Sánh Cây Trồng',
       add: 'Thêm Cây Trồng'
+    },
+    exportModal: {
+      title: 'Tùy chọn Xuất Biểu đồ',
+      background: 'Màu Nền',
+      bg_transparent: 'Trong suốt',
+      bg_white: 'Trắng',
+      bg_dark: 'Tối',
+      bg_theme: 'Theo Chủ đề',
+      format: 'Định dạng Hình ảnh',
+      watermark: 'Hình mờ (Logo Trang web)',
+      watermark_desc: 'Thêm logo "Nông dân Đài Loan" ở dưới cùng bên phải',
+      download: 'Tải Hình ảnh'
     },
     actions: {
       back: 'Quay lại',

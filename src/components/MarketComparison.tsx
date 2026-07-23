@@ -5,6 +5,7 @@ import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from '../hooks/useTranslation';
 import { Bar } from 'react-chartjs-2';
+import { ExportChartModal } from './ExportChartModal';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -49,6 +50,7 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
   const { language } = useLanguage();
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
+  const [isExportModalOpen, setIsExportModalOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -186,12 +188,7 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
   };
 
   const handleExportChart = () => {
-    if (chartRef.current) {
-      const link = document.createElement('a');
-      link.download = `${productName}-market-comparison.png`;
-      link.href = chartRef.current.canvas.toDataURL('image/png');
-      link.click();
-    }
+    setIsExportModalOpen(true);
   };
 
   return (
@@ -278,6 +275,13 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
           </tbody>
         </table>
       </div>
+
+      <ExportChartModal
+        isOpen={isExportModalOpen}
+        onClose={() => setIsExportModalOpen(false)}
+        chartRef={chartRef}
+        fileName="market-comparison.png"
+      />
     </div>
   );
 };

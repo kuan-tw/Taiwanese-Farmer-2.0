@@ -5,7 +5,9 @@ import { aggregateProductsByDate } from '../utils/marketData';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from '../hooks/useTranslation';
-import { Download, X } from 'lucide-react';
+import { Download } from 'lucide-react';
+import { ExportChartModal } from './ExportChartModal';
+import { X } from 'lucide-react';
 
 interface CropComparisonProps {
   crops: {
@@ -21,6 +23,7 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
   const { language } = useLanguage();
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
+  const [isExportModalOpen, setIsExportModalOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -146,12 +149,7 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
   };
 
   const handleExportChart = () => {
-    if (chartRef.current) {
-      const link = document.createElement('a');
-      link.download = 'crop-comparison.png';
-      link.href = chartRef.current.canvas.toDataURL('image/png');
-      link.click();
-    }
+    setIsExportModalOpen(true);
   };
 
   return (
@@ -211,6 +209,13 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
           );
         })}
       </div>
+
+      <ExportChartModal
+        isOpen={isExportModalOpen}
+        onClose={() => setIsExportModalOpen(false)}
+        chartRef={chartRef}
+        fileName="crop-comparison.png"
+      />
     </div>
   );
 };

@@ -18,6 +18,7 @@ import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from '../hooks/useTranslation';
 import { Download } from 'lucide-react';
+import { ExportChartModal } from './ExportChartModal';
 
 
 ChartJS.register(
@@ -57,6 +58,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
   const { language } = useLanguage();
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
+  const [isExportModalOpen, setIsExportModalOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -209,12 +211,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
   };
 
   const handleExportChart = () => {
-    if (chartRef.current) {
-      const link = document.createElement('a');
-      link.download = `price-history-${sortedData[0]?.CropCode}.png`;
-      link.href = chartRef.current.canvas.toDataURL('image/png');
-      link.click();
-    }
+    setIsExportModalOpen(true);
   };
 
   return (
@@ -276,6 +273,13 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
           ))}
         </div>
       </div>
+
+      <ExportChartModal
+        isOpen={isExportModalOpen}
+        onClose={() => setIsExportModalOpen(false)}
+        chartRef={chartRef}
+        fileName={`price-history-${sortedData?.[0]?.CropCode || 'chart'}.png`}
+      />
     </div>
   );
 };
