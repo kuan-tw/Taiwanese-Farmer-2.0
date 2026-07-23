@@ -163,10 +163,32 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
           {t('actions.export')}
         </button>
       </div>
-      <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
-        <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-[400px] lg:h-[500px]">
+            <div className="hidden sm:block w-full overflow-x-auto overflow-y-hidden pb-2">
+        <div className="relative w-full sm:h-[400px] lg:h-[500px]">
           <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
         </div>
+      </div>
+      
+      <div className="sm:hidden mt-4 space-y-4">
+        {aggregatedCrops.map((crop, index) => {
+          const latestPrice = crop.data.length > 0 ? crop.data[crop.data.length - 1].Avg_Price : 0;
+          return (
+            <div key={crop.cropCode} className={`p-4 rounded-xl border-l-4 ${isDarkMode ? 'bg-gray-700/50' : 'bg-white'}`} style={{ borderLeftColor: colors[index % colors.length].line }}>
+              <div className="flex justify-between items-center mb-2">
+                <h4 className={`font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>{crop.cropName}</h4>
+                <p className="text-lg font-bold text-blue-500">${latestPrice.toFixed(2)}</p>
+              </div>
+              <div className="max-h-40 overflow-y-auto mt-2 space-y-1">
+                {[...crop.data].reverse().slice(0, 7).map((d, i) => (
+                  <div key={i} className="flex justify-between text-sm">
+                    <span className={isDarkMode ? 'text-gray-400' : 'text-gray-500'}>{d.TransDate}</span>
+                    <span className={isDarkMode ? 'text-gray-300' : 'text-gray-700'}>${d.Avg_Price.toFixed(2)}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </div>
       <div className="mt-4 sm:mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {crops.map((crop, index) => {

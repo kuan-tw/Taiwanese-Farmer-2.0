@@ -8,11 +8,11 @@ import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from '../hooks/useTranslation';
 
-const PriceHistory = lazy(() => import('../components/PriceHistory').then(m => ({ default: m.PriceHistory })));
-const MarketComparison = lazy(() => import('../components/MarketComparison').then(m => ({ default: m.MarketComparison })));
-const CropComparison = lazy(() => import('../components/CropComparison').then(m => ({ default: m.CropComparison })));
-const CropSearch = lazy(() => import('../components/CropSearch').then(m => ({ default: m.CropSearch })));
-const PestDiseaseInfo = lazy(() => import('../components/PestDiseaseInfo').then(m => ({ default: m.PestDiseaseInfo })));
+import { PriceHistory } from '../components/PriceHistory';
+import { MarketComparison } from '../components/MarketComparison';
+import { CropComparison } from '../components/CropComparison';
+import { CropSearch } from '../components/CropSearch';
+import { PestDiseaseInfo } from '../components/PestDiseaseInfo';
 
 export function ProductDetailPage() {
   const navigate = useNavigate();
@@ -295,7 +295,6 @@ export function ProductDetailPage() {
                 <option value="compare">{t("crop.comparison") || (language === "zh" ? "作物比較" : "Crop Comparison")}</option>
              </select>
           </div>
-          <Suspense fallback={<div className="flex justify-center p-8"><div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div></div>}>
           {(!isMobile || activeTab === 'details') && (
           <div className="sm:block">
             <ProductDetails 
@@ -450,7 +449,6 @@ export function ProductDetailPage() {
             )}
           </div>
           )}
-          </Suspense>
         </div>
       )}
     </div>
