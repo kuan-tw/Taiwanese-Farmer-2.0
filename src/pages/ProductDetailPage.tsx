@@ -1,5 +1,6 @@
+import { LoadingSpinner } from '../components/LoadingSpinner';
 import React, { useState, useEffect, useCallback } from 'react';
-import { useParams, useSearchParams, useNavigate } from 'react-router-dom';
+import { useParams, useSearchParams, useNavigate, useLocation } from 'react-router-dom';
 import { ChevronLeft, Calendar, Plus } from 'lucide-react';
 import { AgriProduct, PestDiseaseDiagnosis } from '../types/api';
 import { ProductDetails } from '../components/ProductDetails';
@@ -30,6 +31,7 @@ const parseROCDate = (rocDateStr: string) => {
 };
 
 export function ProductDetailPage() {
+  const location = useLocation();
   const navigate = useNavigate();
   const { cropCode } = useParams<{ cropCode: string }>();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -278,9 +280,11 @@ export function ProductDetailPage() {
       </button>
 
       {loading ? (
-        <div className="flex justify-center items-center h-64">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
-        </div>
+        <LoadingSpinner 
+          type={localMarketCode ? 'heading_to' : 'planting'} 
+          marketName={markets.find(m => m.MarketCode === localMarketCode)?.MarketName}
+          cropName={location.state?.cropName || product?.CropName}
+        />
       ) : !product ? (
         <div className="text-center py-8 sm:py-12 px-4">
           <p className={`text-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>

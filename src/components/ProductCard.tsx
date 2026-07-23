@@ -24,7 +24,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ cropCode, product, tra
 
   return (
     <Link
-      to={`/product/${cropCode}${selectedMarket ? `?market=${selectedMarket}` : ''}`}
+      to={`/product/${cropCode}${selectedMarket ? `?market=${selectedMarket}` : ''}`} state={{ cropName: translatedName }}
       className={`block cursor-pointer ${
         isDarkMode ? 'bg-gray-800' : 'bg-white'
       } rounded-lg shadow-lg hover:shadow-xl transition-all duration-300`}

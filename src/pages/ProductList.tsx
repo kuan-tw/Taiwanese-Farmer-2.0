@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { ProductCard } from '../components/ProductCard';
-import { Search, AlertTriangle, Calendar, Filter, SlidersHorizontal } from 'lucide-react';
+import { Search, AlertTriangle, Calendar, Filter, SlidersHorizontal, Shuffle } from 'lucide-react';
 import { AgriProduct, Market } from '../types/api';
 import { EpidemicList } from '../components/EpidemicList';
+import { LoadingSpinner } from '../components/LoadingSpinner';
 import { convertToTaiwanDate } from '../utils/date';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
@@ -33,6 +34,7 @@ const marketCategories: MarketCategory[] = [
 
 export function ProductList() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [productData, setProductData] = useState<ProductData>({});
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
@@ -233,6 +235,23 @@ export function ProductList() {
             <AlertTriangle className="w-5 h-5" />
             {t('epidemic.info')}
           </button>
+          <button
+            onClick={() => {
+              const cropCodes = Object.keys(productData);
+              if (cropCodes.length > 0) {
+                const randomCode = cropCodes[Math.floor(Math.random() * cropCodes.length)];
+                navigate(`/product/${randomCode}${selectedMarket ? `?market=${selectedMarket}` : ''}`);
+              }
+            }}
+            className={`flex items-center justify-center gap-2 px-4 py-2 rounded-lg transition-colors w-full sm:w-auto ${
+              isDarkMode
+                ? 'bg-purple-600 hover:bg-purple-700 text-white'
+                : 'bg-purple-500 hover:bg-purple-600 text-white'
+            }`}
+          >
+            <Shuffle className="w-5 h-5" />
+            {t('actions.random')}
+          </button>
         </div>
 
         {showFilters && (
@@ -306,9 +325,10 @@ export function ProductList() {
           <EpidemicList />
         </div>
       ) : loading ? (
-        <div className="flex justify-center items-center h-64">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
-        </div>
+        <LoadingSpinner 
+          type={selectedMarket ? 'heading_to' : 'planting'} 
+          marketName={selectedMarket ? markets.find(m => m.MarketCode === selectedMarket)?.MarketName : undefined} 
+        />
       ) : (
         <div className="space-y-6">
           <div className="flex items-center gap-2 text-sm">
