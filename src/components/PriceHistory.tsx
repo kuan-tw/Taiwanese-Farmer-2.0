@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, {  useRef , useState, useEffect } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -41,6 +41,12 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
   const { language } = useLanguage();
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   const sortedData = aggregateProductsByDate(historyData).sort((a, b) => 
     new Date(a.TransDate).getTime() - new Date(b.TransDate).getTime()
   );
@@ -195,21 +201,24 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
         <h3 className={`text-lg sm:text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
           {t('price.trends')}
         </h3>
-        <button
+        {!isMobile && <button
           onClick={handleExportChart}
           className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
         >
           <Download size={16} />
           {t('actions.export')}
-        </button>
+        </button>}
       </div>
-            <div className="hidden sm:block w-full overflow-x-auto overflow-y-hidden pb-2">
-        <div className="relative w-full h-96">
-          <Line id="price-history-chart" ref={chartRef} options={options} data={data}  />
+                  {!isMobile && (
+        <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
+          <div className="relative w-full h-96">
+            <Line id="price-history-chart" ref={chartRef} options={options} data={data}  />
+          </div>
         </div>
-      </div>
+      )}
       
-      <div className="sm:hidden mt-4 space-y-3">
+      {isMobile && (
+      <div className="mt-4 space-y-3">
         <div className="max-h-80 overflow-y-auto space-y-2 pr-1">
           {[...sortedData].reverse().map((item, idx) => (
             <div key={idx} className={`p-3 rounded-lg flex justify-between items-center ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
@@ -226,8 +235,10 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
               </div>
             </div>
           ))}
-        </div>
+                </div>
       </div>
+      )}
+
       <div className={`mt-4 p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
         <h4 className={`text-base sm:text-lg font-semibold mb-2 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
           {t('price.prediction')}

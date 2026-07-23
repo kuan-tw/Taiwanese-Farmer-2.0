@@ -1,4 +1,4 @@
-import React, { useRef, useMemo } from 'react';
+import React, {  useRef, useMemo , useState, useEffect } from 'react';
 import { AgriProduct } from '../types/api';
 import { ArrowUpRight, ArrowDownRight, Minus, Download } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
@@ -34,6 +34,12 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
   const { language } = useLanguage();
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   // Deduplicate markets by MarketCode and keep the latest entry
   const uniqueMarkets = useMemo(() => {
@@ -182,20 +188,22 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
         }`}>
           {t('market.for')} {productName}
         </h3>
-        <button
+        {!isMobile && <button
           onClick={handleExportChart}
           className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
         >
           <Download size={16} />
           {t('actions.export')}
-        </button>
+        </button>}
       </div>
 
-            <div className="hidden sm:block w-full overflow-x-auto overflow-y-hidden pb-2 mb-8">
-        <div className="relative w-full h-96">
-          <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
+                  {!isMobile && (
+        <div className="w-full overflow-x-auto overflow-y-hidden pb-2 mb-8">
+          <div className="relative w-full h-96">
+            <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="overflow-x-auto">
         <table className="min-w-full text-sm">

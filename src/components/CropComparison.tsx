@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, {  useRef , useState, useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
 import { AgriProduct } from '../types/api';
 import { aggregateProductsByDate } from '../utils/marketData';
@@ -21,6 +21,12 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
   const { language } = useLanguage();
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const colors = [
     { line: 'rgb(34, 211, 238)', bg: 'rgba(34, 211, 238, 0.1)' },
@@ -155,21 +161,24 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
         <h3 className={`text-lg sm:text-xl font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
           {t('crop.comparison')}
         </h3>
-        <button
+        {!isMobile && <button
           onClick={handleExportChart}
           className="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base w-full sm:w-auto"
         >
           <Download size={16} />
           {t('actions.export')}
-        </button>
+        </button>}
       </div>
-            <div className="hidden sm:block w-full overflow-x-auto overflow-y-hidden pb-2">
-        <div className="relative w-full sm:h-[400px] lg:h-[500px]">
-          <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
+                  {!isMobile && (
+        <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
+          <div className="relative w-full sm:h-[400px] lg:h-[500px]">
+            <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
+          </div>
         </div>
-      </div>
+      )}
       
-      <div className="sm:hidden mt-4 space-y-4">
+      {isMobile && (
+      <div className="mt-4 space-y-4">
         {aggregatedCrops.map((crop, index) => {
           const latestPrice = crop.data.length > 0 ? crop.data[crop.data.length - 1].Avg_Price : 0;
           return (
@@ -190,6 +199,7 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
           );
         })}
       </div>
+      )}
       <div className="mt-4 sm:mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {crops.map((crop, index) => {
           const aggregatedCropData = aggregateProductsByDate(crop.data);
@@ -220,7 +230,7 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
               <p className={`text-xs mt-1 ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>
                 {t('price.average')}
               </p>
-            </div>
+                      </div>
           );
         })}
       </div>
