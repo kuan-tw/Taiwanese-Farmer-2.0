@@ -110,7 +110,8 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
         padding: 12,
         callbacks: {
           label: function(context: any) {
-            return `${context.dataset.label}: $${context.parsed.y.toFixed(2)}`;
+            if (context.parsed.y === null || context.parsed.y === undefined || isNaN(context.parsed.y)) return null;
+            return `${context.dataset.label}: ${context.parsed.y.toFixed(2)}`;
           }
         }
       }

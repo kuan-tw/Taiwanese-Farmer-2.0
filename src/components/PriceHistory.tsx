@@ -142,10 +142,11 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
           label: function(context: any) {
             const label = context.dataset.label || '';
             const value = context.parsed.y;
+            if (value === null || value === undefined || isNaN(value)) return null;
             if (context.datasetIndex === 3) {
               return `${label}: ${value.toLocaleString()} kg`;
             }
-            return `${label}: $${value.toFixed(2)}`;
+            return `${label}: ${value.toFixed(2)}`;
           }
         }
       }
