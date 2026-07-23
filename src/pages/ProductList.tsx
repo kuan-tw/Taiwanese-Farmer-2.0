@@ -320,7 +320,30 @@ export function ProductList() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             {visibleProducts.map(([cropCode, products]) => {
-              const product = products[0];
+              // Get the latest date
+              const latestDate = products.reduce((max, p) => p.TransDate > max ? p.TransDate : max, products[0].TransDate);
+              const latestProducts = products.filter(p => p.TransDate === latestDate);
+
+              const totalQuantity = latestProducts.reduce((sum, p) => sum + (p.Trans_Quantity || 0), 0);
+              const fallbackAverage = latestProducts.reduce((sum, p) => sum + (p.Avg_Price || 0), 0) / latestProducts.length;
+              const avgPrice = totalQuantity > 0 
+                ? latestProducts.reduce((sum, p) => sum + (p.Avg_Price || 0) * (p.Trans_Quantity || 0), 0) / totalQuantity
+                : fallbackAverage;
+              
+              const upperPrice = Math.max(...latestProducts.map(p => p.Upper_Price || 0));
+              const lowerPrice = Math.min(...latestProducts.map(p => p.Lower_Price || 0));
+              const middlePrice = latestProducts.reduce((sum, p) => sum + (p.Middle_Price || 0), 0) / latestProducts.length;
+
+              const product = {
+                ...latestProducts[0],
+                MarketName: selectedMarket ? latestProducts[0].MarketName : t('market.all_markets'),
+                Avg_Price: avgPrice,
+                Upper_Price: upperPrice,
+                Lower_Price: lowerPrice,
+                Middle_Price: middlePrice,
+                Trans_Quantity: totalQuantity
+              };
+
               const translatedName = getTranslatedCropName(cropCode, product.CropName);
               
               return (
