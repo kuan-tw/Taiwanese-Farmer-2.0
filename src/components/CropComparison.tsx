@@ -163,7 +163,7 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
           {t('actions.export')}
         </button>
       </div>
-      <div className="h-[300px] sm:h-[400px] lg:h-[500px]">
+      <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px]">
         <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
       </div>
       <div className="mt-4 sm:mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">

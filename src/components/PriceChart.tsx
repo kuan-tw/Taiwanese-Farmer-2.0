@@ -167,7 +167,7 @@ export const PriceChart: React.FC<PriceChartProps> = ({ product }) => {
         )}
       </div>
       
-      <div className="h-20 sm:h-24 mb-4">
+      <div className="relative w-full h-20 sm:h-24 mb-4">
         <Line 
           id={`price-chart-${latestProduct.CropCode}-${latestProduct.MarketCode}`} 
           data={chartData} 

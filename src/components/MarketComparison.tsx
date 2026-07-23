@@ -191,7 +191,7 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
         </button>
       </div>
 
-      <div style={{ height: '300px' }} className="sm:h-96 mb-6 sm:mb-8">
+      <div style={{ height: '300px' }} className="relative w-full sm:h-96 mb-6 sm:mb-8">
         <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
       </div>
 

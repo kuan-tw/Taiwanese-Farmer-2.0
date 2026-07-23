@@ -203,7 +203,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
           {t('actions.export')}
         </button>
       </div>
-      <div style={{ height: '300px' }} className="sm:h-96">
+      <div style={{ height: '300px' }} className="relative w-full sm:h-96">
         <Line id="price-history-chart" ref={chartRef} options={options} data={data}  />
       </div>
       <div className={`mt-4 p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
