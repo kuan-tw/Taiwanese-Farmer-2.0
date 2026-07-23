@@ -163,8 +163,10 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
           {t('actions.export')}
         </button>
       </div>
-      <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[500px]">
-        <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
+      <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
+        <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-[400px] lg:h-[500px]">
+          <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
+        </div>
       </div>
       <div className="mt-4 sm:mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         {crops.map((crop, index) => {

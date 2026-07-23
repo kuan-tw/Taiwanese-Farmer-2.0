@@ -191,8 +191,10 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
         </button>
       </div>
 
-      <div style={{ height: '300px' }} className="relative w-full sm:h-96 mb-6 sm:mb-8">
-        <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
+      <div className="w-full overflow-x-auto overflow-y-hidden pb-2 mb-6 sm:mb-8">
+        <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-96">
+          <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
+        </div>
       </div>
 
       <div className="overflow-x-auto">

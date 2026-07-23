@@ -280,7 +280,6 @@ export function ProductDetailPage() {
           </button>
         </div>
       ) : (
-        <Suspense fallback={<div className="flex justify-center p-8"><div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div></div>}>
         <div className="space-y-4 sm:space-y-6">
 
           <div className="sm:hidden mb-4">
@@ -296,6 +295,7 @@ export function ProductDetailPage() {
                 <option value="compare">{t("crop.comparison") || (language === "zh" ? "作物比較" : "Crop Comparison")}</option>
              </select>
           </div>
+          <Suspense fallback={<div className="flex justify-center p-8"><div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500"></div></div>}>
           {(!isMobile || activeTab === 'details') && (
           <div className="sm:block">
             <ProductDetails 
@@ -450,8 +450,8 @@ export function ProductDetailPage() {
             )}
           </div>
           )}
+          </Suspense>
         </div>
-        </Suspense>
       )}
     </div>
   );
