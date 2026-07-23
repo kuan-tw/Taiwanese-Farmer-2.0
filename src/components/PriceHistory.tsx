@@ -75,7 +75,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
   };
 
   const predictions = sortedData.length >= 2 ? calculateEstimation() : [];
-  const lastDate = new Date(sortedData[sortedData.length - 1].TransDate);
+  const lastDate = sortedData.length > 0 ? new Date(sortedData[sortedData.length - 1].TransDate) : new Date();
   const futureDates = Array.from({ length: 3 }, (_, i) => {
     const date = new Date(lastDate);
     date.setDate(date.getDate() + i + 1);
@@ -209,35 +209,13 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
           {t('actions.export')}
         </button>}
       </div>
-                  {!isMobile && (
-        <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
-          <div className="relative w-full h-96">
-            <Line id="price-history-chart" ref={chartRef} options={options} data={data}  />
-          </div>
+                        <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
+        <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-96">
+          <Line id="price-history-chart" ref={chartRef} options={options} data={data}  />
         </div>
-      )}
-      
-      {isMobile && (
-      <div className="mt-4 space-y-3">
-        <div className="max-h-80 overflow-y-auto space-y-2 pr-1">
-          {[...sortedData].reverse().map((item, idx) => (
-            <div key={idx} className={`p-3 rounded-lg flex justify-between items-center ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
-              <div>
-                <p className={`text-sm font-medium ${isDarkMode ? 'text-gray-200' : 'text-gray-800'}`}>{item.TransDate}</p>
-                <p className={`text-xs ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{item.Trans_Quantity.toLocaleString()} kg</p>
-              </div>
-              <div className="text-right">
-                <p className={`text-sm font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>${item.Avg_Price.toFixed(2)}</p>
-                <div className="flex gap-2 text-[10px]">
-                  <span className="text-red-500">L: ${item.Lower_Price.toFixed(2)}</span>
-                  <span className="text-green-500">H: ${item.Upper_Price.toFixed(2)}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-                </div>
       </div>
-      )}
+      
+      
 
       <div className={`mt-4 p-4 rounded-lg ${isDarkMode ? 'bg-gray-700' : 'bg-gray-50'}`}>
         <h4 className={`text-base sm:text-lg font-semibold mb-2 ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>

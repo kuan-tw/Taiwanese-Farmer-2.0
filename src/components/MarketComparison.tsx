@@ -197,13 +197,11 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
         </button>}
       </div>
 
-                  {!isMobile && (
-        <div className="w-full overflow-x-auto overflow-y-hidden pb-2 mb-8">
-          <div className="relative w-full h-96">
-            <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
-          </div>
+                        <div className="w-full overflow-x-auto overflow-y-hidden pb-2 mb-8">
+        <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-96">
+          <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
         </div>
-      )}
+      </div>
 
       <div className="overflow-x-auto">
         <table className="min-w-full text-sm">
