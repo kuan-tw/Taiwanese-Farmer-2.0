@@ -14,6 +14,21 @@ import { CropComparison } from '../components/CropComparison';
 import { CropSearch } from '../components/CropSearch';
 import { PestDiseaseInfo } from '../components/PestDiseaseInfo';
 
+
+const parseROCDate = (rocDateStr: string) => {
+  if (!rocDateStr) return new Date(0);
+  const parts = rocDateStr.split('.');
+  if (parts.length === 3) {
+    const year = parseInt(parts[0]) + 1911;
+    const month = parseInt(parts[1]) - 1;
+    const day = parseInt(parts[2]);
+    return new Date(year, month, day);
+  }
+  const d = new Date(rocDateStr.replace(/\./g, '-'));
+  if (isNaN(d.getTime())) return new Date(0);
+  return d;
+};
+
 export function ProductDetailPage() {
   const navigate = useNavigate();
   const { cropCode } = useParams<{ cropCode: string }>();
