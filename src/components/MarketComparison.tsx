@@ -4,13 +4,16 @@ import { ArrowUpRight, ArrowDownRight, Minus, Download } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 import { useTranslation } from '../hooks/useTranslation';
-import { Bar } from 'react-chartjs-2';
+import { Bar, Line } from 'react-chartjs-2';
 import { ExportChartModal } from './ExportChartModal';
 import {
   Chart as ChartJS,
   CategoryScale,
   LinearScale,
   BarElement,
+  PointElement,
+  LineElement,
+  Filler,
   Title,
   Tooltip,
   Legend
@@ -20,6 +23,9 @@ ChartJS.register(
   CategoryScale,
   LinearScale,
   BarElement,
+  PointElement,
+  LineElement,
+  Filler,
   Title,
   Tooltip,
   Legend
@@ -51,6 +57,7 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
   const [isExportModalOpen, setIsExportModalOpen] = useState(false);
+  const [chartType, setChartType] = useState<'line' | 'bar' | 'area'>('bar');
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -201,18 +208,35 @@ export const MarketComparison: React.FC<MarketComparisonProps> = ({ markets, pro
         }`}>
           {['zh', 'ja', 'ko'].includes(language) ? `${productName} ${t('market.for')}` : `${t('market.for')} ${productName}`}
         </h3>
-        {!isMobile && <button
-          onClick={handleExportChart}
-          className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
-        >
-          <Download size={16} />
-          {t('actions.export')}
-        </button>}
+        
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <select
+            value={chartType}
+            onChange={(e) => setChartType(e.target.value as 'line' | 'bar' | 'area')}
+            className={`px-3 py-2 rounded-lg border text-sm transition-colors ${isDarkMode ? 'bg-gray-700 border-gray-600 text-white' : 'bg-white border-gray-300 text-gray-900'}`}
+          >
+            <option value="bar">{t('chart.bar')}</option>
+            <option value="line">{t('chart.line')}</option>
+            <option value="area">{t('chart.area')}</option>
+          </select>
+          {!isMobile && <button
+            onClick={handleExportChart}
+            className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
+          >
+            <Download size={16} />
+            {t('actions.export')}
+          </button>}
+        </div>
+
       </div>
 
                         <div className="w-full overflow-x-auto overflow-y-hidden pb-2 mb-8">
         <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-96">
-          <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData}  />
+          {chartType === 'bar' ? (
+            <Bar id="market-comparison-chart" ref={chartRef} options={marketOptions} data={marketData} />
+          ) : (
+            <Line id="market-comparison-chart" ref={chartRef} options={marketOptions as any} data={marketData} />
+          )}
         </div>
       </div>
 

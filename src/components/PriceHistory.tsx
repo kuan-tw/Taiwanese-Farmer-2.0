@@ -9,9 +9,10 @@ import {
   BarController,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Filler
 } from 'chart.js';
-import { Line } from 'react-chartjs-2';
+import { Line, Bar } from 'react-chartjs-2';
 import { AgriProduct } from '../types/api';
 import { aggregateProductsByDate } from '../utils/marketData';
 import { useTheme } from '../context/ThemeContext';
@@ -30,7 +31,8 @@ ChartJS.register(
   BarController,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Filler
 );
 
 
@@ -59,6 +61,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
   const [isExportModalOpen, setIsExportModalOpen] = useState(false);
+  const [chartType, setChartType] = useState<'line' | 'bar' | 'area'>('line');
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -113,6 +116,7 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
         data: [...sortedData.map(item => item.Avg_Price), ...predictions],
         borderColor: 'rgb(59, 130, 246)',
         backgroundColor: 'rgba(59, 130, 246, 0.5)',
+        fill: chartType === 'area',
         segment: {
           borderDash: (ctx: any) => ctx.p1DataIndex >= sortedData.length - 1 ? [6, 6] : undefined,
         }
@@ -122,12 +126,14 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
         data: sortedData.map(item => item.Upper_Price),
         borderColor: 'rgb(34, 197, 94)',
         backgroundColor: 'rgba(34, 197, 94, 0.5)',
+        fill: chartType === 'area',
       },
       {
         label: t('price.low'),
         data: sortedData.map(item => item.Lower_Price),
         borderColor: 'rgb(239, 68, 68)',
         backgroundColor: 'rgba(239, 68, 68, 0.5)',
+        fill: chartType === 'area',
       },
       {
         label: t('price.volume'),
@@ -220,18 +226,35 @@ export const PriceHistory: React.FC<PriceHistoryProps> = ({ historyData }) => {
         <h3 className={`text-lg sm:text-xl font-bold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
           {t('price.trends')}
         </h3>
-        {!isMobile && <button
-          onClick={handleExportChart}
-          className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
-        >
-          <Download size={16} />
-          {t('actions.export')}
-        </button>}
+        
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <select
+            value={chartType}
+            onChange={(e) => setChartType(e.target.value as 'line' | 'bar' | 'area')}
+            className={`px-3 py-2 rounded-lg border text-sm transition-colors ${isDarkMode ? 'bg-gray-700 border-gray-600 text-white' : 'bg-white border-gray-300 text-gray-900'}`}
+          >
+            <option value="line">{t('chart.line')}</option>
+            <option value="bar">{t('chart.bar')}</option>
+            <option value="area">{t('chart.area')}</option>
+          </select>
+          {!isMobile && <button
+            onClick={handleExportChart}
+            className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
+          >
+            <Download size={16} />
+            {t('actions.export')}
+          </button>}
+        </div>
+
       </div>
                         {!isMobile && (
         <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
           <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-96">
-            <Line id="price-history-chart" ref={chartRef} options={options} data={data}  />
+            {chartType === 'bar' ? (
+              <Bar id="price-history-chart" ref={chartRef} options={options} data={data} />
+            ) : (
+              <Line id="price-history-chart" ref={chartRef} options={options} data={data} />
+            )}
           </div>
         </div>
       )}

@@ -103,6 +103,13 @@ export const translations = {
       comparison: '作物比較',
       add: '新增作物'
     },
+    
+    chart: {
+      style: '圖表風格',
+      line: '折線圖',
+      bar: '長條圖',
+      area: '面積圖'
+    },
     exportModal: {
       title: '匯出圖表選項',
       background: '背景顏色',
@@ -120,7 +127,9 @@ export const translations = {
       cancel: '取消',
       advanced: '進階',
       random: '隨機作物',
-      export: '匯出圖表'
+      export: '匯出圖表',
+      share: '分享連結',
+      copied: '已複製連結！'
     }
   },
   en: {
@@ -227,6 +236,13 @@ export const translations = {
       comparison: 'Crop Comparison',
       add: 'Add Crop'
     },
+    
+    chart: {
+      style: 'Chart Style',
+      line: 'Line Chart',
+      bar: 'Bar Chart',
+      area: 'Area Chart'
+    },
     exportModal: {
       title: 'Export Chart Options',
       background: 'Background Color',
@@ -244,7 +260,9 @@ export const translations = {
       cancel: 'Cancel',
       advanced: 'Advanced',
       random: 'Random Crop',
-      export: 'Export Chart'
+      export: 'Export Chart',
+      share: 'Share Link',
+      copied: 'Link copied!'
     }
   },
   ja: {
@@ -351,6 +369,13 @@ export const translations = {
       comparison: '作物比較',
       add: '作物を追加'
     },
+    
+    chart: {
+      style: 'グラフのスタイル',
+      line: '折れ線グラフ',
+      bar: '棒グラフ',
+      area: '面グラフ'
+    },
     exportModal: {
       title: 'グラフのエクスポートオプション',
       background: '背景色',
@@ -368,7 +393,9 @@ export const translations = {
       cancel: 'キャンセル',
       advanced: '高度な',
       random: 'ランダムな作物',
-      export: 'グラフをエクスポート'
+      export: 'グラフをエクスポート',
+      share: 'リンクを共有',
+      copied: 'リンクをコピーしました！'
     }
   },
   ko: {
@@ -475,6 +502,13 @@ export const translations = {
       comparison: '작물 비교',
       add: '작물 추가'
     },
+    
+    chart: {
+      style: '차트 스타일',
+      line: '선 차트',
+      bar: '막대 차트',
+      area: '영역 차트'
+    },
     exportModal: {
       title: '차트 내보내기 옵션',
       background: '배경색',
@@ -492,7 +526,9 @@ export const translations = {
       cancel: '취소',
       advanced: '고급',
       random: '랜덤 작물',
-      export: '차트 내보내기'
+      export: '차트 내보내기',
+      share: '링크 공유',
+      copied: '링크가 복사되었습니다!'
     }
   },
   id: {
@@ -599,6 +635,13 @@ export const translations = {
       comparison: 'Perbandingan Tanaman',
       add: 'Tambah Tanaman'
     },
+    
+    chart: {
+      style: 'Gaya Grafik',
+      line: 'Grafik Garis',
+      bar: 'Grafik Batang',
+      area: 'Grafik Area'
+    },
     exportModal: {
       title: 'Opsi Ekspor Grafik',
       background: 'Warna Latar Belakang',
@@ -616,7 +659,9 @@ export const translations = {
       cancel: 'Batal',
       advanced: 'Lanjutan',
       random: 'Tanaman Acak',
-      export: 'Ekspor Grafik'
+      export: 'Ekspor Grafik',
+      share: 'Bagikan Tautan',
+      copied: 'Tautan disalin!'
     }
   },
   ms: {
@@ -723,6 +768,13 @@ export const translations = {
       comparison: 'Perbandingan Tanaman',
       add: 'Tambah Tanaman'
     },
+    
+    chart: {
+      style: 'Gaya Carta',
+      line: 'Carta Garisan',
+      bar: 'Carta Bar',
+      area: 'Carta Kawasan'
+    },
     exportModal: {
       title: 'Pilihan Eksport Carta',
       background: 'Warna Latar Belakang',
@@ -740,7 +792,9 @@ export const translations = {
       cancel: 'Batal',
       advanced: 'Lanjutan',
       random: 'Tanaman Rawak',
-      export: 'Eksport Carta'
+      export: 'Eksport Carta',
+      share: 'Kongsi Pautan',
+      copied: 'Pautan disalin!'
     }
   },
   th: {
@@ -847,6 +901,13 @@ export const translations = {
       comparison: 'เปรียบเทียบพืชผล',
       add: 'เพิ่มพืชผล'
     },
+    
+    chart: {
+      style: 'รูปแบบแผนภูมิ',
+      line: 'แผนภูมิเส้น',
+      bar: 'แผนภูมิแท่ง',
+      area: 'แผนภูมิพื้นที่'
+    },
     exportModal: {
       title: 'ตัวเลือกการส่งออกแผนภูมิ',
       background: 'สีพื้นหลัง',
@@ -864,7 +925,9 @@ export const translations = {
       cancel: 'ยกเลิก',
       advanced: 'ขั้นสูง',
       random: 'สุ่มพืช',
-      export: 'ส่งออกแผนภูมิ'
+      export: 'ส่งออกแผนภูมิ',
+      share: 'แชร์ลิงก์',
+      copied: 'คัดลอกลิงก์แล้ว!'
     }
   },
   vi: {
@@ -971,6 +1034,13 @@ export const translations = {
       comparison: 'So Sánh Cây Trồng',
       add: 'Thêm Cây Trồng'
     },
+    
+    chart: {
+      style: 'Kiểu Biểu Đồ',
+      line: 'Biểu đồ đường',
+      bar: 'Biểu đồ cột',
+      area: 'Biểu đồ vùng'
+    },
     exportModal: {
       title: 'Tùy chọn Xuất Biểu đồ',
       background: 'Màu Nền',
@@ -988,7 +1058,9 @@ export const translations = {
       cancel: 'Hủy',
       advanced: 'Nâng cao',
       random: 'Cây trồng ngẫu nhiên',
-      export: 'Xuất Biểu Đồ'
+      export: 'Xuất Biểu Đồ',
+      share: 'Chia sẻ Liên kết',
+      copied: 'Đã sao chép liên kết!'
     }
   }
 };

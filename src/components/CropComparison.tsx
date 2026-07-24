@@ -1,5 +1,8 @@
 import React, {  useRef , useState, useEffect } from 'react';
-import { Line } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, Filler } from 'chart.js';
+import { Line, Bar } from 'react-chartjs-2';
+
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, Title, Tooltip, Legend, Filler);
 import { AgriProduct } from '../types/api';
 import { aggregateProductsByDate } from '../utils/marketData';
 import { useTheme } from '../context/ThemeContext';
@@ -24,6 +27,7 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
   const { t } = useTranslation();
   const chartRef = useRef<any>(null);
   const [isExportModalOpen, setIsExportModalOpen] = useState(false);
+  const [chartType, setChartType] = useState<'line' | 'bar' | 'area'>('line');
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -160,17 +164,34 @@ export const CropComparison: React.FC<CropComparisonProps> = ({ crops, onRemoveC
         <h3 className={`text-lg sm:text-xl font-semibold ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
           {t('crop.comparison')}
         </h3>
-        {!isMobile && <button
-          onClick={handleExportChart}
-          className="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base w-full sm:w-auto"
-        >
-          <Download size={16} />
-          {t('actions.export')}
-        </button>}
+        
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <select
+            value={chartType}
+            onChange={(e) => setChartType(e.target.value as 'line' | 'bar' | 'area')}
+            className={`px-3 py-2 rounded-lg border text-sm transition-colors ${isDarkMode ? 'bg-gray-700 border-gray-600 text-white' : 'bg-white border-gray-300 text-gray-900'}`}
+          >
+            <option value="line">{t('chart.line')}</option>
+            <option value="bar">{t('chart.bar')}</option>
+            <option value="area">{t('chart.area')}</option>
+          </select>
+          {!isMobile && <button
+            onClick={handleExportChart}
+            className="flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors text-sm sm:text-base w-full sm:w-auto"
+          >
+            <Download size={16} />
+            {t('actions.export')}
+          </button>}
+        </div>
+
       </div>
                         <div className="w-full overflow-x-auto overflow-y-hidden pb-2">
         <div className="relative min-w-[600px] sm:min-w-0 w-full h-[300px] sm:h-[400px] lg:h-[500px]">
-          <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options}  />
+          {chartType === 'bar' ? (
+              <Bar id="crop-comparison-chart" ref={chartRef} data={data} options={options} />
+            ) : (
+              <Line id="crop-comparison-chart" ref={chartRef} data={data} options={options} />
+            )}
         </div>
       </div>
       
