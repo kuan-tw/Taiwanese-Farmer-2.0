@@ -14,6 +14,7 @@ import { MarketComparison } from '../components/MarketComparison';
 import { CropComparison } from '../components/CropComparison';
 import { CropSearch } from '../components/CropSearch';
 import { PestDiseaseInfo } from '../components/PestDiseaseInfo';
+import { ShareModal } from '../components/ShareModal';
 
 
 const parseROCDate = (rocDateStr: string) => {
@@ -49,6 +50,7 @@ export function ProductDetailPage() {
   const [product, setProduct] = useState<AgriProduct | null>(null);
   const [historyData, setHistoryData] = useState<AgriProduct[]>([]);
   const [copied, setCopied] = useState(false);
+  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
   const [markets, setMarkets] = useState<AgriProduct[]>([]);
   const [pestDiseaseData, setPestDiseaseData] = useState<PestDiseaseDiagnosis[]>([]);
   const [loading, setLoading] = useState(true);
@@ -133,14 +135,8 @@ export function ProductDetailPage() {
   }, [cropCode]);
 
 
-  const handleShare = async () => {
-    try {
-      await navigator.clipboard.writeText(window.location.href);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error('Failed to copy link:', err);
-    }
+  const handleShare = () => {
+    setIsShareModalOpen(true);
   };
 
   const handleRemoveCrop = (cropCode: string) => {
@@ -502,6 +498,14 @@ export function ProductDetailPage() {
           )}
         </div>
       )}
+      {isShareModalOpen && <ShareModal
+        isOpen={isShareModalOpen}
+        onClose={() => setIsShareModalOpen(false)}
+        product={product}
+        historyData={historyData}
+        marketName={markets.find(m => m.MarketCode === localMarketCode)?.MarketName}
+        url={window.location.href}
+      />}
     </div>
   );
 }

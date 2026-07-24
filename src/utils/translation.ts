@@ -110,6 +110,18 @@ export const translations = {
       bar: '長條圖',
       area: '面積圖'
     },
+    
+    shareModal: {
+      title: '分享連結與預覽',
+      preview: '預覽內容 (Link Preview)',
+      copyText: '複製內容與連結',
+      copiedText: '已複製內容！',
+      nativeShare: '透過應用程式分享...',
+      avgPrice: '平均價格',
+      priceRange: '價格區間',
+      volume: '交易量',
+      trend: '7天趨勢'
+    },
     exportModal: {
       title: '匯出圖表選項',
       background: '背景顏色',
@@ -242,6 +254,18 @@ export const translations = {
       line: 'Line Chart',
       bar: 'Bar Chart',
       area: 'Area Chart'
+    },
+    
+    shareModal: {
+      title: 'Share Link & Preview',
+      preview: 'Link Preview',
+      copyText: 'Copy Content & Link',
+      copiedText: 'Copied!',
+      nativeShare: 'Share via App...',
+      avgPrice: 'Avg Price',
+      priceRange: 'Price Range',
+      volume: 'Volume',
+      trend: '7-day Trend'
     },
     exportModal: {
       title: 'Export Chart Options',
@@ -376,6 +400,18 @@ export const translations = {
       bar: '棒グラフ',
       area: '面グラフ'
     },
+    
+    shareModal: {
+      title: 'リンク共有とプレビュー',
+      preview: 'プレビュー',
+      copyText: 'コンテンツとリンクをコピー',
+      copiedText: 'コピーしました！',
+      nativeShare: 'アプリで共有...',
+      avgPrice: '平均価格',
+      priceRange: '価格帯',
+      volume: '取引量',
+      trend: '7日間のトレンド'
+    },
     exportModal: {
       title: 'グラフのエクスポートオプション',
       background: '背景色',
@@ -508,6 +544,18 @@ export const translations = {
       line: '선 차트',
       bar: '막대 차트',
       area: '영역 차트'
+    },
+    
+    shareModal: {
+      title: '링크 공유 및 미리보기',
+      preview: '미리보기',
+      copyText: '내용 및 링크 복사',
+      copiedText: '복사되었습니다!',
+      nativeShare: '앱으로 공유...',
+      avgPrice: '평균 가격',
+      priceRange: '가격 범위',
+      volume: '거래량',
+      trend: '7일 추세'
     },
     exportModal: {
       title: '차트 내보내기 옵션',
@@ -642,6 +690,18 @@ export const translations = {
       bar: 'Grafik Batang',
       area: 'Grafik Area'
     },
+    
+    shareModal: {
+      title: 'Bagikan Tautan & Pratinjau',
+      preview: 'Pratinjau Tautan',
+      copyText: 'Salin Konten & Tautan',
+      copiedText: 'Tersalin!',
+      nativeShare: 'Bagikan via Aplikasi...',
+      avgPrice: 'Harga Rata-rata',
+      priceRange: 'Rentang Harga',
+      volume: 'Volume',
+      trend: 'Tren 7 hari'
+    },
     exportModal: {
       title: 'Opsi Ekspor Grafik',
       background: 'Warna Latar Belakang',
@@ -774,6 +834,18 @@ export const translations = {
       line: 'Carta Garisan',
       bar: 'Carta Bar',
       area: 'Carta Kawasan'
+    },
+    
+    shareModal: {
+      title: 'Kongsi Pautan & Pratonton',
+      preview: 'Pratonton Pautan',
+      copyText: 'Salin Kandungan & Pautan',
+      copiedText: 'Disalin!',
+      nativeShare: 'Kongsi melalui Aplikasi...',
+      avgPrice: 'Harga Purata',
+      priceRange: 'Julat Harga',
+      volume: 'Jumlah',
+      trend: 'Trend 7 hari'
     },
     exportModal: {
       title: 'Pilihan Eksport Carta',
@@ -908,6 +980,18 @@ export const translations = {
       bar: 'แผนภูมิแท่ง',
       area: 'แผนภูมิพื้นที่'
     },
+    
+    shareModal: {
+      title: 'แชร์ลิงก์และดูตัวอย่าง',
+      preview: 'ดูตัวอย่างลิงก์',
+      copyText: 'คัดลอกเนื้อหาและลิงก์',
+      copiedText: 'คัดลอกแล้ว!',
+      nativeShare: 'แชร์ผ่านแอป...',
+      avgPrice: 'ราคาเฉลี่ย',
+      priceRange: 'ช่วงราคา',
+      volume: 'ปริมาณ',
+      trend: 'แนวโน้ม 7 วัน'
+    },
     exportModal: {
       title: 'ตัวเลือกการส่งออกแผนภูมิ',
       background: 'สีพื้นหลัง',
@@ -1040,6 +1124,18 @@ export const translations = {
       line: 'Biểu đồ đường',
       bar: 'Biểu đồ cột',
       area: 'Biểu đồ vùng'
+    },
+    
+    shareModal: {
+      title: 'Chia sẻ Liên kết & Xem trước',
+      preview: 'Xem trước Liên kết',
+      copyText: 'Sao chép Nội dung & Liên kết',
+      copiedText: 'Đã sao chép!',
+      nativeShare: 'Chia sẻ qua Ứng dụng...',
+      avgPrice: 'Giá TB',
+      priceRange: 'Khoảng giá',
+      volume: 'Khối lượng',
+      trend: 'Xu hướng 7 ngày'
     },
     exportModal: {
       title: 'Tùy chọn Xuất Biểu đồ',
