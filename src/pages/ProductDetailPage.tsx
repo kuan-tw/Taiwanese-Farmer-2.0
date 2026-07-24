@@ -1,7 +1,7 @@
 import { LoadingSpinner } from '../components/LoadingSpinner';
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useSearchParams, useNavigate, useLocation } from 'react-router-dom';
-import { ChevronLeft, Calendar, Plus, Share2 } from 'lucide-react';
+import { ChevronLeft, Calendar, Plus, Share2, Check } from 'lucide-react';
 import { AgriProduct, PestDiseaseDiagnosis } from '../types/api';
 import { ProductDetails } from '../components/ProductDetails';
 import { convertToTaiwanDate } from '../utils/date';
@@ -14,7 +14,7 @@ import { MarketComparison } from '../components/MarketComparison';
 import { CropComparison } from '../components/CropComparison';
 import { CropSearch } from '../components/CropSearch';
 import { PestDiseaseInfo } from '../components/PestDiseaseInfo';
-import { ShareModal } from '../components/ShareModal';
+
 
 
 const parseROCDate = (rocDateStr: string) => {
@@ -49,7 +49,7 @@ export function ProductDetailPage() {
   const { t } = useTranslation();
   const [product, setProduct] = useState<AgriProduct | null>(null);
   const [historyData, setHistoryData] = useState<AgriProduct[]>([]);
-    const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
   const [markets, setMarkets] = useState<AgriProduct[]>([]);
   const [pestDiseaseData, setPestDiseaseData] = useState<PestDiseaseDiagnosis[]>([]);
   const [loading, setLoading] = useState(true);
@@ -134,8 +134,14 @@ export function ProductDetailPage() {
   }, [cropCode]);
 
 
-  const handleShare = () => {
-    setIsShareModalOpen(true);
+  const handleShare = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy text:', err);
+    }
   };
 
   const handleRemoveCrop = (cropCode: string) => {
@@ -298,9 +304,9 @@ export function ProductDetailPage() {
           onClick={handleShare}
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-sm transition-colors border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
         >
-          <Share2 className="w-4 h-4" />
-          <span>
-            {t('actions.share')}
+          {copied ? <Check className="w-4 h-4 text-green-500" /> : <Share2 className="w-4 h-4" />}
+          <span className={copied ? "text-green-500 font-medium" : ""}>
+            {copied ? t('actions.copied') : t('actions.share')}
           </span>
         </button>
       </div>
@@ -497,14 +503,6 @@ export function ProductDetailPage() {
           )}
         </div>
       )}
-      {isShareModalOpen && <ShareModal
-        isOpen={isShareModalOpen}
-        onClose={() => setIsShareModalOpen(false)}
-        product={product}
-        historyData={historyData}
-        marketName={markets.find(m => m.MarketCode === localMarketCode)?.MarketName}
-        url={window.location.href}
-      />}
     </div>
   );
 }
