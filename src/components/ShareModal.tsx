@@ -14,18 +14,7 @@ interface ShareModalProps {
   url: string;
 }
 
-const generateSparkline = (data: number[]) => {
-  if (data.length === 0) return '';
-  const min = Math.min(...data);
-  const max = Math.max(...data);
-  if (min === max) return data.map(() => '一').join('');
-  
-  const ticks = [' ', '▂', '▃', '▄', '▅', '▆', '▇', '█'];
-  return data.map(v => {
-    const tickIndex = Math.round(((v - min) / (max - min)) * (ticks.length - 1));
-    return ticks[tickIndex];
-  }).join('');
-};
+
 
 export const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, product, historyData, marketName, url }) => {
   const { t } = useTranslation();
@@ -37,16 +26,16 @@ export const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, product
   const aggregatedData = aggregateProductsByDate(historyData);
   const recentData = aggregatedData.slice(-7);
   const prices = recentData.map(d => Number(d.Avg_Price || 0));
-  const sparkline = generateSparkline(prices);
+  
   
   const change = prices.length >= 2 ? ((prices[prices.length - 1] - prices[prices.length - 2]) / prices[prices.length - 2]) * 100 : 0;
   const changeStr = change > 0 ? `+${change.toFixed(1)}%` : `${change.toFixed(1)}%`;
   
-  const shareText = `📊 ${product.CropName} ${marketName ? `(${marketName})` : ''}\n💰 ${t('shareModal.avgPrice')}: $${Number(product.Avg_Price || 0).toFixed(1)} (${changeStr})\n📉 ${t('shareModal.priceRange')}: $${Number(product.Lower_Price || 0).toFixed(1)} - $${Number(product.Upper_Price || 0).toFixed(1)}\n📦 ${t('shareModal.volume')}: ${Number(product.Trans_Quantity || 0).toLocaleString()} kg\n📈 ${t('shareModal.trend')}: ${sparkline}\n🔗 ${url}`;
+  
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(shareText);
+      await navigator.clipboard.writeText(url);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
@@ -59,7 +48,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, product
       try {
         await navigator.share({
           title: `${product.CropName} 市場行情`,
-          text: shareText,
+          url: url,
         });
       } catch (err) {
         if ((err as Error).name !== 'AbortError') {
@@ -89,8 +78,8 @@ export const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, product
             <label className={`block text-sm font-medium mb-2 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
               {t('shareModal.preview')}
             </label>
-            <div className={`p-4 rounded-xl border ${isDarkMode ? 'bg-gray-900/50 border-gray-700' : 'bg-gray-50 border-gray-200'} whitespace-pre-wrap font-mono text-sm leading-relaxed text-gray-800 dark:text-gray-200`}>
-              {shareText}
+            <div className={`rounded-xl overflow-hidden border ${isDarkMode ? 'border-gray-700' : 'border-gray-200'} bg-gray-100 dark:bg-gray-800`}>
+              <img src={`/api/og/${product.CropCode}`} alt="Link Preview" className="w-full h-auto object-cover" />
             </div>
           </div>
           

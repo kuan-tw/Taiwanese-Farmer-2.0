@@ -1,7 +1,7 @@
 import { LoadingSpinner } from '../components/LoadingSpinner';
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useSearchParams, useNavigate, useLocation } from 'react-router-dom';
-import { ChevronLeft, Calendar, Plus, Share2, Check } from 'lucide-react';
+import { ChevronLeft, Calendar, Plus, Share2 } from 'lucide-react';
 import { AgriProduct, PestDiseaseDiagnosis } from '../types/api';
 import { ProductDetails } from '../components/ProductDetails';
 import { convertToTaiwanDate } from '../utils/date';
@@ -49,8 +49,7 @@ export function ProductDetailPage() {
   const { t } = useTranslation();
   const [product, setProduct] = useState<AgriProduct | null>(null);
   const [historyData, setHistoryData] = useState<AgriProduct[]>([]);
-  const [copied, setCopied] = useState(false);
-  const [isShareModalOpen, setIsShareModalOpen] = useState(false);
+    const [isShareModalOpen, setIsShareModalOpen] = useState(false);
   const [markets, setMarkets] = useState<AgriProduct[]>([]);
   const [pestDiseaseData, setPestDiseaseData] = useState<PestDiseaseDiagnosis[]>([]);
   const [loading, setLoading] = useState(true);
@@ -299,9 +298,9 @@ export function ProductDetailPage() {
           onClick={handleShare}
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-sm transition-colors border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
         >
-          {copied ? <Check className="w-4 h-4 text-green-500" /> : <Share2 className="w-4 h-4" />}
-          <span className={copied ? "text-green-500 font-medium" : ""}>
-            {copied ? t('actions.copied') : t('actions.share')}
+          <Share2 className="w-4 h-4" />
+          <span>
+            {t('actions.share')}
           </span>
         </button>
       </div>
